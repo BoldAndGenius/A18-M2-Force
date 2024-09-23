@@ -191,8 +191,6 @@ if reverse==string:
     print(f"{string} is a palindrome...")
 else:
     print(f"{string} is not a palindrome...")
-    
-40.Write a program to check whether the user is eligible to vote or not
 
 
 46.Write a program to check whether a number.Entered by the user is positive or negative.
