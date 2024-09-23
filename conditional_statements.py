@@ -10,13 +10,6 @@ if job_location=="bangalore":
     phno = int(input("Enter your phone number:"))
     password = input("Enter your Password:")
     print("Registration Successful")
-    
-13. Write a program to check whether the given number is odd 
-
-num = int(input("Enter num:"))
-if num % 2 != 0:
-    print(f"The given number {num} is Odd")
-    
 
 
 12.Write a program to check whether the given number is even 
@@ -24,12 +17,28 @@ if num % 2 != 0:
 num = int(input("Enter a number:"))
 if num % 2 == 0:
     print(f"{num} is a even number")
+    
+
+13. Write a program to check whether the given number is odd 
+
+num = int(input("Enter num:"))
+if num % 2 != 0:
+    print(f"The given number {num} is Odd")
+
 
 14.Write a program to check whether the given number lies between 5 to 10 
  
 num = int(input("Enter a number:"))
 if 5 < num < 10:
     print(f"{num} lies between 5 to 10")
+    
+15.Write a program To check whether the given string is having more than three characters 
+
+word = input("Enter word:")
+if len(word) > 3:
+    print(f"The {word} has more than three characters")
+
+16.
 
 17.Write a program to check whether the given character is a vowel 
  
