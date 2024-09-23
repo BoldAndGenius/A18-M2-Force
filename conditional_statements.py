@@ -1,8 +1,15 @@
 ######################################################################
 ######################################################################
 '''SIMPLE IF'''
+11.Write a program To register.For a company only if job location is Bangalore.
 
-
+job_location = input("Enter the job location:")
+if job_location=="bangalore":
+    name = input("Enter your name:")
+    email = input("Enter your Email-ID:")
+    phno = int(input("Enter your phone number:"))
+    password = input("Enter your Password:")
+    print("Registration Successful")
 
 
 
