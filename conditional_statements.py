@@ -31,6 +31,12 @@ num = int(input("Enter a number:"))
 if 5 < num < 10:
     print(f"{num} lies between 5 to 10")
 
+17.Write a program to check whether the given character is a vowel 
+ 
+char = input("Enter a character:")
+if char in "aeiouAEIOU":
+    print(f"{char} is a vowel")
+
 
 
 #######################################################################
