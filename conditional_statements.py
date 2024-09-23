@@ -69,6 +69,17 @@ char = input("Enter a character:")
 if char.islower():
     print(f"{char} is a lowercase alphabet")
 
+
+23.Write a program to check whether the given character is alphabet 
+char = input("Enter a character:")
+if char.isalpha():
+    print(f"{char} is a alphabet")
+    
+    
+25.Write a program to check whether the given collection is List 
+collection = eval(input("Enter a collection:"))
+if type(collection) == list:
+    print("The given collection is a list")
 #######################################################################
 #######################################################################
 '''IF ELSE'''
