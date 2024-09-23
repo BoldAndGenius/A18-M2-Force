@@ -38,8 +38,11 @@ word = input("Enter word:")
 if len(word) > 3:
     print(f"The {word} has more than three characters")
 
-16.
+16.Write a program.To check whether the given number is having 4 digits 
 
+number = int(input("Enter num:"))
+if -9999 <= number <= 9999:
+    print("The given number has four digits")
 
 
 #######################################################################
