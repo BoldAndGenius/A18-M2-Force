@@ -10,13 +10,6 @@ if job_location=="bangalore":
     phno = int(input("Enter your phone number:"))
     password = input("Enter your Password:")
     print("Registration Successful")
-    
-13. Write a program to check whether the given number is odd 
-
-num = int(input("Enter num:"))
-if num % 2 != 0:
-    print(f"The given number {num} is Odd")
-    
 
 
 12.Write a program to check whether the given number is even 
@@ -24,6 +17,13 @@ if num % 2 != 0:
 num = int(input("Enter a number:"))
 if num % 2 == 0:
     print(f"{num} is a even number")
+    
+
+13. Write a program to check whether the given number is odd 
+
+num = int(input("Enter num:"))
+if num % 2 != 0:
+    print(f"The given number {num} is Odd")
 
 
 
