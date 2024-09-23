@@ -65,8 +65,9 @@ if char.isupper():
 
 
 21.Write a program To check whether the given character is lowercase alphabet 
-
-
+char = input("Enter a character:")
+if char.islower():
+    print(f"{char} is a lowercase alphabet")
 
 #######################################################################
 #######################################################################
