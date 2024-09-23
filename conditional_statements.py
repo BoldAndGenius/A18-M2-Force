@@ -193,6 +193,40 @@ else:
     print(f"{string} is not a palindrome...")
 
 
+39.Write a program to consider string input, if it is having more than three characters then print length of the string else print string as it is.
+word = input("Enter word:")
+if len(word) > 3:
+    print(f"Length of the string is {len(word)}")
+else:
+    print(f"String is {word}")
+
+
+40.Write a program to check whether the user is eligible to vote or not
+age = int(input('Enter age :'))
+if age>=18:
+    print('Congratulations you are eligible to vote')
+else:
+    print('Not eligible to vote')
+    
+
+44.Write a program to check whether a number entered is a 3 digit number or not.
+number = int(input("enter a number :"))
+if (number>99 and number<1000) or (number<-99 and number>-1000):
+    print(f"{number} is three digit number")
+else:
+    print(f"{number} is not three digit number")
+    
+    
+   
+45.Write a program to find the largest number out of two numbers expected from the user.
+num1 = int(input("Enter num1:"))
+num2 = int(input("Enter num2:"))
+if num1 > num2:
+    print(f"{num1} is largest number than {num2}")
+else:
+    print(f"{num2} is largest number than {num1}")
+
+
 46.Write a program to check whether a number.Entered by the user is positive or negative.
 num = int(input("Enter a number:"))
 if num >= 0:
