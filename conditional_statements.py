@@ -11,7 +11,11 @@ if job_location=="bangalore":
     password = input("Enter your Password:")
     print("Registration Successful")
 
+12.Write a program to check whether the given number is even 
 
+num = int(input("Enter a number:"))
+if num % 2 == 0:
+    print(f"{num} is a even number")
 
 
 
