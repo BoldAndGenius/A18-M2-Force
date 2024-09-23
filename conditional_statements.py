@@ -207,6 +207,14 @@ if age>=18:
     print('Congratulations you are eligible to vote')
 else:
     print('Not eligible to vote')
+
+
+41.Write a program to check whether a number is divisible by 7 or not.
+num = int(input("Enter num:"))
+if num % 7 == 0:
+    print(f"{num} is divisible by 7")
+else:
+    print(f"{num} is not divisible by 7")
     
 
 44.Write a program to check whether a number entered is a 3 digit number or not.
@@ -217,7 +225,7 @@ else:
     print(f"{number} is not three digit number")
     
     
-   
+      
 45.Write a program to find the largest number out of two numbers expected from the user.
 num1 = int(input("Enter num1:"))
 num2 = int(input("Enter num2:"))
