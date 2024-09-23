@@ -24,6 +24,13 @@ if num % 2 == 0:
 num = int(input("Enter num:"))
 if num % 2 != 0:
     print(f"The given number {num} is Odd")
+    
+15.Write a program To check whether the given string is having more than three characters 
+
+word = input("Enter word:")
+if len(word) > 3:
+    print(f"The {word} has more than three characters")
+
 
 
 
