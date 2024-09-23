@@ -19,7 +19,11 @@ if num % 2 != 0:
     
 
 
+12.Write a program to check whether the given number is even 
 
+num = int(input("Enter a number:"))
+if num % 2 == 0:
+    print(f"{num} is a even number")
 
 
 
@@ -104,6 +108,7 @@ elif char.isnumeric():
     print("Invalid Input")
 else:
     print(ord((char))+8)
+    
     
 60. Write a program to check whether the last character of a given string is a special character or not.
 
