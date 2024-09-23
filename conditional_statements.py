@@ -226,7 +226,13 @@ if num1 > num2:
 else:
     print(f"{num2} is largest number than {num1}")
 
-
+44.Write a program to check whether a number entered is a 3 digit number or not.
+number = int(input("enter a number :"))
+if (number>99 and number<1000) or (number<-99 and number>-1000):
+    print(f"{number} is three digit number")
+else:
+    print(f"{number} is not three digit number")
+    
 46.Write a program to check whether a number.Entered by the user is positive or negative.
 num = int(input("Enter a number:"))
 if num >= 0:
