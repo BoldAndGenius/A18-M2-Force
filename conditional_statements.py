@@ -176,6 +176,21 @@ if number%10==0:
     print(f"{number} is multiple of 10")
 else:
     print(f"{number} is not multiple of 10")
+    
+37.Write a program to consider an integer number. If the number is even then print square of the number else print the cube of the number
+num = int(input("enter the number :"))
+if num%2==0:
+    print(f"{num} is a even number and its square is:{num**2}")
+else :
+    print(f"{num} is not a even number and its cube is:{num**3}")
+
+38.Write a program to check whether the given string is palindrome or not.
+string = input('Enter a string :')
+reverse=string[::-1]
+if reverse==string:
+    print(f"{string} is a palindrome...")
+else:
+    print(f"{string} is not a palindrome...")
 
 
 
