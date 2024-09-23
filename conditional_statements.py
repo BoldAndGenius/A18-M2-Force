@@ -101,6 +101,7 @@ elif char.isnumeric():
 else:
     print(ord((char))+8)
     
+    
 60. Write a program to check whether the last character of a given string is a special character or not.
 
 char = input("enter a string: ")
