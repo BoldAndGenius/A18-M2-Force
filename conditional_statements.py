@@ -471,6 +471,24 @@ elif units > 200:
 
 print(f"The total bill for {units} units is Rs {Total_Bill}")
 
+72. Write a program to accept percentages from the user and display the grade according to the following criteria. If marks is greater than 90, grade is A. If marks is greater than 80 and less than equals to 90, gra inde is B if marks is greater than or equal to 60, and less than equals to 80 grade is C, else if it is less than 60 grade is D
+
+marks = int(input('Enter your marks: '))
+
+if marks < 0 or marks > 100:
+    print("Invalid input! Marks should be between 0 and 100.")
+else:
+    if marks > 90:
+        print('Grade A')
+    elif marks > 80 and marks <= 90:
+        print('Grade B')
+    elif marks >= 60 and marks <= 80:
+        print('Grade C')
+    else:
+        print('Grade D')
+
+
+
 80. WAP to convert temperature from celsius to kelvin and kelvin to celsius using the elif statement.
 
 print("Temperature Conversion Options: \n1. Celsius to Kelvin \n2. Kelvin to Celsius")
