@@ -220,6 +220,15 @@ if num % 7 == 0:
 else:
     print(f"{num} is not divisible by 7")
     
+    
+42.Write a program to check whether the last digit of a number entered by the user is divisible by three or not.
+num = int(input("Enter a number:"))
+last_digit = num % 10
+if last_digit % 3 == 0:
+    print(f"The last digit {last_digit} of number {num} is divisible by 3.")
+else:
+    print(f"The last digit {last_digit} of number {num} is not divisible by 3.")
+
 
 43.Write a program to check whether the year is leap year or not.
 year = int(input("Enter year:"))
@@ -235,7 +244,15 @@ if (number>99 and number<1000) or (number<-99 and number>-1000):
     print(f"{number} is three digit number")
 else:
     print(f"{number} is not three digit number")
+
+                      or
     
+num = int(input("Enter a number:"))
+if (num <= -999) or (num >= 999):
+    print(f"{num} is a three-digit number")
+else:
+    print(f"{num} is not a three-digit number")
+       
        
 45.Write a program to find the largest number out of two numbers expected from the user.
 num1 = int(input("Enter num1:"))
@@ -260,10 +277,6 @@ if (num % 2 == 0) and (num % 3 == 0):
     print(f"{num} is divisible by 2 and 3")
 else:
     print(f"{num} is not divisible by 2 and 3" )
-
-
-
-
 
 
 
