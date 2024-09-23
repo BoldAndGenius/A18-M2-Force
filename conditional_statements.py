@@ -70,12 +70,24 @@ if char.islower():
     print(f"{char} is a lowercase alphabet")
 
 
+22.Write a program to check whether the given character is digit 
+char = input("Enter char:")
+if char.isnumeric():
+    print(f"{char} is a digit")
+    
+
 23.Write a program to check whether the given character is alphabet 
 char = input("Enter a character:")
 if char.isalpha():
     print(f"{char} is a alphabet")
+
+   
+24.Write a program to check whether the given character is a special character
+char = input("Enter char:")
+if not(char.isalnum()):
+    print(f"{char} is a Special character")  
     
-    
+
 25.Write a program to check whether the given collection is List 
 collection = eval(input("Enter a collection:"))
 if type(collection) == list:
