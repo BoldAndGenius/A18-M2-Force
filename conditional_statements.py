@@ -193,6 +193,11 @@ else:
     print(f"{string} is not a palindrome...")
     
 40.Write a program to check whether the user is eligible to vote or not
+age = int(input('Enter age :'))
+if age>=18:
+    print('Congratulations you are eligible to vote')
+else:
+    print('Not eligible to vote')
 
 
 46.Write a program to check whether a number.Entered by the user is positive or negative.
