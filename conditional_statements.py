@@ -62,7 +62,7 @@ char = input("Enter char:")
 if char.isupper():
     print(f"{char} is a uppercase alphabet")  
 
-21.Write a program To check whether the given character is lowercase alphabet 
+21.Write a program To check whether the given character is lowercase alphabet
 
 
 
