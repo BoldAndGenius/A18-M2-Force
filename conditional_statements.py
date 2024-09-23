@@ -92,6 +92,18 @@ if not(char.isalnum()):
 collection = eval(input("Enter a collection:"))
 if type(collection) == list:
     print("The given collection is a list")
+
+
+27.Write a program to check whether The list consists of even number of values 
+list1 = eval(input("Enter a list:"))
+if len(list1) % 2 == 0:
+    print("The list consists even number of values")
+
+
+28.Write a program to check whether a list consists of middle value
+list1 = eval(input("Enter a list"))
+if len(list1) % 2 != 0:
+    print("The list consists of middle values")
 #######################################################################
 #######################################################################
 '''IF ELSE'''
