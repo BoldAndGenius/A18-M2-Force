@@ -120,10 +120,22 @@ if len(list1) % 2 != 0:
     print("The list consists of middle values")
 
 
+29.Write a program to check whether the entered input is.Immutable.
+collection = eval(input("Enter any data:"))
+if type(collection) in [str,tuple]:
+    print("The collection is Immutable")
+
+
 30.Write a program to check whether the entered input is mutable.
 collection = eval(input("Enter collection:"))
 if type(collection) in [list,set,dict]:
     print(f"{collection} is mutable")
+
+
+31.Write a program to check whether The entered input is a single value 
+value = eval(input("Enter any value:"))
+if type(value) in [int,float,complex,bool]:
+    print(f"The {value} is a single value")
 
 
 #######################################################################
