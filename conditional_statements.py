@@ -192,14 +192,7 @@ if reverse==string:
 else:
     print(f"{string} is not a palindrome...")
     
-
-45.Write a program to find the largest number out of two numbers expected from the user.
-num1 = int(input("Enter num1:"))
-num2 = int(input("Enter num2:"))
-if num1 > num2:
-    print(f"{num1} is largest number than {num2}")
-else:
-    print(f"{num2} is largest number than {num1}")
+40.Write a program to check whether the user is eligible to vote or not
 
 
 46.Write a program to check whether a number.Entered by the user is positive or negative.
