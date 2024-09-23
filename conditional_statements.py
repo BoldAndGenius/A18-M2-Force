@@ -63,7 +63,14 @@ if char.isupper():
     print(f"{char} is a uppercase alphabet")  
 
 21.Write a program To check whether the given character is lowercase alphabet 
+char = input("Enter character :")
+if char.iso=lower():
+    print(f"{char} is a lowercase alphabet")  
 
+22.write a program to check whether given character is digit
+char = input("Enter a character:")
+if char.isnumeric():
+    print(f"{char} is digit")
 
 
 #######################################################################
