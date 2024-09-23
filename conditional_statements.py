@@ -191,6 +191,15 @@ if reverse==string:
     print(f"{string} is a palindrome...")
 else:
     print(f"{string} is not a palindrome...")
+    
+
+47.Write a program.To check whether a number accepted from the user is divisible by two and three both.
+num = int(input("Enter num:"))
+if (num % 2 == 0) and (num % 3 == 0):
+    print(f"{num} is divisible by 2 and 3")
+else:
+    print(f"{num} is not divisible by 2 and 3" )
+
 
 
 
