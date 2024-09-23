@@ -191,6 +191,14 @@ if reverse==string:
     print(f"{string} is a palindrome...")
 else:
     print(f"{string} is not a palindrome...")
+
+39.Write a program to consider string input, if it is having more than three characters then print length of the string else print string as it is.
+string = input('Enter a string :')
+length=len(string)
+if length>3:
+    print(f"Length of the string {string} is {length} ")
+else:
+    print(f"string is {string}")
     
 
 47.Write a program.To check whether a number accepted from the user is divisible by two and three both.
