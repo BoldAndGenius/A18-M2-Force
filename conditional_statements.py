@@ -163,12 +163,14 @@ if type(items[0])==complex:
 else:
     print(f"Datatype of {items[0]} is not complex ")
 
+
 35.Write a program to take and consider a tuple collection consisting of only two values. Check whether the taken tuple is homogeneous or heterogeneous.
 items=eval(input('Enter two items of a tuple :'))
 if type(items[0])==type(items[1]):
     print(f"{items} is a homogeneous tuple")
 else:
     print(f"{items} is a heterogeneous tuple")
+
 
 36.Write a program to check whether the given integer number is multiple of 10 or not.
 number = int(input('Enter a number :'))
@@ -177,12 +179,14 @@ if number%10==0:
 else:
     print(f"{number} is not multiple of 10")
     
+
 37.Write a program to consider an integer number. If the number is even then print square of the number else print the cube of the number
 num = int(input("enter the number :"))
 if num%2==0:
     print(f"{num} is a even number and its square is:{num**2}")
 else :
     print(f"{num} is not a even number and its cube is:{num**3}")
+
 
 38.Write a program to check whether the given string is palindrome or not.
 string = input('Enter a string :')
@@ -225,7 +229,6 @@ else:
     print(f"{year} is not a leap year")
     
     
-
 44.Write a program to check whether a number entered is a 3 digit number or not.
 number = int(input("enter a number :"))
 if (number>99 and number<1000) or (number<-99 and number>-1000):
@@ -233,8 +236,7 @@ if (number>99 and number<1000) or (number<-99 and number>-1000):
 else:
     print(f"{number} is not three digit number")
     
-    
-      
+       
 45.Write a program to find the largest number out of two numbers expected from the user.
 num1 = int(input("Enter num1:"))
 num2 = int(input("Enter num2:"))
@@ -243,13 +245,7 @@ if num1 > num2:
 else:
     print(f"{num2} is largest number than {num1}")
 
-44.Write a program to check whether a number entered is a 3 digit number or not.
-number = int(input("enter a number :"))
-if (number>99 and number<1000) or (number<-99 and number>-1000):
-    print(f"{number} is three digit number")
-else:
-    print(f"{number} is not three digit number")
-    
+
 46.Write a program to check whether a number.Entered by the user is positive or negative.
 num = int(input("Enter a number:"))
 if num >= 0:
