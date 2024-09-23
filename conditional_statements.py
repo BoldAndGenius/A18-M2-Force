@@ -55,6 +55,28 @@ if character.lower() in ['a','i','o','u','e']:
     vovel.append(character)
 elif character.lower() in "bcdfghjklmnpqrstvwxyz":
     print(ord(character))
+else:
+    print("It is not an alphabet")
+
+57. Write a program to check whether a given character is uppercase. If it is uppercase, convert it to lowercase.Else PRINT LOWERCASE.
+
+char= input("enter a alphabet: ")
+
+if char.isupper():
+    print(char.lower())
+else:
+    print("It LOWER CASE")
+
+58. Write a program to checkWhether the entered character is a number. If it is a number, print the ASCII value of that number.
+
+character = input("Enter a character: ")
+
+if character.isdigit():
+    ascii_value = ord(character)  
+    print(f"The ASCII value of '{character}' is: {ascii_value}")
+else:
+    print(f"The character '{character}' is not a number.")
+
 
 59. Write a program to check whether given character is uppercase, print its lowercase character or if given character is lowercase print its uppercase character or if given character is special character print the character after adding 8 to the ascii value of that particle special character
 
