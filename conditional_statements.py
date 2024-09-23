@@ -56,14 +56,18 @@ if (num % 2 == 0) and (num % 5 == 0):
 string = input("Enter a string:")
 if len(string) == 1:
     print(f"{string} has a single character")
+    
 
 20.Write a program.To check whether the given character is uppercase alphabet 
 char = input("Enter char:")
 if char.isupper():
     print(f"{char} is a uppercase alphabet")  
 
-21.Write a program To check whether the given character is lowercase alphabet 
 
+21.Write a program To check whether the given character is lowercase alphabet 
+char = input("Enter a character:")
+if char.islower():
+    print(f"{char} is a lowercase alphabet")
 
 
 #######################################################################
