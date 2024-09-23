@@ -192,6 +192,8 @@ if reverse==string:
 else:
     print(f"{string} is not a palindrome...")
     
+40.Write a program to check whether the user is eligible to vote or not
+    
 
 ######################################################################
 ######################################################################
