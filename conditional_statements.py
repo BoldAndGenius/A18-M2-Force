@@ -136,6 +136,13 @@ if type(collection) in [list,set,dict]:
 value = eval(input("Enter any value:"))
 if type(value) in [int,float,complex,bool]:
     print(f"The {value} is a single value")
+    
+32.Write a program to check whether the entered input is multivalue or not.
+collection = eval(input("Enter collection:"))
+if type(collection) in [str,list,tuple,set,dict]:
+    print(f"{collection} is Multivalue datatype")
+
+
 
 
 #######################################################################
