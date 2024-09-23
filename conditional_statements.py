@@ -98,6 +98,17 @@ if char[-1].isalnum():
 else:
     print("It is a special character")
 
+61. Write a program to check if the middle value of heterogeneous tuple collection is integer or not.
+
+tpl= eval(input("enter a tupple: "))
+mid_index= len(tpl) // 2
+mid_value = tpl[mid_index]
+
+if type(mid_value) == int:
+    print("The middle value is Integer")
+else:
+    print("The middle value is not integer")
+
 71. Write a program to calculate the electricity bill.According to the following criteria, for 1st 100 units there is no charge, For next 100 units there is ₹5 per unit and after 200 units, the price is rupees 10 per unit.If the input is 350 then total bill amount is Rupees 2000.
 
 units= int(input("Enter the units: "))
