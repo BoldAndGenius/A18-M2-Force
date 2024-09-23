@@ -144,6 +144,13 @@ if type(items[0])==type(items[1]):
 else:
     print(f"{items} is a heterogeneous tuple")
 
+36.Write a program to check whether the given integer number is multiple of 10 or not.
+number = int(input('Enter a number :'))
+if number%10==0:
+    print(f"{number} is multiple of 10")
+else:
+    print(f"{number} is not multiple of 10")
+
 
 
 
