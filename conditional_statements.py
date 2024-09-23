@@ -623,6 +623,20 @@ elif -999 <= num <= 999:
 else:
     print("It is more than three digit")
 
+
+64. write a program to print ‘Fizz’ if the given number is multiple of three print ‘buzz’ if the given number is multiple of 5 and print ‘Fizzbuzz’ if the number is multiple of both 3 and 5
+
+number= int(input("Enter a number: "))
+if number % 3 == 0 and number % 5 == 0:
+    print("Fizzbuzz")
+elif number % 3==0:
+    print("Fizz")
+elif number % 5==0:
+    print("buzz")
+else:
+    print(number)
+    
+
 65. Write a program to predict grade of the student based on the obtained result
 
 marks = int(input('Enter your marks: '))
@@ -696,6 +710,24 @@ elif num_3 >= num_1 and num_3 >= num_2 and num_3 >= num_4:
     print(f"Number 3 is the greatest: {num_3}")
 else:
     print(f"Number 4 is the greatest: {num_4}")
+
+70. Write a program to find the smallest among four numbers
+
+num_1 = float(input('enter a number 1: '))
+num_2 = float(input('enter a number 2: '))
+num_3 = float(input('enter a number 3: '))
+num_4 = float(input("Enter the number 4: "))
+
+if num_1 <= num_2 and num_1 <= num_3 and num_1 <= num_4:
+    print(f"This number 1 is the smallest number: {num_1}")
+elif num_2 <= num_1 and num_2 <= num_3 and num_2 <= num_4:
+    print(f"This number 2 is the smallest number: {num_2}")
+elif num_3 <= num_1 and num_3 <= num_2 and num_3 <= num_4:
+    print(f"This number 3 is the smallest number: {num_3}")
+else:
+    print(f"This number 4 is the smallest number: {num_4}")
+
+
 
 71. Write a program to calculate the electricity bill.According to the following criteria, for 1st 100 units there is no charge, For next 100 units there is ₹5 per unit and after 200 units, the price is rupees 10 per unit.If the input is 350 then total bill amount is Rupees 2000.
 
