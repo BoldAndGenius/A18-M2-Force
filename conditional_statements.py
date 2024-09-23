@@ -38,23 +38,21 @@ word = input("Enter word:")
 if len(word) > 3:
     print(f"The {word} has more than three characters")
 
-16.Write a program.To check whether the given number is having 4 digits
+16.
 
-num = int(input("Enter num:"))
-if -9999 <= num <= 9999:
-    print(f"{num} has 4 digits") 
-
-18.Write a program to check whether the given integer number is even and multiple of five
-
-num = int(input("Enter num:"))
-if (num % 2 == 0) and (num % 5 == 0):
-    print(f"{num} is even and multiple of 5") 
+17.Write a program to check whether the given character is a vowel 
+ 
+char = input("Enter a character:")
+if char in "aeiouAEIOU":
+    print(f"{char} is a vowel")
 
 19.Write a program.To check whether the given string is (single) character 
 
 string = input("Enter a string:")
 if len(string) == 1:
     print(f"{string} has a single character")
+
+21.Write a program.To check whether the given character is lowercase alphabet 
 
 
 
