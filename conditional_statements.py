@@ -108,6 +108,19 @@ if len(list1) % 2 != 0:
 #######################################################################
 '''IF ELSE'''
 
+34.Write a program to check whether the first value present inside the given list is complex or not.
+items=eval(input('Enter a list of values :'))
+if type(items[0])==complex:
+    print(f"Datatype of {items[0]} is complex ")
+else:
+    print(f"Datatype of {items[0]} is not complex ")
+
+35.Write a program to take and consider a tuple collection consisting of only two values. Check whether the taken tuple is homogeneous or heterogeneous.
+items=eval(input('Enter two items of a tuple :'))
+if type(items[0])==type(items[1]):
+    print(f"{items} is a homogeneous tuple")
+else:
+    print(f"{items} is a heterogeneous tuple")
 
 
 
