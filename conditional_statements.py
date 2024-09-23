@@ -200,6 +200,8 @@ if length>3:
 else:
     print(f"string is {string}")
     
+40.Write a program to check whether the user is eligible to vote or not
+    
 
 47.Write a program.To check whether a number accepted from the user is divisible by two and three both.
 num = int(input("Enter num:"))
