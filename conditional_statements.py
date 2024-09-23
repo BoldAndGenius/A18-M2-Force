@@ -32,6 +32,11 @@ if len(word) > 3:
     print(f"The {word} has more than three characters")
 
 
+14.Write a program to check whether the given number lies between 5 to 10 
+ 
+num = int(input("Enter a number:"))
+if 5 < num < 10:
+    print(f"{num} lies between 5 to 10")
 
 
 
