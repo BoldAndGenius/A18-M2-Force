@@ -2,7 +2,6 @@
 ######################################################################
 '''SIMPLE IF'''
 11.Write a program To register.For a company only if job location is Bangalore.
-
 job_location = input("Enter the job location:")
 if job_location=="bangalore":
     name = input("Enter your name:")
@@ -13,46 +12,53 @@ if job_location=="bangalore":
 
 
 12.Write a program to check whether the given number is even 
-
 num = int(input("Enter a number:"))
 if num % 2 == 0:
     print(f"{num} is a even number")
     
 
 13. Write a program to check whether the given number is odd 
-
 num = int(input("Enter num:"))
 if num % 2 != 0:
     print(f"The given number {num} is Odd")
 
 
 14.Write a program to check whether the given number lies between 5 to 10 
- 
-num = int(input("Enter a number:"))
+ num = int(input("Enter a number:"))
 if 5 < num < 10:
     print(f"{num} lies between 5 to 10")
     
+    
 15.Write a program To check whether the given string is having more than three characters 
-
 word = input("Enter word:")
 if len(word) > 3:
     print(f"The {word} has more than three characters")
 
-16.
 
+16. Write a program.To check whether the given number is having.4 digits 
+num = int(input("Enter num:"))
+if -9999 <= num <= 9999:
+    print(f"{num} has 4 digits")
+    
+    
 17.Write a program to check whether the given character is a vowel 
- 
 char = input("Enter a character:")
 if char in "aeiouAEIOU":
     print(f"{char} is a vowel")
+    
+18.Write a program to check whether the given integer number is even and multiple of five
+num = int(input("Enter num:"))
+if (num % 2 == 0) and (num % 5 == 0):
+    print(f"{num} is even and multiple of 5") 
+    
 
 19.Write a program.To check whether the given string is (single) character 
-
 string = input("Enter a string:")
 if len(string) == 1:
     print(f"{string} has a single character")
+    
 
-21.Write a program.To check whether the given character is lowercase alphabet 
+21.Write a program To check whether the given character is lowercase alphabet 
 
 
 
