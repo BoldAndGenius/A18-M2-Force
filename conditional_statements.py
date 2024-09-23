@@ -46,6 +46,12 @@ char = input("Enter a character:")
 if char in "aeiouAEIOU":
     print(f"{char} is a vowel")
 
+19.Write a program.To check whether the given string is (single) character 
+
+string = input("Enter a string:")
+if len(string) == 1:
+    print(f"{string} has a single character")
+
 
 
 #######################################################################
