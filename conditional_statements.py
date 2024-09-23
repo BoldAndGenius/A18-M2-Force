@@ -50,6 +50,12 @@ num = int(input("Enter num:"))
 if (num % 2 == 0) and (num % 5 == 0):
     print(f"{num} is even and multiple of 5") 
 
+19.Write a program.To check whether the given string is (single) character 
+
+string = input("Enter a string:")
+if len(string) == 1:
+    print(f"{string} has a single character")
+
 
 
 #######################################################################
