@@ -109,6 +109,92 @@ if type(mid_value) == int:
 else:
     print("The middle value is not integer")
 
+63. write a program to check whether the given integer single digit or two digits or three digits or more than three digits
+
+num= int(input("enter a number: "))
+if -9 <= num <= 9:
+    print("It is a single digit")
+elif -99 <= num <= 99:
+    print("It is a two digit")
+elif -999 <= num <= 999:
+    print("It is three digit")
+else:
+    print("It is more than three digit")
+
+65. Write a program to predict grade of the student based on the obtained result
+
+marks = int(input('Enter your marks: '))
+
+if marks < 0 or marks > 100:
+    print("Invalid input! Marks should be between 0 and 100.")
+else:
+    if marks >= 90:
+        print('Grade A')
+    elif marks >= 80:
+        print('Grade B')
+    elif marks >= 70:
+        print('Grade C')
+    elif marks >= 60:
+        print('Grade D')
+    elif marks >= 50:
+        print('Grade E')
+    else:
+        print('Fail')
+
+66. Write a program to check whether the entered character is uppercase or lowercase or number or special character
+
+char = input("enter the char: ")
+if char.isupper():
+    print("The character is uppercase")
+elif char.islower():
+    print("The character is lowercase")
+elif char.isnumeric():
+    print("The character is numeric")
+else:
+    print("The character is a special character")
+
+67. Write a program to find the greatest among two numbers
+
+num_1 = float(input("Enter the first number: "))
+num_2 = float(input("Enter the second number: "))
+
+if num_1 > num_2:
+    print(f"The greatest number is: {num_1}")
+elif num_2 > num_1:
+    print(f"The greatest number is: {num_2}")
+else:
+    print("Both numbers are equal.")
+
+
+68. Write a program to find the smallest among three numbers
+
+num_1 = float(input('enter a number'))
+num_2 = float(input('enter a number'))
+num_3 = float(input('enter a number'))
+
+if num_1 <= num_2 and num_1 <= num_3:
+    print(f"{num_1}")
+elif num_2 <= num_1 and num_2 <= num_3:
+    print(num_2)
+else:
+    print(num_3)
+
+69. Write a program to find the greatest among four numbers
+
+num_1 = float(input('enter a number 1: '))
+num_2 = float(input('enter a number 2: '))
+num_3 = float(input('enter a number 3: '))
+num_4 = float(input('enter a number 4: '))
+
+if num_1 >= num_2 and num_1 >= num_3 and num_1 >= num_4:
+    print(f"Number 1 is the greatest: {num_1}")
+elif num_2 >= num_1 and num_2 >= num_3 and num_2 >= num_4:
+    print(f"Number 2 is the greatest: {num_2}")
+elif num_3 >= num_1 and num_3 >= num_2 and num_3 >= num_4:
+    print(f"Number 3 is the greatest: {num_3}")
+else:
+    print(f"Number 4 is the greatest: {num_4}")
+
 71. Write a program to calculate the electricity bill.According to the following criteria, for 1st 100 units there is no charge, For next 100 units there is ₹5 per unit and after 200 units, the price is rupees 10 per unit.If the input is 350 then total bill amount is Rupees 2000.
 
 units= int(input("Enter the units: "))
