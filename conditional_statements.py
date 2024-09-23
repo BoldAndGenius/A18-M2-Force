@@ -94,6 +94,20 @@ if type(collection) == list:
     print("The given collection is a list")
 
 
+26.Write a program to check whether the entered value is default
+value = eval(input("Enter value:"))
+if value == '':
+    print("String default value ")
+if value == []:
+    print("List default value")
+if value == ():
+    print("Tuple default value")
+if value == set():
+    print("Set default value")
+if value == {}:
+    print("Dictionary default value")
+
+
 27.Write a program to check whether The list consists of even number of values 
 list1 = eval(input("Enter a list:"))
 if len(list1) % 2 == 0:
@@ -104,6 +118,14 @@ if len(list1) % 2 == 0:
 list1 = eval(input("Enter a list"))
 if len(list1) % 2 != 0:
     print("The list consists of middle values")
+
+
+30.Write a program to check whether the entered input is mutable.
+collection = eval(input("Enter collection:"))
+if type(collection) in [list,set,dict]:
+    print(f"{collection} is mutable")
+
+
 #######################################################################
 #######################################################################
 '''IF ELSE'''
