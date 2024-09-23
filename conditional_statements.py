@@ -23,9 +23,90 @@
 #######################################################################
 #######################################################################
 '''ELIF'''
+54. Write a program to check the relation between two integer numbers
 
+num_1= int(input("enter the num 1: "))
+num_2= int(input("enter the num 2: "))
 
+if num_1 == num_2:
+    print('Both Numbers are equal')
+elif num_1 > num_2:
+    print("Number 1 is greater than Number 2")
+else:
+    print("Number 2 is greater")
 
+55. Write a program to check whether a given character is uppercase or lowercase or number. If character is uppercase print uppercase, If character is lowercase print lowercase. If the character is a number, print the ascii number of it.
+
+char = input("Entrer a char: ")
+if char.isnumeric():
+    print(ord(char))
+elif char.isupper():
+    print("Char is upper case")
+elif char.islower():
+    print("char is lower case")
+else:
+    print("char is nither upper case nor lowercase nor number")
+
+56. Write a program to check whether a given character is a vowel or consonant. If a given character is a vowel, store the character inside the list. If a given character is consonant, display the ASCII value of that character.
+
+character = input("enter a alphabet: ")
+vovel= []
+if character.lower() in ['a','i','o','u','e']:
+    vovel.append(character)
+elif character.lower() in "bcdfghjklmnpqrstvwxyz":
+    print(ord(character))
+
+59. Write a program to check whether given character is uppercase, print its lowercase character or if given character is lowercase print its uppercase character or if given character is special character print the character after adding 8 to the ascii value of that particle special character
+
+char = input("enter the char: ")
+if char.isupper():
+    print(char.lower())
+elif char.islower():
+    print(char.upper())
+elif char.isnumeric():
+    print("Invalid Input")
+else:
+    print(ord((char))+8)
+    
+60. Write a program to check whether the last character of a given string is a special character or not.
+
+char = input("enter a string: ")
+if char[-1].isalnum():
+    print("It is not a special character")
+else:
+    print("It is a special character")
+
+71. Write a program to calculate the electricity bill.According to the following criteria, for 1st 100 units there is no charge, For next 100 units there is ₹5 per unit and after 200 units, the price is rupees 10 per unit.If the input is 350 then total bill amount is Rupees 2000.
+
+units= int(input("Enter the units: "))
+Total_Bill= 0.0
+
+if 0 <= units <= 100:
+    Total_Bill = 0.0
+elif 0<= units <= 200:
+    Total_Bill = (units-100)*5
+elif units > 200:
+    Total_Bill = (units-200)*10 + (100*5)
+
+print(f"The total bill for {units} units is Rs {Total_Bill}")
+
+80. WAP to convert temperature from celsius to kelvin and kelvin to celsius using the elif statement.
+
+print("Temperature Conversion Options: \n1. Celsius to Kelvin \n2. Kelvin to Celsius")
+choice = input("Enter the number of your choice (1 or 2): ")
+if choice == '1':
+        # Convert Celsius to Kelvin
+        celsius = float(input("Enter temperature in Celsius: "))
+        kelvin = celsius + 273.15
+        print(f"{celsius} Celsius is equal to {kelvin:.2f} Kelvin.")
+elif choice == '2':
+        # Convert Kelvin to Celsius
+        kelvin = float(input("Enter temperature in Kelvin: "))
+        celsius = kelvin - 273.15
+        print(f"{kelvin} Kelvin is equal to {celsius:.2f} Celsius.")
+        
+else:
+        print("Invalid choice. Please enter 1 or 2.")
 
 
 
