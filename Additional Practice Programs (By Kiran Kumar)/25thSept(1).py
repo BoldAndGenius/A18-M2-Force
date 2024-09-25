@@ -191,3 +191,25 @@ print( string[middle-1: middle+2 ])
 
 
 
+# Question - 9
+# Count Lower Case, Upper Case, Digit and Special Characters in String
+
+string = "KiraN124#@!"
+lower = 0
+upper = 0
+digit = 0
+special = 0
+
+for character in string:
+    if character.isupper():
+        upper = upper + 1
+    elif character.islower():
+        lower = lower + 1
+    elif character.isdigit():
+        digit = digit + 1
+    else:
+        special = special + 1
+        
+        
+print(f"Count of Lowercase = {lower}, \nCount of Uppercase = {upper}, \nCount of Digit = {digit} \nCount of Special Characters = {special}")
+
