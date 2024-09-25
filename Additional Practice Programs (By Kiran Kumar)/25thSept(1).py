@@ -174,4 +174,20 @@ while i < execution:
     print(num3)
     i = i + 1  #updation
     
+    
+    
+ 
+# Question - 8   
+# Return Middle Three Characters of a String -
+
+# Easily we can solve it with the help of "String Slicing"
+
+string = "kiran"
+# middle = int(len(string)/2)  # below logic is also fine
+middle = int(len(string) // 2)
+# print(middle)
+
+print( string[middle-1: middle+2 ])
+
+
 
