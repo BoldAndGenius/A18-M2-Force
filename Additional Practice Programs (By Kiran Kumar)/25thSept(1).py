@@ -213,3 +213,14 @@ for character in string:
         
 print(f"Count of Lowercase = {lower}, \nCount of Uppercase = {upper}, \nCount of Digit = {digit} \nCount of Special Characters = {special}")
 
+
+
+# Question - 10
+# Python Program to count the number of vowels in a Given String
+
+string = "kiran kumar"
+count = 0
+for character in string:
+    if character in 'aeiouAEIOU':
+        count = count + 1
+print(f"The Count of Vowels in {string} is {count}")
