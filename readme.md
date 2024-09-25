@@ -54,10 +54,10 @@ Please follow the steps below before starting:
 ---
 
 ### ❓ **FAQ**
-Q:1 What should I do if I encounter an error while running the script?
+Q:1 What should I do if I encounter an error while running the script? <br>
 A:1 Double-check the syntax, and ensure you're using Python 3.x. If the problem persists, reach out for support (see Contact Information below).
 
-Q:2 Can I modify the solutions?
+Q:2 Can I modify the solutions? <br>
 A:2 Yes, you’re encouraged to experiment with the code to better understand the concepts.
 
 ---
@@ -65,7 +65,7 @@ A:2 Yes, you’re encouraged to experiment with the code to better understand th
 ### 📞 **Contact Information**
 If you have any questions or need assistance, feel free to reach out:
 
-Email: kk9840042@gmail.com
+Email: kk9840042@gmail.com <br>
 GitHub: <a href="https://github.com/Kiran-pro2001"> Kiran Kumar </a>
 
 ---
