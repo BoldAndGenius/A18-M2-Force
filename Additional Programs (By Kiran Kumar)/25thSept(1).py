@@ -132,3 +132,21 @@ for i in range(0,elements):
     ele = int(input())
     list1.append(ele)
 print(list1)
+
+
+
+
+
+
+
+# Question - 6
+# Find out when your age will be 100 years old
+
+age = int(input("Enter your age : "))
+birth_year = 2024-age
+century = birth_year+100
+print(f"You become 100th Year on {century} years.")
+
+
+
+# Question - 7
