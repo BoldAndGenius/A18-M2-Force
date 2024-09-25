@@ -1,4 +1,4 @@
-## Assignment - 1 <br>
+# Assignment - 1 <br>
 (All Solutions By Er. Kiran Kumar)
 
 <mark>Topics Covered -</mark> 
@@ -10,10 +10,10 @@
 
 <mark>Solution -</mark> 
 
-18thsept.py   -- Qno.1 to Qno.10
-19thsept.py   -- Qno.11 to Qno.20
-20thsept.py   -- Qno.21 to Qno.33
-21thsept.py   -- Qno.34 to Qno.53
-22thsept.py   -- Qno.54 to Qno.60
-23thSept.py   -- Qno.61 to Qno.70
-24thsept.py   -- Qno.71 to Qno.80
+18thsept.py   -- Qno.1 to Qno.10 <br>
+19thsept.py   -- Qno.11 to Qno.20 <br>
+20thsept.py   -- Qno.21 to Qno.33 <br>
+21thsept.py   -- Qno.34 to Qno.53 <br>
+22thsept.py   -- Qno.54 to Qno.60 <br>
+23thSept.py   -- Qno.61 to Qno.70 <br>
+24thsept.py   -- Qno.71 to Qno.80 <br>
