@@ -118,3 +118,17 @@ while index < len(list):
     sum = sum + list[index]
     index = index + 1
 print(sum)
+
+
+
+
+
+
+# Take element as an input to the list
+
+list1 = []
+elements = int(input("Enter number of Elements :"))
+for i in range(0,elements):
+    ele = int(input())
+    list1.append(ele)
+print(list1)
