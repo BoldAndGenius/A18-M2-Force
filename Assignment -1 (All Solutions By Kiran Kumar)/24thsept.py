@@ -234,3 +234,131 @@ match number:
         print("November,Total 30 Days")
     case '12':
         print("December, Total 31 Days")
+    case _:
+        print("Invalid number")
+        
+        
+        
+        
+        
+        
+        
+    
+    
+    
+    
+# Question - 76
+# Accept any city from the user and display monuments of that city. For Delhi it is Red Fort, Agra- Taj Mahal, Jaipur- Jal Mahal.
+
+
+
+city = input("""Enter any city \n
+             Delhi - Red Fort,
+             Agra - Taj Mahal,
+             Jaipur - Jal Mahal
+             Bangalore - Bangalore Palace
+             """)
+
+match city:
+    case 'Delhi':
+        print("Red Fort")
+    case "Agra":
+        print("Taj Mahal")
+    case "Jaipur":
+        print("Bangalore Palace")
+        
+    # so on...we can add multiple cities with their respective monuments.
+    case _:
+        print("Invalid City")
+        
+
+
+
+# Question - 77
+# Accept three sides of a triangle and check whether it is an equilateral, isosceles or scalene triangle.
+
+
+
+side1 = float(input("Enter side 1 :"))
+side2  = float(input("Enter Side 2 :"))
+side3 = float(input("Enter Side 3 :"))
+
+if side1 == side2 == side3:
+    print("Equilateral Trianlge") # all three sides equal
+# elif (side1 != side2) or (side1 != side3) or (side2 != side3): -- there is some bug in this logic
+elif (side1 != side2 != side3):   
+    print("Scalene Triangle") # no sides equal
+else:
+    print("Isosceles Triangle")  #two sides equal
+
+
+
+# Question - 78
+# Accept the number of days from the user and calculate the charge of library according to the following criteria. Till five days it is ₹2 per day, 6 to 10 days it is ₹3 per day, 11 to 15 days it is ₹4.00 per day and after 15 days it is five Rupees per day.
+
+
+
+days = int(input("Enter number of days : "))
+if days <= 5:
+    library_charge = days*2
+elif 6 <= days <= 10:
+    library_charge = days*3
+elif 11 <= days <= 15:
+    library_charge = days*4
+elif days > 15:
+    library_charge = days*5
+else:
+    print("Invalid Days")
+print(library_charge)
+     
+
+
+
+
+
+
+
+
+
+# Question - 79
+# Accept the kilometers covered and calculate the bill according to the following criteria. For 1st 10 kilometers it is ₹11.00 per kilometer, For next 90 kilometers it is rupees 10 per kilometer and after that it is ₹9 per kilometer.
+
+kilometer_covered = float(input("Enter How much Kilometers it covered : "))
+if kilometer_covered<= 10:
+    bill = kilometer_covered*11
+elif 10 < kilometer_covered <= 100:    # 50 = >    10*11 + (50-10)*10  = 110 + 400 = 510
+    bill = (10*11) + (kilometer_covered-10) * 10
+elif kilometer_covered > 100:  # 110 =>   10*11 + 90*10 + (110 - 100) *9  = 110 + 900 + 90 = 1100
+    bill =  (10*11) + (90*10) + (kilometer_covered -100 )* 9
+else:
+    print("Invalid")
+print(bill)
+
+
+
+
+
+# Question - 80
+# WAP to convert temperature from celsius to kelvin and kelvin to celsius using the elif statement.
+
+# concept -
+# Temperature at Kelvin = Teperature at Celsius + 273.15 
+# Therefore, Temperature at Celsius = Temperature at Kelvin - 273.15
+
+temperature = float(input("Enter a Temprature :"))
+unit = input('Enter in which form you need to convert - ( "C" - Celsius,  "K" - Kelvin) ')
+
+if unit == "K":
+    # 50 K
+    # kelvin to celsius
+    celsius = temperature - 273.15
+    print(celsius)
+elif unit == "C":
+    # 50 C
+    # celsius to kelvin
+    kelvin = temperature + 273.15
+    print(kelvin)
+else:
+    print("Invalid Conversion")
+    
+    
