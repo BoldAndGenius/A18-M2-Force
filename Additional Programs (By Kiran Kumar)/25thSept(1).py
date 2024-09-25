@@ -150,3 +150,28 @@ print(f"You become 100th Year on {century} years.")
 
 
 # Question - 7
+# Fibonacci series Program
+
+# The Fibonacci sequence is a series of numbers where each number is the sum of the two preceding ones, typically starting with 0 and 1. 
+# 0, 1, 1, 2, 3, 5, 8, 13, 21, ...
+
+
+execution = int(input("Enter the number till what you want the series to go ?"))
+num1 = 0
+num2 = 1
+print(num1)
+print(num2)
+
+num3 = 0
+
+i = 1
+while i < execution:
+    num3 = num1 + num2
+     
+     #swap it
+    num1 = num2
+    num2 = num3
+    print(num3)
+    i = i + 1  #updation
+    
+
