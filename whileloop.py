@@ -103,7 +103,7 @@ while even<=20:
     even+=2
 print(sum)
 
-#15.wap to print all even numbes that falls b/w two numbers (exclusive both numbers) entered by the user using while loop
+#15.wap to print all even numbers that falls b/w two numbers (exclusive both numbers) entered by the user using while loop
 start=int(input('enter starting number :'))
 end=int(input('enter ending number :'))
 while start<end:
@@ -164,7 +164,7 @@ if num>0:
             start+=1
 print(fact)
 
-#20.wap to check if a given word in list is palindrome or nor ,if it is a palindrome append that word to new list
+#20.wap to check if a given word in list is palindrome or not ,if it is a palindrome append that word to new list
 list1=['asha','asa',9,9.0,(1,'string'),[3,9,'a'],True,'radar']
 index=0
 list2=[]
