@@ -92,3 +92,23 @@ for i in range(total_elements):
 sum_of_elements = sum(list1)
 average = sum_of_elements / total_elements
 print(f"The Average of Elements in a {list1} is {average} ")
+
+
+
+
+
+
+
+
+# Questin - 3
+# Reverse a number using String Method
+
+# number = int(input("Enter a Number : "))
+# to reverse a number, first I need to access each elements of a number 
+# I can't do anything on number, since number is in integer format, therefore convert to string, then only we can use string methods over it.
+
+number = input("Enter a Number : ")
+# As we know, using string slicing, we can easily move cursor from start to end in reverse order
+reverse = number[ : :-1]   # here start = end,  and end = start,  and -1 means it will move from back side.
+
+print(f"The reverse of {number} is {reverse}")
