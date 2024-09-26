@@ -112,3 +112,25 @@ number = input("Enter a Number : ")
 reverse = number[ : :-1]   # here start = end,  and end = start,  and -1 means it will move from back side.
 
 print(f"The reverse of {number} is {reverse}")
+
+
+
+
+# Question - 3 
+# Python Program to Reverse a String
+
+# Method -1 (Using String Method)
+string = input("Enter a String :")  #  'kiran'
+reverse = string[::-1]
+print(f"Reverse of {string} is {reverse}")
+
+# Method - 2 (Using For Loop)
+string = input("Enter a String :")  #  'kiran'
+reverse = ''
+for char in range(len(string)-1, -1, -1):
+    reverse = reverse + string[char]
+print(f"The reverse of {string} is {reverse}")
+    
+    
+
+
