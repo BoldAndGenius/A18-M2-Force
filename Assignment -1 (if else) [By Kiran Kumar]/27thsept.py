@@ -52,3 +52,19 @@ else:
         print(num2,"is greatest.")
     else:
         print(num3, "is greatest.")
+        
+        
+        
+# Question - 99
+# WAP to check the type of a triangle (Equilateral,isosceles,scalene) using nested -if
+side1 = int(input("Enter the Side - 1 :"))
+side2 = int(input("Enter the Side - 2 :"))
+side3 = int(input("Enter the Side - 3 :"))
+
+if side1 == side2 == side3:
+    print("Equilateral Triangle")
+else:
+    if (side1 == side2) or (side1==side3) or (side2 == side3):
+        print("Isosceles Triangle")
+    else:
+        print("Scalene Triangle")
