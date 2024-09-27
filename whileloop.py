@@ -1,4 +1,4 @@
-wap-- stands for write a program
+# wap-- stands for write a program
 
 #1.wap a program to print 'while loop' for 10 times
 count=0
