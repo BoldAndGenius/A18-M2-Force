@@ -11,3 +11,23 @@ elif (num2<num1) and (num2<num3):
     print(num2,"is smallest.") 
 else:
     print(num3,"is samllest.")
+    
+    
+    
+# Question - 90
+# Write a program to check whether a given character is vowel or consonant using nested if.
+
+entered_character = input("Enter a character :").lower()
+if entered_character == 'a':
+    print("Vowel")
+elif entered_character == 'e':
+    print("Vowel")
+elif entered_character == 'i':
+    print("Vowel")
+elif entered_character == '0':
+    print("Vowel")
+elif entered_character == 'u':
+    print("Vowel")
+else:
+    print("Consonant")
+   
