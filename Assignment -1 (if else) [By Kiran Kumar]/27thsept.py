@@ -31,3 +31,24 @@ elif entered_character == 'u':
 else:
     print("Consonant")
    
+   
+   
+   
+   
+# Question - 92 
+# Write a program to check greatest among three numbers using nested if.
+
+num1 = int(input("Enter a number - 1 :"))
+num2 = int(input("Enter a number - 2 :"))
+num3 = int(input("Enter a number - 3 :"))
+
+if num1 > num2:
+    if num1 > num3:
+        print(num1, "is greatest.")
+    else:
+        print(num3, "is greatest.")
+else:
+    if num2 > num3:
+        print(num2,"is greatest.")
+    else:
+        print(num3, "is greatest.")
