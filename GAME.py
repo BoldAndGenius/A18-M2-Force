@@ -5,7 +5,6 @@ player=0
 while True:
   
     user_option=input("enter rook/paper/scissor/exit")
-
     if user_option=="exit" or computer==10 or player==10:
         break
 
