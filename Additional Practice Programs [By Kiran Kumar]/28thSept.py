@@ -64,3 +64,19 @@ for char in string:
     # to reverse it
     reverse = char + reverse  # 'k'+'' = 'k'  # 'i'+'k' = 'ik'  # 'r'+'ik' = 'rik'
 print(reverse)
+
+
+
+
+# Question - 5   [[ Revise  ]] [*********************************]
+# Find the First Non-Repeated Character 
+# Problem : Given a String, Find the First Non-Repeated character 
+
+
+given_string = input("Enter a string : ")  # kkiirran
+non_repeated_character = ''
+for character in given_string:
+    if given_string.count(character) == 1:
+        non_repeated_character = character
+        break 
+print("The First Non Repeated Character is ",non_repeated_character)
