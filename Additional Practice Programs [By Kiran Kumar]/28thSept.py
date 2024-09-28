@@ -30,3 +30,21 @@ for num in range(0,given_number+1,2):
 print(f"The sum of even numbers upto {given_number} is {sum}")
 
 
+
+# Question - 3
+# Multiplication Table Printer
+# Problem - Print the multiplication table from a given number up to 10, but skip the fifth iteration
+
+# skip means, I need to use continue. That will skip the current iteration & continues the further iteration.
+
+
+given_number = int(input("Enter a number : "))
+
+
+for num in range(1,11):
+    if num == 5:
+        continue
+    print(num*given_number)
+    
+
+
