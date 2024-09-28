@@ -48,3 +48,19 @@ for num in range(1,11):
     
 
 
+
+
+# Question - 4
+# Reverse a String 
+# Problem - Reverse a String using a loop
+
+string = input("Enter a String :")
+# to reverse, I need to firstly access each chracters of a string, therefore need to use loop.
+# for loop will be easily implemented, since on iterations we can easily implement
+
+reverse = ''
+for char in string:
+    # print(char)  # print chracter by chracter
+    # to reverse it
+    reverse = char + reverse  # 'k'+'' = 'k'  # 'i'+'k' = 'ik'  # 'r'+'ik' = 'rik'
+print(reverse)
