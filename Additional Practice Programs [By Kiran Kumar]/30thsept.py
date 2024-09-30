@@ -86,6 +86,16 @@ for number in range(start,end+1,1):
     print(number)
     
     
-# All even numbers from 0 to 100
+# All even numbers from 0 to 100 using For Loop
 for num in range(0,101,2):
     print(num)
+    
+# All Even Numbers from 0 to 100 using While Loop
+start = 0
+end = 100
+while start <= 100:
+    if start % 2 == 0:
+        print(start)
+    start = start + 1
+    
+    
