@@ -99,3 +99,11 @@ while start <= 100:
     start = start + 1
     
     
+
+# Multiplication Table Using For Loop
+
+num = int(input("Enter a number for which you want to print the table : "))
+for i in range(1,11):
+    print(num*i)
+    
+    
