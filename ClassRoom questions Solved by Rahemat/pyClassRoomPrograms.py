@@ -138,3 +138,21 @@
 #     indx += 1
 # print(output)
 
+'''catagorize all the file names w.r.t its extensions'''
+
+# files = ['start.py', 'demo.txt', 'hello.py', 'new.py', 'bye.txt', 'some.csv']
+# output = {}
+# indx = 0
+# while indx < len(files):
+#     file = files[indx]
+#     file_info = file.split('.')
+#     name = file_info[0]
+#     ext = file_info[1]
+#     if ext in output:
+#         output[ext] += [name]
+#     else:
+#         output[ext] = [name]
+#     indx += 1
+    
+# print(output)
+
