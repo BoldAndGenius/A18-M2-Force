@@ -66,3 +66,15 @@ if lowercase == True:
     print("String consists only the Lower Characters")
 else:
     print("String not consists only the Lower Characters")
+    
+    
+    
+# Print n natural numbers using While Loop
+
+# natural number means, it starts from 1 and it will go to n
+start = 1  # initialization
+end = int(input("Enter till what number you want to print the natural numbers :"))
+while start <= end:  #condition
+    print(start)
+    start = start + 1 # updation
+    
