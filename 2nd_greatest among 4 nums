@@ -1,4 +1,4 @@
-# greatest among 4 nums using nested if
+# 2nd greatest among 4 nums using nested if
 
 a=int(input('enter num 1:'))
 b=int(input('enter num 2:'))
