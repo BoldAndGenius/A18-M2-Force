@@ -105,5 +105,13 @@ while start <= 100:
 num = int(input("Enter a number for which you want to print the table : "))
 for i in range(1,11):
     print(num*i)
-    
+
+
+# Multiplication Table Using While Loop
+start = 1
+end = 10
+num = int(input("Enter a number for which you want to print the table :"))
+while start <= end:
+    print(num*start)
+    start = start + 1
     
