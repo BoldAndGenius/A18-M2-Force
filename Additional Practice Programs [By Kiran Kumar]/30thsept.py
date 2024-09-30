@@ -163,7 +163,7 @@ print("The factorial of a number is ",factorial)
 
 
 
-# Fibonacci Series
+# Fibonacci Series Using For Loop & Swappig Concept
 
 num1 = 0
 print(num1)
@@ -177,3 +177,20 @@ for _ in range(0,number-2):
     #swapping
     num1 = num2
     num2 = num3
+
+
+# Fibonacci Series Using List 
+
+series = [0,1]
+num  = int(input("Enter number at which you want to print the Series : "))
+if num == 1:
+    print(f"[{series[0]}]")
+elif num == 2:
+    print(f"[{series[0]}, {series[1]}]")
+elif num>2:
+    for _ in range(num-2):
+        third_digit = series[-1] + series[-2]
+        series.append(third_digit)
+    print(series)
+else:
+    print("Invalid Number (Number should be greater than 0)")
