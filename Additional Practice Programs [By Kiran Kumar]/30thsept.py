@@ -119,3 +119,10 @@ while start <= end:
 # Odd Numbers from 0 to 100 using For Loop
 for num in range(1,100,2):
     print(num)
+    
+# Odd Numbers from 0 to 100 using While Loop
+start = 1
+end = 100
+while start <= end:
+    print(start)
+    start = start + 2
