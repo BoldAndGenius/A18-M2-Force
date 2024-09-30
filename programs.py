@@ -1,13 +1,17 @@
 # WAP to print Fibonacci Series starting from any two numbers
-
 first = int(input("Enter first number: "))
 second = int(input("Enter second number: "))
 n = int(input("Enter the n value: "))
-seq = [first, second]
-for i in range(n - 2):
-    next_num = seq[-1] + seq[-2]
-    seq.append(next_num)
-print(f"The Fibonacci series for {n} terms is {seq}")
+if n <= 1:
+    print("The value of n should be greater than 1 to generate a Fibonacci series.")
+else:
+    seq = [first, second]
+    for i in range(n - 2):
+        next_num = seq[-1] + seq[-2]
+        seq.append(next_num)
+    print(f"The Fibonacci series for {n} terms is {seq}")
+            
+
 
 
 #  WAP to check whether a number is prime or not
