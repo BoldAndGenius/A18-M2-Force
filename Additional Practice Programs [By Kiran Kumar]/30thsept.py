@@ -148,3 +148,15 @@ factorial = 1
 for i in range(1,num+1):
     factorial = factorial * i
 print("The factorial of a number is ",factorial)
+
+
+# Factorial of Number Using While Loop
+
+start = 1
+num = int(input("Enter a number for which you want to find the factorial :"))
+factorial = 1
+while start <= num:
+    factorial = factorial * start
+    start = start + 1
+    
+print("The factorial of a number is ",factorial)
