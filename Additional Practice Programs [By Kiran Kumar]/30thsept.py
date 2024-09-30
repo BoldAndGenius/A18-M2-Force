@@ -50,3 +50,19 @@ for _ in range(3):
         print("Login Successfully! ")
 else:
     print("Tried 3 Times, So User is Blocked for 24 Hours")
+    
+    
+
+
+# Check if the String consists only the Lower Character 
+
+string = input("Enter any String :") #kIran
+lowercase = True
+for character in string:  #'k' #'I'
+    if character.isupper():
+        lowercase = False
+        break
+if lowercase == True:
+    print("String consists only the Lower Characters")
+else:
+    print("String not consists only the Lower Characters")
