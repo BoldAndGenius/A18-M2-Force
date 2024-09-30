@@ -160,3 +160,20 @@ while start <= num:
     start = start + 1
     
 print("The factorial of a number is ",factorial)
+
+
+
+# Fibonacci Series
+
+num1 = 0
+print(num1)
+num2 = 1
+print(num2)
+
+number = int(input("Enter number at which you want to print the series :"))
+for _ in range(0,number-2):
+    num3 = num1 + num2   # num3 = 0+1 = 1
+    print(num3)
+    #swapping
+    num1 = num2
+    num2 = num3
