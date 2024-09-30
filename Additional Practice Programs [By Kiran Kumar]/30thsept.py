@@ -131,3 +131,11 @@ while start <= end:
 # Odd Numbers from 0 to 100 in Reverse Order using For Loop
 for num in range(99,0,-2):
     print(num)
+    
+
+# Odd Numbers from 0 to 100 in Reverse Order using While Loop
+start = 99
+end = 1
+while start>=end:
+    print(start)
+    start = start - 2
