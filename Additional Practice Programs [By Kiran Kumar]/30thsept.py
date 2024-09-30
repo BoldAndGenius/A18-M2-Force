@@ -31,3 +31,22 @@ else:
         print("Number is Prime")
     else:
         print("Number is Not a Prime")
+
+
+
+# Validate Username & Password using For Loop & While Loop
+
+actual_username = "kiran_kumar"
+actual_password = "1234"
+
+while True:
+    username = input("Enter your Username : ")
+    if username == actual_username:
+        print("Right Username")
+        break
+for _ in range(3):
+    password = input("Enter your Password : ")
+    if password == actual_password:
+        print("Login Successfully! ")
+else:
+    print("Tried 3 Times, So User is Blocked for 24 Hours")
