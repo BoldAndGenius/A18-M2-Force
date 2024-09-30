@@ -84,3 +84,8 @@ start = 1
 end = int(input("Enter till what number you want to print the natural numbers :"))
 for number in range(start,end+1,1):
     print(number)
+    
+    
+# All even numbers from 0 to 100
+for num in range(0,101,2):
+    print(num)
