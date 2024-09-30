@@ -139,3 +139,12 @@ end = 1
 while start>=end:
     print(start)
     start = start - 2
+    
+
+# Factorial of a Given Number Using For Loop
+
+num = int(input("Enter a number for which you want to find the factorial :"))
+factorial = 1
+for i in range(1,num+1):
+    factorial = factorial * i
+print("The factorial of a number is ",factorial)
