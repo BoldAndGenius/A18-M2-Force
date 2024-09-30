@@ -78,3 +78,9 @@ while start <= end:  #condition
     print(start)
     start = start + 1 # updation
     
+
+# Print n natural numbers using For Loop
+start = 1
+end = int(input("Enter till what number you want to print the natural numbers :"))
+for number in range(start,end+1,1):
+    print(number)
