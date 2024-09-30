@@ -126,3 +126,8 @@ end = 100
 while start <= end:
     print(start)
     start = start + 2
+    
+    
+# Odd Numbers from 0 to 100 in Reverse Order using For Loop
+for num in range(99,0,-2):
+    print(num)
