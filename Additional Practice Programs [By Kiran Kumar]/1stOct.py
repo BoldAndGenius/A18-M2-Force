@@ -124,6 +124,16 @@ else:
 
 
 
+# First Character is Uppercase or Not 
+
+word = input("Enter a word :")
+first_character = word[0]
+if first_character.isupper():
+    print("First Character is Uppercase")
+else:
+    print("First Character is not Uppercase")
+
+
     
 
 
