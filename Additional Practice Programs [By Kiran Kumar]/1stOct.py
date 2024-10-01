@@ -51,3 +51,17 @@ for word in words_list:
     if word not in dictionary:
         dictionary[word] = len(word)
 print(dictionary)
+
+
+
+
+
+
+# Mimic the Lenght Function 
+# Lenght Function -- It finds the lenght of a collection
+
+string = input("Enter any string :")
+length = 0
+for characters in string:
+    length = length + 1
+print(f"The lenght of {string} is {length} ")
