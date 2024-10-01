@@ -165,3 +165,13 @@ else:
     print("First Character is not in Lowercase")
 
 
+
+# Last Character is Lowercase or Not 
+word = input("Enter a word: ")
+last_character = word[-1]
+if last_character.islower():
+    print("Last Character is in Lowercase")
+else:
+    print("Last Character is not in Lowercase")
+    
+
