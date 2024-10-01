@@ -89,3 +89,12 @@ for item in collection:
     if item < min:
         min = item
 print(f"The Smallest Number is {min}")
+
+
+
+# Display the Sum of All Items from the Given Collection 
+collection = [1,2,3,4,5]
+sum = 0
+for item in collection:
+    sum = sum + item
+print(f"The Sum of Collection is {sum}")
