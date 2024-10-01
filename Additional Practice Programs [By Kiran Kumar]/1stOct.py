@@ -155,3 +155,13 @@ else:
     
 
 
+
+# First Character is Lowercase or Not 
+word = input("Enter a word :")
+first_character = word[0]
+if word.islower():
+    print("First Character is in Lowercase")
+else:
+    print("First Character is not in Lowercase")
+
+
