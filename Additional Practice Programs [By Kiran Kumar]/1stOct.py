@@ -108,6 +108,22 @@ for item in collection:
     sum = sum + item 
 # print(sum, length)
 print("The Average of Collection is ",sum/length)
+
+
+
+
+# Ask user a word, Check keyword or not
+
+word = input("Enter a word :")
+import keyword
+# print(keyword.kwlist) - to see the list of all keywords
+if word in keyword.kwlist:
+    print("It's a Keyword")
+else:
+    print("Not a Keyword")
+
+
+
     
 
 
