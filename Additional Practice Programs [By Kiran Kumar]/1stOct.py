@@ -73,8 +73,19 @@ print(f"The lenght of {string} is {length} ")
 # Display the Largest Number from the Given Collection 
 
 collection = [1,2,3,45,89]
-max = 0   #let's assume the maximum is 0
+max = 0   #let's assume the maximum is 0 -- assume any minimum value
 for item in collection:
     if item > max:
         max = item
 print(f"The Maximum Number is {max}")
+
+
+
+# Display the Smallest Number from the Given Collection 
+
+collection = [1,2,4,59,90,100]
+min = 1000  # assume any maximum value
+for item in collection:
+    if item < min:
+        min = item
+print(f"The Smallest Number is {min}")
