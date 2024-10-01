@@ -196,3 +196,11 @@ else:
     print("All Characters are not in Uppercase")
     
 
+# All Characters are in Lowercase or Not
+word = input("Enter a word :")
+if word.islower():
+    print("All Characters are in Lowercase")
+else:
+    print("All Characters are not in Lowercase")
+    
+
