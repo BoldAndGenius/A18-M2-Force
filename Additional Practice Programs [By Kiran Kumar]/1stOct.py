@@ -174,4 +174,16 @@ if last_character.islower():
 else:
     print("Last Character is not in Lowercase")
     
+    
+
+
+
+# Middle Character is Lowercase or Not 
+word = input("Enter a word :")
+middle_character = word[len(word)//2]
+if middle_character.islower():
+    print("Middle Characters is in Lowercase")
+else:
+    print("Middle Character is not in Lowercase")
+    
 
