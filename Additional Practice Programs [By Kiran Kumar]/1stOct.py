@@ -142,6 +142,15 @@ if last_character.isupper():
     print("Last Character is Uppercase")
 else:
     print("Last Character is not Uppercase")
+    
+
+# Middle Character is Uppercase or Not 
+word = input("Enter a word :")
+middle_character = word[len(word)//2] 
+if middle_character.isupper():
+    print("Middle Character is in Uppercase")
+else:
+    print("Middle Character is not in Uppercase")
 
     
 
