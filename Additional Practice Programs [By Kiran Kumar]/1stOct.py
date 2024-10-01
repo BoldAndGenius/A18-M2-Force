@@ -98,3 +98,16 @@ sum = 0
 for item in collection:
     sum = sum + item
 print(f"The Sum of Collection is {sum}")
+
+
+# Display the Average of All Items from the Given Collection
+collection = [1,2,3,4,5]
+sum = 0
+length = len(collection)
+for item in collection:
+    sum = sum + item 
+# print(sum, length)
+print("The Average of Collection is ",sum/length)
+    
+
+
