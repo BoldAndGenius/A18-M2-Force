@@ -134,6 +134,15 @@ else:
     print("First Character is not Uppercase")
 
 
+
+# Last Character is Uppercase or Not 
+word = input("Enter a word :")
+last_character = word[-1]
+if last_character.isupper():
+    print("Last Character is Uppercase")
+else:
+    print("Last Character is not Uppercase")
+
     
 
 
