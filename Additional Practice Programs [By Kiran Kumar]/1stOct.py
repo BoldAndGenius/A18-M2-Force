@@ -212,4 +212,12 @@ elif number < 0 :
 else:
     print("Zero Number")
     
+    
+# Print Pass or Fail
+marks = float(input("Enter your marks :")) # Assming user will enter marks in between 0 to 100
+if marks>33:
+    print("Pass")
+else:
+    print("Fail")
+    
 
