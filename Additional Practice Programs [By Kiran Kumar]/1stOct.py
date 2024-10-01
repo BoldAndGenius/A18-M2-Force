@@ -57,7 +57,7 @@ print(dictionary)
 
 
 
-# Mimic the Lenght Function 
+# Mimic the Length Function 
 # Lenght Function -- It finds the lenght of a collection
 
 string = input("Enter any string :")
@@ -65,3 +65,16 @@ length = 0
 for characters in string:
     length = length + 1
 print(f"The lenght of {string} is {length} ")
+
+
+
+
+
+# Display the Largest Number from the Given Collection 
+
+collection = [1,2,3,45,89]
+max = 0   #let's assume the maximum is 0
+for item in collection:
+    if item > max:
+        max = item
+print(f"The Maximum Number is {max}")
