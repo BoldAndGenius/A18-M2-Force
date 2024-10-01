@@ -186,4 +186,13 @@ if middle_character.islower():
 else:
     print("Middle Character is not in Lowercase")
     
+    
+    
+# All Characters are in Uppercase or Not
+word = input("Enter a word : ")
+if word.isupper():
+    print("All Characters are in Uppercase")
+else:
+    print("All Characters are not in Uppercase")
+    
 
