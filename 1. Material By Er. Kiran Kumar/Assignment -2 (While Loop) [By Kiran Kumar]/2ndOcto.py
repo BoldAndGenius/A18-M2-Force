@@ -1,35 +1,4 @@
-''' 
 
-
-
-
-
-
-
-
-
-
-
-Q14. Write a program to display the number names of the digits of a number entered by user,
-for example if the number is 231 then output should be Two Three One
-Q15. Write a program to print the Fibonacci series till n terms (Accept n from user) using while
-loop.
-
-Q17. Write a program to check whether a number is Armstrong or not. (Armstrong number is a
-number that is equal to the sum of cubes of its digits for example : 153 = 1^3 + 5^3 + 3^3.)
-Q18. Write a program to add first n terms of the following series using a while loop:
-1/1! + 1/2! + 1/3! + …….. + 1/n!
-Q19. Write a program to enter the numbers till the user wants and at the end it should display
-the sum of all the numbers entered.
-Q20. Write a program to enter the numbers till the user enter ZERO and at the end it should
-display the count of positive and negative numbers entered.
-
-
-
-
-
-
-'''
 
 
 # Q1. Write a program to print the following using while loop
@@ -206,6 +175,39 @@ while number > 0:
 print(rev)
 
 
+# Q14. Write a program to display the number names of the digits of a number entered by user, for example if the number is 231 then output should be Two Three One
+
+
+number = input("Enter a number : ") # '231' 
+
+for num in number:  # '2'
+    if num == "1":
+        print("One", end=" ")
+    elif num == "2":
+        print("Two", end=" ")
+    elif num == "3":
+        print("Three", end=" ")
+    elif num == "4":
+        print("Four", end=" ")
+    elif num == "5":
+        print("Five", end=" ")
+    elif num == "6":
+        print("Six", end=" ")
+    elif num == "7":
+        print("Seven", end=" ")
+    elif num == "8":
+        print("Eight", end=" ")
+    elif num == "9":
+        print("Nine", end=" ")
+    elif num == "0":
+        print("Zero", end=" ")
+    
+    
+
+
+
+
+
 
 
 
@@ -217,3 +219,6 @@ fact = 1
 for i in range(1,num+1):
     fact = fact * i
 print(f"The factorial of a {num} is {fact}")
+
+
+
