@@ -3,7 +3,6 @@
 
 
 
-Q5. Write a program to print first 10 natural number in reverse order using while loop.
 
 
 
@@ -98,6 +97,17 @@ end = 7
 while start >= end:
     print(start)
     start = start - 7
+
+
+
+# Q5. Write a program to print first 10 natural number in reverse order using while loop.
+
+start = 10
+end = 1
+while start>= end:
+    print(start)
+    start = start - 1
+
 
 
 
