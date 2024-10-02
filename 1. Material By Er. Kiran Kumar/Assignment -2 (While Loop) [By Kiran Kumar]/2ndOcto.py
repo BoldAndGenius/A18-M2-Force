@@ -9,7 +9,7 @@
 
 
 
-Q13. Write a program to reverse the number accepted from user using while loop.
+
 Q14. Write a program to display the number names of the digits of a number entered by user,
 for example if the number is 231 then output should be Two Three One
 Q15. Write a program to print the Fibonacci series till n terms (Accept n from user) using while
@@ -152,7 +152,6 @@ while real_start < end:
 
 
 
-
 # Q10. Write a program to check whether a number is prime or not using while loop.
 number = int(input("Enter a number : "))
 prime = True
@@ -164,14 +163,6 @@ if prime == True:
 else:
     print("Not a Prime Number")
 
-
-
-# Q16. Write a program to print the factorial of a number accepted from user.
-num = int(input("Enter a number for which you want to find the factorial : "))
-fact = 1
-for i in range(1,num+1):
-    fact = fact * i
-print(f"The factorial of a {num} is {fact}")
 
 
 
@@ -202,3 +193,27 @@ while start<=number:
 print(f"The Product of a digits of {rev} is {product}")
     
 
+
+# Q13. Write a program to reverse the number accepted from user using while loop.
+
+number = int(input("Enter a number : "))  # 123
+# temp = number 
+rev = 0
+while number > 0:
+    end = number % 10   # 3  # 2
+    rev = rev*10 + end  # rev = 0*10 + 3 = 3   # rev = 3*10 + 2 = 32 
+    number = number // 10   # 12
+print(rev)
+
+
+
+
+
+
+
+# Q16. Write a program to print the factorial of a number accepted from user.
+num = int(input("Enter a number for which you want to find the factorial : "))
+fact = 1
+for i in range(1,num+1):
+    fact = fact * i
+print(f"The factorial of a {num} is {fact}")
