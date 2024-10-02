@@ -9,7 +9,7 @@ else:
 
 
 
-# Type of Character Entered is - Uppercase, Lowercase, Numbers or Special Characters
+# Type of Character Entered is - Uppercase, Lowercase, Numbers or Special Characters (Using Method -1)
 
 character = input("Enter any character : ")
 if 'A' <= character <= "Z":
@@ -20,3 +20,16 @@ elif '0' <= character <= '9':
     print("Numbers")
 else:
     print("Special Characters")
+    
+    
+    
+# Type of Character Entered is - Uppercase, Lowercase, Numbers or Special Characters (Using Method - 2)
+character = input("Enter any character : ")
+if character.isupper():
+    print("Uppercase")
+elif character.islower():
+    print("Lowercase")
+elif character.isnumeric():
+    print("Numbers")
+else:
+    print("Special Character")
