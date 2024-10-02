@@ -31,5 +31,12 @@ for i in range(0,num+1,2):
 print(f"The Sum of first 10 even numbers is ",sum)
 
 
+# Q8. Write a program to print table of a number entered from the user.
+number = int(input("Enter a number for which you want to print the table :"))
+for i in range(1,11):
+    print(number * i)
+
+
+
 
 
