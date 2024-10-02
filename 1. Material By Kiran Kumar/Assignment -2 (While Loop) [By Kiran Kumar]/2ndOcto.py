@@ -5,7 +5,7 @@ b. First 10 Odd numbers
 c. First 10 Natural numbers
 d. First 10 Whole numbers
 
-Q3. Write while loop statement to print the following series: 10, 20, 30 … … 300
+
 Q4. Write a while loop statement to print the following series 105, 98, 91 ………7.
 Q5. Write a program to print first 10 natural number in reverse order using while loop.
 
@@ -46,6 +46,20 @@ while start<end:
     print(start," ", start**2)
     start = start + 1
  
+ 
+# Q3. Write while loop statement to print the following series: 10, 20, 30 … … 300
+
+start = 10
+end = 300
+while start<= end:
+    print(start)
+    start = start + 10
+
+
+
+
+
+
  
 # Q6. Write a program to print sum of first 10 Natural numbers.
 sum = 0
