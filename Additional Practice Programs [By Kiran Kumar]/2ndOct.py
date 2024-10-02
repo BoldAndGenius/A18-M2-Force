@@ -76,4 +76,12 @@ if number % 2 == 0:
 else:
     print("Not an Even Number")
     print("The cube of a number is", number**3)
+    
+
+# Entered Character in Special Character or not (Using isalnum())
+character = input("Enter any character :")
+if not character.isalnum():   #isalnum() - alphabet & numeric
+    print("It's a Special Character")
+else:
+    print("It's not a Special Character")
 
