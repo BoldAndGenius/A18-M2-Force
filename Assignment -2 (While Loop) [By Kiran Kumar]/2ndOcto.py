@@ -14,7 +14,6 @@ Q6. Write a program to print sum of first 10 Natural numbers.
 Q9. Write a program to print all even numbers that falls between two numbers (exclusive both
 numbers) entered from the user using while loop.
 
-Q11. Write a program to find the sum of the digits of a number accepted from the user.
 Q12. Write a program to find the product of the digits of a number accepted from the user.
 Q13. Write a program to reverse the number accepted from user using while loop.
 Q14. Write a program to display the number names of the digits of a number entered by user,
@@ -77,3 +76,20 @@ fact = 1
 for i in range(1,num+1):
     fact = fact * i
 print(f"The factorial of a {num} is {fact}")
+
+
+
+
+# Q11. Write a program to find the sum of the digits of a number accepted from the user.
+
+number = int(input("Enter any number : "))  # 123
+rev = number
+start = 1
+sum = 0
+while start<=number:
+    end = number % 10 
+    sum = sum + end 
+    number = number // 10 
+
+print(f"The sum of digits in a {rev} is {sum}")
+
