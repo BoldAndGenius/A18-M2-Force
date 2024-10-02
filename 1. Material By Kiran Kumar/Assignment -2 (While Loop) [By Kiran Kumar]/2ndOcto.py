@@ -2,7 +2,7 @@
 
 
 
-Q4. Write a while loop statement to print the following series 105, 98, 91 ………7.
+
 Q5. Write a program to print first 10 natural number in reverse order using while loop.
 
 
@@ -91,7 +91,13 @@ while start<= end:
     start = start + 10
 
 
+# Q4. Write a while loop statement to print the following series 105, 98, 91 ………7.
 
+start = 105
+end = 7
+while start >= end:
+    print(start)
+    start = start - 7
 
 
 
