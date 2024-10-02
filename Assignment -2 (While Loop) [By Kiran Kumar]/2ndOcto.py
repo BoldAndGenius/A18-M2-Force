@@ -14,7 +14,7 @@ Q5. Write a program to print first 10 natural number in reverse order using whil
 Q9. Write a program to print all even numbers that falls between two numbers (exclusive both
 numbers) entered from the user using while loop.
 
-Q12. Write a program to find the product of the digits of a number accepted from the user.
+
 Q13. Write a program to reverse the number accepted from user using while loop.
 Q14. Write a program to display the number names of the digits of a number entered by user,
 for example if the number is 231 then output should be Two Three One
@@ -100,4 +100,17 @@ while start<=number:
     number = number // 10 
 
 print(f"The sum of digits in a {rev} is {sum}")
+
+
+# Q12. Write a program to find the product of the digits of a number accepted from the user.
+number = int(input("Enter a number : "))  # 123
+rev = number
+start = 1
+product = 1
+while start<=number: 
+    end = number % 10 
+    product = product * end
+    number = number // 10 
+print(f"The Product of a digits of {rev} is {product}")
+    
 
