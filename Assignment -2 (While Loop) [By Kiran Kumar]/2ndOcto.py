@@ -40,3 +40,14 @@ for i in range(1,11):
 
 
 
+# Q10. Write a program to check whether a number is prime or not using while loop.
+number = int(input("Enter a number : "))
+prime = True
+for num in range(2,number):
+    if number%num == 0:
+        prime = False
+if prime == True:
+    print("Prime Number ")
+else:
+    print("Not a Prime Number")
+
