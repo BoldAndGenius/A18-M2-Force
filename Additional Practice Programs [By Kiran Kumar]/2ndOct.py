@@ -84,4 +84,12 @@ if not character.isalnum():   #isalnum() - alphabet & numeric
     print("It's a Special Character")
 else:
     print("It's not a Special Character")
+    
+    
+# Entered Character is Special Character or not (Using Traditional Method)
+character = input("Enter any Character : ")
+if not (('a'<= character<= 'z') or ('A'<=character<='Z') or ('0'<=character<='9')):
+    print("Special Character") 
+else:
+    print("Not a Special Character")
 
