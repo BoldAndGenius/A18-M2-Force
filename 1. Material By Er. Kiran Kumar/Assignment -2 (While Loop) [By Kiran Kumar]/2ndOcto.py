@@ -6,8 +6,7 @@
 
 
 
-Q9. Write a program to print all even numbers that falls between two numbers (exclusive both
-numbers) entered from the user using while loop.
+
 
 
 Q13. Write a program to reverse the number accepted from user using while loop.
@@ -134,6 +133,21 @@ print(f"The Sum of first 10 even numbers is ",sum)
 number = int(input("Enter a number for which you want to print the table :"))
 for i in range(1,11):
     print(number * i)
+
+
+
+
+# Q9. Write a program to print all even numbers that falls between two numbers (exclusive both numbers) entered from the user using while loop.
+
+# from 0 to 10 --- 2,4,6,8
+start = int(input("Enter the Starting Point :"))
+real_start = start + 1
+end = int(input("Enter the Ending Point :"))
+while real_start < end:
+    if real_start % 2 == 0:
+        print(real_start)
+    real_start = real_start + 1
+
 
 
 
