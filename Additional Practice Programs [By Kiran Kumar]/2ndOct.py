@@ -49,5 +49,12 @@ if (9<number<100) or (-9<number<-100):
     print("Number is of Two Digit Number ")
 else:
     print("Number is not a two digit number")
-    
+
+
+# Entered Number is Two Digit Number or Not - With Using len Method
+number = input("Enter any number :")
+if len(number) == 2:
+    print("Two Digit Number")
+else:
+    print("Not a Two Digit Number")
 
