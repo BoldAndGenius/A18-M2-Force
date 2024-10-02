@@ -41,3 +41,13 @@ if type(data) in [int,float,complex,bool]:
     print("It's a Single Value Data Type")
 else:
     print("It's a Collection")
+    
+    
+# Entered Number is Two Digit Number or Not - Without Using Any Method
+number = int(input("Enter any number :"))
+if (9<number<100) or (-9<number<-100):
+    print("Number is of Two Digit Number ")
+else:
+    print("Number is not a two digit number")
+    
+
