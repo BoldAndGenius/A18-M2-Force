@@ -57,4 +57,13 @@ if len(number) == 2:
     print("Two Digit Number")
 else:
     print("Not a Two Digit Number")
+    
+
+
+# Mutable or Immutable
+data = input("Enter any data :")
+if type(data) in [list,set,dict]:
+    print("It's Mutable")
+else:
+    print("It's Immutable")
 
