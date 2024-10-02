@@ -4,7 +4,7 @@ a. First 10 Even numbers
 b. First 10 Odd numbers
 c. First 10 Natural numbers
 d. First 10 Whole numbers
-Q2. Write a program to print first 10 integers and their squares using while loop.
+
 Q3. Write while loop statement to print the following series: 10, 20, 30 … … 300
 Q4. Write a while loop statement to print the following series 105, 98, 91 ………7.
 Q5. Write a program to print first 10 natural number in reverse order using while loop.
@@ -37,6 +37,15 @@ display the count of positive and negative numbers entered.
 
 '''
 
+# Q2. Write a program to print first 10 integers and their squares using while loop.
+
+# Assuming first 10 positive integers 
+start = 1
+end = 11
+while start<end:
+    print(start," ", start**2)
+    start = start + 1
+ 
  
 # Q6. Write a program to print sum of first 10 Natural numbers.
 sum = 0
