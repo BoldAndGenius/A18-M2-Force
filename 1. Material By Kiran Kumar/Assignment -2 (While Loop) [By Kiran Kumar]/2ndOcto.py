@@ -1,9 +1,5 @@
 ''' 
-Q1. Write a program to print the following using while loop
-a. First 10 Even numbers
-b. First 10 Odd numbers
-c. First 10 Natural numbers
-d. First 10 Whole numbers
+
 
 
 Q4. Write a while loop statement to print the following series 105, 98, 91 ………7.
@@ -36,6 +32,45 @@ display the count of positive and negative numbers entered.
 
 
 '''
+
+
+# Q1. Write a program to print the following using while loop
+# a. First 10 Even numbers
+# b. First 10 Odd numbers
+# c. First 10 Natural numbers
+# d. First 10 Whole numbers
+
+start = 0
+end = 18
+while start<= end:
+    print(start)
+    start = start + 2
+    
+start = 1
+end = 20
+while start<= end:
+    print(start)
+    start = start + 2
+    
+start = 1
+end = 10
+while start<= end:
+    print(start)
+    start = start + 1
+    
+start = 0
+end = 9
+while start <= end:
+    print(start)
+    start = start + 1
+
+
+
+
+
+
+
+
 
 # Q2. Write a program to print first 10 integers and their squares using while loop.
 
