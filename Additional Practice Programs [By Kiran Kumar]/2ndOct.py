@@ -66,4 +66,14 @@ if type(data) in [list,set,dict]:
     print("It's Mutable")
 else:
     print("It's Immutable")
+    
+    
+# enter a numer - if even number -- print square of a number ..... if not even -- print the cube of a number 
+number = int(input("Enter a number :"))
+if number % 2 == 0:
+    print("Even Number")
+    print("The Square of a Number is",number**2)
+else:
+    print("Not an Even Number")
+    print("The cube of a number is", number**3)
 
