@@ -14,6 +14,24 @@ Q6. Write a program to print sum of first 10 Natural numbers.
 Q9. Write a program to print all even numbers that falls between two numbers (exclusive both
 numbers) entered from the user using while loop.
 
+Q11. Write a program to find the sum of the digits of a number accepted from the user.
+Q12. Write a program to find the product of the digits of a number accepted from the user.
+Q13. Write a program to reverse the number accepted from user using while loop.
+Q14. Write a program to display the number names of the digits of a number entered by user,
+for example if the number is 231 then output should be Two Three One
+Q15. Write a program to print the Fibonacci series till n terms (Accept n from user) using while
+loop.
+
+Q17. Write a program to check whether a number is Armstrong or not. (Armstrong number is a
+number that is equal to the sum of cubes of its digits for example : 153 = 1^3 + 5^3 + 3^3.)
+Q18. Write a program to add first n terms of the following series using a while loop:
+1/1! + 1/2! + 1/3! + …….. + 1/n!
+Q19. Write a program to enter the numbers till the user wants and at the end it should display
+the sum of all the numbers entered.
+Q20. Write a program to enter the numbers till the user enter ZERO and at the end it should
+display the count of positive and negative numbers entered.
+
+
 
 
 
@@ -51,3 +69,11 @@ if prime == True:
 else:
     print("Not a Prime Number")
 
+
+
+# Q16. Write a program to print the factorial of a number accepted from user.
+num = int(input("Enter a number for which you want to find the factorial : "))
+fact = 1
+for i in range(1,num+1):
+    fact = fact * i
+print(f"The factorial of a {num} is {fact}")
