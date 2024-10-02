@@ -33,3 +33,11 @@ elif character.isnumeric():
     print("Numbers")
 else:
     print("Special Character")
+    
+    
+# Check the user entered data is single value data type or a collection
+data = eval(input("Enter any data : "))
+if type(data) in [int,float,complex,bool]:
+    print("It's a Single Value Data Type")
+else:
+    print("It's a Collection")
