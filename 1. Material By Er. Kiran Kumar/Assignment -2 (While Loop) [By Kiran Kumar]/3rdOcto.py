@@ -67,3 +67,11 @@ for row in range(5):
         if column == 0:
             print("*", end="\n")
         
+# 2nd Column Pattern 
+for row in range(5):
+    for column in range(2):
+        if column == 1:
+            print(" ",end=" ")
+            print("*",end="\n")
+            
+    
