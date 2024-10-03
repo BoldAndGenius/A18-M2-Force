@@ -98,3 +98,20 @@ for row in range(5):
 
 for i in range(1,6):
     print("*"*i)
+    
+    
+    
+# Inverted Right-Angled Triangle Pattern
+
+'''
+
+*****
+****
+***
+**
+*
+
+'''
+
+for i in range(5,0,-1):
+    print(i*"*")
