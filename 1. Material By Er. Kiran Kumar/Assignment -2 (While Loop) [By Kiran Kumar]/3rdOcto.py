@@ -193,7 +193,15 @@ ABCDEDCBA
 
 '''
 
-# All Keyword
+# Print All Keywords
 
 import keyword
 print(keyword.kwlist)
+
+
+# Print All Softkeywords
+
+import keyword
+print(keyword.softkwlist)
+
+#output - ['_', 'case', 'match', 'type']
