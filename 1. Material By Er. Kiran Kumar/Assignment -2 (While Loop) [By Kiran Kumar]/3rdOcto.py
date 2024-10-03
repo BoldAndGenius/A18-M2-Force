@@ -83,3 +83,18 @@ for row in range(5):
             print(" ",end=" ")
             print(" ", end= " ")
             print("*", end="\n")
+            
+            
+# Simple Right-Angled Triangle:
+''' 
+
+*
+**
+***
+****
+*****
+
+'''
+
+for i in range(1,6):
+    print("*"*i)
