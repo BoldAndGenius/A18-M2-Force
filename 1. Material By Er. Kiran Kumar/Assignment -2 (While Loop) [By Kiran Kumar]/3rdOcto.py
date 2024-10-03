@@ -50,3 +50,13 @@ for row in range(2):
             break
         else:
             print("*", end=" ")
+            
+
+# 3rd Row Pattern 
+for row in range(3):
+    for column in range(5):
+        if row in [0,1]:
+            print("", end="\n")
+            break
+        else:
+            print("*", end=" ")
