@@ -37,7 +37,16 @@ for row in range(5):
     print()
     
 
-# 1st Row 
+# 1st Row Pattern
 for row in range(1):
     for column in range(5):
         print("*", end=" ")
+        
+# 2nd Row Pattern
+for row in range(2):
+    for column in range(5):
+        if row == 0:
+            print("", end="\n")
+            break
+        else:
+            print("*", end=" ")
