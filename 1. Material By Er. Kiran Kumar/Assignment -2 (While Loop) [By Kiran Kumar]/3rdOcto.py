@@ -60,3 +60,10 @@ for row in range(3):
             break
         else:
             print("*", end=" ")
+            
+# 1st Column Pattern 
+for row in range(5):
+    for column in range(1):
+        if column == 0:
+            print("*", end="\n")
+        
