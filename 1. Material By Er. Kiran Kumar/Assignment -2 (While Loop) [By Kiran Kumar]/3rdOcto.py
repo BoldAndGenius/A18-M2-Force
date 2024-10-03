@@ -74,4 +74,12 @@ for row in range(5):
             print(" ",end=" ")
             print("*",end="\n")
             
-    
+
+
+# 3rd Column Pattern 
+for row in range(5):
+    for column in range(5):
+        if column == 2:
+            print(" ",end=" ")
+            print(" ", end= " ")
+            print("*", end="\n")
