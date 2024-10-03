@@ -35,3 +35,9 @@ for row in range(5):
         else:
             print(" ", end=" ")
     print()
+    
+
+# 1st Row 
+for row in range(1):
+    for column in range(5):
+        print("*", end=" ")
