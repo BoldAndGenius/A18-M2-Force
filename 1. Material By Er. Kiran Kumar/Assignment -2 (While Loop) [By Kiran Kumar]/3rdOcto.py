@@ -115,3 +115,85 @@ for i in range(1,6):
 
 for i in range(5,0,-1):
     print(i*"*")
+    
+    
+# Pyramid Pattern
+
+''' 
+
+    *
+   ***
+  *****
+ *******
+*********
+
+
+'''
+
+
+'''
+Right-Angled Triangle with Numbers:
+
+1
+12
+123
+1234
+12345
+
+
+
+Floyd’s Triangle
+
+1
+2 3
+4 5 6
+7 8 9 10
+11 12 13 14 15
+
+
+Alternating 0 and 1 Triangle
+
+1
+01
+101
+0101
+10101
+
+
+
+Hollow Square
+
+*****
+*   *
+*   *
+*   *
+*****
+
+
+
+Pascal's Triangle
+
+
+      1
+     1 1
+    1 2 1
+   1 3 3 1
+  1 4 6 4 1
+
+
+
+Alphabet Pyramid
+
+    A
+   ABA
+  ABCBA
+ ABCDCBA
+ABCDEDCBA
+
+
+'''
+
+# All Keyword
+
+import keyword
+print(keyword.kwlist)
