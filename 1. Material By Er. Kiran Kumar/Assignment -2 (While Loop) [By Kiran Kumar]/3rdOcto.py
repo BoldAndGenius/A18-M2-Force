@@ -22,3 +22,16 @@
 
 
 # Q20. Write a program to enter the numbers till the user enter ZERO and at the end it should display the count of positive and negative numbers entered.
+
+
+
+
+# Diagonal Pattern 
+
+for row in range(5):
+    for column in range(5):
+        if row == column:
+            print("*", end=" ")
+        else:
+            print(" ", end=" ")
+    print()
