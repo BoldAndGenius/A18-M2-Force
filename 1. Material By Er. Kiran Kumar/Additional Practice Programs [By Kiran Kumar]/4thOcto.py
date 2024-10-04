@@ -22,6 +22,19 @@ else:
 # Problem: Movie tickets are priced based on age: $12 for adults (18 and over), $8 for childern. Everyone gets a $2 discount on Wednesday.
 
 
+age = int(input("Enter an age : "))
+day = input("Enter a day : ").lower()
+if age >= 18:
+    price = 12
+else:
+    price = 8
+
+if day == "wednesday":
+    price = price - 2
+print("Your Final Ticket Pricing is",price, "$")
+    
+
+
 # 3. Grade Calculator
 # Problem: Assign a letter grade based on a student's score:  A (90-100), B (80-89), C(70-79), D(60-69), F (Below 60)
 
