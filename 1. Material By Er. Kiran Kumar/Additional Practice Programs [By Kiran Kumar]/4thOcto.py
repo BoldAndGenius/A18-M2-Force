@@ -149,5 +149,17 @@ else:
 # Problem: Determine if a year is a leap (Leap years are divisible by 4, but not by 100 unless also divisible by 400)
 
 
+
+
 # 10. Pet Food Recommendation
 # Problem : Recommend a type of pet food based on the pet's species and age. (eg. Dog: <2years - Puppy food,  Cat: >5 years - Senior Cat food)
+
+age = int(input("Enter the pet's age : "))
+species = input("Enter the species name : ").lower()
+
+if age < 2 and species == 'dog':
+    print("Puppy Food.")
+elif age > 5 and species == 'cat':
+    print("Senior Cat Food.")
+else:
+    print("Invalid.")
