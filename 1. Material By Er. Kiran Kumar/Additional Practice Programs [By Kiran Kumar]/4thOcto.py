@@ -124,6 +124,17 @@ else:
 # Problem : Customize a coffee order: "Small", "Medium", or "Large" with an option for "Extra shot" of espresso
 
 
+coffee_order = input("Enter the coffee order - (small, medium, large) : ").upper()
+option = int(input("How much Extra Shot of Espresso you want : "))
+
+print(f"Your Coffee Customization is, {coffee_order} Size of Coffee with {option} Extra Shot of Espresso ")
+
+
+
+
+
+
+
 
 # 8. Password Strength Checker
 # Problem: Check if a password is "Weak", "Medium", or "Strong". Criteria: <6 chars (Weak), 6-10 chars (Medium), >10 chars (Strong).
