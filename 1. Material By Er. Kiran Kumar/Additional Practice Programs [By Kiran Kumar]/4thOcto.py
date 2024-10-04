@@ -87,6 +87,22 @@ else:
 # Problem: Suggest an activity based on the weather (e.g., Sunny - Go for a walk, Rainy - Read a book, Snowy - Build a snowman)
 
 
+weather = input("Enter the weather : ").lower()
+if weather == 'sunny':
+    print("Go for a walk! ")
+elif weather == 'rainy':
+    print("Read a Book.")
+elif weather == 'snowy':
+    print("Build a Snowman.")
+else:
+    print("Invalid.")
+
+
+
+
+
+
+
 
 
 # 6. Transportation Mode Selection
