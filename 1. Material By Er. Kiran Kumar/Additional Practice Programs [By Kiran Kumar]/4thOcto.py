@@ -102,11 +102,22 @@ else:
 
 
 
-
-
-
 # 6. Transportation Mode Selection
 # Problem - Choose a mode of transportation based on the distance (e.g - <3Km : Walk,  3-15 Km: Bike, >15Km: Car)
+
+distance = float(input("Enter the distance : "))
+if distance < 3:
+    print("Go By Walk")
+elif 3 <= distance <= 15:
+    print("Go By Bike")
+elif distance > 15:
+    print("Go By Car")
+else:
+    print("Invalid")
+
+
+
+
 
 
 # 7. Coffee Customization.
