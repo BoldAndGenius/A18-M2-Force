@@ -128,6 +128,22 @@ else:
 # 8. Password Strength Checker
 # Problem: Check if a password is "Weak", "Medium", or "Strong". Criteria: <6 chars (Weak), 6-10 chars (Medium), >10 chars (Strong).
 
+password = input("Enter your password : ")
+length_password = len(password)
+# print(length_password)
+
+if length_password < 6:
+    print("Weak Level Password")
+elif 6 < length_password < 10:
+    print("Medium Level Password")
+elif length_password > 10:
+    print("Strong Level Password")
+else:
+    print("Invalid")
+
+
+
+
 
 # 9. Leap Year Checker
 # Problem: Determine if a year is a leap (Leap years are divisible by 4, but not by 100 unless also divisible by 400)
