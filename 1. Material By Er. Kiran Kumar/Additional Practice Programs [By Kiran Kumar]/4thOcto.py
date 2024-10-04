@@ -57,10 +57,29 @@ else:
 
 
 
-
-
 # 4. Fruit Ripeness Checker
 # Problem: Determine if a fruit is ripe, overripe, or unripe based on its color. (eg. Banana: Green - Unripe, Yellow - Ripe, Brown - Overripe)
+
+
+color = input("Enter your Banana Color : ").lower()
+if color == 'green':
+    print("Your Banana is Unripe.")
+elif color == 'yellow':
+    print("Your Banana is Ripe.")
+elif color == "brown":
+    print("Your Banana is Overripe.")
+else:
+    print("Invalid")
+
+
+
+
+
+
+
+
+
+
 
 
 
