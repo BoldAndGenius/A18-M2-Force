@@ -39,6 +39,26 @@ print("Your Final Ticket Pricing is",price, "$")
 # Problem: Assign a letter grade based on a student's score:  A (90-100), B (80-89), C(70-79), D(60-69), F (Below 60)
 
 
+score = int(input("Enter you score : "))
+if 90 <= score <= 100:
+    print("Your Grade is A")
+elif 80 <= score <= 89:
+    print("Your Grade is B")
+elif 70 <= score <= 79:
+    print("Your Grade is C")
+elif 60 <= score <= 69:
+    print("Your Grade is D")
+elif score < 60:
+    print("Your Grade is F")
+else:
+    print("Invalid")
+
+
+
+
+
+
+
 # 4. Fruit Ripeness Checker
 # Problem: Determine if a fruit is ripe, overripe, or unripe based on its color. (eg. Banana: Green - Unripe, Yellow - Ripe, Brown - Overripe)
 
