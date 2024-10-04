@@ -285,7 +285,24 @@ if year%4==0 and (year%100!=0 or year%400==0):
     print("Leap year")
 else:
     print("Not leap year")
-    
+
+# 44. Write a program to check whether a number entered is a 3 digit number or not.
+
+num = int(input("Enter Number: "))
+if -999<=num<=-100 or 100<=num<=999:
+    print("Number has 3 digits")
+else:
+    print("Number not have 3 digits")
+
+# 45. Write a program to find the largest number out of two numbers expected from the user.
+
+num1 = int(input("Enter a number: "))
+num2 = int(input("Enter a number: "))
+if num1>num2:
+    print("Num1 is greatest")
+else:
+    print("Num2 is greatest")
+
 # 60. Write a program to calculate the electricity bill.According to the following criteria, for 1st 100 units there is no charge, For next 100 units there is ₹5
 # per unit and after 200 units, the price is rupees 10 per unit.If the input is
 # 350 then total bill amount is Rupees 2000.
