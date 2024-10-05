@@ -302,7 +302,65 @@ if num1>num2:
     print("Num1 is greatest")
 else:
     print("Num2 is greatest")
+    
+# 46. Write a program to check whether a number.Entered by the user is positive or negative.
 
+num = int(input("Enter a number: "))
+if num>0:
+    print("Positive Number")
+else:
+    print("Negative Number")
+    
+# 47. Write a program.To check whether a number accepted from the user is divisible by two and three both.
+
+num = int(input("Enter Number: "))
+if num%2==0 and num%3==0:
+    print("Number divisble by both 2 and 3")
+else:
+    print("Not divisble by both")
+    
+# 48. Write a program to check the relation between two integer numbers
+
+num1 = int(input("Enter a Number: "))
+num2 = int(input("Enter a Number: "))
+if a==b:
+    print("Both Equal")
+elif a>b:
+    print("A is Greatest")
+else:
+    print("B is greatest")
+    
+# 49. Write a program to check whether a given character is uppercase or lowercase or number. If character is uppercase print uppercase, If
+# character is lowercase print lowercase. If the character is a number, print the ascii number of it.
+
+char = input("Enter Character: ")
+if char.isalpha():
+    if char.isupper():
+        print("uppercase")
+    else:
+        print("lowercase")
+elif char.isnumeric():
+    print(ord(char))
+else:
+    print("special Character")
+    
+# 50. Write a program to check whether a given character is a vowel or consonant. If a given character is a vowel, store the character inside the
+# list. If a given character is consonant, display the ASCII value of that character.    
+
+char = input(input("Enter character: "))
+if char in "aeiouAEIOU":
+    print([char])
+else:
+    print(ord(char))
+    
+# 51. Write a program to check if the given data is individual data type or not.
+
+data = eval(input("Enter data: "))
+if data in [int,float,complex,bool]:
+    print("individual data type")
+else:
+    print("not individual data type")
+        
 # 60. Write a program to calculate the electricity bill.According to the following criteria, for 1st 100 units there is no charge, For next 100 units there is ₹5
 # per unit and after 200 units, the price is rupees 10 per unit.If the input is
 # 350 then total bill amount is Rupees 2000.
