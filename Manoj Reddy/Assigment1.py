@@ -360,12 +360,147 @@ if data in [int,float,complex,bool]:
     print("individual data type")
 else:
     print("not individual data type")
+    
+# 52. write a program to check whether the given integer single digit or two digits or three digits or more than three digits
+
+num = int(input("Enter a Number: "))
+if -9<=num<=9:
+    print("single digit")
+elif -99<=num<=99:
+    print("Two digit number")
+elif -999<=num<=999:
+    print("Three digit")
+else:
+    print("More than 3 digit")
+    
+# 53. write a program to print ‘Fizz’ if the given number is multiple of three print ‘buzz’ if the given number is multiple of 5 and print ‘Fizzbuzz’ if the
+# number is multiple of both 3 and 5
+
+num = int(input("Enter Number: "))
+if num%3 == 0:
+    print("Fizz")
+elif num%5==0:
+    print("buzz")
+elif num%3 == 0 and num%5 == 0:
+    print("Fizzbuzz")
+else:
+    print("Not multiple 3 and 5")
+    
+# 54. Write a program to predict grade of the student based on the obtained result
+
+result = int(input("Enter Marks: "))
+if result>900:
+    print("A grade")
+elif result>800:
+    print("B grade")
+elif result>700:
+    print("C grade")
+elif result>600:
+    print("D grade")
+elif result>500:
+    print("E grade")
+else:
+    print("Fail")
+    
+# 55. Write a program to check whether the entered character is uppercase or lowercase or number or special character
+
+char = input("Enter character: ")
+if char.isupper():
+    print("Given char is uppercase")
+elif char.islower():
+    print("Given char is lowercase")
+elif '0'<=char<='9':
+    print("Given char is Number")
+else:
+    print("Given char is special charracter")
+    
+# 56. Write a program to find the greatest among two numbers
+
+num1 = int(input("Enter a number: "))
+num2 = int(input("Enter a number: "))
+if num1>num2:
+    print("Num1 is grreatest")
+elif num2>num1:
+    print("Num2 is greatest")
+else:
+    print("Both equal")
+
+# 57. Write a program to find the smallest among three numbers
+
+num1 = int(input("Enter a number: "))
+num2 = int(input("Enter a number: "))
+num3 = int(input("Enter a number: "))
+if num1<num2:
+    if num1<num3:
+        print("Num1 is smallest")
+    else:
+        print("Num3 is smallest")
+else:
+    if num2<num3:
+        print("Num2 is smallest")
+    else:
+        print("num3 is smallest")
+        
+# 58. Write a program to find the greatest among four numbers
+
+num1 = int(input("Enter a number: "))
+num2 = int(input("Enter a number: "))
+num3 = int(input("Enter a number: "))
+num4 = int(input("Enter a number: "))
+if num1>num2 and num1>num3 and num1>num4:
+    print("Num1 is greatest")
+elif num2>num1 and num2>num3 and num2>num4:
+    print("Num2 is greatest")
+elif num3>num1 and num3>num2 and num3>num4:
+    print("Num3 is greatest")
+elif num4>num1 and num4>num2 and num4>num3:
+    print("Num4 is greatest")
+elif num1==num2:
+    print("Both 1 and 2 equal and greatest")
+elif num1==num3:
+    print("Both 1 and 3 equal and greatest")
+elif num1==num4:
+    print("Both 1 and 4 equal and grestest")
+elif num2==num3:
+    print("Both 3 and 3 equal and grestest")
+elif num2==num4:
+    print("Both 2 and 4 equal and grestest")
+else:
+    print("Both 3 and 4 equal and grestest") 
+
+# 59. Write a program to find the smallest among four numbers
+
+num1 = int(input("Enter a number: "))
+num2 = int(input("Enter a number: "))
+num3 = int(input("Enter a number: "))
+num4 = int(input("Enter a number: "))
+if num1<num2 and num1<num3 and num1<num4:
+    print("Num1 is smallest")
+elif num2<num1 and num2<num3 and num2<num4:
+    print("Num2 is smallest")
+elif num3<num1 and num3<num2 and num3<num4:
+    print("Num3 is smallest")
+elif num4<num1 and num4<num2 and num4<num3:
+    print("Num4 is smallest")
+elif num1==num2:
+    print("Both 1 and 2 equal and small")
+elif num1==num3:
+    print("Both 1 and 3 equal and small")
+elif num1==num4:
+    print("Both 1 and 4 equal and small")
+elif num2==num3:
+    print("Both 3 and 3 equal and small")
+elif num2==num4:
+    print("Both 2 and 4 equal and small")
+else:
+    print("Both 3 and 4 equal and small") 
+        
         
 # 60. Write a program to calculate the electricity bill.According to the following criteria, for 1st 100 units there is no charge, For next 100 units there is ₹5
 # per unit and after 200 units, the price is rupees 10 per unit.If the input is
 # 350 then total bill amount is Rupees 2000.
 
-bill = float(input("Enter a bil: "))
+bill = float(input("Enter a bill: "))
 if bill<=100:
     print("No charge")
 elif bill<=200:
