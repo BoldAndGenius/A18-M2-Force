@@ -211,6 +211,12 @@ if -9<=data<=9:
     
 # 34. Uni whether the first value present inside the given list is complex or not.
 
+list1 = eval(input("Enter a list: "))
+check = list1[0]
+if type(check) == complex:
+    print("First value is Complex")
+else:
+    print(" First value is Not complex")
 
 # 35. Write a program to take and consider a tuple collection consisting of only two values. Check whether the taken tuple is homogeneous or heterogeneous.
 
