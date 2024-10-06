@@ -7,6 +7,7 @@ while True:
     
     if user_option == "exit" or computer == 10 or user == 10:
         break
+    
     elif (user_option == "rock" and computer_option == "scissor") or (user_option == "paper" and computer_option == "rock") or (user_option == "scissor" and computer_option == "paper"):
         print("User Win")
         user+=1
