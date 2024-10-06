@@ -936,7 +936,7 @@ if year%4==0:
 else:
     print("Not leap")
 
-# 86. Vending Machine: Create a program for a vending machine that take-s product code (integer) and amount paid (float) as input. It should check the product price (stored in a dictionary) and dispense the product if enough is paid. Use nested ifs for different error messages (e.g., invalid code,insufficient funds).
+# # 86. Vending Machine: Create a program for a vending machine that take-s product code (integer) and amount paid (float) as input. It should check the product price (stored in a dictionary) and dispense the product if enough is paid. Use nested ifs for different error messages (e.g., invalid code,insufficient funds).
 
 
 
