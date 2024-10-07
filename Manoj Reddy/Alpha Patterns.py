@@ -36,7 +36,7 @@ for row in range(n):
             print(' ',end=' ')
     print()
     
- '''F Pattern'''
+'''F Pattern'''
 
 n=int(input("Enter Number: "))
 for row in range(n):
