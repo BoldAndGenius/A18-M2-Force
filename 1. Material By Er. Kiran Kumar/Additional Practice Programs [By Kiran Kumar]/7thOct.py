@@ -15,3 +15,15 @@ for row in range(n):
     for col in range(n):
         print((row,col),end=" ")
     print()
+    
+    
+# Print L 
+
+n = int(input())
+for row in range(n):
+    for col in range(n):
+        if col == 0  or  row == n-1:
+            print("*",end=" ")
+        else:
+            print(" ",end=" ")
+    print()
