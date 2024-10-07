@@ -254,3 +254,21 @@ for square in range(1,21):
 sum=0
 for num in range(1,21):
     print(f"{num} X {num} X {num} = {num**3}")
+
+ #32.wap to print all the prime numbers till the given number --(ASHA S)
+num=int(input("Enter number :"))
+all_prime=[]
+if num==1:
+    print('Not prime')
+elif num==2:
+    print('2 is prime number')
+else:
+    for num1 in range(2,num+1):
+        is_prime=True
+        for num2 in range(2,int(num1**0.5)+1):
+            if num1%num2==0:
+                is_prime=False
+                break
+        if is_prime:
+            all_prime.append(num1)
+    print(f"Prime numbers are {all_prime}")

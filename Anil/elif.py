@@ -1,4 +1,4 @@
-#M.Anil Kumar
+
 
 '''48.Write a program to check the relation between two integer numbers'''
 num1=int(input('Enter number1:'))
