@@ -1,4 +1,4 @@
-# #base programs of Patterns
+'''base programs of Patterns'''
 
 for row in range(5):
     for col in range(5):
@@ -13,7 +13,7 @@ for row in range(5):
             print(' ',end=' ')
     print()
 
-## C Pattern
+'''C Pattern'''
  
 n=int(input("Enter Number: "))
 for row in range(n):
@@ -25,7 +25,7 @@ for row in range(n):
     print()
 
 
-## E Pattern
+'''E Pattern'''
 
 n=int(input("Enter Number: "))
 for row in range(n):
@@ -36,7 +36,7 @@ for row in range(n):
             print(' ',end=' ')
     print()
     
- ## F Pattern
+ '''F Pattern'''
 
 n=int(input("Enter Number: "))
 for row in range(n):
@@ -47,7 +47,7 @@ for row in range(n):
             print(' ',end=' ')
     print()   
 
-## G Pattern
+'''G Pattern'''
 
 n=int(input("Enter Number: "))
 for row in range(n):
@@ -58,7 +58,7 @@ for row in range(n):
             print(' ',end=' ')
     print()
     
-## H Pattern
+'''H Pattern'''
 
 n=int(input("Enter Number: "))
 for row in range(n):
@@ -69,7 +69,7 @@ for row in range(n):
             print(' ',end=' ')
     print()
 
-## I Pattern
+'''I Pattern'''
 
 n=int(input("Enter Number: "))
 for row in range(n):
@@ -80,7 +80,7 @@ for row in range(n):
             print(' ',end=' ')
     print()
 
-## J Pattern
+''' J Pattern '''
 
 n=int(input("Enter Number: "))
 for row in range(n):
@@ -91,7 +91,7 @@ for row in range(n):
             print(' ',end=' ')
     print()
     
-## L Pattern
+'''L Pattern'''
 
 n=int(input("Enter Number: "))
 for row in range(n):
@@ -102,7 +102,7 @@ for row in range(n):
             print(' ',end=' ')
     print()
 
-## M Pattern 
+'''M Pattern''' 
 
 n=int(input("Enter Number: "))
 for row in range(n):
@@ -113,7 +113,7 @@ for row in range(n):
             print(' ',end=' ')
     print()
 
-## N Pattern
+'''N Pattern'''
 
 n=int(input("Enter Number: "))
 for row in range(n):
@@ -125,7 +125,7 @@ for row in range(n):
     print()
 
 
-## O Pattern
+'''O Pattern'''
 
 n=int(input("Enter Number: "))
 for row in range(n):
@@ -136,7 +136,7 @@ for row in range(n):
             print(' ',end=' ')
     print()
 
-## P Pattern
+'''P Pattern'''
 
 n=int(input("Enter Number: "))
 for row in range(n):
@@ -147,7 +147,7 @@ for row in range(n):
             print(' ',end=' ')
     print()
 
-## R Pattern
+'''R Pattern'''
 
 n=int(input("Enter Number: "))
 for row in range(n):
@@ -158,7 +158,7 @@ for row in range(n):
             print(' ',end=' ')
     print()
 
-## S Pattern
+'''S Pattern'''
 
 n=int(input("Enter Number: "))
 for row in range(n):
@@ -169,7 +169,7 @@ for row in range(n):
             print(' ',end=' ')
     print()
     
-## T Pattern
+'''T Pattern'''
 
 n=int(input("Enter Number: "))
 for row in range(n):
@@ -180,7 +180,7 @@ for row in range(n):
             print(' ',end=' ')
     print()
 
-## U Pattern
+'''U Pattern'''
 
 n=int(input("Enter Number: "))
 for row in range(n):
@@ -191,11 +191,9 @@ for row in range(n):
             print(' ',end=' ')
     print()
 
-# V Pattern
 
 
-
-## W Pattern
+'''W Pattern'''
 
 n=int(input("Enter Number: "))
 for row in range(n):
@@ -206,7 +204,7 @@ for row in range(n):
             print(' ',end=' ')
     print()
 
-## X Pattern
+'''X Pattern'''
 
 n=int(input("Enter Number: "))
 for row in range(n):
@@ -217,7 +215,7 @@ for row in range(n):
             print(' ',end=' ')
     print()
 
-## Y Pattern
+'''Y Pattern'''
 
 n=int(input("Enter Number: "))
 for row in range(n):
@@ -229,7 +227,7 @@ for row in range(n):
     print()
 
 
-## Z Pattern
+'''Z Pattern'''
 
 n=int(input("Enter Number: "))
 for row in range(n):
