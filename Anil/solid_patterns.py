@@ -114,7 +114,8 @@ for row in range(n):
     print()
 
 
-print()
+print()  #to display next pattern by giving one line gap
+
 
 
 '''
@@ -138,7 +139,7 @@ for row in range(n):
     print()
 
 
-print()
+print()  #to display next pattern on by giving one line gap
 
 
 '''
@@ -162,7 +163,7 @@ for row in range(n):
             print(" ",end=" ")
     print()
 
-print()
+print()   #to display next pattern by giving one line gap
 
 
 '''
@@ -186,7 +187,7 @@ for row in range(n):
     print()
 
 
-print()
+print()  #to display next pattern by giving one line gap
 
 '''
 * * * * *
@@ -209,7 +210,7 @@ for row in range(n):
     print()
 
     
-print()   
+print()   #to display next pattern by giving one line gap 
 
 '''
 * * * * * * * * *
