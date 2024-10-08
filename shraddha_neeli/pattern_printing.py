@@ -4,10 +4,10 @@ n26 = int(input("enter a odd number for letter Z : "))
 
 for row in range(n26):
     for col in range(n26):
-        if row == 0 or row == n26-1 or row + col == n26:
-            print("*", end = "")
+        if row == 0 or row == n26-1 or row + col == n26 - 1:
+            print("*", end = " ")
         else:
-            print(" ", end="")
+            print(" ", end=" ")
     print()
 
 # -------------------- letter Y ------------------------
