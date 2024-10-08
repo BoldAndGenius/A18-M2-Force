@@ -49,7 +49,9 @@ for row in range(n):
 * * * *   
 * * * * * 
 
-Left Aligned Triangle Pattern
+Left Aligned Right Angle Triangle Pattern
+
+Logic --- row>col
 '''
 
 n = int(input())
@@ -61,5 +63,29 @@ for row in range(n):
             print(" ",end=" ")
     print()
 
+
+
+'''
+
+* * * * * 
+  * * * * 
+    * * * 
+      * * 
+        * 
+
+
+Right Angled Triangle Pattern with Right Alignment 
+
+Logic -- row<col
+'''
+
+n = int(input())
+for row in range(n):
+    for col in range(n):
+        if row==0 or col==n-1 or row==col or row<col:
+            print("*",end=" ")
+        else:
+            print(" ",end=" ")
+    print()
 
     
