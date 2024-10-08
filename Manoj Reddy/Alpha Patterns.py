@@ -1,5 +1,5 @@
 '''base programs of Patterns'''
-n = int(input("Enter Number: ))
+n = int(input("Enter Number: "))
 for row in range(n):
     for col in range(n):
         print((row,col),end=' ')            ## To give Matrix form
