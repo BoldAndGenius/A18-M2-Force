@@ -1,8 +1,8 @@
 '''base programs of Patterns'''
-
-for row in range(5):
-    for col in range(5):
-        print((row,col),end=' ')
+n = int(input("Enter Number: ))
+for row in range(n):
+    for col in range(n):
+        print((row,col),end=' ')            ## To give Matrix form
     print()
     
 for row in range(5):
@@ -36,7 +36,7 @@ for row in range(n):
             print(' ',end=' ')
     print()
     
- '''F Pattern'''
+'''F Pattern'''
 
 n=int(input("Enter Number: "))
 for row in range(n):
