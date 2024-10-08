@@ -87,5 +87,37 @@ for row in range(n):
         else:
             print(" ",end=" ")
     print()
+    
+    
+    
+    
+    
+'''
+
+
+* * * * * 
+* * * *   
+* * *     
+* *       
+*    
+
+
+Solid Pattern - Inverted Right Angle Triangle With Left Alignment   
+
+Logic ---  row+col<=n-2  
+
+'''
+
+n = int(input())
+for row in range(n):
+    for col in range(n):
+        if row==0 or col==0 or row+col==n-1 or row+col<=n-2:
+            print("*",end=" ")
+        else:
+            print(" ",end=" ")
+    print()
+    
+    
+    
 
     
