@@ -1,5 +1,5 @@
 '''base programs of Patterns'''
-n = int(input("Enter Number: ))
+n = int(input("Enter Number: "))
 for row in range(n):
     for col in range(n):
         print((row,col),end=' ')            ## To give Matrix form
@@ -12,6 +12,18 @@ for row in range(5):
         else:
             print(' ',end=' ')
     print()
+    
+'''A Pattren'''
+
+n=int(input("Enter Number: "))
+for row in range(n):
+    for col in range(n):
+        if col == 0 or col == n-1 or row == 0 or row == n//2:
+            print('A',end = ' ')
+        else:
+            print(' ',end=' ')
+    print()
+
 
 '''C Pattern'''
  
@@ -191,7 +203,16 @@ for row in range(n):
             print(' ',end=' ')
     print()
 
+'''V Pattern'''
 
+n = int(input("Enter a Number: "))
+for row in range(n):
+    for col in range(n):
+        if (col==row and row<=n//2) or (col+row == n-1 and row<=n//2):
+            print('V',end = ' ')
+        else:
+            print(' ',end=' ')
+    print()
 
 '''W Pattern'''
 
