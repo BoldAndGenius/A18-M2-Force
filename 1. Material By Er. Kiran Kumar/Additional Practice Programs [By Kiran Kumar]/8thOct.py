@@ -119,5 +119,27 @@ for row in range(n):
     
     
     
+'''
+
+        * 
+      * * 
+    * * * 
+  * * * * 
+* * * * * 
+  
+
+'''
+   
+
+n = int(input())
+for row in range(n):
+    for col in range(n):
+        if col==n-1 or row==n-1 or row+col==n-1 or : 
+            print("*",end=" ")
+        else:
+            print(" ",end=" ") 
+    print()
+    
+    
 
     
