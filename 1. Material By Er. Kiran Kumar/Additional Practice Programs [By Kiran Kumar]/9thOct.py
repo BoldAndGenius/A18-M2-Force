@@ -17,6 +17,10 @@ for row in range(1,n+1):
     print()
     
     
+   
+   
+   
+   
     
 '''
 
@@ -36,4 +40,33 @@ for row in range(n):
         start = start + 1
     print()
         
+  
+  
+  
+  
+  
+  
+  
+  
         
+    
+'''
+
+1 
+3 5 
+7 9 11 
+13 15 17 19 
+21 23 25 27 29 
+
+'''    
+    
+n = 5
+num = 1
+for row in range(1, n+1):
+    for col in range(row):
+        print(num, end=" ")
+        num = num + 2
+    print()
+    
+    
+
