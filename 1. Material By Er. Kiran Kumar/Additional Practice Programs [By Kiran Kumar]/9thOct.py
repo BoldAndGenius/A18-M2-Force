@@ -109,4 +109,23 @@ for row in range(1,n+1):
         print(num, end=" ")
         num = num + 1
     print()
+    
+    
+
+
+
+'''
+
+1 2 3 
+4 5 
+6 
+
+'''
+n = 3
+num = 1
+for row in range(n,0,-1):
+    for col in range(row):
+        print(num,end=" ")
+        num = num + 1
+    print()
         
