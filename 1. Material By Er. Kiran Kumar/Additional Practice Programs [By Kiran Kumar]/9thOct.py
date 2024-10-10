@@ -70,3 +70,24 @@ for row in range(1, n+1):
     
     
 
+
+
+
+
+'''
+9 
+8 7 
+6 5 4 
+3 2 1 9 
+8 7 6 5 4 
+
+'''
+n = 5
+num = 9
+for row in range(1,n+1):
+    for col in range(row):
+        if num<1:
+            num = 9
+        print(num, end=" ")
+        num = num - 1
+    print()
