@@ -118,4 +118,51 @@ for row in range(n):
             print(" ",end=" ")
     print()
 
+
+
+
+
+
+
+
+
+
+
+
+
+'''
+
+* * * * * * * * * * 
+*                 * 
+*                 * 
+*                 * 
+*                 * 
+*                 * 
+*                 * 
+*                 * 
+*                 * 
+* * * * * * * * * * 
+
+
+
+'''
+
+n = int(input())  # 10
+for row in range(n):
+    for col in range(n):
+        if col==0 or row==0 or row==n-1 or col==n-1:
+            print("*",end=" ")
+        else:
+            print(" ",end=" ")
+    print()
             
+
+
+
+
+
+
+
+
+
+
