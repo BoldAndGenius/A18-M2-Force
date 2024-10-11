@@ -52,3 +52,31 @@ if length%2 == 0:
     print(length)
 else:
     print("Invalid")
+    
+    
+    
+# Question No. 93
+#  Write a program.To check second greatest among three numbers using nested if.
+
+num1 = int(input("Enter a first number : "))  # 2
+num2 = int(input("Enter the second number : "))  # 6
+num3 = int(input("Enter the third number : "))  # 4  
+
+if num1>num2:
+    if num1>num3:
+        print(num2, "is 2nd Greatest.")
+    else:
+        print(num1, "is 2nd Greatest.")
+else:
+    if num2>num3:
+        print(num1, "is 2nd greatest.")
+    else:
+        print(num2,"is 2nd greatest.")
+        
+        
+# The logic is, 
+# first check, if num1>num2, True, it means, num1 is greatest, then check for num1>num3 or not...if yes, then num2 is the 2nd greatest.
+# else num1 will be 2nd greatest.
+# if num1 is not > num2: ...it means, num2 is greatest, then check with num3, is num2>num3, if yes.....num1 is 2nd greatest. or else num2 is 2nd greatest. 
+
+
