@@ -105,6 +105,42 @@ elif age>65:
 print("Your Movie Ticket Price is :",ticket," $")
 
 
+
+
+
+
+
+# Question - 95
+# Leap Year Checker: Write a program that determines if a given year is a leap year. A leap year is a year divisible by 4, but not by 100 unless it's also divisible by 400.
+
+
+# leap year - exactly divisible by 4, except for century year. 
+# century year only be leap year, if it is only divisible by 400. 
+
+
+# 2024 -- It is fully divisible by 4 -- therefore it is leap year.
+# 2100  --- It is fully divisible by 4, but it is not a leap year. Since, it is a century year (fully divisible by 100), then we have to check whether this year is divisible by 400 or not. 
+
+
+given_year = int(input("Enter an year: "))
+if given_year%4 == 0:
+    if given_year%100 == 0:  # check the year is century or not
+        if given_year%400 == 0: # if century year, it should be divisible by 400, then leap year
+            print("Leap Year.")
+        else:  # century year is not divisible by 400, not a leap year
+            print("Not a Leap Year.")
+    else:  # not a century year, but it is divisible by 4..therefore leap year
+        print("Leap Year.")
+else:  # not divisible by 4, therefore not a leap year
+    print("Not a Leap Year.")
+    
+    
+    
+# logic - 
+# if year is divisible by 4, it can be a leap year, it not divisible it is not a leap year. 
+# now check if it is divisble by 4, not check for century year, if it is divisble by 100, it means it is a cetury year, now check is it divisible by 400, if yes ...then it is a leap year. 
+
+
     
 
 
