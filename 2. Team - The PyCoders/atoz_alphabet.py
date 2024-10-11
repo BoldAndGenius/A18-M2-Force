@@ -653,3 +653,44 @@ for row in range(n):
         else:
             print(" ",end=" ")
     print()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+'''
+Q Alphabet 
+
+* * * * * * * * * * * 
+* *                 * 
+*   *               * 
+*     *             * 
+*       *           * 
+*         *         * 
+*           *       * 
+*             *     * 
+*               *   * 
+*                 * * 
+* * * * * * * * * * * 
+
+
+'''
+n = int(input())  # 10
+for row in range(n):
+    for col in range(n):
+        if row==0 or row==n-1 or col==0 or col==n-1 or row==col:
+            print("*",end=" ")
+        else:
+            print(" ",end=" ")
+    print()
