@@ -26,6 +26,7 @@ A to Z Alphabet Pattern Printing
 
 
 '''
+A Alphabet
 
 
 * * * * * * * * * * 
@@ -64,6 +65,8 @@ for row in range(n):
     
 '''
 
+B Alphabet
+
 * * * * * * * 
 *           * 
 *           * 
@@ -94,6 +97,7 @@ for row in range(n):
 
 
 '''
+C Alphabet
 
 * * * * * * * * * * 
 *                   
@@ -131,6 +135,8 @@ for row in range(n):
 
 
 '''
+
+D Alphabet
 
 * * * * * * * * * * 
 *                 * 
@@ -170,6 +176,7 @@ for row in range(n):
 
 
 '''
+E Alphabet
 
 * * * * * * * * * * * 
 *                     
@@ -194,3 +201,11 @@ for row in range(n):
         else:
             print(" ",end=" ")
     print()
+    
+    
+    
+    
+    
+    
+    
+    
