@@ -80,3 +80,31 @@ else:
 # if num1 is not > num2: ...it means, num2 is greatest, then check with num3, is num2>num3, if yes.....num1 is 2nd greatest. or else num2 is 2nd greatest. 
 
 
+
+
+
+
+
+# Question No. 94 
+# Write a program that determines the movie ticket price based on the age and day of the week Adults (18+): $12 (except for Tuesdays: $10) Children (under 18): $8 (except for Tuesdays: $6) Seniors (65+): $8 (always)
+
+
+age = int(input("Enter an age : "))
+day = input("Enter a day : ").lower()
+tiket_price = 0
+if 18<age<65 and day != "tuesday":
+    ticket = 12
+elif 18<age<65 and day == "tuesday" :
+    ticket = 10
+elif age<18 and day!= 'tuesday':
+    ticket = 8
+elif age<18 and day == 'tuesday':
+    ticket = 6
+elif age>65:
+    ticket = 8 
+print("Your Movie Ticket Price is :",ticket," $")
+
+
+    
+
+
