@@ -30,6 +30,16 @@ else:
 # Question No. 88
 # Program to consider an input string. Print the string as it is if it is palindrome. Print the reverse string if it has an even number of characters. Print all the characters present at an odd index if the string is having an odd number of characters.
 
+input_string = 'kiran'
+reversed = input_string[::-1]
+if input_string == reversed:
+    print(input_string)
+if len(input_string)%2==0:
+    print(reversed)
+else:
+    print(input_string[: :2])
+
+
 
 
 
