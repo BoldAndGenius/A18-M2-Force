@@ -144,3 +144,18 @@ else:  # not divisible by 4, therefore not a leap year
     
 
 
+
+
+# Question - 96
+# Vending Machine: Create a program for a vending machine that takes product code (integer) and amount paid (float) as input. It should check the product price (stored in a dictionary) and dispense the product if enough is paid. Use nested ifs for different error messages (e.g., invalid code, insufficient funds).
+
+
+product_code = int(input("Enter the Product Code : "))
+amount_paid = float(input("Enter the amount paid : "))
+product_price = {
+    1 : 100,
+    2 : 20,
+    3 : 40
+}
+
+
