@@ -147,7 +147,7 @@ for row in range(n):
     
     
 '''
-Number Pattern - 5 : Repeat Value 1 in Reverse Hill Pattern
+Number Pattern - 6 : Repeat Value 1 in Reverse Hill Pattern
 
   1 1 1 1 1 1 1 1 1 1 1 1 1 
     1 1 1 1 1 1 1 1 1 1 1 
@@ -168,3 +168,14 @@ for row in range(n):
     for col in range(row,n):
         print("1",end=" ")
     print()
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
