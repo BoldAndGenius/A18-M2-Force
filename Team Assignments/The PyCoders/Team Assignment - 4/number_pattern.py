@@ -497,7 +497,7 @@ for row in range(n):
     
     
 '''
-Number Pattern - 16 : 5,44,333,2222,11111 is order, for Right Aligned Right Angle Triangle 
+Number Pattern - 16 : 5,44,333,2222,11111 in order, for Right Aligned Right Angle Triangle 
 
           5 
         4 4 
@@ -517,6 +517,7 @@ for row in range(n):
         print(num,end=" ")
     num = num - 1
     print()
+
 
 
 
