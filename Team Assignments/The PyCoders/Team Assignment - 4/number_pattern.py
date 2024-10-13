@@ -249,4 +249,37 @@ for row in range(n):
         print(num,end=" ")
     num = num + 1 
     print()
+    
         
+        
+        
+        
+        
+        
+        
+
+
+
+
+
+'''
+Number Pattern - 9 : 111,22,3 in order for Left Aligned Inverted Right Angle Triangle
+
+1 1 1 1 1 1 1 
+2 2 2 2 2 2 
+3 3 3 3 3 
+4 4 4 4 
+5 5 5 
+6 6 
+7 
+
+
+'''
+
+n = int(input())
+num = 1
+for row in range(n):
+    for col in range(row,n):
+        print(num,end=" ")
+    num = num + 1
+    print()
