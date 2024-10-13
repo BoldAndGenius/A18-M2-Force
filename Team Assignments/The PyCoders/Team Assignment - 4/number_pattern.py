@@ -103,3 +103,40 @@ for row in range(n):
     for col in range(row,n):
         print("1",end=" ")
     print()
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+'''
+Number Pattern - 5 : Repeat Value 1 in Hill Pattern 
+
+              1 
+            1 1 1 
+          1 1 1 1 1 
+        1 1 1 1 1 1 1 
+      1 1 1 1 1 1 1 1 1 
+    1 1 1 1 1 1 1 1 1 1 1 
+  1 1 1 1 1 1 1 1 1 1 1 1 1 
+  
+  
+'''
+
+n = int(input())
+for row in range(n):
+    for col in range(row,n):
+        print(" ",end=" ")
+    for col in range(row):
+        print("1",end=" ")
+    for col in range(row+1):
+        print("1",end=" ")
+    print()
