@@ -4,31 +4,36 @@ print("Welcome to Alphabet Pattern programming\n")
 
 try:
     # (example)
-    # size = 5              word = A
-
-    # [ - - - - -             * * *
-    #   - - - - -           *       *
-    #   - - - - -           * * * * *
-    #   - - - - -           *       *
-    #   - - - - -  ] 5x5    *       *
+    # size = 5              word = A    |   word = Hello
+    
+    # [ - - - - -             * * *     |   *       *   * * * * *   *           *             * * *
+    #   - - - - -           *       *   |   *       *   *           *           *           *       *
+    #   - - - - -           * * * * *   |   * * * * *   * * *       *           *           *       *
+    #   - - - - -           *       *   |   *       *   *           *           *           *       *
+    #   - - - - -  ] 5x5    *       *   |   *       *   * * * * *   * * * * *   * * * * *     * * *
 
     size = int(input("Enter a number for matrix size (greater than 4): ").strip())
 
+    word_list = []
     # if Matrix_size is number (integer) then below program runs or else throws error
     if size>4:
         # -------------------------------------------------
         # Pattern for Alphabets
         def char_pattern(matrix_size):
             for row in range(matrix_size):
+                row_pattern = ""
                 for col in range(matrix_size):
                     if char(row,col,matrix_size):
-                        print("*",end=" ")
+                        # print("*",end=" ")
+                        row_pattern+="*"
                     else:
-                        print(" ",end=" ")
-                print()
-            print()
+                        # print(" ",end=" ")
+                        row_pattern+=" "
+                    row_pattern+=" "
+                # print()
+                word_list.append(row_pattern)
+            # print()
         # -------------------------------------------------
-        word_list = []
         word = input("Enter a letter or word for pattern : ")
         # word = "ABCDefghijklMnopQRstuvwxYz"
         print()
@@ -125,3 +130,7 @@ try:
 except Exception as error:
     # This statement block will execute when above block throws an error
     print(f"Error : {error}")
+
+
+for iteration in range(size):
+    print("  ".join([word_list[size*total_word+iteration] for total_word in range(len(word)) ]))
