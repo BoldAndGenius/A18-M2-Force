@@ -344,3 +344,39 @@ for row in range(n):
     for col in range(n):
         print("*",end=" ")
     print()
+    
+    
+    
+    
+    
+    
+    
+    
+  
+'''
+Hollow Parallellogram
+
+           * * * * * * * * * * * 
+          * *               * * 
+         *   *           *   * 
+        *     *       *     * 
+       *       *   *       * 
+      *         *         * 
+     *       *   *       * 
+    *     *       *     * 
+   *   *           *   * 
+  * *               * * 
+ * * * * * * * * * * * 
+
+'''
+
+n = int(input())  # 11
+for row in range(n):
+  print(" "*(n-row-1),end=" ")
+  for col in range(n):
+    if row==0 or row==n-1 or col==0 or col==n-1 or row==col or row+col==n-1:
+      print("*",end=" ")
+    else:
+      print(" ",end=" ")
+  print()
+    
