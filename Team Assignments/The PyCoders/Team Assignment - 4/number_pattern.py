@@ -600,3 +600,31 @@ for row in range(n):
         print(num,end=" ")
     num = num - 1
     print()
+    
+    
+    
+    
+    
+    
+    
+
+
+'''
+Number Pattern - 20 : 0,22,444,6666,88888 in order, for Left Aligned Right Angle Triangle.
+
+
+0 
+2 2 
+4 4 4 
+6 6 6 6 
+8 8 8 8 8 
+
+'''
+
+n = int(input())  # 5
+num = 0
+for row in range(n):
+    for col in range(row+1):
+        print(num,end=" ")
+    num = num + 2
+    print()
