@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 """
 
 *     * * * *
@@ -116,4 +114,3 @@ n = int(input("enter the number : "))
         else :
             print(" ",end = " ")
     print()   
->>>>>>> cea546b11ccb5e0bbff4c81c8cfdee88098a8292
