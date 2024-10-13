@@ -179,3 +179,41 @@ for row in range(n):
     
 
 
+'''
+Number Pattern - 7 : Repeat Value 1 in Diamond Pattern 
+
+             1 
+            1 1 1 
+          1 1 1 1 1 
+        1 1 1 1 1 1 1 
+      1 1 1 1 1 1 1 1 1 
+    1 1 1 1 1 1 1 1 1 1 1 
+  1 1 1 1 1 1 1 1 1 1 1 1 1 
+    1 1 1 1 1 1 1 1 1 1 1 
+      1 1 1 1 1 1 1 1 1 
+        1 1 1 1 1 1 1 
+          1 1 1 1 1 
+            1 1 1 
+              1 
+
+
+'''
+
+n = int(input())
+for row in range(n-1):
+    for col in range(row,n):
+        print(" ",end=" ")
+    for col in range(row):
+        print("1",end=" ")
+    for col in range(row+1):
+        print("1",end=" ")
+    print()
+# n = int(input())
+for row in range(n):
+    for col in range(row+1):
+        print(" ",end=" ")
+    for col in range(row,n-1):
+        print("1",end=" ")
+    for col in range(row,n):
+        print("1",end=" ")
+    print()
