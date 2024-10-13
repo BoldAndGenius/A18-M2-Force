@@ -88,7 +88,7 @@ n = int(input("enter the number : "))
  n = int(input("enter a num :"))
  for row in range (n):
     for col in range(n):
-        if col <= (n//2-1) or row >= (n//2)+1:
+        if col <= (n//2)-1 or row >= (n//2)+1:
             print("*",end = " ")
         else :
             print(" ",end = " ")
