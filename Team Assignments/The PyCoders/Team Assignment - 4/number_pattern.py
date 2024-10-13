@@ -283,3 +283,36 @@ for row in range(n):
         print(num,end=" ")
     num = num + 1
     print()
+    
+    
+    
+    
+    
+    
+    
+
+
+'''
+Number Pattern - 10 : 1,22,333 in order for Right Aligned Right Angle Triangle
+
+              1 
+            2 2 
+          3 3 3 
+        4 4 4 4 
+      5 5 5 5 5 
+    6 6 6 6 6 6 
+  7 7 7 7 7 7 7 
+
+
+
+'''
+
+n = int(input())  # 7
+num = 1
+for row in range(n):
+    for col in range(row,n):
+        print(" ",end=" ")
+    for col in range(row+1):
+        print(num,end=" ")
+    num = num + 1
+    print()
