@@ -270,4 +270,47 @@ for row in range(n):
         print("*",end=" ")
     print()
         
+
+
+
+
+
+
+
+
+
+
+
+
     
+    
+
+
+'''
+Pyramid 
+
+                      * 
+                    * * * 
+                  * * * * * 
+                * * * * * * * 
+              * * * * * * * * * 
+            * * * * * * * * * * * 
+          * * * * * * * * * * * * * 
+        * * * * * * * * * * * * * * * 
+      * * * * * * * * * * * * * * * * * 
+    * * * * * * * * * * * * * * * * * * * 
+  * * * * * * * * * * * * * * * * * * * * *
+
+
+
+'''
+
+n = int(input())  # 11
+for row in range(n):
+    for col in range(row,n):
+        print(" ",end=" ")
+    for col in range(row):
+        print("*",end=" ")
+    for col in range(row+1):
+        print("*",end=" ")
+    print()
