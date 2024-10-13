@@ -521,3 +521,27 @@ for row in range(n):
 
 
 
+
+
+
+'''
+Number Pattern - 17 : 55555,4444,333,22,1 in order, for Right Aligned Inverted Right Angle Triangle 
+
+
+  5 5 5 5 5 
+    4 4 4 4 
+      3 3 3 
+        2 2 
+          1 
+          
+'''
+
+n = int(input())
+num = n
+for row in range(n):
+    for col in range(row+1):
+        print(" ",end=" ")
+    for col in range(row,n):
+        print(num,end=" ")
+    num = num - 1
+    print()
