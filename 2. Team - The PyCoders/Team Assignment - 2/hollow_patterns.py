@@ -244,3 +244,37 @@ for row in range(n):
         else:
             print(" ",end=" ")
     print()
+    
+    
+    
+    
+    
+    
+
+
+
+'''
+Hollow Right Triangle 
+
+*                     
+* *                   
+*   *                 
+*     *               
+*       *             
+*         *           
+*           *         
+*             *       
+*               *     
+*                 *   
+* * * * * * * * * * * 
+
+'''
+
+n = int(input())  # 11
+for row in range(n):
+    for col in range(n):
+        if col==0 or row==n-1 or row==col:
+            print("*",end=" ")
+        else:
+            print(" ",end=" ")
+    print()
