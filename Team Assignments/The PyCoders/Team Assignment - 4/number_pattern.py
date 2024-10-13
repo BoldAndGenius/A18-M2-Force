@@ -439,7 +439,7 @@ for row in range(n):
 
 
 '''
-Number Pattern - 14 : 5, 44,333,2222,11111 in order, for Left Aligned Right Angle Triangle 
+Number Pattern  - 14 : 5, 44,333,2222,11111 in order, for Left Aligned Right Angle Triangle 
 
 
 5 
