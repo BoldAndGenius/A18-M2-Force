@@ -580,6 +580,11 @@ for row in range(n):
 '''
 Number Pattern - 19: 5,444,33333,2222222,111111111 in order, for Reverse Hill Pattern 
 
+ 5 5 5 5 5 5 5 5 5 
+    4 4 4 4 4 4 4 
+      3 3 3 3 3 
+        2 2 2 
+          1 
 
 '''
 
