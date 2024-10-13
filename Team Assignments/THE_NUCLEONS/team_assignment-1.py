@@ -1,6 +1,3 @@
-
-
-
 """
 
 *     * * * *
@@ -12,7 +9,6 @@
 * * * *     *
 
 """
-
 n = int(input("enter a number :"))
 for row in range(n):
     for col in range(n):
@@ -22,18 +18,14 @@ for row in range(n):
             print(" ",end = " ")    
     print() 
 
-
-
 """
 
 * * * * * * *
   * * * * *
     * * *
       *
-
-
+      
 """"
-
 n = int(input("enter the number : "))
 for row in range(n):
     for col in range(n):
@@ -43,8 +35,7 @@ for row in range(n):
             print (" ",end = " ")
     print()   
 
-
- """
+"""
  * * * * * * *
   * * * * *
     * * *
@@ -53,9 +44,8 @@ for row in range(n):
   * * * * *
 * * * * * * *
 
- """  
-
- n = int(input("enter the number : "))
+"""  
+n = int(input("enter the number : "))
  for row in range(n):
     for col in range(n):
         if (row <= col and row + col <= n-1) or (row >= col and row + col >= n-1):
@@ -65,6 +55,7 @@ for row in range(n):
     print()   
 
  """
+ 
  * * * * * *
  * * * * *
  * * * *
@@ -72,9 +63,8 @@ for row in range(n):
  * * * *
  * * * * *
  * * * * * *
-
- """  
-
+ 
+ """
  n = int(input("enter a number :"))
  for row in range (n):
     for col in range(n):
@@ -83,19 +73,18 @@ for row in range(n):
         else :
             print("*",end = " ")    
     print()    
-
+    
+ """
+ 
+ * * *
+ * * *
+ * * *
+ * * *
+ * * * * * * *
+ * * * * * * *
+ * * * * * * *
 
  """
- * * *
- * * *
- * * *
- * * *
- * * * * * * *
- * * * * * * *
- * * * * * * *
-
- """   
-
  n = int(input("enter a num :"))
  for row in range (n):
     for col in range(n):
@@ -104,9 +93,9 @@ for row in range(n):
         else :
             print(" ",end = " ")
     print()  
-
-
+    
  """
+ 
  * * * * * * *
  * * * * * *
  * * * * *
