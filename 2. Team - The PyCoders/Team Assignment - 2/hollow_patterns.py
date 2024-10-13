@@ -22,3 +22,39 @@ for row in range(n):
         else:
             print(" ",end=" ")
     print()
+
+
+
+
+
+
+
+
+
+
+
+'''
+Hollow Plus
+
+          *           
+          *           
+          *           
+          *           
+          *           
+* * * * * * * * * * * 
+          *           
+          *           
+          *           
+          *           
+          *   
+
+'''
+
+n = int(input()) # 11
+for row in range(n):
+    for col in range(n):
+        if row==n//2 or col==n//2:
+            print("*",end=" ")
+        else:
+            print(" ",end=" ")
+    print()
