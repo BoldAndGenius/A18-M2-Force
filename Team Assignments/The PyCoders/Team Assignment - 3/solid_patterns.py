@@ -366,3 +366,66 @@ for row in range(n):
     for col in range(row+1):
         print("*",end=" ")
     print()
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+'''
+Butterfly 
+
+(Good Question to Practice)
+
+
+*                     * 
+* *                 * * 
+* * *             * * * 
+* * * *         * * * * 
+* * * * *     * * * * * 
+* * * * * * * * * * * * 
+* * * * * * * * * * * * 
+* * * * *     * * * * * 
+* * * *         * * * * 
+* * *             * * * 
+* *                 * * 
+*                     * 
+
+
+'''
+
+n = int(input())  # 11
+
+for row in range(n):
+    for col in range(row+1):
+        print("*",end=" ")
+        
+    for col in range(row,n-1):
+        print(" ",end=" ")
+    for col in range(row,n-1):
+        print(" ",end=" ")
+         
+    for col in range(row+1):
+        print("*",end=" ")
+    print()
+    
+for row in range(n):
+    for col in range(row,n):
+        print("*",end=" ")
+    for col in range(row):
+        print(" ",end=" ")
+    for col in range(row):
+        print(" ",end=" ")
+    for col in range(row,n):
+        print("*",end=" ")
+    print()
