@@ -1,6 +1,10 @@
 ######################################################################
 ######################################################################
 '''SIMPLE IF'''
+<<<<<<< HEAD
+=======
+
+>>>>>>> e6d087c71cf6af12ab53d65c10e6ff9daa48b0cc
 # 11.Write a program To register.For a company only if job location is Bangalore.
 job_location = input("Enter the job location:")
 if job_location=="bangalore":
@@ -163,10 +167,14 @@ else:
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 35.Write a program to take and consider a tuple collection consisting of only two values. Check whether the taken tuple is homogeneous or heterogeneous.
 =======
 35.Write a program to take and consider a tuple collection consisting of only two values. Check whether the taken tuple is homogeneous or heterogeneous.
 >>>>>>> 17e77958bbcb00aa9cc8140280e222fc35f29648
+=======
+# 35.Write a program to take and consider a tuple collection consisting of only two values. Check whether the taken tuple is homogeneous or heterogeneous.
+>>>>>>> e6d087c71cf6af12ab53d65c10e6ff9daa48b0cc
 items=eval(input('Enter two items of a tuple :'))
 if type(items[0])==type(items[1]):
     print(f"{items} is a homogeneous tuple")
@@ -175,10 +183,14 @@ else:
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 36.Write a program to check whether the given integer number is multiple of 10 or not.
 =======
 36.Write a program to check whether the given integer number is multiple of 10 or not.
 >>>>>>> 17e77958bbcb00aa9cc8140280e222fc35f29648
+=======
+# 36.Write a program to check whether the given integer number is multiple of 10 or not.
+>>>>>>> e6d087c71cf6af12ab53d65c10e6ff9daa48b0cc
 number = int(input('Enter a number :'))
 if number%10==0:
     print(f"{number} is multiple of 10")
@@ -191,8 +203,12 @@ else:
 =======
     
 
+<<<<<<< HEAD
 37.Write a program to consider an integer number. If the number is even then print square of the number else print the cube of the number
 >>>>>>> 17e77958bbcb00aa9cc8140280e222fc35f29648
+=======
+# 37.Write a program to consider an integer number. If the number is even then print square of the number else print the cube of the number
+>>>>>>> e6d087c71cf6af12ab53d65c10e6ff9daa48b0cc
 num = int(input("enter the number :"))
 if num%2==0:
     print(f"{num} is a even number and its square is:{num**2}")
@@ -201,10 +217,14 @@ else :
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 38.Write a program to check whether the given string is palindrome or not.
 =======
 38.Write a program to check whether the given string is palindrome or not.
 >>>>>>> 17e77958bbcb00aa9cc8140280e222fc35f29648
+=======
+# 38.Write a program to check whether the given string is palindrome or not.
+>>>>>>> e6d087c71cf6af12ab53d65c10e6ff9daa48b0cc
 string = input('Enter a string :')
 reverse=string[::-1]
 if reverse==string:
@@ -236,7 +256,19 @@ if num % 7 == 0:
 else:
     print(f"{num} is not divisible by 7")
     
+    
+# 42.Write a program to check whether the last digit of a number entered by the user is divisible by three or not.
+num = int(input("Enter a number:"))
+last_digit = num % 10
+if last_digit % 3 == 0:
+    print(f"The last digit {last_digit} of number {num} is divisible by 3.")
+else:
+    print(f"The last digit {last_digit} of number {num} is not divisible by 3.")
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> e6d087c71cf6af12ab53d65c10e6ff9daa48b0cc
 # 43.Write a program to check whether the year is leap year or not.
 year = int(input("Enter year:"))
 if (year % 400 == 0) or (year % 4 == 0 and year % 100 != 0):
@@ -249,13 +281,18 @@ else:
 # 44.Write a program to check whether a number entered is a 3 digit number or not.
 =======
     
+<<<<<<< HEAD
 44.Write a program to check whether a number entered is a 3 digit number or not.
 >>>>>>> 17e77958bbcb00aa9cc8140280e222fc35f29648
+=======
+# 44.Write a program to check whether a number entered is a 3 digit number or not.
+>>>>>>> e6d087c71cf6af12ab53d65c10e6ff9daa48b0cc
 number = int(input("enter a number :"))
 if (number>99 and number<1000) or (number<-99 and number>-1000):
     print(f"{number} is three digit number")
 else:
     print(f"{number} is not three digit number")
+<<<<<<< HEAD
 <<<<<<< HEAD
       
       
@@ -265,6 +302,17 @@ else:
        
 45.Write a program to find the largest number out of two numbers expected from the user.
 >>>>>>> 17e77958bbcb00aa9cc8140280e222fc35f29648
+=======
+                      # or
+num = int(input("Enter a number:"))
+if (num <= -999) or (num >= 999):
+    print(f"{num} is a three-digit number")
+else:
+    print(f"{num} is not a three-digit number")
+       
+       
+# 45.Write a program to find the largest number out of two numbers expected from the user.
+>>>>>>> e6d087c71cf6af12ab53d65c10e6ff9daa48b0cc
 num1 = int(input("Enter num1:"))
 num2 = int(input("Enter num2:"))
 if num1 > num2:
@@ -273,6 +321,7 @@ else:
     print(f"{num2} is largest number than {num1}")
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 # 44.Write a program to check whether a number entered is a 3 digit number or not.
 number = int(input("enter a number :"))
@@ -286,6 +335,9 @@ else:
 =======
 46.Write a program to check whether a number.Entered by the user is positive or negative.
 >>>>>>> 17e77958bbcb00aa9cc8140280e222fc35f29648
+=======
+# 46.Write a program to check whether a number.Entered by the user is positive or negative.
+>>>>>>> e6d087c71cf6af12ab53d65c10e6ff9daa48b0cc
 num = int(input("Enter a number:"))
 if num >= 0:
     print(f"{num} is a positive number")
@@ -304,6 +356,10 @@ else:
 #######################################################################
 #######################################################################
 '''ELIF'''
+<<<<<<< HEAD
+=======
+
+>>>>>>> e6d087c71cf6af12ab53d65c10e6ff9daa48b0cc
 # 54. Write a program to check the relation between two integer numbers
 num_1= int(input("enter the num 1: "))
 num_2= int(input("enter the num 2: "))
@@ -337,7 +393,10 @@ elif character.lower() in "bcdfghjklmnpqrstvwxyz":
 else:
     print("It is not an alphabet")
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> e6d087c71cf6af12ab53d65c10e6ff9daa48b0cc
 # 57. Write a program to check whether a given character is uppercase. If it is uppercase, convert it to lowercase.Else PRINT LOWERCASE.
 char= input("enter a alphabet: ")
 if char.isupper():
@@ -345,7 +404,10 @@ if char.isupper():
 else:
     print("It LOWER CASE")
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> e6d087c71cf6af12ab53d65c10e6ff9daa48b0cc
 # 58. Write a program to checkWhether the entered character is a number. If it is a number, print the ASCII value of that number.
 character = input("Enter a character: ")
 if character.isdigit():
@@ -479,7 +541,26 @@ elif units > 200:
 print(f"The total bill for {units} units is Rs {Total_Bill}")
 
 
+<<<<<<< HEAD
 80. WAP to convert temperature from celsius to kelvin and kelvin to celsius using the elif statement.
+=======
+# 72. Write a program to accept percentages from the user and display the grade according to the following criteria. If marks is greater than 90, grade is A. If marks is greater than 80 and less than equals to 90, gra inde is B if marks is greater than or equal to 60, and less than equals to 80 grade is C, else if it is less than 60 grade is D
+marks = int(input('Enter your marks: '))
+if marks < 0 or marks > 100:
+    print("Invalid input! Marks should be between 0 and 100.")
+else:
+    if marks > 90:
+        print('Grade A')
+    elif marks > 80 and marks <= 90:
+        print('Grade B')
+    elif marks >= 60 and marks <= 80:
+        print('Grade C')
+    else:
+        print('Grade D')
+
+
+# 80. WAP to convert temperature from celsius to kelvin and kelvin to celsius using the elif statement.
+>>>>>>> e6d087c71cf6af12ab53d65c10e6ff9daa48b0cc
 print("Temperature Conversion Options: \n1. Celsius to Kelvin \n2. Kelvin to Celsius")
 choice = input("Enter the number of your choice (1 or 2): ")
 if choice == '1':
@@ -491,8 +572,12 @@ elif choice == '2':
         # Convert Kelvin to Celsius
         kelvin = float(input("Enter temperature in Kelvin: "))
         celsius = kelvin - 273.15
+<<<<<<< HEAD
         print(f"{kelvin} Kelvin is equal to {celsius:.2f} Celsius.")
         
+=======
+        print(f"{kelvin} Kelvin is equal to {celsius:.2f} Celsius.")  
+>>>>>>> e6d087c71cf6af12ab53d65c10e6ff9daa48b0cc
 else:
         print("Invalid choice. Please enter 1 or 2.")
 
@@ -505,6 +590,10 @@ else:
 tpl = eval(input("Enter a Tuple: "))    
 mid_index = len(tpl) // 2
 middle_value = tpl[mid_index]
+<<<<<<< HEAD
+=======
+
+>>>>>>> e6d087c71cf6af12ab53d65c10e6ff9daa48b0cc
 if type(middle_value) == str:
     if len(middle_value) > 3:
         print(middle_value)
@@ -513,7 +602,14 @@ if type(middle_value) == str:
 else:
     if type(middle_value) != str:
         print("the mid vale is not string")
+<<<<<<< HEAD
 
 
 #######################################################################
 #######################################################################
+=======
+        
+
+#######################################################################
+#######################################################################
+>>>>>>> e6d087c71cf6af12ab53d65c10e6ff9daa48b0cc
