@@ -172,3 +172,42 @@ for row in range(n):
     for col in range(row+1):
         print("*",end=" ")
     print()
+
+
+
+
+
+
+
+
+
+
+
+'''
+Reverse Hill Pattern 
+
+  * * * * * * * * * * * * * * * * * * * * * 
+    * * * * * * * * * * * * * * * * * * * 
+      * * * * * * * * * * * * * * * * * 
+        * * * * * * * * * * * * * * * 
+          * * * * * * * * * * * * * 
+            * * * * * * * * * * * 
+              * * * * * * * * * 
+                * * * * * * * 
+                  * * * * * 
+                    * * * 
+                      * 
+
+
+
+'''
+
+n = int(input())  # 11
+for row in range(n):
+    for col in range(row+1):
+        print(" ",end=" ")
+    for col in range(row,n-1):
+        print("*",end=" ")
+    for col in range(row,n):
+        print("*",end=" ")
+    print()
