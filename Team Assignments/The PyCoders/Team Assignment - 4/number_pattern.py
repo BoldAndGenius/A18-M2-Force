@@ -576,3 +576,22 @@ for row in range(n):
 
 
 
+
+'''
+Number Pattern - 19: 5,444,33333,2222222,111111111 in order, for Reverse Hill Pattern 
+
+
+'''
+
+
+n = int(input())
+num = n
+for row in range(n):
+    for col in range(row+1):
+        print(" ",end=" ")
+    for col in range(row,n-1):
+        print(num,end=" ")
+    for col in range(row,n):
+        print(num,end=" ")
+    num = num - 1
+    print()
