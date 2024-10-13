@@ -168,3 +168,45 @@ for row in range(n):
         else:
             print(" ",end=" ")
     print()
+    
+    
+    
+    
+
+
+
+'''
+Hollow Floor Division 
+
+                  *   
+                *   * 
+              *   *   
+            *   *     
+          *   *       
+        *   *         
+      *   *           
+    *   *             
+  *   *               
+*   *                 
+  *                   
+
+'''
+
+n = int(input())
+for row in range(n):
+    for col in range(n):
+        if row+col == n-2  or row+col ==n:
+            print("*",end=" ")
+        else:
+            print(" ",end=" ")
+    print()
+
+
+
+
+# n = 5
+# for row in range(n):
+#     for col in range(n):
+#         print((row,col),end=" ")
+#     print()
+# therefore relation is -  (r+c == n-2) or (r+c == n)
