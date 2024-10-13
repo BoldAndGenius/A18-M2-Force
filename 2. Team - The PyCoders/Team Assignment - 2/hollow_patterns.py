@@ -210,3 +210,37 @@ for row in range(n):
 #         print((row,col),end=" ")
 #     print()
 # therefore relation is -  (r+c == n-2) or (r+c == n)
+
+
+
+
+
+
+
+
+
+'''
+Hollow Square Diagonal Cross
+
+* * * * * * * * * * * 
+* *               * * 
+*   *           *   * 
+*     *       *     * 
+*       *   *       * 
+*         *         * 
+*       *   *       * 
+*     *       *     * 
+*   *           *   * 
+* *               * * 
+* * * * * * * * * * * 
+
+'''
+
+n = int(input()) # 11
+for row in range(n):
+    for col in range(n):
+        if row==0 or row==n-1 or col==0 or col==n-1 or row+col==n-1 or row ==col:
+            print("*",end=" ")
+        else:
+            print(" ",end=" ")
+    print()
