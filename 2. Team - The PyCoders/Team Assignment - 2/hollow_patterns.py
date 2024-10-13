@@ -286,7 +286,7 @@ for row in range(n):
     
     
 '''
-Hollow Inverted Triangle 
+Hollow Inverted Right Triangle 
 
 * * * * * * * * * * * 
 *                 *   
@@ -309,4 +309,38 @@ for row in range(n):
             print("*",end=" ")
         else:
             print(" ",end=" ")
+    print()
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+'''
+Square
+
+* * * * * * * * * * * 
+* * * * * * * * * * * 
+* * * * * * * * * * * 
+* * * * * * * * * * * 
+* * * * * * * * * * * 
+* * * * * * * * * * * 
+* * * * * * * * * * * 
+* * * * * * * * * * * 
+* * * * * * * * * * * 
+* * * * * * * * * * * 
+* * * * * * * * * * * 
+
+'''
+
+n = int(input())
+for row in range(n):
+    for col in range(n):
+        print("*",end=" ")
     print()
