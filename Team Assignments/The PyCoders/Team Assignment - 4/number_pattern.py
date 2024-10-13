@@ -545,3 +545,34 @@ for row in range(n):
         print(num,end=" ")
     num = num - 1
     print()
+
+
+
+
+
+'''
+Number Pattern - 18: 5,444,33333,2222222,111111111 in order, for Hill Pattern. 
+
+          5 
+        4 4 4 
+      3 3 3 3 3 
+    2 2 2 2 2 2 2 
+  1 1 1 1 1 1 1 1 1 
+
+
+'''
+
+n = int(input())
+num = n
+for row in range(n):
+    for col in range(row,n):
+        print(" ",end=" ")
+    for col in range(row):
+        print(num,end=" ")
+    for col in range(row+1):
+        print(num,end=" ")
+    num = num - 1
+    print()
+
+
+
