@@ -217,3 +217,36 @@ for row in range(n):
     for col in range(row,n):
         print("1",end=" ")
     print()
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+'''
+Number Pattern - 8 : 1,22,333 in order for Left Aligned Right Angle Triangle
+
+1 
+2 2 
+3 3 3 
+4 4 4 4 
+5 5 5 5 5 
+6 6 6 6 6 6 
+7 7 7 7 7 7 7 
+
+
+'''
+
+n = int(input())
+num = 1
+for row in range(n):
+    for col in range(row+1):
+        print(num,end=" ")
+    num = num + 1 
+    print()
+        
