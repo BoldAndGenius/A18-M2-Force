@@ -162,7 +162,11 @@ else:
     print(f"Datatype of {items[0]} is not complex ")
 
 
+<<<<<<< HEAD
 # 35.Write a program to take and consider a tuple collection consisting of only two values. Check whether the taken tuple is homogeneous or heterogeneous.
+=======
+35.Write a program to take and consider a tuple collection consisting of only two values. Check whether the taken tuple is homogeneous or heterogeneous.
+>>>>>>> 17e77958bbcb00aa9cc8140280e222fc35f29648
 items=eval(input('Enter two items of a tuple :'))
 if type(items[0])==type(items[1]):
     print(f"{items} is a homogeneous tuple")
@@ -170,15 +174,25 @@ else:
     print(f"{items} is a heterogeneous tuple")
 
 
+<<<<<<< HEAD
 # 36.Write a program to check whether the given integer number is multiple of 10 or not.
+=======
+36.Write a program to check whether the given integer number is multiple of 10 or not.
+>>>>>>> 17e77958bbcb00aa9cc8140280e222fc35f29648
 number = int(input('Enter a number :'))
 if number%10==0:
     print(f"{number} is multiple of 10")
 else:
     print(f"{number} is not multiple of 10")
+<<<<<<< HEAD
 
 
 # 37.Write a program to consider an integer number. If the number is even then print square of the number else print the cube of the number
+=======
+    
+
+37.Write a program to consider an integer number. If the number is even then print square of the number else print the cube of the number
+>>>>>>> 17e77958bbcb00aa9cc8140280e222fc35f29648
 num = int(input("enter the number :"))
 if num%2==0:
     print(f"{num} is a even number and its square is:{num**2}")
@@ -186,7 +200,11 @@ else :
     print(f"{num} is not a even number and its cube is:{num**3}")
 
 
+<<<<<<< HEAD
 # 38.Write a program to check whether the given string is palindrome or not.
+=======
+38.Write a program to check whether the given string is palindrome or not.
+>>>>>>> 17e77958bbcb00aa9cc8140280e222fc35f29648
 string = input('Enter a string :')
 reverse=string[::-1]
 if reverse==string:
@@ -226,16 +244,27 @@ if (year % 400 == 0) or (year % 4 == 0 and year % 100 != 0):
 else:
     print(f"{year} is not a leap year")
     
+<<<<<<< HEAD
 
 # 44.Write a program to check whether a number entered is a 3 digit number or not.
+=======
+    
+44.Write a program to check whether a number entered is a 3 digit number or not.
+>>>>>>> 17e77958bbcb00aa9cc8140280e222fc35f29648
 number = int(input("enter a number :"))
 if (number>99 and number<1000) or (number<-99 and number>-1000):
     print(f"{number} is three digit number")
 else:
     print(f"{number} is not three digit number")
+<<<<<<< HEAD
       
       
 # 45.Write a program to find the largest number out of two numbers expected from the user.
+=======
+    
+       
+45.Write a program to find the largest number out of two numbers expected from the user.
+>>>>>>> 17e77958bbcb00aa9cc8140280e222fc35f29648
 num1 = int(input("Enter num1:"))
 num2 = int(input("Enter num2:"))
 if num1 > num2:
@@ -244,6 +273,7 @@ else:
     print(f"{num2} is largest number than {num1}")
 
 
+<<<<<<< HEAD
 # 44.Write a program to check whether a number entered is a 3 digit number or not.
 number = int(input("enter a number :"))
 if (number>99 and number<1000) or (number<-99 and number>-1000):
@@ -253,6 +283,9 @@ else:
     
 
 # 46.Write a program to check whether a number.Entered by the user is positive or negative.
+=======
+46.Write a program to check whether a number.Entered by the user is positive or negative.
+>>>>>>> 17e77958bbcb00aa9cc8140280e222fc35f29648
 num = int(input("Enter a number:"))
 if num >= 0:
     print(f"{num} is a positive number")
