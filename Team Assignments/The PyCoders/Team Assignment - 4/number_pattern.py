@@ -421,3 +421,40 @@ for row in range(n):
         print(num,end=" ")
     num = num + 1
     print()
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+'''
+Number Pattern - 14 : 4, 44,333,2222,11111 in order, for Left Aligned Right Angle Triangle 
+
+
+5 
+4 4 
+3 3 3 
+2 2 2 2 
+1 1 1 1 1
+
+
+'''
+
+n = int(input())
+num = n
+for row in range(n):
+    for col in range(row+1):
+        print(num,end=" ")
+    num = num -1
+    print()
