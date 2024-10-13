@@ -533,7 +533,7 @@ for row in range(n):
     
     
 '''
-Left Pascal's Triangle 
+Left Pascal's Triangle Pattern
 
 * 
 * * 
@@ -554,6 +554,54 @@ for row in range(n-1):
         print("*",end=" ")
     print()
 for row in range(n):
+    for col in range(row,n):
+        print("*",end=" ")
+    print()
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+'''
+Right Pascal's Triangle 
+
+
+              * 
+            * * 
+          * * * 
+        * * * * 
+      * * * * * 
+    * * * * * * 
+  * * * * * * * 
+    * * * * * * 
+      * * * * * 
+        * * * * 
+          * * * 
+            * * 
+              * 
+
+
+
+'''
+n = int(input())  # 11
+for row in range(n-1):
+    for col in range(row,n):
+        print(" ",end=" ")
+    for col in range(row+1):
+        print("*",end=" ")
+    print()
+for row in range(n):
+    for col in range(row+1):
+        print(" ",end=" ")
     for col in range(row,n):
         print("*",end=" ")
     print()
