@@ -347,3 +347,43 @@ for row in range(n):
         print(num,end=" ")
     num = num + 1
     print()
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+'''
+Number Pattern - 12 : 1,222,33333 in order, for Hill Pattern 
+
+              1 
+            2 2 2 
+          3 3 3 3 3 
+        4 4 4 4 4 4 4 
+      5 5 5 5 5 5 5 5 5 
+    6 6 6 6 6 6 6 6 6 6 6 
+  7 7 7 7 7 7 7 7 7 7 7 7 7 
+
+
+
+'''
+
+n = int(input())
+num = 1
+for row in range(n):
+    for col in range(row,n):
+        print(" ",end=" ")
+    for col in range(row):
+        print(num,end=" ")
+    for col in range(row+1):
+        print(num,end=" ")
+    num = num + 1
+    print()
