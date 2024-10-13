@@ -57,4 +57,41 @@ for row in range(n):
     for col in range(row,n):
         print("*",end=" ")
     print()
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+'''
+Right Aligned Right Angle Triangle 
+or
+Right Sided Triangle 
+
+                      * 
+                    * * 
+                  * * * 
+                * * * * 
+              * * * * * 
+            * * * * * * 
+          * * * * * * * 
+        * * * * * * * * 
+      * * * * * * * * * 
+    * * * * * * * * * * 
+  * * * * * * * * * * * 
+
+'''
+n = int(input())  # 10
+for row in range(n):
+    for col in range(row,n):
+        print(" ",end=" ")
+    for col in range(row+1):
+        print("*",end=" ")
+    print()
         
