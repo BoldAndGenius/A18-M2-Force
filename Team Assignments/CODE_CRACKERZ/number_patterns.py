@@ -417,8 +417,61 @@ for row in range(n-1,0,-1):
         print(num,end=" ")
         num += 1
     print()
+
+'''
+22)  1 
+    2 1 
+   3 2 1 
+  4 3 2 1 
+ 5 4 3 2 1 
+ '''
+num= int(input( "enter the number :"))
+for row in range(1,num+1):
+    print(' '*(num-row),end=" ")
+    for col in range(row ,0,-1):
+        print(col,end=' ')  
+    print()
+
+'''
+23)
+1 2 3 4 5 
+2 2 3 4 5 
+3 3 3 4 5 
+4 4 4 4 5 
+5 5 5 5 5 
+'''
+num= int(input( "enter the number :"))
+for row in range(1,num+1):
+    for col in range(1,num+1):
+        if col<=row:
+            print(row,end=' ')
+        else:
+            print(col,end=' ')
+    print()    
     
-    
+    '''
+    24)
+
+  1 2 3 4 5 6 7 
+    1 2 3 4 5 
+      1 2 3 
+        1 
+      3 2 1 
+    5 4 3 2 1 
+  7 6 5 4 3 2 1 
+  
+'''
+num = int(input("Enter Number:"))
+for row in range(2*num-1,1,-2):
+    print(" " * ((2*num ) - row),end=" ")
+    for col in range(1,row+1):
+        print(col,end=" ")
+    print()
+for row in range(1,2*num,2):
+    print(" " * ((2*num)- row),end=" ")
+    for col in range(row,0,-1):
+        print(col,end=" ")      
+    print()
     
 
 
