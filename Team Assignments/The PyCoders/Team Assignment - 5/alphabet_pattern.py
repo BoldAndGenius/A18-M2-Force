@@ -81,3 +81,31 @@ for row in range(n):
         print(char,end=" ")
         char = chr(ord(char)+1)
     print()
+    
+    
+    
+
+
+
+
+'''
+Alphabet Pattern - 4
+
+A B C D E 
+B C D E F 
+C D E F G 
+D E F G H 
+E F G H I 
+
+ 
+'''
+
+n = int(input())
+char = 'A'
+for row in range(n):
+    new = char
+    for col in range(n):
+        print(new,end=" ")
+        new = chr(ord(new)+1)
+    char = chr(ord(char)+1)
+    print()
