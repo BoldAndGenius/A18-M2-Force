@@ -21,3 +21,33 @@ for row in range(n):
         print(char,end=" ")
     char = chr(ord(char)+1)
     print()
+    
+    
+    
+
+
+
+
+
+
+
+
+'''
+Alphabet Pattern - 2
+
+A B C D E 
+A B C D E 
+A B C D E 
+A B C D E 
+A B C D E 
+
+'''
+
+
+n = int(input())
+for row in range(n):
+    char = 'A'
+    for col in range(n):
+        print(char,end=" ")
+        char = chr(ord(char)+1)
+    print()
