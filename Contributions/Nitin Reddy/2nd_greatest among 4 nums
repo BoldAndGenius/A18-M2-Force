@@ -1,0 +1,65 @@
+# 2nd greatest among 4 nums using nested if
+
+a=int(input('enter num 1:'))
+b=int(input('enter num 2:'))
+c=int(input('enter num 3:'))
+d=int(input('enter num 4:'))
+
+if a>b:
+    if a>c:
+        if a>d:
+            if d>c:
+                if d>b:
+                    print('d is 2nd greatest')
+                else:
+                    print('b is 2nd greatest')
+            else:
+                if c>b:
+                    print('c is 2nd greatest')
+                else:
+                    print('b is 2nd greatest')
+        else:
+            print('a is 2nd greatest')
+    else:
+        if c>d:
+            if d>b:
+                if d>a:
+                    print('d is 2nd greatest')
+                else:
+                    print('a is 2nd greatest')
+            else:
+                if b>a:
+                    print('b is 2nd greatest')
+                else:
+                    print('a is 2nd greatest')
+        else:
+            print('c is 2nd greatest')
+else:
+    if b>c:
+        if b>d:
+            if d>a:
+                if d>c:
+                    print('d is 2nd greatest')
+                else:
+                    print('c is 2nd greatest')
+            else:
+                if a>c:
+                    print('a is 2nd greatest')
+                else:
+                    print('c is 2nd greatest')
+        else:
+            print('b is 2nd greatest')
+    else:
+        if c>d:
+            if d>a:
+                if d>b:
+                    print('d is 2nd greatest')
+                else:
+                    print('b is 2nd greatest')
+            else:
+                if a>b:
+                    print('a is 2nd greatest')
+                else:
+                    print('b is 2nd greatest')
+        else:
+            print('c is 2nd greatest')
