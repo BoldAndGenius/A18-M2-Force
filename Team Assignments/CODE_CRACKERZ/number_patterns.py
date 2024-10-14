@@ -1,14 +1,45 @@
-
 '''
 Pattern-1
+1 
+2 2 
+3 3 3 
+4 4 4 4 
+5 5 5 5 5 
+'''
+num = int(input("Enter a number: "))
+for row in range(num+1):
+    for col in range(row):
+        print(row,end=" ")
+    print()
+
+
+'''
+Pattern-2
+1 1 1 1 1 
+2 2 2 2 
+3 3 3 
+4 4 
+5
+'''
+num = int(input("Enter a number:"))
+count = 0
+for row in range(num,0,-1):
+    count+=1
+    for col in range(1,row+1):
+        print(count,end=" ")
+    print()
+
+
+'''
+Pattern-3
 1 
 2 3 
 4 5 6 
 7 8 9 10
 11 12 13 14 15
 '''
-num =int(input("Enter a number:"))
-count=1
+num = int(input("Enter a number:"))
+count = 1
 for row in range(1,num+1):
     for col in range(row):
         print(count,end=" ")
@@ -17,7 +48,7 @@ for row in range(1,num+1):
 
     
 '''
-Pattern-2
+Pattern-4
 1
 3 5
 7 9 11
@@ -34,7 +65,7 @@ for row in range(1,num+1):
 
 
 '''
-Pattern-3
+Pattern-5
 1
 1 2
 1 2 3
@@ -49,7 +80,7 @@ for row in range(1,num+1):
 
 
 '''
-Pattern-4
+Pattern-6
 1
 2 3
 4 5 6
@@ -68,7 +99,7 @@ for row in range(1,num+1):
 
 
 '''
-Pattern-5
+Pattern-7
 9
 8 7
 6 5 4
@@ -87,7 +118,7 @@ for row in range(1,num+1):
 
 
 '''
-Pattern-6
+Pattern-8
          1
        2 3
      4 5 6
@@ -107,7 +138,7 @@ for row in range(1,num+1):
 
 
 '''
-Pattern-7
+Pattern-9
      1
     2 3
    4 5 6
@@ -127,7 +158,7 @@ for row in range(1,num+1):
 
 
 '''
-Pattern-8
+Pattern-10
 1 2 3 4 5
   6 7 8 9
     1 2 3
@@ -144,6 +175,8 @@ for row in range(num,0,-1):
         print(count,end=" ")
         count+=1
     print()
+
+
 
 
 
