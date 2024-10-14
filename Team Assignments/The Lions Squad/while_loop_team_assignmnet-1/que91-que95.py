@@ -5,9 +5,7 @@ collection = eval(input("Enter the collection (list/tuple/set/dict): "))
 collection_index = 0
 nested = False
 while collection_index < len(collection):
-    element_type = str(type(collection[collection_index]))
-
-    if 'list' in element_type or 'tuple' in element_type or 'set' in element_type or 'dict' in element_type:
+    if type(collection[collection_index]) in [list, tuple, set, dict]:
         nested = True
         break
     collection_index += 1
