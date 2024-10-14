@@ -109,3 +109,34 @@ for row in range(n):
         new = chr(ord(new)+1)
     char = chr(ord(char)+1)
     print()
+    
+    
+    
+
+
+
+'''
+Alphabet Pattern - 5
+
+A B C B A 
+B C D C B 
+C D E D C 
+D E F E D 
+E F G F E 
+
+
+'''
+
+n = int(input())
+char = 'A'
+for row in range(n):
+    new = char  
+    for col in range(n):
+        if col<n//2:
+            print(new,end=" ")
+            new = chr(ord(new)+1)
+        else:
+            print(new,end=" ")
+            new = chr(ord(new)-1)
+    print()
+    char = chr(ord(char)+1)
