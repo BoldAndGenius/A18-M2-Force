@@ -46,3 +46,23 @@ for row in range(1,num+1):
     for col in range(row):
         print(col+1,end=" ")
     print()
+
+
+'''
+Pattern-4
+1
+2 3
+4 5 6
+7 8 9 1
+2 3 4 5 6
+'''
+num =int(input("Enter a number:"))
+count=1
+for row in range(1,num+1):
+    for col in range(row):
+        if count > 9:
+            count =1
+        print(count,end=" ")
+        count+=1
+    print()
+
