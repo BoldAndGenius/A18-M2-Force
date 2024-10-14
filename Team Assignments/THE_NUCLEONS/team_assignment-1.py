@@ -1,5 +1,6 @@
+'''
 """
-            (Swastik)
+(Swastik)
         *       * * * * *
         * *     * * * *
         * * *   * * *
@@ -20,11 +21,13 @@ for row in range(n):
     print() 
 
 """
-        (Reverse Pyramid)
-        * * * * * * *
-          * * * * *
-            * * *
-              *   
+(Reverse Pyramid)
+* * * * * * * * * * *
+  * * * * * * * * *
+    * * * * * * *
+      * * * * *
+        * * *
+          *  
 """"
 n = int(input("enter the number : "))
 for row in range(n):
@@ -36,7 +39,7 @@ for row in range(n):
     print()   
 
 """
-        (Sand Glass)
+(Sand Glass)
         * * * * * * *
           * * * * *
             * * *
@@ -129,3 +132,4 @@ for row in range(n):
             print(" ",end = " ")
         print("*",end = " ")
     print()
+    '''
