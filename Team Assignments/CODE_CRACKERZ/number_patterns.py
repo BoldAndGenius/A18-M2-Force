@@ -191,7 +191,80 @@ for row in range(num,0,-1):
         print(count,end=" ")
         count+=1
     print()
+    
 
+'''
+12)
+    1 
+    3 3 
+    5 5 5 
+    7 7 7 7 
+    9 9 9 9 9
+'''
+n = int(input("Enter num:"))
+num = 1
+for row in range(n):
+    for col in range(row+1):
+        print(num,end=" ")
+    num += 2
+    print()
+    
+'''
+13)
+    1 
+    2 1 
+    3 2 1 
+    4 3 2 1 
+    5 4 3 2 1
+'''
+n = int(input('Enter num:'))
+num = 1
+for row in range(n):
+    row_num = num
+    for col in range(row+1):
+        print(row_num,end=" ")
+        row_num -= 1
+    num += 1
+    print()
+    
+'''
+14) 
+    5 4 3 2 1 
+    4 3 2 1 
+    3 2 1 
+    2 1 
+    1
+'''
+n = int(input("Enter num:"))
+num = n
+for row in range(n,0,-1):
+    row_num = num
+    for col in range(row):
+        print(row_num,end=' ')
+        row_num -= 1
+    num -= 1
+    print()
+    
+'''
+15)
+    1  
+    2  4  
+    3  6  9  
+    4  8  12  16  
+    5  10  15  20  25  
+    6  12  18  24  30  36  
+    7  14  21  28  35  42  49  
+    8  16  24  32  40  48  56  64
+'''
+n = int(input("Enter num:"))
+num = 1
+for row in range(n):
+    row_num = 1
+    for col in range(row+1):
+        print(num * row_num,end=" ")
+        row_num += 1
+    num += 1
+    print()
 
 
 
