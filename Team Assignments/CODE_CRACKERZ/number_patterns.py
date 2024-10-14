@@ -66,3 +66,25 @@ for row in range(1,num+1):
         count+=1
     print()
 
+
+'''
+Pattern-5
+9
+8 7
+6 5 4
+3 2 1 9
+8 7 6 5 4
+'''
+num =int(input("Enter a number:"))
+count=9
+for row in range(1,num+1):
+    for col in range(row):
+        if count < 1:
+            count =9
+        print(count,end=" ")
+        count-=1
+    print()
+
+
+
+
