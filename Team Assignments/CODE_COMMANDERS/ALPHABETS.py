@@ -376,7 +376,7 @@ for row in range(n):
 
 #OUTPUT
 '''
- * * * * *
+  * * * * *
 *           *
 *           *
 *     *     *
