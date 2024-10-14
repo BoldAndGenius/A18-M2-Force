@@ -133,3 +133,23 @@ for row in range(n):
         print("*",end = " ")
     print()
     '''
+"""
+    * * * * * * * * * 
+      * * * * * * *   
+        * * * * *     
+          * * *       
+            *
+          * * *       
+        * * * * *     
+      * * * * * * *   
+    * * * * * * * * *
+"""
+n=int(input("enter a number:"))
+for row in range(n):
+    for col in range(n):
+        if (row<=col and row+col<=n-1) or (row>=col and row+col>=n-1) :
+            print("*", end=" ")
+        else:
+            print(" ", end=" ")
+    print()
+
