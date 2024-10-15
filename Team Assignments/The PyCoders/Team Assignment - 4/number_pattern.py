@@ -739,3 +739,31 @@ for row in range(n):
     else:
       print("B",end=" ")
   print()
+  
+  
+  
+
+
+
+
+'''
+Number Pattern - 25
+
+  1 1 1 1 1 
+    3 3 3 3 
+      1 1 1 
+        3 3 
+          1
+
+
+'''
+n = int(input())
+for row in range(n):
+  for col in range(row+1):
+    print(" ",end=" ")
+  for col in range(row,n):
+    if row%2 == 0:
+      print("1",end=" ")
+    else:
+      print("3",end=" ")
+  print()
