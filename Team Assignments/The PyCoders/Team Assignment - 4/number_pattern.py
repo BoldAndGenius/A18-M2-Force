@@ -654,3 +654,29 @@ for row in range(n):
       print("2",end=" ")
   print()
     
+    
+    
+    
+    
+  
+'''
+Number Pattern - 22
+
+  # # # # # 
+    $ $ $ $ 
+      # # # 
+        $ $ 
+          # 
+          
+'''
+
+n = int(input())
+for row in range(n):
+  for col in range(row+1):
+    print(" ",end=" ")
+  for col in range(row,n):
+    if row%2==0:
+      print("#",end=" ")
+    else:
+      print("$",end=" ")
+  print()
