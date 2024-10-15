@@ -712,3 +712,30 @@ for row in range(n):
     else:
       print("b",end=" ")
   print()
+  
+  
+  
+  
+  
+  
+
+
+'''
+Number Pattern - 24
+
+A 
+B B 
+A A A 
+B B B B 
+A A A A A 
+
+'''
+
+n = int(input())  # 5
+for row in range(n):
+  for col in range(row+1):
+    if row%2 == 0:
+      print("A",end=" ")
+    else:
+      print("B",end=" ")
+  print()
