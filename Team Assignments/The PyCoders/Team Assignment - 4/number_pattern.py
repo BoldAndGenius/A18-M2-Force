@@ -767,3 +767,41 @@ for row in range(n):
     else:
       print("3",end=" ")
   print()
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+'''
+Number Pattern - 26
+
+         # 
+        $ $ $ 
+      # # # # # 
+    $ $ $ $ $ $ $ 
+  # # # # # # # # # 
+
+'''
+
+n = int(input())
+for row in range(n):
+  for col in range(row,n):
+    print(" ",end=" ")
+  for col in range(row):
+    if row%2==0:
+      print("#",end=" ")
+    else:
+      print("$",end=" ")
+  for col in range(row+1):
+    if row%2 == 0:
+      print("#",end=" ")
+    else:
+      print("$",end=" ")
+  print()
