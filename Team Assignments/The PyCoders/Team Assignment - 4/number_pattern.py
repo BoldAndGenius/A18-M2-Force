@@ -680,3 +680,35 @@ for row in range(n):
     else:
       print("$",end=" ")
   print()
+  
+  
+
+
+
+
+'''
+Number Pattern - 23
+
+          a 
+        b b b 
+      a a a a a 
+    b b b b b b b 
+  a a a a a a a a a 
+
+'''
+
+n = int(input())  # 5
+for row in range(n):
+  for col in range(row,n):
+    print(" ",end=" ")
+  for col in range(row):
+    if row%2 == 0:
+      print("a",end=" ")
+    else:
+      print("b",end=" ")
+  for col in range(row+1):
+    if row%2 == 0:
+      print("a",end=" ")
+    else:
+      print("b",end=" ")
+  print()
