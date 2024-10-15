@@ -628,3 +628,213 @@ for row in range(n):
         print(num,end=" ")
     num = num + 2
     print()
+    
+    
+    
+  
+  
+  
+'''
+Number Pattern - 21
+
+1 
+2 2 
+1 1 1 
+2 2 2 2 
+1 1 1 1 1
+
+'''
+
+n = int(input())
+for row in range(n):
+  for col in range(row+1):
+    if row%2 == 0:
+      print("1",end=" ")
+    else:
+      print("2",end=" ")
+  print()
+    
+    
+    
+    
+    
+  
+'''
+Number Pattern - 22
+
+  # # # # # 
+    $ $ $ $ 
+      # # # 
+        $ $ 
+          # 
+          
+'''
+
+n = int(input())
+for row in range(n):
+  for col in range(row+1):
+    print(" ",end=" ")
+  for col in range(row,n):
+    if row%2==0:
+      print("#",end=" ")
+    else:
+      print("$",end=" ")
+  print()
+  
+  
+
+
+
+
+'''
+Number Pattern - 23
+
+          a 
+        b b b 
+      a a a a a 
+    b b b b b b b 
+  a a a a a a a a a 
+
+'''
+
+n = int(input())  # 5
+for row in range(n):
+  for col in range(row,n):
+    print(" ",end=" ")
+  for col in range(row):
+    if row%2 == 0:
+      print("a",end=" ")
+    else:
+      print("b",end=" ")
+  for col in range(row+1):
+    if row%2 == 0:
+      print("a",end=" ")
+    else:
+      print("b",end=" ")
+  print()
+  
+  
+  
+  
+  
+  
+
+
+'''
+Number Pattern - 24
+
+A 
+B B 
+A A A 
+B B B B 
+A A A A A 
+
+'''
+
+n = int(input())  # 5
+for row in range(n):
+  for col in range(row+1):
+    if row%2 == 0:
+      print("A",end=" ")
+    else:
+      print("B",end=" ")
+  print()
+  
+  
+  
+
+
+
+
+'''
+Number Pattern - 25
+
+  1 1 1 1 1 
+    3 3 3 3 
+      1 1 1 
+        3 3 
+          1
+
+
+'''
+n = int(input())
+for row in range(n):
+  for col in range(row+1):
+    print(" ",end=" ")
+  for col in range(row,n):
+    if row%2 == 0:
+      print("1",end=" ")
+    else:
+      print("3",end=" ")
+  print()
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+'''
+Number Pattern - 26
+
+         # 
+        $ $ $ 
+      # # # # # 
+    $ $ $ $ $ $ $ 
+  # # # # # # # # # 
+
+'''
+
+n = int(input())
+for row in range(n):
+  for col in range(row,n):
+    print(" ",end=" ")
+  for col in range(row):
+    if row%2==0:
+      print("#",end=" ")
+    else:
+      print("$",end=" ")
+  for col in range(row+1):
+    if row%2 == 0:
+      print("#",end=" ")
+    else:
+      print("$",end=" ")
+  print()
+  
+  
+  
+  
+
+
+'''
+Number Pattern - 27
+
+  1 1 1 1 1 1 1 1 1 
+    0 0 0 0 0 0 0 
+      1 1 1 1 1 
+        0 0 0 
+          1 
+
+
+'''
+n = int(input())  # 5
+for row in range(n):
+  for col in range(row+1):
+    print(" ",end=" ")
+  for col in range(row,n-1):
+    if row%2 == 0:
+      print("1",end=" ")
+    else:
+      print("0",end=" ")
+  for col in range(row,n):
+    if row%2 == 0:
+      print("1",end=" ")
+    else:
+      print("0",end=" ")
+  print()
+    
