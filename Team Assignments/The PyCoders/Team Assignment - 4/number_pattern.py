@@ -628,3 +628,29 @@ for row in range(n):
         print(num,end=" ")
     num = num + 2
     print()
+    
+    
+    
+  
+  
+  
+'''
+Number Pattern - 21
+
+1 
+2 2 
+1 1 1 
+2 2 2 2 
+1 1 1 1 1
+
+'''
+
+n = int(input())
+for row in range(n):
+  for col in range(row+1):
+    if row%2 == 0:
+      print("1",end=" ")
+    else:
+      print("2",end=" ")
+  print()
+    
