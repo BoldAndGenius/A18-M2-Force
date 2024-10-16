@@ -79,6 +79,7 @@ print(cube)
 # Function - A block of reusable code. 
 # place () after the function name to invoke it. 
 
+# Method - 1
 def happy_birthday(p1,p2):
     print(f"Happy Birthday {p1}")
     print(f"You are {p2} years old.")
@@ -86,3 +87,13 @@ def happy_birthday(p1,p2):
 name = input("Enter you name : ")
 age = int(input("Enter you age : "))
 happy_birthday(name,age)
+
+# Method - 2
+
+def happy_birthday(p1,p2):
+    return f"Happy Birthday {name}. \nNow you are {age} years old"
+    
+name = input("Enter you name : ")
+age = int(input("Enter your age : "))
+wish = happy_birthday(name,age)
+print(wish)
