@@ -168,3 +168,7 @@ lname = input("Enter Your Last Name : ").capitalize()
 fullname = full_name(fname,lname)
 print(f"Your Full Name is : {fullname}")
 # print(f"Your Full Name is : {full_name}") -- it will return the address of the function
+
+
+# Function is a section of reusable code. To call the function, use function name then parenthesis and you can send some data called arguments. It should be matching set of parameters from the definition function and function calling arguments. 
+# return will return the value back to the place where we invoked the function 
