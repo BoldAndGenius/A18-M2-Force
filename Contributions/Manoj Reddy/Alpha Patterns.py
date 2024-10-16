@@ -40,12 +40,22 @@ for row in range(n):
 n=int(input("Enter Number: "))
 for row in range(n):
     for col in range(n):
-        if row == 0 or row == n-1 or col == 0:
+        if (row==0 or row==n-1 )and col!=0 or(col==0 and row!=0 and row!=n-1):
             print('C',end = ' ')
         else:
             print(' ',end=' ')
     print()
 
+'''D Pattern'''
+
+n = int(input("Enter Number: "))
+for row in range(n):
+    for col in range(n):
+        if col == 0 or (row == 0 or row == n-1) and col != n-1 or col == n-1 and row != 0 and row != n-1:
+            print("*",end=" ")
+        else:
+            print(" ",end=" ")
+    print()
 
 '''E Pattern'''
 
