@@ -15,11 +15,21 @@ for row in range(5):
     
 '''A Pattren'''
 
-n=5
+n=int(input("Enter Number: "))
 for row in range(n):
     for col in range(n):
         if (col==0 or col==n-1 )and row!=0 or row==0 and col!=0 and col!=n-1 or row==n//2:
-            print("*",end=" ")
+            print("A",end=" ")
+        else:
+            print(" ",end=" ")
+    print()
+
+'''B Pattern''' 
+n = int(input("Enter Number: "))
+for row in range(n):
+    for col in range(n):
+        if col == 0 or (row == 0 or row == n//2 or row == n-1) and col != n-1 or (col == n-1 and row != 0 and row != n//2 and row != n-1):
+            print("B",end=" ")
         else:
             print(" ",end=" ")
     print()
