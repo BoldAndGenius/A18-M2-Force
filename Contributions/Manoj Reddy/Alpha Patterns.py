@@ -15,13 +15,13 @@ for row in range(5):
     
 '''A Pattren'''
 
-n=int(input("Enter Number: "))
+n=5
 for row in range(n):
     for col in range(n):
-        if col == 0 or col == n-1 or row == 0 or row == n//2:
-            print('A',end = ' ')
+        if (col==0 or col==n-1 )and row!=0 or row==0 and col!=0 and col!=n-1 or row==n//2:
+            print("*",end=" ")
         else:
-            print(' ',end=' ')
+            print(" ",end=" ")
     print()
 
 
