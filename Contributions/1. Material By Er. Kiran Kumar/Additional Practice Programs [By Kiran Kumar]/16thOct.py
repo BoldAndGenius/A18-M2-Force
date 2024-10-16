@@ -28,3 +28,12 @@ def sum_two_num(num1,num2):
     return num1 + num2 
 sum = sum_two_num(10,20)
 print(sum)
+
+
+
+# Function to return Substraction of Two Numbers 
+
+def subtract_two_num(num1,num2):
+    return num1 - num2 
+subtract = subtract_two_num(20,5)
+print(subtract)
