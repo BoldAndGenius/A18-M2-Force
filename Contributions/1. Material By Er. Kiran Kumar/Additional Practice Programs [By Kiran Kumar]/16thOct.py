@@ -74,3 +74,11 @@ def cube_of_num(num):
     return num ** 3
 cube = cube_of_num(15)
 print(cube)
+
+
+# Function - A block of reusable code. 
+# place () after the function name to invoke it. 
+
+def happy_birthday(name):
+    print(f"Happy Birthday {name}")
+happy_birthday("Kiran")
