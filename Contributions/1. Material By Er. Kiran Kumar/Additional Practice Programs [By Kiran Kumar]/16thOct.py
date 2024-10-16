@@ -154,3 +154,17 @@ print(f"The Addition is : {addition}")
 print(f"The Subtraction is : {subtraction}")
 print(f"The Multiplication is : {multiplication}")
 print(f"The Division is : {division}")
+
+
+
+# Return Your Full Name using Fucntion
+
+def full_name(fname,lname):
+    return fname + " " + lname
+    
+fname = input("Enter Your First Name : ").capitalize()
+lname = input("Enter Your Last Name : ").capitalize()
+
+fullname = full_name(fname,lname)
+print(f"Your Full Name is : {fullname}")
+# print(f"Your Full Name is : {full_name}") -- it will return the address of the function
