@@ -20,3 +20,11 @@ def check_odd_even(num):
         return "Odd"
 check = check_odd_even(5)
 print(check)
+
+
+# Function to return sum of two numbers 
+
+def sum_two_num(num1,num2):
+    return num1 + num2 
+sum = sum_two_num(10,20)
+print(sum)
