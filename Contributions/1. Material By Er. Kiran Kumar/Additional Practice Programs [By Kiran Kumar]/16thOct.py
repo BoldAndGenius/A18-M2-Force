@@ -53,3 +53,10 @@ def division_two_num(num1,num2):
     return num1 / num2 
 division = division_two_num(10,4)
 print(division)
+
+
+# Function to return Remainder of Two Numbers
+def remainder_two_num(num1,num2):
+    return num1 % num2 
+remainder = remainder_two_num(20,6)
+print(remainder)
