@@ -67,3 +67,10 @@ def square_of_num(num):
     return num ** 2 
 square = square_of_num(10)
 print(square)
+
+
+# Function to return Cube of a Number
+def cube_of_num(num):
+    return num ** 3
+cube = cube_of_num(15)
+print(cube)
