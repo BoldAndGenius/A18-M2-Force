@@ -60,3 +60,10 @@ def remainder_two_num(num1,num2):
     return num1 % num2 
 remainder = remainder_two_num(20,6)
 print(remainder)
+
+
+# Function to return Square of a Number
+def square_of_num(num):
+    return num ** 2 
+square = square_of_num(10)
+print(square)
