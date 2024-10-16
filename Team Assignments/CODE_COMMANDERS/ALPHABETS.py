@@ -405,3 +405,181 @@ for row in range(n):
 *         *
 *           *
 '''
+
+
+
+
+#SANNIDHI
+#Letter S
+n=7
+for row in range(n):
+    for column in range(n):
+        if row==0 or row==n-1 or row==n//2 or (column==0 and row<=n//2) or (column==n-1 and row>=n//2):
+            print('*',end=' ')
+        else:
+            print(' ',end=' ')
+    print()
+
+#OUTPUT
+'''
+* * * * * * * 
+*
+*
+* * * * * * * 
+            * 
+            * 
+* * * * * * * 
+'''
+
+#SANNIDHI
+#Letter T
+n=7
+for row in range(n):
+    for column in range(n):
+        if row==0 or column==n//2:
+            print('*',end=' ')
+        else:
+            print(' ',end=' ')
+    print()
+
+#OUTPUT
+'''
+* * * * * * * 
+      *       
+      *       
+      *       
+      *       
+      *       
+      *       
+'''    
+
+#SANNIDHI
+#Letter U
+n=7
+for row in range(n):
+    for column in range(n):
+        if column==0 or column==n-1 or row==n-1:
+            print('*',end=' ')
+        else:
+            print(' ',end=' ')
+    print() 
+
+#OUTPUT
+'''
+*           * 
+*           * 
+*           * 
+*           * 
+*           * 
+*           * 
+* * * * * * * 
+'''
+
+
+#SANNIDHI
+#Letter V
+n=7
+for row in range(n):
+    for column in range(n):
+        if (column == row and row <= n // 2) or (column == n - row - 1 and row <= n // 2):
+            print('*', end=' ')
+        else:
+            print(' ', end=' ')
+    print()
+
+#OUTPUT
+'''
+*           * 
+  *       *   
+    *   *     
+      *  
+'''
+
+#SANNIDHI
+#Letter W
+n=7
+for row in range(n):
+    for column in range(n):
+        if column==0 or column==n-1 or (row==column and column>=n//2) or (row+column==n-1 and column<=n//2):
+            print('*',end=' ')
+        else:
+            print(' ',end=' ')
+    print() 
+
+#OUTPUT
+'''
+*           *
+*           *
+*           *
+*     *     *
+*   *   *   *
+* *       * *
+*           *
+'''
+
+
+#SANNIDHI
+#Letter X 
+n=7
+for row in range(n):
+    for column in range(n):
+        if row==column or row+column==n-1:
+            print('*',end=' ')
+        else:
+            print(' ',end=' ')
+    print() 
+
+#OUTPUT
+'''
+*           *
+  *       *
+    *   *
+      *
+    *   *
+  *       *
+*           *
+'''
+
+#SANNIDHI
+#Letter Y
+n=7
+for row in range(n):
+    for column in range(n):
+        if row+column==n-1 or (row==column and column<=n//2):
+            print('*',end=' ')
+        else:
+            print(' ',end=' ')
+    print() 
+
+#OUTPUT
+'''
+*           *
+  *       *
+    *   *
+      *
+    *
+  *
+*
+'''
+
+#SANNIDHI
+#Letter Z
+n=7
+for row in range(n):
+    for column in range(n):
+        if row==0 or row==n-1 or row+column==n-1:
+            print('*',end=' ')
+        else:
+            print(' ',end=' ')
+    print() 
+
+#OUTPUT
+'''
+* * * * * * *
+          *
+        *
+      *
+    *
+  *
+* * * * * * *
+'''
