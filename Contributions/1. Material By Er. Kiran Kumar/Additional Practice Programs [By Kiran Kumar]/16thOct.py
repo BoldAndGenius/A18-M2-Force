@@ -128,3 +128,29 @@ rate = float(input("Enter the Rate : "))
 time = float(input("Enter the time : "))
 result = simple_interest(principal, rate, time)
 print(result)
+
+
+
+
+
+# Calculator Program using Function 
+def sum(num1,num2):
+    return num1 + num2 
+def difference(num1,num2):
+    return num1 - num2 
+def multiply(num1, num2):
+    return num1 * num2 
+def divide(num1,num2):
+    return num1 / num2 
+
+num1 = int(input("Enter a number 1 : "))
+num2 = int(input("Enter a number 2 : "))
+
+addition = sum(num1, num2)
+subtraction = difference(num1, num2)
+multiplication = multiply(num1, num2)
+division = divide(num1,num2)
+print(f"The Addition is : {addition}")
+print(f"The Subtraction is : {subtraction}")
+print(f"The Multiplication is : {multiplication}")
+print(f"The Division is : {division}")
