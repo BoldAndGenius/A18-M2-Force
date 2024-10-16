@@ -97,3 +97,16 @@ name = input("Enter you name : ")
 age = int(input("Enter your age : "))
 wish = happy_birthday(name,age)
 print(wish)
+
+
+
+
+
+
+# Function that prints your Invoice
+def display_invoice(username,amount,due_date):
+    print(f"Hi, {username},")
+    print(f"Your Bill Amount is {amount} Rs.")
+    print(f"Your Due Date is {due_date}")
+    
+display_invoice("Kiran",150000.123, "10-12-2024")
