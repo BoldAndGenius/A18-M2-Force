@@ -110,3 +110,21 @@ def display_invoice(username,amount,due_date):
     print(f"Your Due Date is {due_date}")
     
 display_invoice("Kiran",150000.123, "10-12-2024")
+
+
+
+
+# return -- It is a statement that is used to end a function. and send a result back to the caller. 
+
+
+
+# Function that returns the Simple Interest
+
+def simple_interest(P,R,T):
+    SI = (P*R*T)/100
+    return SI
+principal = float(input("Enter the Principal Amount : "))
+rate = float(input("Enter the Rate : "))
+time = float(input("Enter the time : "))
+result = simple_interest(principal, rate, time)
+print(result)
