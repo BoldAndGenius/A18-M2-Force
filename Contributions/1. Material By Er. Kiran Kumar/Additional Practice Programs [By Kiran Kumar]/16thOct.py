@@ -45,3 +45,11 @@ def multiplication_two_num(num1,num2):
     return num1 * num2 
 multiplication = multiplication_two_num(20,30)
 print(multiplication)
+
+
+
+# Function to return Division of Two Numbers
+def division_two_num(num1,num2):
+    return num1 / num2 
+division = division_two_num(10,4)
+print(division)
