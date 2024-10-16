@@ -79,6 +79,10 @@ print(cube)
 # Function - A block of reusable code. 
 # place () after the function name to invoke it. 
 
-def happy_birthday(name):
-    print(f"Happy Birthday {name}")
-happy_birthday("Kiran")
+def happy_birthday(p1,p2):
+    print(f"Happy Birthday {p1}")
+    print(f"You are {p2} years old.")
+
+name = input("Enter you name : ")
+age = int(input("Enter you age : "))
+happy_birthday(name,age)
