@@ -37,3 +37,11 @@ def subtract_two_num(num1,num2):
     return num1 - num2 
 subtract = subtract_two_num(20,5)
 print(subtract)
+
+
+
+# Function to return Multiplication of Two Numbers
+def multiplication_two_num(num1,num2):
+    return num1 * num2 
+multiplication = multiplication_two_num(20,30)
+print(multiplication)
