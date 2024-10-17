@@ -1239,3 +1239,65 @@ for row in range(n):
     print(num,end=" ")
     num = num + 1
   print()
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+'''
+  
+  
+Number Pattern - 39
+
+
+1                 1 
+1 2             1 2 
+1 2 3         1 2 3 
+1 2 3 4     1 2 3 4 
+1 2 3 4 5 1 2 3 4 5 
+1 2 3 4     1 2 3 4 
+1 2 3         1 2 3 
+1 2             1 2 
+1                 1 
+  
+  
+'''
+
+n = int(input())
+for row in range(n-1):
+  num = 1
+  for col in range(row+1):
+    print(num,end=" ")
+    num = num + 1
+  for col in range(row,n-1):
+    print(" ",end=" ")
+  for col in range(row,n-1):
+    print(" ",end=" ")
+  num = 1
+  for col in range(row+1):
+    print(num,end=" ")
+    num = num + 1
+  print()
+# n = int(input())
+for row in range(n):
+  num = 1
+  for col in range(row,n):
+    print(num,end=" ")
+    num = num + 1
+  for col in range(row):
+    print(" ",end=" ")
+  for col in range(row):
+    print(" ",end=" ")
+  num = 1
+  for col in range(row,n):
+    print(num,end=" ")
+    num = num + 1
+  print()
