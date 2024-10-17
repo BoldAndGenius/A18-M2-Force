@@ -455,3 +455,82 @@ for row in range(n):
     else:
       print(" ",end=" ")
   print()
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+'''
+
+Hollow Diamond 
+
+        * *       
+      *     *     
+    *         *   
+  *             * 
+*                 * 
+  *             *   
+    *         *     
+      *     *       
+        * *         
+
+'''
+
+  
+  
+n = int(input())
+for row in range(n-1):
+  for col in range(n):
+    if col+row==n-1:
+      print("*",end=" ")
+    else:
+      print(" ",end=" ")
+  for col in range(n-1):
+    if row==col:
+      print("*",end=" ")
+    else:
+      print(" ",end=" ")
+  print()
+for row in range(n):
+  for col in range(n):
+    if row==col:
+      print("*",end=" ")
+    else:
+      print(" ",end=" ")
+  for col in range(n):
+    if row+col==n-1:
+      print("*",end=" ")
+    else:
+      print(" ",end=" ")
+  print()
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Hollow Diamond
