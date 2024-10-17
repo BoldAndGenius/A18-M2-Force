@@ -1301,3 +1301,32 @@ for row in range(n):
     print(num,end=" ")
     num = num + 1
   print()
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+'''
+Number Pattern - 40
+
+5 
+5 4 
+5 4 3 
+5 4 3 2 
+5 4 3 2 1 
+
+
+'''
+
+n = int(input())
+for row in range(n):
+  num = n
+  for col in range(row+1):
+    print(num,end=" ")
+    num = num - 1
+  print()
