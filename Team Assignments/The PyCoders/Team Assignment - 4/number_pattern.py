@@ -1330,3 +1330,36 @@ for row in range(n):
     print(num,end=" ")
     num = num - 1
   print()
+  
+  
+  
+  
+  
+  
+'''
+Number Pattern - 41
+[good question for revision]
+
+
+ 5 4 3 2 1 
+    4 3 2 1 
+      3 2 1 
+        2 1 
+          1
+          
+           
+'''
+
+n = int(input())
+num1 = n
+for row in range(n):
+  for col in range(row+1):
+    print(" ",end=" ")
+  num2 = num1
+  for col in range(row,n):
+    print(num2,end=" ")
+    num2 = num2 - 1
+  num1 = num1 - 1
+  print()
+    
+    
