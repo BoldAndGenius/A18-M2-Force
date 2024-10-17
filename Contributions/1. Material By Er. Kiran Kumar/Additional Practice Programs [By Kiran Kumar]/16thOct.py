@@ -172,3 +172,58 @@ print(f"Your Full Name is : {fullname}")
 
 # Function is a section of reusable code. To call the function, use function name then parenthesis and you can send some data called arguments. It should be matching set of parameters from the definition function and function calling arguments. 
 # return will return the value back to the place where we invoked the function 
+
+
+
+
+
+
+
+
+
+
+# Revision -
+# All List Functions -
+
+
+people = ["Kiran", "Kunal", "Kajal"]
+
+# 1. append 
+# to add a new person
+people.append("Pankaj")
+print(people)
+
+# Output - 
+# ['Kiran', 'Kunal', 'Kajal', 'Pankaj']
+
+
+
+
+
+
+# 2. clear 
+
+people = ["Kiran", "Kunal", "Kajal"]
+people.clear()   # it empty the list clearly
+print(people)
+# output -  
+# []
+
+
+
+
+# 3. copy 
+people = ["Kiran", "Kunal", "Kajal"]
+# you want to copy the list. 
+new_list = people.copy()   # swallow copy -- it means we can edit One Dimensional Array without any side effects. 
+new_list.remove("Kajal")  # remove one element from the new list
+print(new_list)  # now both list will have different list, & different ids. 
+print(people)
+
+# output -
+# ['Kiran', 'Kunal']       - Kajal Element is removed from the new list
+# ['Kiran', 'Kunal', 'Kajal']
+
+
+
+
