@@ -1096,3 +1096,24 @@ for row in range(n):
     print(num,end=" ")
     num = num + 1
   print()
+  
+  
+  
+
+'''
+Number Pattern - 34
+
+1 2 3 4 5 
+1 2 3 4 
+1 2 3 
+1 2 
+1 
+
+'''
+n = int(input())
+for row in range(n):
+  num = 1
+  for col in range(row,n):
+    print(num,end=" ")
+    num = num + 1
+  print()
