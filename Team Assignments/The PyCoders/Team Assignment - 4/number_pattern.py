@@ -847,6 +847,16 @@ for row in range(n):
 '''
 Number Pattern - 28 
 
+          1 
+        2 2 2 
+      3 3 3 3 3 
+    4 4 4 4 4 4 4 
+  5 5 5 5 5 5 5 5 5 
+    6 6 6 6 6 6 6 
+      7 7 7 7 7 
+        8 8 8 
+          9 
+
 '''
 
 n = int(input())
@@ -870,3 +880,48 @@ for row in range(n):
   num = num + 1
   print()
     
+    
+    
+    
+    
+
+
+'''
+Number Pattern - 29 
+
+1                 1 
+2 2             2 2 
+3 3 3         3 3 3 
+4 4 4 4     4 4 4 4 
+5 5 5 5 5 5 5 5 5 5 
+6 6 6 6     6 6 6 6 
+7 7 7         7 7 7 
+8 8             8 8 
+9                 9 
+
+'''
+
+n = int(input())
+num = 1
+for row in range(n-1):
+  for col in range(row+1):
+    print(num,end=" ")
+  for col in range(row,n-1):
+    print(" ",end=" ")
+  for col in range(row,n-1):
+    print(" ",end=" ")  
+  for col in range(row+1):
+    print(num,end=" ")
+  num = num + 1
+  print()
+for row in range(n):
+  for col in range(row,n):
+    print(num,end=" ")
+  for col in range(row):
+    print(" ",end=" ")
+  for col in range(row):
+    print(" ",end=" ")
+  for col in range(row,n):
+    print(num,end=" ")
+  num = num + 1
+  print()
