@@ -28,3 +28,10 @@ def get_square_or_cube():
 def last_element():
     collection = eval(input("Enter any collection : "))
     return collection[-1]
+
+
+
+# Define a Function which displays the multiplication table of a number. 
+def display_table(num):
+    for factor in range(1,11):
+        print(f"{num} X {factor} = {num*factor}")
