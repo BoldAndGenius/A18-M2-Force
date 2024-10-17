@@ -21,3 +21,10 @@ def get_square_or_cube():
         return num ** 2
     else:
         return num ** 3
+    
+    
+
+# Define a Function which returns the last element of the Collection 
+def last_element():
+    collection = eval(input("Enter any collection : "))
+    return collection[-1]
