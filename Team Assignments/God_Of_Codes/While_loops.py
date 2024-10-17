@@ -44,7 +44,61 @@ print(result)
 #     index += 1
 # print(result)
 
-""" 
+"""
+
+63.Write a program to get the following output
+input= ‘just looking like wow’
+output= ‘jusT LOOKING Like a wow’
+
+"""
+
+# input_str = 'just looking like wow'
+# words = input_str.split()
+
+# i = 0
+# while i < len(words):
+#     if i == 0:
+#         words[i] = words[i][:3] + words[i][3].upper() if len(words[i]) > 3 else words[i].capitalize()
+#     elif i == 1:
+#         words[i] = words[i].upper()
+#     elif i == 2:
+#         words[i] = words[i].capitalize()
+#     elif i == 3:
+#         words[i] = 'a ' + words[i]
+#     i += 1
+
+# output_str = ' '.join(words)
+# print(output_str)
+
+
+"""
+
+64.Program to find the common elements in two sets using a while loop
+
+"""
+
+# set1 = {1, 2, 3, 4, 5}
+# set2 = {4, 5, 6, 7, 8}
+
+# common_elements = set()
+# list1 = list(set1)
+# list2 = list(set2)
+# i = 0
+# j = 0
+
+# while i < len(list1) and j < len(list2):
+#     if list1[i] == list2[j]:
+#         common_elements.add(list1[i])
+#         i += 1
+#         j += 1
+#     elif list1[i] < list2[j]:
+#         i += 1
+#     else:
+#         j += 1
+# print("Common elements:", common_elements)
+
+
+"""
 
 76.Write a program to get the following output
 input1=’11001010’
