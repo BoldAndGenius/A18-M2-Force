@@ -1073,3 +1073,26 @@ for row in range(n):
   num = num - 1
   print()
     
+    
+    
+    
+    
+    
+    
+'''
+Number Pattern - 33
+
+1 
+1 2 
+1 2 3 
+1 2 3 4 
+1 2 3 4 5 
+
+'''
+n = int(input())
+for row in range(n):
+  num = 1
+  for col in range(row+1):
+    print(num,end=" ")
+    num = num + 1
+  print()
