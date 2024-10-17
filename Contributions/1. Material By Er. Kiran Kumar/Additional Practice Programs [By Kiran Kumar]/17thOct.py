@@ -35,3 +35,14 @@ def last_element():
 def display_table(num):
     for factor in range(1,11):
         print(f"{num} X {factor} = {num*factor}")
+
+
+
+# Define a Function which displays all the vowels in a given string
+def display_vowel(string):
+    vowel = ""
+    for char in string:
+        if char in "aeiouAEIOU":
+            vowel = vowel + char  
+    print(vowel)
+display_vowel("kiran")
