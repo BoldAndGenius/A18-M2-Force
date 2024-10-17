@@ -46,3 +46,15 @@ def display_vowel(string):
             vowel = vowel + char  
     print(vowel)
 display_vowel("kiran")
+
+
+
+# Define a Function which returns all the keys from the dictionary that are string.
+def get_key(dictionary):
+    keys = []
+    for key in dictionary:
+        if type(key) == str:
+            keys.append(key)
+    print(keys)
+# get_key({"name": "kiran", "age":18, "address": "Bangalore", 32 : 45})
+            
