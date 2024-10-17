@@ -1195,3 +1195,47 @@ for row in range(n):
     num = num + 1
   print()
   
+  
+  
+  
+
+
+'''
+Number Pattern - 38
+
+          1 
+        1 2 3 
+      1 2 3 4 5 
+    1 2 3 4 5 6 7 
+  1 2 3 4 5 6 7 8 9 
+    1 2 3 4 5 6 7 
+      1 2 3 4 5 
+        1 2 3 
+          1 
+
+
+'''
+n = int(input())
+for row in range(n-1):
+  for col in range(row,n):
+    print(" ",end=" ")
+  num = 1
+  for col in range(row):
+    print(num,end=" ")
+    num = num + 1
+  for col in range(row+1):
+    print(num,end=" ")
+    num = num + 1
+  print()
+# n = int(input())
+for row in range(n):
+  for col in range(row+1):
+    print(" ",end=" ")
+  num = 1
+  for col in range(row,n-1):
+    print(num,end=" ")
+    num = num + 1
+  for col in range(row,n):
+    print(num,end=" ")
+    num = num + 1
+  print()
