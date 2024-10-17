@@ -974,3 +974,49 @@ for row in range(n):
     print(num,end=" ")
   num = num + 1
   print()
+  
+  
+  
+  
+  
+  
+  
+'''
+  
+Number Pattern - 31 
+
+
+          1 
+        2 2 2 
+      3 3 3 3 3 
+    4 4 4 4 4 4 4 
+  1 1 1 1 1 1 1 1 1 
+    2 2 2 2 2 2 2 
+      3 3 3 3 3 
+        4 4 4 
+          5 
+
+'''
+
+n = int(input())
+num = 1
+for row in range(n-1):
+  for col in range(row,n):
+    print(" ",end=" ")
+  for col in range(row):
+    print(num,end=" ")
+  for col in range(row+1):
+    print(num,end=" ")
+  num = num + 1
+  print()
+num = 1
+for row in range(n):
+  for col in range(row+1):
+    print(" ",end=" ")
+  for col in range(row,n-1):
+    print(num,end=" ")
+  for col in range(row,n):
+    print(num,end=" ")
+  num = num + 1
+  print()
+    
