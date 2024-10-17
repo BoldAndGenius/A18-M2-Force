@@ -1363,3 +1363,30 @@ for row in range(n):
   print()
     
     
+    
+    
+    
+'''
+Number Pattern - 42
+[Revision] 
+
+          1 
+        1 2 1 
+      1 2 3 2 1 
+    1 2 3 4 3 2 1 
+  1 2 3 4 5 4 3 2 1 
+
+'''
+
+n = int(input())
+for row in range(n):
+  for col in range(row,n):
+    print(" ",end=" ")
+  num = 1
+  for col in range(row):
+    print(num,end=" ")
+    num = num + 1
+  for col in range(row+1):
+    print(num,end=" ")
+    num = num - 1
+  print()
