@@ -1142,3 +1142,26 @@ for row in range(n):
     print(num,end=" ")
     num = num + 1
   print()
+  
+
+
+'''
+Number Pattern - 36
+
+          1 
+        1 2 
+      1 2 3 
+    1 2 3 4 
+  1 2 3 4 5 
+
+'''
+n = int(input())
+num = 1
+for row in range(n):
+  for col in range(row,n):
+    print(" ",end=" ")
+  num = 1
+  for col in range(row+1):
+    print(num,end=" ")
+    num = num + 1
+  print()
