@@ -73,3 +73,5 @@ def get_single_value(collection):
 result = get_single_value([10,20,"True", False,3.4, [1,2,3], (1,2,3)])
 print(result)
             
+            
+            
