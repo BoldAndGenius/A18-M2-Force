@@ -380,3 +380,78 @@ for row in range(n):
       print(" ",end=" ")
   print()
     
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  
+'''
+Square Parallel Bar Pattern 
+
+*       * 
+*       * 
+*       * 
+*       * 
+*       * 
+
+'''
+n = int(input())
+for row in range(n):
+  for col in range(n):
+    if col==0 or col==n-1:
+      print("*",end=" ")
+    else:
+      print(" ",end=" ")
+  print()
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+'''
+Hollow Hill Pattern 
+[Practice]
+
+          * 
+        *   * 
+      *       * 
+    *           * 
+  * * * * * * * * * 
+
+
+'''
+
+
+# First make the solid hill pattern, and the improvise to hollow.
+n = int(input())
+for row in range(n):
+  for col in range(row,n):
+    print(" ",end=" ")
+  for col in range(row):
+    if col==0 or row==n-1:
+      print("*",end=" ")
+    else:
+      print(" ",end=" ")
+  for col in range(row+1):
+    if row==col or row==n-1:
+      print("*",end=" ")
+    else:
+      print(" ",end=" ")
+  print()

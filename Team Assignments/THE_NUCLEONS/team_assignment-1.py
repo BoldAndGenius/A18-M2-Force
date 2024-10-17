@@ -168,3 +168,24 @@ for row in range(n):
             print("*", end=" ")
             
     print()
+
+"""
+      *
+      * *
+      * * *
+      * * * *
+      * * * * *
+      * * * *
+      * * *
+      * *
+      *
+"""
+n=int(input("enter number:"))
+for row in range (n):
+    for col in range (n):
+        if  col==0 or (row==n//2 and col==n//2) or (row>=col and row<=n//2) or (row+col<=n-1 and row>=n//2) :
+            print("*",end=" ")
+        else:
+            print(" ",end=" ")
+    print()
+

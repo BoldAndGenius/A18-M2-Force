@@ -84,7 +84,7 @@ for row in range(n):
 n=int(input("Enter Number: "))
 for row in range(n):
     for col in range(n):
-        if col == 0 or row == 0 or row == n-1 or (row == n//2 and col>=n//2) or (col == n-1 and row >= n//2):
+        if ((row==0 or row==n-1) and col!=0) or(col==0 and row!=0 and row!=n-1) or (col==n-1 and row>=n//2) or (row == n//2 and col >= n//2):
             print('G',end = ' ')
         else:
             print(' ',end=' ')
@@ -121,6 +121,16 @@ for row in range(n):
             print('J',end = ' ')
         else:
             print(' ',end=' ')
+    print()
+
+'''K Pattern'''
+n=5
+for row in range(n):
+    for col in range(n):
+        if col==0 or (row+col==n-2 and row<=n//2) or(col==row-1 and row>=n//2):
+            print("*",end=" ")
+        else:
+            print(" ",end=" ")
     print()
     
 '''L Pattern'''
@@ -162,7 +172,7 @@ for row in range(n):
 n=int(input("Enter Number: "))
 for row in range(n):
     for col in range(n):
-        if col == 0 or row == 0 or row == n-1 or col == n-1:
+        if ((row==0 or row==n-1)and col!=0 and col!=n-1) or ((col==0 or col==n-1)and row!=0 and row!=n-1):
             print('O',end = ' ')
         else:
             print(' ',end=' ')
@@ -173,10 +183,21 @@ for row in range(n):
 n=int(input("Enter Number: "))
 for row in range(n):
     for col in range(n):
-        if col == 0 or row == 0 or row == n//2 or (col==n-1 and row <= n//2):
+        if col==0 or ((row==0 or row==n//2 )and col!=n-1)or (col==n-1 and row==1):
             print('P',end = ' ')
         else:
             print(' ',end=' ')
+    print()
+    
+''' Q Pattern'''
+
+n=int(input("Enter Number: "))
+for row in range(n):
+    for col in range(n):
+        if ((row==0 or row==n-1)and col!=0 and col!=n-1) or ((col==0 or col==n-1)and row!=0 and row!=n-1)or (row==col and row>=n//2):
+            print("*",end=" ")
+        else:
+            print(" ",end=" ")
     print()
 
 '''R Pattern'''
@@ -184,7 +205,7 @@ for row in range(n):
 n=int(input("Enter Number: "))
 for row in range(n):
     for col in range(n):
-        if col == 0 or row == 0 or row == n//2 or (col==n-1 and row <= n//2) or (row==col and row >= n//2):
+        if col==0 or ((row==0 or row==n//2 )and col!=n-1)or (col==n-1 and row==1)or col==row and col>=n//2:
             print('R',end = ' ')
         else:
             print(' ',end=' ')
@@ -195,7 +216,7 @@ for row in range(n):
 n=int(input("Enter Number: "))
 for row in range(n):
     for col in range(n):
-        if row == 0 or row == n-1 or row == n//2 or (col==0 and row<=n//2) or (col==n-1 and row >= n//2) :
+        if (row==0 and col!=0) or( row==n-1 and col!=n-1) or  row==n//2 or (row==1 and col==0)or (row==n-2 and col==n-1) :
             print('S',end = ' ')
         else:
             print(' ',end=' ')
@@ -217,7 +238,7 @@ for row in range(n):
 n=int(input("Enter Number: "))
 for row in range(n):
     for col in range(n):
-        if col == 0 or col == n-1 or row == n-1 :
+        if ((col==0 or col==n-1)and row!=n-1) or ((row==n-1)and col!=0 and col!=n-1) :
             print('U',end = ' ')
         else:
             print(' ',end=' ')
