@@ -55,6 +55,23 @@ def get_key(dictionary):
     for key in dictionary:
         if type(key) == str:
             keys.append(key)
-    print(keys)
+    return keys
 # get_key({"name": "kiran", "age":18, "address": "Bangalore", 32 : 45})
+
+
+
+
+
+
+# Define a Function that returns the single value data type from the Collection 
+def get_single_value(collection):
+    single_value = []
+    for item in collection:
+        if type(item) in [int,float,complex,bool]:
+            single_value.append(item)
+    return single_value
+result = get_single_value([10,20,"True", False,3.4, [1,2,3], (1,2,3)])
+print(result)
+            
+            
             
