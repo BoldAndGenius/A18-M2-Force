@@ -141,3 +141,16 @@ Hello Duniya
 Hello World
 Hello Logo
 '''
+
+
+
+
+
+
+# Employee Info Function
+def emp_info(name,age,salary):
+    print(f"Employee Name -> {name}")
+    print(f"Employee Age -> {age}")
+    print(f"Employee Salary -> {salary}")
+
+emp_info("Kiran",18, 400000000)
