@@ -41,3 +41,23 @@ if sum == product:
 else:
     print("Not a Spy Number.")
     
+
+
+# # All Fancy Number Program - 3 : Check if a number is Special Number or Not.
+# Special Number => Sum of Digits + Product of Digits = Original Number
+# 59 =>   5 + 9 + 5 * 9 = 59 
+
+num = int(input("Enter a number: "))
+temp = num
+sum = 0
+product = 1
+while num>0:
+    end = num % 10
+    sum = sum + end
+    product = product * end 
+    num = num // 10
+    
+if sum + product == temp:
+    print("Special Number.")
+else:
+    print("Not a Special Number.")
