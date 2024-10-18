@@ -154,3 +154,19 @@ def emp_info(name,age,salary):
     print(f"Employee Salary -> {salary}")
 
 emp_info("Kiran",18, 400000000)
+
+
+
+
+
+# Positional Arguments 
+def add_and_concat(num1,num2,string1,string2):
+    print(num1+num2)
+    print(string1+string2)
+add_and_concat(10,20,"Kiran","Kumar")
+
+'''
+Output -
+30
+KiranKumar
+'''
