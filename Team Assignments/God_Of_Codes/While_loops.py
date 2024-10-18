@@ -18,7 +18,6 @@ while index < len(elements):
 print(result)
 
 """
-
 62.write a program to extract all the list data items present in list collection only if it is having middle value , that value is integer and having even number at start
 
 """
@@ -70,9 +69,7 @@ output= ‘jusT LOOKING Like a wow’
 # output_str = ' '.join(words)
 # print(output_str)
 
-
 """
-
 64.Program to find the common elements in two sets using a while loop
 
 """
@@ -97,11 +94,10 @@ output= ‘jusT LOOKING Like a wow’
 #         j += 1
 # print("Common elements:", common_elements)
 
-
 """
 71.Number of occerences of each character in string in dictionary
-"""
 
+"""
 
 # def count_characters(s):
 #     char_count = {}
@@ -122,7 +118,6 @@ output= ‘jusT LOOKING Like a wow’
 # print(result)
 
 """
-
 72.Remove duplicate value from collection without convertin to set
 
 """
@@ -143,7 +138,6 @@ output= ‘jusT LOOKING Like a wow’
 # print(result)
 
 """
-
 73.Find the length of collection without using len function
 
 """
@@ -157,6 +151,7 @@ output= ‘jusT LOOKING Like a wow’
 #     index += 1
 
 # print(count)
+
 """
 74.Extract all the integers from a list only if the integer is starting from even number and ending as odd number and having  length more than 3
 
@@ -200,9 +195,7 @@ output= ‘jusT LOOKING Like a wow’
 # collection_input = [1, 2, 3, 4, 5, 6]
 # extract_data(collection_input)
 
-
 """
-
 76.Write a program to get the following output
 input1=’11001010’
 input2=’01110010’
@@ -222,7 +215,6 @@ from itertools import count, product
 # print(output)
 
 """
-
 77..Write a program to get the following output
 input=[1,2,3,4,5,6]
 value=3
@@ -248,7 +240,6 @@ output=[1,2][3,4][5,6]
 # print(output)
 
 """
-
 78.Write a program to check weather the given number is spy number or not i.e, 1*2*3=1+2+3
 
 """
@@ -299,7 +290,6 @@ output=[1,2][3,4][5,6]
 #     print(f"{ip} is not a Xylem number.")
 
 """
-
 80.Write a program to check weather the given number is phloem number or not
 I.e, 12345 → 1+5 != 2+3+4
 
