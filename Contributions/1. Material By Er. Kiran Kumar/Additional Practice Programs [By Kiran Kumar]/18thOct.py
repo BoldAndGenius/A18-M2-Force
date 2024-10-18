@@ -96,3 +96,48 @@ In Inner
 Hello World
 
 '''
+
+
+
+
+
+
+
+
+
+
+# function taking function name as an argument (Program - 4)
+
+
+# Each time you create a function, id has been assigned.
+
+    # 0x1         #  0x4   0x2    0x3  has been assigned from the function call
+def ambani_wedding(star1, star2, star3):
+    print("Welcome to the Wedding")
+    # 0x4 assigned from the parameter
+    star1()
+    # 0x2 assigned from the parameter
+    star2()
+    # 0x3 assigned from the parameter
+    star3()
+  # 0x2
+def prabhas():
+    print("Hello World")
+  # 0x3
+def rajni():
+    print("Hello Logo")
+  # 0x4
+def yash():
+    print("Hello Duniya")
+    
+  # 0x1     # 0x4  # 0x2  # 0x3
+ambani_wedding(yash,prabhas,rajni)
+
+
+'''
+Output -
+Welcome to the Wedding
+Hello Duniya
+Hello World
+Hello Logo
+'''
