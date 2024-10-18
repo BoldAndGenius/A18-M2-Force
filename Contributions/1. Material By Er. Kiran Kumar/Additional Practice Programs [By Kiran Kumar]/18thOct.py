@@ -206,14 +206,14 @@ Employee Salary -> 400000000
 
 
 
-
+# Function - Group of statements that will do some particular task 
 
 # Average of 3 Numbers Using Function
 
-def avg(num1,num2,num3):
+def avg(num1,num2,num3):   # function definition
     average = (num1+num2+num3)/3
     return average
-result1=avg(10,20,30)
+result1=avg(10,20,30)  # function calling
 result2=avg(5,10,20)
 print(result1)
 print(result2)
@@ -222,4 +222,24 @@ print(result2)
 Output -
 20.0
 11.666666666666666
+'''
+
+
+# The parameter that are used in function definition are called Formal Parameters. The parameter that are used in function call are called Actual Parameters. 
+
+# Value Returning Function -- Any function that returns some value. 
+# Non Value Returning Function -- Any function that returns nothing.  No value.
+
+
+
+# Non value Returning Function
+def display_message():
+    print("Hello")
+    print("How, are you?")
+display_message()
+
+'''
+output -
+Hello
+How, are you?
 '''
