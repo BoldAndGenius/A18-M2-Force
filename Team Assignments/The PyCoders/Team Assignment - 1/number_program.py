@@ -61,3 +61,25 @@ if sum + product == temp:
     print("Special Number.")
 else:
     print("Not a Special Number.")
+    
+    
+    
+    
+
+# All Fancy Number Program - 4 : Check if a number is Harshad/Niven Number or Not.
+# Harshad Number / Niven Number =>  A number which is divisible by sum of it's digits.
+# eg.  156 =>  1+5+6 = 12     156 is divisible by 12  (It means, jab 156 ko divide kare 12 se to remainder zero aai)
+
+num = int(input("Enter a number : "))
+temp = num
+sum = 0
+while num>0:
+    last = num % 10
+    sum = sum + last
+    num = num // 10
+    
+if temp % sum == 0:
+    print("Harshad Number")
+else:
+    print("Not a Harshad Number")
+    
