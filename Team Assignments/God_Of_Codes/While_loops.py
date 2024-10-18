@@ -99,6 +99,109 @@ output= ‘jusT LOOKING Like a wow’
 
 
 """
+71.Number of occerences of each character in string in dictionary
+"""
+
+
+# def count_characters(s):
+#     char_count = {}
+#     index = 0
+    
+#     while index < len(s):
+#         char = s[index]
+#         if char in char_count:
+#             char_count[char] += 1
+#         else:
+#             char_count[char] = 1
+#         index += 1
+    
+#     return char_count
+
+# string_input = input("Enter a string: ")
+# result = count_characters(string_input)
+# print(result)
+
+"""
+
+72.Remove duplicate value from collection without convertin to set
+
+"""
+
+# def remove_duplicates(collection):
+#     unique_collection = []
+#     index = 0
+    
+#     while index < len(collection):
+#         if collection[index] not in unique_collection:
+#             unique_collection.append(collection[index])
+#         index += 1
+    
+#     return unique_collection
+
+# collection_input = [1, 2, 2, 3, 4, 4, 5]
+# result = remove_duplicates(collection_input)
+# print(result)
+
+"""
+
+73.Find the length of collection without using len function
+
+"""
+
+# collection = [1, 2, 3, 4, 5]
+# count = 0
+# index = 0
+
+# while index < len(collection):
+#     count += 1
+#     index += 1
+
+# print(count)
+"""
+74.Extract all the integers from a list only if the integer is starting from even number and ending as odd number and having  length more than 3
+
+"""
+# def extract_integers(collection):
+#     result = []
+    
+#     index = 0
+#     while index < len(collection):
+#         item = collection[index]
+#         if isinstance(item, int) and len(str(item)) > 3:
+#             if str(item)[0] in '02468' and str(item)[-1] in '13579':
+#                 result.append(item)
+#         index += 1
+    
+#     return result
+
+# collection_input = [123, 2467, 12345, 6789, 1011, 23456]
+# result = extract_integers(collection_input)
+# print(result)
+
+"""
+
+75.To extract all the individual data items of a list if the length of extracted output is more than 4 print the first value of the output else print last value of the output list and add 10 to it
+
+"""
+
+# def extract_data(collection):
+#     result = []
+
+#     index = 0
+#     while index < len(collection):
+#         result.append(collection[index])
+#         index += 1
+
+#     if len(result) > 4:
+#         print(result[0])
+#     else:
+#         print(result[-1] + 10)
+
+# collection_input = [1, 2, 3, 4, 5, 6]
+# extract_data(collection_input)
+
+
+"""
 
 76.Write a program to get the following output
 input1=’11001010’
