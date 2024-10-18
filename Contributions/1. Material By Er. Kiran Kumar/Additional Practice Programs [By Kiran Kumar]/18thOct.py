@@ -243,3 +243,35 @@ output -
 Hello
 How, are you?
 '''
+
+
+
+
+
+
+# Formal Parameters & Actual Parameters can be same or different. 
+         # default parameter   n3 = 0
+def average(n1,n2,n3=0):  # formal parameter = n1,n2,n3
+    avg = (n1+n2+n3)/3.0
+    return avg 
+
+print("Welcome")
+num1 = int(input("Enter the First Number : "))
+num2 = int(input("Enter the Second Number : "))
+num3 = int(input("Enter the Third Number : "))
+
+# It is called Positional Arguments 
+result = average(num1,num2,num3)  # actual parameter = num1,num2, num3
+print(result)
+
+# here formal parameter & actual parameter are different. No issues. 
+
+
+# Keyword Argument 
+result = average(n3 = 30, n1 = 50, n2 = 60) # value will assign based on the keyword, not based on the position. 
+print(result)
+
+
+# because of Default Argument for n3=0, only two arguments can work.
+result = average(10,20)
+print(result)
