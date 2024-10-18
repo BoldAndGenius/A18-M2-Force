@@ -180,3 +180,23 @@ def add (num1, num2 = 0):
     print(sum)
 add(10,20)
 add(10)  # num2 will become 0  [no error]
+
+
+
+
+# Keyword Argument 
+def emp_info(name,age,salary):
+    print(f"Employee Name -> {name}")
+    print(f"Employee Age -> {age}")
+    print(f"Employee Salary -> {salary}")
+
+emp_info(age=18, name="Kiran", salary=400000000)
+
+
+'''
+Output -
+Employee Name -> Kiran
+Employee Age -> 18
+Employee Salary -> 400000000
+
+'''
