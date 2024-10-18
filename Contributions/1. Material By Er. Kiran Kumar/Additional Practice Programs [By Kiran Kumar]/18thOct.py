@@ -170,3 +170,13 @@ Output -
 30
 KiranKumar
 '''
+
+
+
+
+# Default Arguments 
+def add (num1, num2 = 0):
+    sum = num1 + num2 
+    print(sum)
+add(10,20)
+add(10)  # num2 will become 0  [no error]
