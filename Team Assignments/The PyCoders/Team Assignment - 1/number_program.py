@@ -101,3 +101,28 @@ if count > 0:
     print("Fancy Number.")
 else:
     print("Not a Fancy Number.")
+    
+    
+    
+    
+    
+    
+    
+    
+    
+# All Fancy Number Program - 6 : Check if a number is Neon Number or Not.
+# Neon Number =>  Sum of digits of square of a number is equal to number.
+# 9     9*9 = 81 => 8 + 1 => 9    9 = 9
+
+num = int(input("Enter a Number : "))  # 9
+temp = num * num   # 9 * 9 = 81
+sum = 0
+while temp>0:
+    end = temp % 10
+    sum = sum + end 
+    temp = temp // 10 
+if sum == num:
+    print("Neon Number.")
+else:
+    print("Not a Neon Number.")
+    
