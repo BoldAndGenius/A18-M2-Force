@@ -200,3 +200,26 @@ Employee Age -> 18
 Employee Salary -> 400000000
 
 '''
+
+
+
+
+
+
+
+
+# Average of 3 Numbers Using Function
+
+def avg(num1,num2,num3):
+    average = (num1+num2+num3)/3
+    return average
+result1=avg(10,20,30)
+result2=avg(5,10,20)
+print(result1)
+print(result2)
+
+'''
+Output -
+20.0
+11.666666666666666
+'''
