@@ -153,3 +153,32 @@ if flag == 0:
     print("Automorphic Number.")
 else:
     print("Not a Automorphic Number.")
+    
+    
+    
+    
+
+
+
+
+
+
+# All Fancy Number Program - 8 : Check if a number is Special Number / Krishnamurthy Number  or Not.
+# Special Number / Krishnamurthy Number =>  Sum of factorial of digits is equal to the number 
+# 145 = 1! + 4! + 5! 
+
+import math
+num = int(input("Enter a numer : "))
+temp = num 
+factorial = 0
+while num>0:
+    end = num % 10 
+    fact = math.factorial(end)
+    factorial = factorial + fact 
+    num = num // 10 
+if temp == factorial:
+    print("Special Number.")
+else:
+    print("Not a Special Number.")
+    
+    
