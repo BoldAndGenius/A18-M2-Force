@@ -83,3 +83,21 @@ if temp % sum == 0:
 else:
     print("Not a Harshad Number")
     
+    
+    
+
+# All Fancy Number Program - 5 : Check if a number is Duck Number or Not.
+# Duck Number => A number which has zeroes present in it.  Eg. 402, 290
+
+num = int(input("Enter a number : "))
+count = 0
+while num>0:
+    end = num % 10
+    if end == 0:
+        count = count + 1
+    num = num // 10
+    
+if count > 0:
+    print("Fancy Number.")
+else:
+    print("Not a Fancy Number.")
