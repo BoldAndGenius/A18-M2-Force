@@ -126,3 +126,30 @@ if sum == num:
 else:
     print("Not a Neon Number.")
     
+
+
+
+
+
+# All Fancy Number Program - 7 : Check if a number is Automorphic Number or Not.
+# Automorphic Number => It is a number which is contained in the last digits of it's square. 
+# eg. -   25  --- the square is 625.  And 25 is present in the last two digits. 
+# logic - break the digits from the both number and then match, if not match, we will raise the flag. 
+
+# 10 ---- 10*10 = 100   10 is not present as the last digits. -- not an Automorphic Number.
+
+num = int(input("Enter a number : "))  # 25
+square = num * num   # 25*25 = 625 
+flag = 0 
+while num>0:
+    end1 = num % 10
+    end2 = square % 10 
+    if end1 != end2:
+        flag = flag + 1
+    num = num // 10
+    square = square // 10
+    
+if flag == 0:
+    print("Automorphic Number.")
+else:
+    print("Not a Automorphic Number.")
