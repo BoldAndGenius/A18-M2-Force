@@ -217,3 +217,49 @@ def find_factorial(n):
 n = int(input("Enter Any Number : ")) # 5
 factorial = find_factorial(n)
 print(f"The Factorial of {n} is {factorial}")
+
+
+
+
+
+
+
+
+'''
+Write a function to convert USD to INR.
+
+'''
+
+# 1 USD = 83 INR
+
+def usd_to_inr(usd):
+    return usd*83
+
+usd = 10
+conversion = usd_to_inr(usd)
+print(f"USD Amount = {usd} $ and INR Amount after conversion is = {conversion} Rs.")
+
+
+'''
+Output -
+
+USD Amount = 10 $ and INR Amount after conversion is = 830 Rs.
+
+'''
+
+# This is what we need to do in Functions 
+# input kya aaiga hai, kaam kya karna hai, and ouput kya aa jaiga
+
+
+'''
+Write a function for a number n, If n is odd, print ODD and if n is Even, print EVEN.
+
+'''
+
+def odd_or_even(n):
+    if n%2 == 0:
+        print("Even Number.")
+    else:
+        print("Odd Number.")
+n = int(input("Enter anu number : "))
+odd_or_even(n)
