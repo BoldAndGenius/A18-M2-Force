@@ -85,7 +85,7 @@ else:
     
     
     
-# Factor Program - 3 : Find if a Number is a Perfect Number or not.
+# Factor Program - 4 : Find if a Number is a Perfect Number or not.
 # Perfect Number - A Perfect Number is equal to to sum of its divisors or factors except itself.   Eg. 6 = 1 + 2 + 3 
 
 num = int(input("Enter a Number : "))
@@ -99,4 +99,10 @@ if num == sum:
     print("Perfect Number.")
 else:
     print("Not a Perfect Number.")
+    
+    
+    
+    
+
+# Factor Program - 5 : Find if a Number is a Perfect Number or not.
     
