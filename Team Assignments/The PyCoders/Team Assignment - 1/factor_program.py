@@ -75,3 +75,28 @@ if count > 2:   # we need to discard 1 & number itself.
     print("Composite Number.")
 else:
     print("Not a Composite Number.")
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+# Factor Program - 3 : Find if a Number is a Perfect Number or not.
+# Perfect Number - A Perfect Number is equal to to sum of its divisors or factors except itself.   Eg. 6 = 1 + 2 + 3 
+
+num = int(input("Enter a Number : "))
+count = 0
+sum = 0
+for divisor in range(1,num):
+    if num % divisor == 0:
+        sum = sum + divisor
+    
+if num == sum:
+    print("Perfect Number.")
+else:
+    print("Not a Perfect Number.")
+    
