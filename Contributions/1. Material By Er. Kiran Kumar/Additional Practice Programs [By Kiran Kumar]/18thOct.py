@@ -418,3 +418,30 @@ Output -
 
 
 
+
+
+# Updating Global Variable in Function
+
+# Here we will get the error 
+num = 10
+def func1():
+    num = num + 1  # Here it is a local variable 
+    # Whenever we try to update or modify the variable in a function, it will treat that variable as local variable. The solution for this problem is, We need to tell the Python that, it is a global variable not the local variable. 
+    print("Variable value in func1 is",num)
+func1()
+
+
+
+# The remove the Error 
+num = 10
+def func1():
+    global num   #We are telling to the python that, the num variable we are modiying or using in this func1 is a global variable. 
+    num = num + 1
+    print("The value of num in func1 is",num)
+
+func1()
+
+'''
+Output -
+The value of num in func1 is 11
+'''
