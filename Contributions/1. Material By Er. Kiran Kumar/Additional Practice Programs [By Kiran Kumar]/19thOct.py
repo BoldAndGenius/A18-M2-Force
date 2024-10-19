@@ -186,3 +186,34 @@ Output -
 
 
 
+
+
+
+
+
+'''
+Write a function to find the factorial of n. (n is the parameter).
+
+'''
+
+
+# Method - 1 : Using Math Module
+
+def find_factorial(n):
+    import math
+    return math.factorial(n)
+n = int(input("Enter Any Number : "))
+factorial = find_factorial(n)
+print(f"The Factorial of {n} is {factorial}")
+
+
+# Method - 2 : Using For Loop
+
+def find_factorial(n):
+    fact = 1
+    for num in range(1,n+1):
+        fact = fact * num
+    return fact
+n = int(input("Enter Any Number : ")) # 5
+factorial = find_factorial(n)
+print(f"The Factorial of {n} is {factorial}")
