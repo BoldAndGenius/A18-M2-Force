@@ -263,3 +263,67 @@ def odd_or_even(n):
         print("Odd Number.")
 n = int(input("Enter anu number : "))
 odd_or_even(n)
+
+
+
+
+
+
+
+
+
+
+
+
+
+'''
+Recursion -
+
+When a function calls itself repeatedly. 
+
+Loops ka hi ek khatarnak version hai Recursion. Most of the cases, we may don't even require a Recursion. But for few specific cases, If we write same code in Loop, it become complicated, but with Recursion it become easy. 
+
+Generally, for easy stuff we prefer to use Loops. 
+
+All the tasks that we do with the help of loops, that can be done using Recursion as well. 
+And all the tasks that can be done with the help of recursion, that can also be done using Loop. 
+
+So, Loops and Recursion are interrelated. 
+Same kaam ham dono se hi kar sakte hai. For few case, we prefer to use loop. and fir baad me agr ham DSA sikhne nikle hai, to kuch ese case niklenge jaha recursion hame simple code dega as compare to loops. 
+
+
+'''
+
+
+# return     - if we don't pass any value, we are returning control. as such as not returning any value. 
+# can't call the function infinite times, we have to give one condition based on that we can return it. This condition is called base case. Base on that we return it. 
+
+# Jese loop ke andar stopping condition hoti hai, while condition:  this condition will decide ki loop chalna chahiye ki nahi...Vese hi recursion ke andar base case hota hai...jo decide karta hai..ki yaha pe recursion roak jana chahiye ya nahi rukna chahiye....this is called base case. Recursion kab ruke...jab n ki value 0 ho jai. 
+
+# Understand Recursion, Understand the Call Stack, it gonna help you when you learn any complex thing in Python.
+
+# If we remove the base case, jese loop infinitel run kar jata tha..to yaha recursion infinitely chal jaiga...and at a point jab puri memory ko occupy kar legi.. and your code gets crashed.  --   
+# RecursionError --- maximum recursion depth exceeded while calling a Python. ....so that's why base case is important in Recursion. 
+
+# Recursion ke andar ham kese recursive code ko likhte hai...ham apna kaam dekhte hai ki mujhe kaam kya karvana hai...uske baad mera base case kya hona chahiye...
+
+# General case me ham recursion ko use nahi karte hai....recursion kuch specific case me hi ham use karte hai. 
+# General case me ham loop hi use karte hai. 
+
+
+
+
+
+'''
+Print n Natural Number Using Recursion. 
+
+'''
+
+def n_natural_number(n):
+    if n == 0:
+        return
+    print(n)
+    n_natural_number(n-1)
+    
+n = int(input("Enter a Number: ")) # 5
+n_natural_number(n)
