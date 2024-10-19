@@ -88,4 +88,43 @@ Output -
 # end = After executing that particular line, the curson goes to next line.
 print("Hello World", "Kiran", sep="") # default=   end="\n" sept=" "
 
-# 2. User Defined Function - Programmer write this function. 
+# 2. User Defined Function - Programmer write this function.
+
+
+
+
+
+# Default Parameters 
+# Assigning a default value to parameter, which is used when no argument is passed. 
+
+def cal_product(num1 = 10, num2 = 30):  # assigned default value to parameter
+    return num1 * num2
+product = cal_product()
+print(product)
+
+'''
+Output -
+
+300
+
+'''
+
+
+
+
+def cal_product(num1 , num2 = 30):  # assigned default value to parameter
+    return num1 * num2
+product = cal_product(10)  # one argument we passed, and the second argument it takes from the assigned default value as a parameter at function definition 
+print(product)
+
+
+
+
+# Now it will give error 
+def cal_product(num1 = 30 , num2):  # Non default arguments should come first, and then default arguments should come
+    # always give default value from the last. 
+    return num1 * num2
+product = cal_product(10)  # one argument we passed, and the second argument it takes from the assigned default value as a parameter at function definition 
+print(product)
+
+
