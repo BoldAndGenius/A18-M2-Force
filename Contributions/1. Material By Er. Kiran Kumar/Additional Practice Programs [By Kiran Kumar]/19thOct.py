@@ -376,3 +376,26 @@ def sum_of_n_natural_numbers(n):
 n = int(input("Enter a Number : "))  # 5
 sum = sum_of_n_natural_numbers(n) 
 print(f"The Sum of {n} Natural Number is {sum}")
+
+
+
+
+
+
+
+'''
+Write a Recursive Function to print all elements in a list. 
+Hint: Use list & index as parameters.
+
+'''
+def print_elements_of_list(list,index=0): # recursive function
+    if index == len(list):   # base condition
+        return
+    print(list[index])
+    return print_elements_of_list(list, index+1)  # updaing the index 
+
+list = eval(input("Enter any list : "))  # [10,20,30]
+print_elements_of_list(list)
+
+
+
