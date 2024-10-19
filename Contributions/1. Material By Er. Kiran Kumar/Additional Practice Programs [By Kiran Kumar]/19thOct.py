@@ -149,3 +149,40 @@ print(f"The Length of {mylist} is {length}")
 Output -
 The Length of [1, 2, 3, 'Kiran', True] is 5
 '''
+
+
+
+# Second Approach
+cities = ["Bombay", "Bangalore", "Kolkata", "Dubai", "Delhi"]
+heroes = ["Thor", "Ironman", "Captain America", "Shaktiman"]
+def print_len(list):
+    print(len(list))
+    
+print_len(cities)
+print_len(heroes)
+
+
+
+
+
+'''
+Write a Program to print the elements of a list in a single line (list is the parameter).
+'''
+
+def list_elements(mylist):
+    for item in mylist:
+        print(item, end=" ")
+
+mylist = [10,20,30,40,50]
+list_elements(mylist)
+
+
+'''
+Output -
+
+10 20 30 40 50
+
+'''
+
+
+
