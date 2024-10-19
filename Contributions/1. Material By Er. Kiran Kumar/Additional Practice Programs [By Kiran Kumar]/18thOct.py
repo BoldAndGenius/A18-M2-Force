@@ -275,3 +275,22 @@ print(result)
 # because of Default Argument for n3=0, only two arguments can work.
 result = average(10,20)
 print(result)
+
+
+
+
+
+
+
+
+
+
+# Anonymous Function or Lambda Function 
+# Function without any name 
+
+sum = lambda num1,num2: num1+num2
+print("sum is : ",sum(10,20))
+
+
+# Output -
+# sum is :  30
