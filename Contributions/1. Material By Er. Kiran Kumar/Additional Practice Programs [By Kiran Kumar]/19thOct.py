@@ -128,3 +128,24 @@ product = cal_product(10)  # one argument we passed, and the second argument it 
 print(product)
 
 
+
+
+
+
+
+
+
+
+# Write a function to print the length of a list (list is the parameter).
+
+def length_of_list(mylist):
+    return len(mylist)
+
+mylist = [1,2,3,"Kiran", True]
+length = length_of_list(mylist)
+print(f"The Length of {mylist} is {length}")
+
+'''
+Output -
+The Length of [1, 2, 3, 'Kiran', True] is 5
+'''
