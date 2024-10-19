@@ -104,5 +104,18 @@ else:
     
     
 
-# Factor Program - 5 : Find if a Number is a Perfect Number or not.
+# Factor Program - 5 : Find if a Number is an Abundant Number or not.
+# Abundant Number - Sum of factors is greater than the number itself.
+# Eg. 12   - 1,2,3,4,6 = 16 > 12  (that number is excluding in factors)
+
+num = int(input("Enter a Number : "))
+sum = 0
+for divisor in range(1,num):  # num is not considered
+    if num % divisor == 0:
+        sum = sum + divisor
+if sum > num:
+    print("Abundant Number.")
+else:
+    print("Not an Abundant Number.")
+        
     
