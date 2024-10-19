@@ -1412,3 +1412,32 @@ for row in range(n):
     print(num,end=" ")
     num = num + 1
   print()
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+'''
+  Number Pattern - 44 : Snake Pattern 
+
+  
+'''
+
+
+n = int(input())
+num = 1
+for row in range (n):
+  temp = num
+  for col in range(n):
+    print(temp,end=" ")
+    temp = temp + 5
+  num = num + 1
+  print()
