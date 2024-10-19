@@ -294,3 +294,18 @@ print("sum is : ",sum(10,20))
 
 # Output -
 # sum is :  30
+
+
+
+
+
+# Variable Length Arguments 
+# It is beneficial when we don't know how many parameters need to mention while definiting the function. 
+
+def func1(*mylist):  # use star
+    for item in mylist:
+        print(item)
+    
+func1(10,20)
+func1(5)
+func1(5,10,15,20)
