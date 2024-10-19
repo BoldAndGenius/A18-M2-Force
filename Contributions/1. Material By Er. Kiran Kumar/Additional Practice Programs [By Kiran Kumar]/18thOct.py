@@ -333,3 +333,28 @@ Output -
 The value of n is 10
 The value of n is 5
 '''
+
+
+
+
+
+
+
+
+
+
+# Problem in Local Variable
+# Got Error, since in func1, n is not defined. 
+
+def func1():
+    # n = 5  # local variable -- we commend it, hence get error. 
+    print("The value of n is",n)
+
+def func2():
+    n = 10  # local variable - this value will only be used by this function, not any other function.
+    print("The value of n is",n)
+    func1()
+
+func2()
+
+# to solve the error, 
