@@ -358,3 +358,63 @@ def func2():
 func2()
 
 # to solve the error, 
+
+
+
+
+
+
+
+
+
+# Global Variable 
+
+n = 10  # this is a global variabe, therefore can be used by any function
+
+def func1():
+    print(n)
+def func2():
+    print(n)
+    func1()
+
+func2()
+
+
+'''
+Output -
+
+10
+10
+'''
+
+
+
+
+
+
+
+n = 10  # this is a global variabe, therefore can be used by any function
+
+def func1():
+    print(n) # Here it will take from gloabal variable, therefore n = 10 will be considired
+def func2():
+    n = 20  # Local Variable -- Only applicable to the function 2
+    print(n) # hence, here it will take n = 20 from the local variable.
+    func1()
+
+func2()
+
+
+'''
+Output -
+
+20
+10
+'''
+
+
+
+
+
+
+
