@@ -166,7 +166,7 @@ print_len(heroes)
 
 
 '''
-Write a Program to print the elements of a list in a single line (list is the parameter).
+Write a Function to print the elements of a list in a single line (list is the parameter).
 '''
 
 def list_elements(mylist):
