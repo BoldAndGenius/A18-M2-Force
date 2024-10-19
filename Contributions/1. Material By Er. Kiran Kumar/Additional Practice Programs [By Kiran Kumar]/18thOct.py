@@ -309,3 +309,27 @@ def func1(*mylist):  # use star
 func1(10,20)
 func1(5)
 func1(5,10,15,20)
+
+
+
+
+
+# Local & Global Variable 
+
+# Local Variable
+def func1():
+    n = 5  # local variable
+    print("The value of n is",n)
+
+def func2():
+    n = 10  # local variable
+    print("The value of n is",n)
+    func1()
+
+func2()
+
+'''
+Output -
+The value of n is 10
+The value of n is 5
+'''
