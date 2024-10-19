@@ -117,5 +117,23 @@ if sum > num:
     print("Abundant Number.")
 else:
     print("Not an Abundant Number.")
-        
+    
+    
+    
+    
+    
+
+# Factor Program - 6 : Find if a Number is a Deficient Number or not.
+# Deficient Number - Sum of factor is less than the number itself.
+# Eg. 21 -- Factors = 1,3,7 = 11 <21   (that number is excluding)
+
+
+num = int(input("Enter a Number : "))
+for divisor in range(1,num):
+    if num % divisor == 0:
+        sum = sum + divisor
+if num > sum:
+    print("Deficient Number.")
+else:
+    print("Not a Deficent Number.")
     
