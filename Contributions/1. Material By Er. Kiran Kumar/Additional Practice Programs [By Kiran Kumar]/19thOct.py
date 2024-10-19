@@ -82,4 +82,10 @@ Output -
 # print() -- it is a pre defined function. It's a function call. 
 # print("Hello World")  -- we pass the Hello World as an argument. That stores to print's definition.  
 # In Python, Functions are of two types -
-# 1. Built-in Functions - It's logic is already written in Python. We just call it.   Eg.  type(), len(), print(), range()
+# 1. Built-in Function - It's logic is already written in Python. We just call it.   Eg.  type(), len(), print(), range()
+
+# sep = when comma is used, it gives a space
+# end = After executing that particular line, the curson goes to next line.
+print("Hello World", "Kiran", sep="") # default=   end="\n" sept=" "
+
+# 2. User Defined Function - Programmer write this function. 
