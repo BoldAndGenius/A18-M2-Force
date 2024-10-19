@@ -50,3 +50,28 @@ if count == 2:
     print("Prime Number.")
 else:
     print("Not a Prime Number.")
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+# Factor Program - 3 : Find if a Number is a Composite Number or not.
+
+# Composite Number - Number which has more than two factors.  
+# (excluding 1 & number itself)
+
+num = int(input("Enter a Number : "))
+count = 0
+for divisor in range(1,num+1):
+    if num % divisor == 0:
+        count = count + 1
+    
+if count > 2:   # we need to discard 1 & number itself. 
+    print("Composite Number.")
+else:
+    print("Not a Composite Number.")
