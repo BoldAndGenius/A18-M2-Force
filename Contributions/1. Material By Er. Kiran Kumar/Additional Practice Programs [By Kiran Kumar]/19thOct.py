@@ -354,3 +354,25 @@ def find_factorial(n):
 n = int(input("Enter Any Number : "))
 factorial = find_factorial(n)
 print(f"The Factorial of a {n} is {factorial}")
+
+
+
+
+
+
+
+
+
+
+'''
+Write a recursive function to calculate the sum of first n natural numbers.
+'''
+
+def sum_of_n_natural_numbers(n):
+    if n==1:
+        return 1
+    return n + sum_of_n_natural_numbers(n-1)
+    
+n = int(input("Enter a Number : "))  # 5
+sum = sum_of_n_natural_numbers(n) 
+print(f"The Sum of {n} Natural Number is {sum}")
