@@ -319,11 +319,38 @@ Print n Natural Number Using Recursion.
 
 '''
 
+# Recursive Function
 def n_natural_number(n):
-    if n == 0:
+    if n == 0:  # Base case
         return
     print(n)
     n_natural_number(n-1)
     
 n = int(input("Enter a Number: ")) # 5
 n_natural_number(n)
+
+
+
+
+# Jaha recurrence relation banta hai, vaha recursion likha ja sakta hai. 
+# recurrence matlab -- esi cheeze jo reoccur kar rahi hai. Jo dubara repeat hokar aa rahi hai. --- bari cheez ka chota version...it means recurrence...hence recursion we can use here. 
+# Example - Factorial of a number 
+
+
+
+
+'''
+Write a program to find the Factorial of Number using Recursion.
+
+'''
+
+
+
+def find_factorial(n):
+    if n==0 or n==1 :
+        return 1 
+    return n * find_factorial(n-1)
+
+n = int(input("Enter Any Number : "))
+factorial = find_factorial(n)
+print(f"The Factorial of a {n} is {factorial}")
