@@ -137,3 +137,24 @@ if num > sum:
 else:
     print("Not a Deficent Number.")
     
+    
+    
+
+
+
+
+
+# Factor Program - 7 : Find if a Number is a Pronic Number or not.
+# Pronic Number - Pronic Number is the product of two consecutive integers. In the form,  n (n+1)    eg. -  56 = 7 * 8 
+
+num = int(input("Enter a Number : "))
+pronic = 0
+for divisor in range(1,num+1):
+    if num % divisor == 0:
+        if ( divisor * (divisor + 1) ) == num:
+            pronic = pronic + 1
+if pronic == 0:
+    print("Not a Pronic Number.")
+else:
+    print("Pronic Number.")
+            
