@@ -1,12 +1,12 @@
-# #  # Q1. Write a program to print the following using while loop
-# # # a. First 10 Even numbers
-# # count=1
-# # start=2
-# # while count<=10:
-# #     print(start,end=" ")
-# #     start+=2
-# #     count+=1
-# # print()
+ Q1. Write a program to print the following using while loop
+ a. First 10 Even numbers
+ count=1
+ start=2
+ while count<=10:
+   print(start,end=" ")
+     start+=2
+     count+=1
+print()
 
 # # # b. First 10 Odd numbers
 # # count=1
