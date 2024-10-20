@@ -1225,13 +1225,19 @@ KIRAN Name Printing.
 *       *    * * * * *    *       *    *       *    *       * 
 
 
+*       *    * * * * *    * * * *        * * *      *       * 
+*     *          *        *       *    *       *    * *     * 
+* * *            *        * * * *      * * * * *    *   *   * 
+*     *          *        *     *      *       *    *     * * 
+*       *    * * * * *    *       *    *       *    *       * 
+
 
 '''
 
 n = int(input())
 for row in range(n):
     for col in range(n):
-        if col==0 or (row+col==n-1 and row<=n//2) or (row==col and row>=n//2):
+        if col==0 or (row+col==n-1 and row<=n//2) or (row==col and row>=n//2) or (row==n//2 and col<=n//2):
             print("*",end=" ")
         else:
             print(" ",end=" ")
@@ -1243,13 +1249,17 @@ for row in range(n):
             print(" ",end=" ")
     print(end="   ")
     for col in range(n):
-        if row==0 or row==n//2 or col==0 or (col==n-1 and row<=n//2) or (row==col and row>=n//2):
+        if (row==0 and col==n-1) or (row==n//2 and col==n-1):
+            print(" ",end=" ")
+        elif row==0 or row==n//2 or col==0 or (col==n-1 and row<=n//2) or (row==col and row>=n//2):
             print("*",end=" ")
         else:
             print(" ",end=" ")
     print(end="   ")
     for col in range(n):
-        if row==0 or row==n//2 or col==0 or col==n-1:
+        if (row==0 and col==0) or (row==0 and col==n-1):
+            print(" ",end=" ")
+        elif row==0 or row==n//2 or col==0 or col==n-1:
             print("*",end=" ")
         else:
             print(" ",end=" ")
