@@ -958,11 +958,22 @@ U Alphabet
 * * * * * * * * * * 
 
 
+*           * 
+*           * 
+*           * 
+*           * 
+*           * 
+*           * 
+  * * * * *   
+
+
 '''
 n = int(input()) # 10
 for row in range(n):
     for col in range(n):
-        if col==0 or col==n-1 or row==n-1:
+        if (row==n-1 and col==0) or (row==n-1 and col==n-1):
+            print(" ",end=" ")
+        elif col==0 or col==n-1 or row==n-1:
             print("*",end=" ")
         else:
             print(" ",end=" ")
