@@ -1,6 +1,6 @@
 #Team Members:: K.Vengadesh
  #              C.NagaMaheshKumar
-  #              P.Pavithra 
+  #             P.Pavithra 
 # #  # Q1. Write a program to print the following using while loop
  #a. First 10 Even numbers
 count=1
