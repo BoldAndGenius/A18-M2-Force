@@ -101,3 +101,88 @@ if count > 0:
     print("Fancy Number.")
 else:
     print("Not a Fancy Number.")
+    
+    
+    
+    
+    
+    
+    
+    
+    
+# All Fancy Number Program - 6 : Check if a number is Neon Number or Not.
+# Neon Number =>  Sum of digits of square of a number is equal to number.
+# 9     9*9 = 81 => 8 + 1 => 9    9 = 9
+
+num = int(input("Enter a Number : "))  # 9
+temp = num * num   # 9 * 9 = 81
+sum = 0
+while temp>0:
+    end = temp % 10
+    sum = sum + end 
+    temp = temp // 10 
+if sum == num:
+    print("Neon Number.")
+else:
+    print("Not a Neon Number.")
+    
+
+
+
+
+
+# All Fancy Number Program - 7 : Check if a number is Automorphic Number or Not.
+# Automorphic Number => It is a number which is contained in the last digits of it's square. 
+# eg. -   25  --- the square is 625.  And 25 is present in the last two digits. 
+# logic - break the digits from the both number and then match, if not match, we will raise the flag. 
+
+# 10 ---- 10*10 = 100   10 is not present as the last digits. -- not an Automorphic Number.
+
+num = int(input("Enter a number : "))  # 25
+square = num * num   # 25*25 = 625 
+flag = 0 
+while num>0:
+    end1 = num % 10
+    end2 = square % 10 
+    if end1 != end2:
+        flag = flag + 1
+    num = num // 10
+    square = square // 10
+    
+if flag == 0:
+    print("Automorphic Number.")
+else:
+    print("Not a Automorphic Number.")
+    
+    
+    
+    
+
+
+
+
+
+
+# All Fancy Number Program - 8 : Check if a number is Special Number / Krishnamurthy Number  or Not.
+# Special Number / Krishnamurthy Number =>  Sum of factorial of digits is equal to the number 
+# 145 = 1! + 4! + 5! 
+
+import math
+num = int(input("Enter a numer : "))
+temp = num 
+factorial = 0
+while num>0:
+    end = num % 10 
+    fact = math.factorial(end)
+    factorial = factorial + fact 
+    num = num // 10 
+if temp == factorial:
+    print("Special Number.")
+else:
+    print("Not a Special Number.")
+    
+    
+    
+    
+
+    

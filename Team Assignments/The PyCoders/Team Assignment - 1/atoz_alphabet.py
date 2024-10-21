@@ -42,13 +42,21 @@ A Alphabet
 
 
 
+  * * *   
+*       * 
+* * * * * 
+*       * 
+*       * 
+
 '''
 
 
 n = int(input())  # 10
 for row in range(n):
     for col in range(n):
-        if row==0 or col==0 or col==n-1 or row==n//2:
+        if (row==0 and col==0) or (row==0 and col==n-1):
+            print(" ",end=" ")
+        elif row==0 or col==0 or col==n-1 or row==n//2:
             print("*",end=" ")
         else:
             print(" ",end=" ")
@@ -76,12 +84,20 @@ B Alphabet
 * * * * * * * 
 
 
+* * * *   
+*       * 
+* * * * * 
+*       * 
+* * * *  
+
 '''
 
 n = int(input())  # 10
 for row in range(n):
     for col in range(n):
-        if col==0 or row==0 or row==n-1 or (col==n-1 and row<=n/2) or row==n//2 or (col==n-1 and row>=n//2):
+        if (row==0 and col==n-1) or (row==n-1 and col==n-1):
+            print(" ",end=" ")
+        elif col==0 or row==0 or row==n-1 or (col==n-1 and row<=n/2) or row==n//2 or (col==n-1 and row>=n//2):
             print("*",end=" ")
         else:
             print(" ",end=" ")
@@ -110,13 +126,21 @@ C Alphabet
 *                   
 * * * * * * * * * * 
 
+  * * * * 
+*         
+*         
+*         
+  * * * * 
+
 
 '''
 
 n = int(input())  # 10
 for row in range(n):
     for col in range(n):
-        if col==0 or row==0 or row==n-1:
+        if (row==0 and col==0) or (row==n-1 and col==0):
+            print(" ",end=" ")
+        elif col==0 or row==0 or row==n-1:
             print("*",end=" ")
         else:
             print(" ",end=" ")
@@ -149,14 +173,20 @@ D Alphabet
 *                 * 
 * * * * * * * * * * 
 
-
+* * * *   
+*       * 
+*       * 
+*       * 
+* * * * 
 
 '''
 
 n = int(input())  # 10
 for row in range(n):
     for col in range(n):
-        if col==0 or row==0 or row==n-1 or col==n-1:
+        if (row==0 and col==n-1) or (row==n-1 and col==n-1):
+            print(" ",end=" ")
+        elif col==0 or row==0 or row==n-1 or col==n-1:
             print("*",end=" ")
         else:
             print(" ",end=" ")
@@ -272,12 +302,21 @@ G Alphabet
 * * * * * * * * * * 
 
 
+
+  * * * * 
+*         
+*   * * * 
+*       * 
+  * * * * 
+
 '''
 
 n = int(input())
 for row in range(n):
     for col in range(n):
-        if row==0 or col==0 or row==n-1 or (col==n-1 and row>n//2) or (row==n//2 and col>=n//2):
+        if (row==0 and col==0) or (row==n-1 and col==0):
+            print(" ",end=" ")
+        elif row==0 or col==0 or row==n-1 or (col==n-1 and row>n//2) or (row==n//2 and col>=n//2):
             print("*",end=" ")
         else:
             print(" ",end=" ")
@@ -393,12 +432,23 @@ J Alphabet
           *           
 * * * * * *   
 
+
+* * * * * * * 
+      *       
+      *       
+      *       
+      *       
+      *       
+* * *    
+
 '''
 
 n = int(input()) # 11
 for row in range(n):
     for col in range(n):
-        if row==0 or col==n//2 or (row==n-1 and col<=n//2):
+        if (row==n-1 and col==n//2):
+            print(" ",end=" ")
+        elif row==0 or col==n//2 or (row==n-1 and col<=n//2):
             print("*",end=" ")
         else:
             print(" ",end=" ")
@@ -437,12 +487,19 @@ K Alphabet
 *                   * 
 
 
+*       * 
+*     *   
+* * *     
+*     *   
+*       * 
+
+
 '''
 
 n = int(input())  # 10
 for row in range(n):
     for col in range(n):
-        if col==0 or (row==col and row>=n//2) or (row+col==n-1 and row<=n//2) :
+        if col==0 or (row==col and row>=n//2) or (row+col==n-1 and row<=n//2) or (row==n//2 and col<n//2) :
             print("*",end=" ")
         else:
             print(" ",end=" ")
@@ -597,12 +654,21 @@ O Alphabet
 * * * * * * * * * * 
 
 
+  * * *   
+*       * 
+*       * 
+*       * 
+  * * *   
+
+
 '''
 
 n = int(input()) #10
 for row in range(n):
     for col in range(n):
-        if col==0 or col==n-1 or row==0 or row==n-1:
+        if (row==0 and col==0) or (row==0 and col==n-1) or (row==n-1 and col==0) or (row==n-1 and col==n-1):
+            print(" ",end=" ")
+        elif col==0 or col==n-1 or row==0 or row==n-1:
             print("*",end=" ")
         else:
             print(" ",end=" ")
@@ -642,13 +708,22 @@ P Alphabet
 *              
 
 
+* * * * * *   
+*           * 
+*           * 
+* * * * * *   
+*             
+*             
+* 
 
 '''
 
 n = int(input())  # 11
 for row in range(n):
     for col in range(n):
-        if col==0 or row==0 or (col==n-1 and row<=n//2) or row==n//2:
+        if (row==0 and col==n-1) or (row==n//2 and col==n-1):
+            print(" ",end=" ")
+        elif col==0 or row==0 or (col==n-1 and row<=n//2) or row==n//2:
             print("*",end=" ")
         else:
             print(" ",end=" ")
@@ -685,11 +760,22 @@ Q Alphabet
 * * * * * * * * * * * 
 
 
+  * * * * *   
+*           * 
+*           * 
+*           * 
+*       *   * 
+*         * * 
+  * * * * *   
+
+
 '''
 n = int(input())  # 10
 for row in range(n):
     for col in range(n):
-        if row==0 or row==n-1 or col==0 or col==n-1 or row==col:
+        if (row==0 and col==0) or (row==0 and col==n-1) or (row==n-1 and col==0) or (row==n-1 and col==n-1):
+            print(" ", end=" ")
+        elif row==0 or row==n-1 or col==0 or col==n-1 or (row==col and row>n//2):
             print("*",end=" ")
         else:
             print(" ",end=" ")
@@ -726,12 +812,24 @@ R Alphabet
 *                   * 
 
 
+
+* * * * * *   
+*           * 
+*           * 
+* * * * * *   
+*       *     
+*         *   
+*           * 
+
+
 '''
 
 n = int(input())  # 12
 for row in range(n):
     for col in range(n):
-        if row == 0 or col==0 or row==n//2 or (col==n-1 and row<=n//2) or (row==col and row>=n//2):
+        if (row==0 and col==n-1) or (row==n//2 and col==n-1):
+            print(" ",end=" ")
+        elif row == 0 or col==0 or row==n//2 or (col==n-1 and row<=n//2) or (row==col and row>=n//2):
             print("*",end=" ")
         else:
             print(" ",end=" ")
@@ -770,12 +868,23 @@ S Alphabet
 * * * * * * * * * * * 
 
 
+  * * * * * * 
+*             
+*             
+  * * * * *   
+            * 
+            * 
+* * * * * *  
+
+
 '''
 
 n = int(input())  #10
 for row in range(n):
     for col in range(n):
-        if row==0 or row==n-1 or row==n//2 or (col==0 and row<=n//2) or (col==n-1 and row>=n//2):
+        if (row==0 and col==0) or (col==0 and row==n//2) or (row==n//2 and col==n-1) or (col==n-1 and row==n-1):
+            print(" ",end=" ")
+        elif row==0 or row==n-1 or row==n//2 or (col==0 and row<=n//2) or (col==n-1 and row>=n//2):
             print("*",end=" ")
         else:
             print(" ",end=" ")
@@ -849,11 +958,22 @@ U Alphabet
 * * * * * * * * * * 
 
 
+*           * 
+*           * 
+*           * 
+*           * 
+*           * 
+*           * 
+  * * * * *   
+
+
 '''
 n = int(input()) # 10
 for row in range(n):
     for col in range(n):
-        if col==0 or col==n-1 or row==n-1:
+        if (row==n-1 and col==0) or (row==n-1 and col==n-1):
+            print(" ",end=" ")
+        elif col==0 or col==n-1 or row==n-1:
             print("*",end=" ")
         else:
             print(" ",end=" ")
@@ -1085,3 +1205,70 @@ for row in range(n):
         else:
             print(" ",end=" ")
     print()
+    
+    
+    
+    
+    
+    
+'''
+
+
+KIRAN Name Printing.
+
+
+
+*       *    * * * * *    * * * * *    * * * * *    *       * 
+*     *          *        *       *    *       *    * *     * 
+*   *            *        * * * * *    * * * * *    *   *   * 
+*     *          *        *     *      *       *    *     * * 
+*       *    * * * * *    *       *    *       *    *       * 
+
+
+*       *    * * * * *    * * * *        * * *      *       * 
+*     *          *        *       *    *       *    * *     * 
+* * *            *        * * * *      * * * * *    *   *   * 
+*     *          *        *     *      *       *    *     * * 
+*       *    * * * * *    *       *    *       *    *       * 
+
+
+'''
+
+n = int(input())
+for row in range(n):
+    for col in range(n):
+        if col==0 or (row+col==n-1 and row<=n//2) or (row==col and row>=n//2) or (row==n//2 and col<=n//2):
+            print("*",end=" ")
+        else:
+            print(" ",end=" ")
+    print(end="   ")
+    for col in range(n):
+        if row==0 or row==n-1 or col==n//2:
+            print("*",end=" ")
+        else:
+            print(" ",end=" ")
+    print(end="   ")
+    for col in range(n):
+        if (row==0 and col==n-1) or (row==n//2 and col==n-1):
+            print(" ",end=" ")
+        elif row==0 or row==n//2 or col==0 or (col==n-1 and row<=n//2) or (row==col and row>=n//2):
+            print("*",end=" ")
+        else:
+            print(" ",end=" ")
+    print(end="   ")
+    for col in range(n):
+        if (row==0 and col==0) or (row==0 and col==n-1):
+            print(" ",end=" ")
+        elif row==0 or row==n//2 or col==0 or col==n-1:
+            print("*",end=" ")
+        else:
+            print(" ",end=" ")
+    print(end="   ")
+    for col in range(n):
+        if col==0 or col==n-1 or row==col:
+            print("*",end=" ")
+        else:
+            print(" ",end=" ")
+    print()
+    
+    
