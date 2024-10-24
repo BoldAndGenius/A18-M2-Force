@@ -189,3 +189,14 @@ def factorial(number:int):
         return fact 
 result = factorial(5)
 print(result)
+
+
+
+# Factorial using For Loop
+
+n = int(input("Enter a Number : "))
+factorial = 1
+for num in range(1,n+1):
+    factorial = factorial * num 
+print(f"The Factorial of {n} is {factorial}")
+    
