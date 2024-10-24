@@ -19,3 +19,20 @@ def factorial(num):
 num = int(input("Enter a Number: "))
 result = factorial(num)
 print(f"The Factorial of {num} is {result}")
+
+
+
+
+
+
+
+# Starting to Ending Point using Recursion
+
+def start_to_end(start=1,end=10):
+    if start>end:
+        return None 
+    else:
+        print(start)
+        start_to_end(start+1)
+
+start_to_end()
