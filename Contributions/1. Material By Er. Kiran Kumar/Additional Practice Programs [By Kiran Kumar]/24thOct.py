@@ -267,3 +267,19 @@ if string == reverse:
     print("Palindrome.")
 else:
     print("Not a Palindrome.")
+    
+
+
+# Logic - Using While Loop  
+
+string = input("Enter a String : ") # k i r a n 
+                                    # 0 1 2 3 4
+reverse = " "
+index = len(string) - 1
+while index >= 0: 
+    reverse = reverse + string[index]
+    index = index - 1
+if reverse == string:
+    print("Palindrome.")
+else:
+    print("Not a Palindrome.")
