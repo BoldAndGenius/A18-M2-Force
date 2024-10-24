@@ -242,3 +242,16 @@ num2 = 30
 num1, num2 = num2,num1
 print(f"num1 -> {num1}")
 print(f"num2 -> {num2}")
+
+
+
+# Palindrome String 
+
+# Logic - 1 : Using String Slicig 
+string = input("Enter a String : ")
+reverse = string[::-1]
+if string == reverse:
+    print("Palindrome.")
+else:
+    print("Not a Palindrome.")
+    
