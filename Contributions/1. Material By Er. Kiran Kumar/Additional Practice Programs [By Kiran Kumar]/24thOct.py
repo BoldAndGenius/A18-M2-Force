@@ -86,3 +86,17 @@ def odd_numbers(start,end):
             print(start)
         odd_numbers(start+1,end)
 odd_numbers(10,23)
+
+
+
+
+# Divisible By 3 from start to end Using Recursion 
+
+def divisible_by_3(start,end):
+    if start > end:
+        return None 
+    else:
+        if start%3 == 0:
+            print(start)
+        divisible_by_3(start+1,end)
+divisible_by_3(1,51)
