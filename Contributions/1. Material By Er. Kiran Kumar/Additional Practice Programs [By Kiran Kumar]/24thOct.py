@@ -47,3 +47,15 @@ def end_to_start(start=10,end=1):
         print(start)
         end_to_start(start-1)
 end_to_start()
+
+
+
+# Ending to Starting Point Using Recursion (With 2nd Logic)
+
+def end_to_start(start=1, end=10):
+    if start>end:
+        return None 
+    else:
+        end_to_start(start+1)
+        print(start)
+end_to_start()   
