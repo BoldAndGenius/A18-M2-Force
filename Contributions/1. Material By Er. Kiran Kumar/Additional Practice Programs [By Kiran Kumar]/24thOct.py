@@ -212,3 +212,33 @@ while num != 0:
     fact = fact * num
     num = num - 1
 print(f"The Factorial of {temp} is : {fact} ")
+
+
+
+# Fibonacci Series 
+
+# first = 0
+# second = 1
+# print(first)
+# print(second)
+
+# # 0, 1, 1, 2, 3, 5 
+
+# n = int(input("Enter the number of terms: "))
+# while next_digit > n:
+#     first = second  # first  = 1
+#     second = first + second   # second = 1 + 1
+#     next_digit = first + second 
+#     print(next_digit)
+
+
+
+
+# Swap Two Numbers 
+
+num1 = 20
+num2 = 30
+
+num1, num2 = num2,num1
+print(f"num1 -> {num1}")
+print(f"num2 -> {num2}")
