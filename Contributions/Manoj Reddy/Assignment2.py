@@ -260,5 +260,33 @@
 #     i+=1
 # print(sum)
 
-    
-    
+## Q19. Write a program to enter the numbers till the user wants and at the end it should display the sum of all the numbers entered.
+
+# sum = 0
+# while True:
+#     num = input("Enter Number or quit: ")
+#     if num.lower() == 'quit':
+#         break
+#     sum+=int(num)
+# print(sum)
+
+# ## Q20. Write a program to enter the numbers till the user enter ZERO and at the end it should display the count of positive and negative numbers entered.
+  
+# postive = []
+# negative = []
+# while True:
+#     num = int(input("Enter Number: "))
+#     if num == 0:
+#         break
+#     else:
+#         if num<0:
+#             negative+=[num]
+#         else:
+#             postive+=[num]
+# print(f"Postive Numbers count is {len(postive)}")
+# print(f"Negative Numbers count is {len(negative)}")  
+
+# Q21. Write a program to find the HCF of two numbers entered from the user.
+
+num1 = int(input("Enter Number: "))
+num2 = int(input("Enter Number: "))
