@@ -72,3 +72,17 @@ def even_number(start,end):
             print(start)
         even_number(start+1,end)
 even_number(1,21)
+
+
+
+
+# Odd Numbers from start to end Using Recursion
+
+def odd_numbers(start,end):
+    if start>end:
+        return None 
+    else:
+        if start % 2 != 0:
+            print(start)
+        odd_numbers(start+1,end)
+odd_numbers(10,23)
