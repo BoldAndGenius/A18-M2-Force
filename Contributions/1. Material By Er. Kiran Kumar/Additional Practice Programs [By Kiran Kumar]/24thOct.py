@@ -255,3 +255,15 @@ if string == reverse:
 else:
     print("Not a Palindrome.")
     
+
+
+# Logic - 2: Using For Loop
+string = input("Enter a String : ") # kiran
+reverse = ""
+for char in string:
+    reverse = char + reverse  #'k'+'' = 'k'  # 'i'+'k' = 'ik'  # 'r'+'ik;
+# print(reverse)  
+if string == reverse:
+    print("Palindrome.")
+else:
+    print("Not a Palindrome.")
