@@ -113,3 +113,24 @@ def divisible_by_5(start,end):
             print(start)
         divisible_by_5(start+1,end)
 divisible_by_5(21,145)
+
+
+
+
+
+
+
+
+# Total Time to Execute, to Print 1 to 10 Using For Loop (Using Time Module)
+
+
+from time import time 
+start = time()
+for num in range(1,11):
+    print(num)
+end = time()
+print(end-start)
+# 0.003301858901977539 Seconds
+
+
+
