@@ -33,5 +33,13 @@ print("Hello World")
 # Method - 1: Using Exponentiation 
 
 num = int(input("Enter a Number: ")) # 64
-square_root = num ** 0.5
+square_root = num ** 0.5   # or    num ** (1/2)
 print(f"The Square Root of {num} is {square_root}")
+
+
+
+# Method - 2: Using Math Module 
+import math 
+num = int(input("Enter a Number : "))
+square_root = math.sqrt(num) # math is a module name
+print(f"The Square of {num} is {square_root} ")
