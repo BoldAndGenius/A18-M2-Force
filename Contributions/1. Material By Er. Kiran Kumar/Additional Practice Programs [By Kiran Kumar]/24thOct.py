@@ -133,4 +133,17 @@ print(end-start)
 # 0.003301858901977539 Seconds
 
 
+# Total Time to Execute, to Print 1 to 10 Using Recursion (Using Time Module)
+from time import time 
+start = time()
+def count_up(start:int, end:int):
+    if start>end:
+        return None 
+    else:
+        print(start)
+        count_up(start+1,end)       
+count_up(1,10)
+end = time()
+print(end - start)
+
 
