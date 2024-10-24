@@ -147,3 +147,24 @@ end = time()
 print(end - start)
 
 
+
+
+
+# Import code of different module/file to your current file 
+
+# maths.py 
+def factorial(num):
+    fact = 1
+    if num == 0 or num==1 :
+        return fact
+    else:
+        for num in range(1,num+1):
+            fact = fact * num 
+        return fact 
+
+
+# use.py 
+from maths import factorial   # from maths.py file (module), import the factorial function 
+print(factorial(10))
+
+
