@@ -100,3 +100,16 @@ def divisible_by_3(start,end):
             print(start)
         divisible_by_3(start+1,end)
 divisible_by_3(1,51)
+
+
+
+# Divisible By 5 from start to end Using Recursion 
+
+def divisible_by_5(start,end):
+    if start>end:
+        return None
+    else:
+        if start % 5 == 0:
+            print(start)
+        divisible_by_5(start+1,end)
+divisible_by_5(21,145)
