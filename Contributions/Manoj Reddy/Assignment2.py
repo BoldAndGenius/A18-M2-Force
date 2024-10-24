@@ -225,8 +225,10 @@ else:
 
 num = int(input("Enter Number: "))
 factorial = 1
-for i in range(factorial,num+1):
-    factorial*=i
+n = 1
+while n <= num:
+    factorial*=n
+    n+=1
 print(factorial)
 
 # Q17. Write a program to check whether a number is Armstrong or not. (Armstrong number is a number that is equal to the sum of cubes of its digits for example : 153 = 1^3 + 5^3 + 3^3.)
@@ -248,7 +250,43 @@ else:
 
 # Q18. Write a program to add first n terms of the following series using a while loop: 1/1! + 1/2! + 1/3! + ........ + 1/n!
 
+num = int(input("Enter Number: "))
+factorial = 1
+sum = 0
+i = 1
+while i <= num:
+    factorial*=i
+    sum+=1/factorial
+    i+=1
+print(sum)
 
+# Q19. Write a program to enter the numbers till the user wants and at the end it should display the sum of all the numbers entered.
 
-    
-    
+sum = 0
+while True:
+    num = input("Enter Number or quit: ")
+    if num.lower() == 'quit':
+        break
+    sum+=int(num)
+print(sum)
+
+## Q20. Write a program to enter the numbers till the user enter ZERO and at the end it should display the count of positive and negative numbers entered.
+  
+postive = []
+negative = []
+while True:
+    num = int(input("Enter Number: "))
+    if num == 0:
+        break
+    else:
+        if num<0:
+            negative+=[num]
+        else:
+            postive+=[num]
+print(f"Postive Numbers count is {len(postive)}")
+print(f"Negative Numbers count is {len(negative)}")  
+
+# Q21. Write a program to find the HCF of two numbers entered from the user.
+
+num1 = int(input("Enter Number: "))
+num2 = int(input("Enter Number: "))
