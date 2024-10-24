@@ -24,3 +24,13 @@ def first_element():
 collection = eval(input("Enter: "))
 last = first_element()
 print(last) 
+
+# wap to find Factorial using Recursion
+def factorial(num:int=0):
+    if num == 1 or num == 0:
+        return 1
+    else:
+        return num*factorial(num-1)
+num = int(input("Enter Number: "))
+output = factorial(num)
+print(output)
