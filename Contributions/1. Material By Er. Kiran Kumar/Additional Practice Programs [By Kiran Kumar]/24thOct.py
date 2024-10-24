@@ -168,3 +168,24 @@ from maths import factorial   # from maths.py file (module), import the factoria
 print(factorial(10))
 
 
+
+
+
+# Write a Function to calculate the Factorial of a Number 
+
+# factorial -- it is a product of a descending number till 1.
+# 0! = 1
+# 1! = 1
+# 2! = 2*1 = 2
+# 3! = 3*2*1 = 6
+
+def factorial(number:int):
+    fact = 1
+    if number==0 or number ==1 :
+        return 1 
+    else:
+        for num in range(1,number+1):
+            fact = fact * num
+        return fact 
+result = factorial(5)
+print(result)
