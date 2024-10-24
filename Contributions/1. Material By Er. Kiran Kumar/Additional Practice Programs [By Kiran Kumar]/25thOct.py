@@ -3,14 +3,14 @@
 # Question - 1
 # Revision Series - Program to add two numbers. 
 
-# Using Predefined Variables
+# Method - 2: Using Predefined Variables
 num1 = 10
 num2 = 30
 sum = num1 + num2
 print(f"Sum of {num1} + {num2} is {sum}")
 
 
-# Using User Input  
+# Method - 2: Using User Input  
 
 num1 = float(input("Enter a Number 1 : "))
 num2 = float(input("Enter a Number 2 : "))
@@ -25,3 +25,13 @@ print(f"The Sum of {num1} + {num2} is {sum}")
 print("Hello World")
 
 
+
+
+# Question - 3
+# Python Program to find the square root of a number 
+
+# Method - 1: Using Exponentiation 
+
+num = int(input("Enter a Number: ")) # 64
+square_root = num ** 0.5
+print(f"The Square Root of {num} is {square_root}")
