@@ -200,3 +200,15 @@ for num in range(1,n+1):
     factorial = factorial * num 
 print(f"The Factorial of {n} is {factorial}")
     
+    
+    
+# Factorial using While Loop
+
+num = int(input("Enter a Number : "))  # num = 5
+# 5 -  5*4*3*2*1
+temp = num
+fact = 1
+while num != 0:
+    fact = fact * num
+    num = num - 1
+print(f"The Factorial of {temp} is : {fact} ")
