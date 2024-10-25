@@ -114,3 +114,20 @@ In summary:
 - Use `cmath.sqrt()` when you may encounter negative numbers or need to work with complex numbers.
 
 '''
+
+
+
+
+# Question - 6
+# Python Program to Swap Two Variables 
+
+# Method - 1 : Using Third Variable 
+num1 = 10
+num2 = 20
+print("Before Swapping")
+print(f"num1 -> {num1} and num2 -> {num2}")
+temp = num1 
+num1 = num2 
+num2 = temp
+print("After Swapping")
+print(f"num1 -> {num1} and num2 -> {num2}")
