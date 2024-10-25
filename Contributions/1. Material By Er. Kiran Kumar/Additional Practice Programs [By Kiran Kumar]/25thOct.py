@@ -424,11 +424,15 @@ for num in range(lower,higher+1):
 # 3! = 3*2*1
 # Number multiplied by it's one decremented number till 1. 
 
+# we can't find factorial of a negative number. 
+
 
 # Factorial Using For Loop 
 num = int(input("Enter a Number : "))
 factorial = 1
-if num == 0 or num == 1:
+if num < 0:
+   pass
+elif num == 0 or num == 1:
    print(1)
 else:
    for number in range(1,num+1):
@@ -438,7 +442,9 @@ else:
 # Factorial Using While Loop 
 
 num = int(input("Enter a Number : "))
-if num == 0 or num == 1:
+if num < 0:
+   pass
+elif num == 0 or num == 1:
    print(1)
 else: 
    factorial = 1
@@ -446,3 +452,15 @@ else:
       factorial = factorial * num 
       num = num - 1
    print(factorial)
+   
+# Factorial Using Recursion 
+
+def factorial(num):
+   if num < 0:
+      print("Kindly Enter Positive Numbers.")
+   elif num == 0 or num == 1:
+      return 1 
+   else:
+      return num * factorial(num-1)
+result = factorial(5)
+print(result)
