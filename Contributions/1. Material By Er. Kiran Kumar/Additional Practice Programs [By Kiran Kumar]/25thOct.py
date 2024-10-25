@@ -688,3 +688,13 @@ def pass_fail(score):
         return "Failed"
 result = pass_fail(60)
 print(result)
+
+
+
+# Question - 27 
+# Write a function to add 10 to the given number. 
+
+def add_ten(n):
+    return n+10
+result = add_ten(10)
+print(result)
