@@ -171,4 +171,16 @@ print(num)
 
 km = float(input("Enter Your Value in Km: "))
 mile = 0.621371 * km 
-print(f"{km} Km in {mile} miles")
+print(f"{km} Km will be {mile} miles")
+
+
+# Question - 10
+# Python Program to convert Celsius to Fahrenheit 
+# Formula -
+# T(F) = (9/5 * T(C)) + 32  
+# 9/5 can also be written as 1.8 
+# 0 Degree Celsius = 32 Fahrenheit    [Put T(c) = 0, you will get the result.]
+
+celsius = float(input("Enter the temperature in Celsius: "))
+fahrenheit = ((9/5) * celsius) + 32  # you can use use 1.8 as well at the place of 9/5
+print(f"{celsius} Celsius = {fahrenheit} Fahrenheit")
