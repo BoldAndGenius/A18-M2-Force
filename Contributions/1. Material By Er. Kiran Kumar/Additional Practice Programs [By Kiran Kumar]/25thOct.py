@@ -43,3 +43,15 @@ import math
 num = int(input("Enter a Number : "))
 square_root = math.sqrt(num) # math is a module name
 print(f"The Square of {num} is {square_root} ")
+
+
+
+
+
+
+# Question - 4
+# Python Program to Calculate the Area of a Triangle 
+height = int(input("Enter a Height : "))
+base = int(input("Enter the Base : "))
+area = (0.5) * base * height   # or   (1/2) * base * height
+print(f"The Area of Triangle is {area}")
