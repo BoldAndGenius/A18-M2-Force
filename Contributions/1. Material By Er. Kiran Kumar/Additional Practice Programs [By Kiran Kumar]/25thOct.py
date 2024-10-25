@@ -411,3 +411,27 @@ for num in range(lower,higher+1):
       print("Kindly Enter Positive Number greater than 1.")
 
 
+
+
+
+
+# Question - 17
+# Python Program to find the factorial of a number 
+
+# 0! = 1
+# 1! = 1
+# 2! = 2*1
+# 3! = 3*2*1
+# Number multiplied by it's one decremented number till 1. 
+
+
+# Factorial Using For Loop 
+num = int(input("Enter a Number : "))
+factorial = 1
+if num == 0 or num == 1:
+   print(1)
+else:
+   for number in range(1,num+1):
+      factorial = factorial * number
+   print(factorial)
+   
