@@ -297,7 +297,7 @@ REVISE REVISE REVISE REVISE REVISE   (******)
 # eg. 3, 5,7,11,13,17.....
 
 
-# Using For Loop & Conditional Statements 
+# Using Variables, Operators, For Loop & Conditional Statements
 
 # 1 is neither prime nor composite -- 1 se to sare hi number divisible hote hai.
 
@@ -340,5 +340,74 @@ else:
    print("Invalid!")
    
    
+
+
+
+
+
+
 # Question - 16 
-# 
+# Python Program to Print all Prime Numbers in an Interval 
+
+"""
+Revise Revise Revise Revise Revise  (******** VVIP  )
+"""
+
+# start = 1 
+# end = 6
+# output = 2, 3, 5
+
+# Wrong Logics -- not done! 
+
+# start = int(input("Enter the Starting number : "))  # 1
+# end = int(input("Enter the Ending Number : "))  # 6
+
+# while start <= end:
+#    for num in range(2,start):
+#       if start % num:
+#          print(start,end=" ")
+#    start = start + 1
+
+
+
+# Where is the mistake in this logic --- (********)
+# start = 1
+# end = 10 
+
+# while start <= end:
+#    # start = 1
+#    for num in range(2,start):
+#       if start % num != 0:
+#          print(start)
+#    # print(start)
+#    start = start + 1
+   
+   
+   
+   
+# Where is the problem in this ? 
+# lower = int(input("Enter a Lower Limit : "))
+# higher = int(input("Enter the Higher Limit : "))
+# for num in range(lower,higher+1):
+#    if num > 1:
+#       for number in range(2,num):
+#          if num % number == 0:
+#             continue
+#          else:
+#             print(num)
+   
+   
+
+lower = int(input("Enter a Lower Limit : "))  # 10
+higher = int(input("Enter the Higher Limit : "))  # 20
+for num in range(lower,higher+1):
+   if num > 1:
+      for number in range(2,num):
+         if num % number == 0:
+            break  # it's a not prime, therfore break the loop
+      else:
+         print(num)  # we have to print the number 
+   else:
+      print("Kindly Enter Positive Number greater than 1.")
+
+
