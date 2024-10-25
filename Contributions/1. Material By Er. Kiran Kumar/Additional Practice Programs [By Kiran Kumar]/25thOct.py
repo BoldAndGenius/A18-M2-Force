@@ -657,3 +657,20 @@ def odd_even(num):
         return "Even"
     else:
         return "Odd"
+print(odd_even(23))
+   
+
+
+
+# Question - 25
+# Write a function to check if a person is eligible to vote.
+
+
+def eligible_to_vote(age):
+    if age>=18:
+        return True 
+    else:
+        return False 
+     
+result = eligible_to_vote(20)
+print(result)
