@@ -246,3 +246,20 @@ if year%4 == 0:
       print("Leap Year.")
 else:
    print("Not a Leap Year. ")
+   
+   
+   
+   
+# Question - 14 
+# Python Program to find the Largest Among Three Numbers 
+
+num1 = int(input("Ente a Number 1 : "))
+num2 = int(input("Enter a Number 2 : "))
+num3 = int(input("Enter a Number 3 : "))
+
+if (num1>num2) and (num1>num3):
+   print(f"{num1} is greatest.")
+elif (num2>num3):
+   print(f"{num2} is Greatest.")
+else:
+   print(f"{num3} is Greatest.")
