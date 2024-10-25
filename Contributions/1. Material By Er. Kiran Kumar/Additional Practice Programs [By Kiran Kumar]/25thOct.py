@@ -546,3 +546,18 @@ else:
       print(num3, sep=" , ", end=" , ")
       number = number + 1
 
+
+
+
+
+
+# Using Recursion 
+def fibonacci(num):
+   if num == 1:
+      return 0 
+   elif num == 2:
+      return 1 
+   else:
+      return fibonacci(num-1) + fibonacci(num-2)
+result = fibonacci(5)
+print(result)
