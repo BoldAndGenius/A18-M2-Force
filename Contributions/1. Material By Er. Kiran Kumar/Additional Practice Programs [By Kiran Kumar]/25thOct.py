@@ -435,3 +435,14 @@ else:
       factorial = factorial * number
    print(factorial)
    
+# Factorial Using While Loop 
+
+num = int(input("Enter a Number : "))
+if num == 0 or num == 1:
+   print(1)
+else: 
+   factorial = 1
+   while num > 0:
+      factorial = factorial * num 
+      num = num - 1
+   print(factorial)
