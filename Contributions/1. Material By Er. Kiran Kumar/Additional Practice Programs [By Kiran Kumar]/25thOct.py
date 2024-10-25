@@ -204,3 +204,19 @@ else:
 
 
 
+# Question - 12 
+# Python Program to Check if a Number is Odd or Even. 
+
+# Even Number -- Perfectly divisible by 2. (When divide by 2, remainder should come 0) -- 2 ke table me aane wale sare number including 0 is an even number.
+# rest remaining numbers are odd, 2 se divide karne ke baad perfect remainder nahi dete hai...vo decimal ke badd bhale hi 0 de dete hai...but perfectly 0 nahi dete hai. ...without decimal value....that numbers are called odd. 
+# Jaha pe perfect remainder 0 aa jai....2 se divide karne ke baad.
+
+# Using Variable, Modulus Operator & Conditional Statements. 
+
+# Modulus Operator -- use to find the remainder.  
+
+num = int(input("Enter a Number : "))
+if num % 2 == 0:
+   print("Even Number.")
+else:
+   print("Odd Number.")
