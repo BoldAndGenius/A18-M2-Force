@@ -647,3 +647,13 @@ def is_divisible_by_five(n):
     else:
         return False
 print(is_divisible_by_five(10))
+
+
+# Question - 24
+# Write a function to check if the entered integer is odd or even. 
+
+def odd_even(num):
+    if num % 2 == 0:
+        return "Even"
+    else:
+        return "Odd"
