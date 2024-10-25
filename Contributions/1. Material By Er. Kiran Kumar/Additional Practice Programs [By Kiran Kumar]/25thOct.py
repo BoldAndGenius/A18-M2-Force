@@ -163,3 +163,12 @@ print(num)
 import random
 num = random.randint(1,6)
 print(num)
+
+
+# Question - 9
+# Python Program to convert Kilometers to Miles.
+# 1 kilometer = 0.621371 Mile 
+
+km = float(input("Enter Your Value in Km: "))
+mile = 0.621371 * km 
+print(f"{km} Km in {mile} miles")
