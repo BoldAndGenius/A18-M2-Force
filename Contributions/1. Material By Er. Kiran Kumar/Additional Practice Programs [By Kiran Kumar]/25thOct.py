@@ -131,3 +131,11 @@ num1 = num2
 num2 = temp
 print("After Swapping")
 print(f"num1 -> {num1} and num2 -> {num2}")
+
+
+# Method - 2: Using Multiple Variable Creation
+
+num1 = 10
+num2 = 20
+num1, num2 = num2,num1 
+print(f"num1 -> {num1} and num2 -> {num2}")
