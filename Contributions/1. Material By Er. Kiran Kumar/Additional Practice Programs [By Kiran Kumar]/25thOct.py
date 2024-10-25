@@ -585,6 +585,9 @@ while temp2 > 0:
    temp2 = temp2 // 10 
 # print(length)
 
+# above while loop code can also be replaced with typcasting concept
+# length = len(str(temp2))
+
 armstrong = 0
 while num > 0:  # 123 > 0
    last = num % 10   # 3
@@ -596,3 +599,26 @@ if temp1 == armstrong:
 else:
    print("Not an Armstrong Number.")
    
+   
+   
+   
+
+
+# Question - 21
+# Write a function to calculate the sum of all digits in a given number.
+
+def sum_of_digits(n):
+    sum = 0
+    while n > 0:
+        last = n % 10 
+        sum = sum + last 
+        n = n // 10 
+    print(sum)
+
+n = int(input("Enter a Number : "))   
+sum_of_digits(n)
+   
+   
+
+
+
