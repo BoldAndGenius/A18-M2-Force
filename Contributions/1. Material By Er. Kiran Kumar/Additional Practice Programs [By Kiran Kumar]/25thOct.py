@@ -639,5 +639,11 @@ print(is_prime_in_range(10,2,5))
 
 
 # Question - 23 
+# Write a function to check if an integer is divisible by 5. 
 
-
+def is_divisible_by_five(n):
+    if n % 5 == 0:
+        return True 
+    else:
+        return False
+print(is_divisible_by_five(10))
