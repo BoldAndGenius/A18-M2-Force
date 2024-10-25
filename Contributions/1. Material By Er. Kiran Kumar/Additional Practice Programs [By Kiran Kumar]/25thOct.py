@@ -492,3 +492,39 @@ while number <= 10:
    number = number + 1
    
                 
+                
+                
+                
+# Question - 19
+# Python Program to Print the Fibonacci Sequence 
+# 0,1,1,2,3,5,8 
+# [Revise Revise Revise Revise Revise  (*******)]
+
+
+
+
+# Using For Loop 
+
+num1 = 0
+num2 = 1
+
+num = int(input("Enter a number till which you want the fibonacci series : "))
+
+if num == 1:
+   print(num1)
+elif num == 2:
+   print(num1)
+   print(num2)
+else: 
+   print(num1)
+   print(num2)
+   for number in range(1,num-1):
+      num3 = num1 + num2 
+      num1 = num2 
+      num2 = num3 
+      print(num3)
+   
+   
+
+
+
