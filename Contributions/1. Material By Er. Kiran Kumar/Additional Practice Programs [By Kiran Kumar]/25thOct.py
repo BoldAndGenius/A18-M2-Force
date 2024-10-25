@@ -133,9 +133,24 @@ print("After Swapping")
 print(f"num1 -> {num1} and num2 -> {num2}")
 
 
-# Method - 2: Using Multiple Variable Creation
+# Method - 2: Using Multiple Variable Creation (Without Using Third Variable)
 
 num1 = 10
 num2 = 20
 num1, num2 = num2,num1 
 print(f"num1 -> {num1} and num2 -> {num2}")
+
+
+
+
+
+
+# Question - 7 
+# Python Program to Generate Random Number 
+
+import random   # using random module 
+print(random.randrange(1,20))
+
+
+num = random.randint(0,10)  # random integer from the range of numbers  -- 0 & 10 will be included
+print(num)
