@@ -674,3 +674,17 @@ def eligible_to_vote(age):
      
 result = eligible_to_vote(20)
 print(result)
+
+
+
+
+# Question - 26
+# Write a function to check whether a student passed or failed his/her examination.
+
+def pass_fail(score):
+    if score >= 50:
+        return "Passed"
+    else:
+        return "Failed"
+result = pass_fail(60)
+print(result)
