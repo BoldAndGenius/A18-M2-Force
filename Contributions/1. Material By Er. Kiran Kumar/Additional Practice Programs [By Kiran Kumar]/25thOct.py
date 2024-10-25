@@ -184,3 +184,23 @@ print(f"{km} Km will be {mile} miles")
 celsius = float(input("Enter the temperature in Celsius: "))
 fahrenheit = ((9/5) * celsius) + 32  # you can use use 1.8 as well at the place of 9/5
 print(f"{celsius} Celsius = {fahrenheit} Fahrenheit")
+
+
+
+# Question - 11
+# Python Program to check if a Number is Positive, Negative or 0. 
+
+# Using Variables & Conditionals Statements 
+# zero is neutral (not a positive, not negative)
+
+num = int(input("Enter a Number : "))
+if num>0:
+   print("Positive Number.")
+elif num == 0:
+   print("Zero")
+else:
+   print("Negative Number.")
+
+
+
+
