@@ -154,3 +154,12 @@ print(random.randrange(1,20))
 
 num = random.randint(0,10)  # random integer from the range of numbers  -- 0 & 10 will be included
 print(num)
+
+
+
+# Question - 8
+# Mimic Dice Roll Using Random Module
+
+import random
+num = random.randint(1,6)
+print(num)
