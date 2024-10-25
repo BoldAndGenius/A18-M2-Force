@@ -483,6 +483,12 @@ num = int(input("Enter a number for which you want to print the table : ") )
 for n in range(1,11):
    print(f"{num} X {n} = {num*n}")
    
+# Using While Loop
 
+num = int(input("Enter a Number : "))
+number = 1
+while number <= 10:
+   print(f"{num} X {number} = {num*number}")
+   number = number + 1
    
                 
