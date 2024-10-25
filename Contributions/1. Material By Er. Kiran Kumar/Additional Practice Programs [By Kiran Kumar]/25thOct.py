@@ -288,16 +288,57 @@ else:
 # Question - 15 
 # Python Program to check Prime Number 
 
+'''
+REVISE REVISE REVISE REVISE REVISE   (******)
+
+'''
+
 # prime number -  1 and itself only. 
+# eg. 3, 5,7,11,13,17.....
+
+
+# Using For Loop & Conditional Statements 
+
+# 1 is neither prime nor composite -- 1 se to sare hi number divisible hote hai.
 
 number = int(input("Enter a Number : "))
 prime = True
 
-for num in range(2,number):
-   if number%num == 0:
-      prime = False
-      
-if prime == True:
-   print(f"{number} is a Prime Number.")
+if number == 1:
+   print("1 is not a prime number.")
+   
 else:
-   print(f"{number} is not a Prime Number.")
+   for num in range(2,number):
+      if number%num == 0:
+         prime = False
+         
+   if prime == True:
+      print(f"{number} is a Prime Number.")
+   else:
+      print(f"{number} is not a Prime Number.")
+      
+  
+  
+      
+# 2nd Logic 
+
+num = int(input("Enter a Number : ")) 
+
+if num == 1:
+   print("Not a Prime Number.")
+elif num > 1:
+   for number in range(2,num):
+      if num % number == 0:
+         print("Not a Prime Number")
+         break 
+      else:
+         print("Prime Number.")
+         break 
+elif num < 1:
+   print("Kindly enter Positive Number only.")   # negative numbers can't be a prime number. 
+else:
+   print("Invalid!")
+   
+   
+# Question - 16 
+# 
