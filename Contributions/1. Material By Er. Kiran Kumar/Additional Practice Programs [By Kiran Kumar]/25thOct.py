@@ -617,8 +617,27 @@ def sum_of_digits(n):
 
 n = int(input("Enter a Number : "))   
 sum_of_digits(n)
-   
-   
 
+
+
+# Question - 22
+# Write a function to check if a number is prime within a given range. 
+
+def is_prime_in_range(n, start, end): # 10, 2, 5
+    prime = True 
+    for num in range(start,end+1):
+        if n % num != 0:  # 10 % 2, 10%3, 10%4, 10%5
+            break
+        else:
+            prime = False 
+    if prime == True:
+        return True 
+    else:
+        return False 
+print(is_prime_in_range(10,2,5))
+
+
+
+# Question - 23 
 
 
