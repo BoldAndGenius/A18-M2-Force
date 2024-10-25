@@ -281,3 +281,23 @@ elif (num2>num1) and (num2>num3) :
 else:
    print(f"{num3} is Greatest.")
 
+
+
+
+
+# Question - 15 
+# Python Program to check Prime Number 
+
+# prime number -  1 and itself only. 
+
+number = int(input("Enter a Number : "))
+prime = True
+
+for num in range(2,number):
+   if number%num == 0:
+      prime = False
+      
+if prime == True:
+   print(f"{number} is a Prime Number.")
+else:
+   print(f"{number} is not a Prime Number.")
