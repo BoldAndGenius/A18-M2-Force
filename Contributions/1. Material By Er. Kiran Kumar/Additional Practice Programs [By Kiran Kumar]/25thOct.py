@@ -561,3 +561,38 @@ def fibonacci(num):
       return fibonacci(num-1) + fibonacci(num-2)
 result = fibonacci(5)
 print(result)
+
+
+
+
+
+
+# Question - 20 
+# Python Program to check Armstrong Number 
+
+ # 153 = (1*1*1) + (5*5*5) + (3*3*3) == 153  # cube because the number of digits are 3
+ # 42 = (4*4) + (2*2)  # square because the number of digits are 2
+ 
+ 
+num = int(input("Enter a Number : "))  # 123 
+temp1 = num
+temp2 = num 
+
+length = 0 
+while temp2 > 0:
+   last = temp2 % 10 
+   length = length + 1
+   temp2 = temp2 // 10 
+# print(length)
+
+armstrong = 0
+while num > 0:  # 123 > 0
+   last = num % 10   # 3
+   armstrong = armstrong + last ** length  # armstrong = 0 + 3 ** 3 = 27 
+   num = num // 10
+   
+if temp1 == armstrong:
+   print("Armstrong Number.")
+else:
+   print("Not an Armstrong Number.")
+   
