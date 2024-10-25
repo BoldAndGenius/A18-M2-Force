@@ -455,6 +455,13 @@ else:
    
 # Factorial Using Recursion 
 
+# 5! = 5*4*3*2*1 
+
+# 5! = 5 * 4!         
+# 4! = 4 * 3! 
+# 3! = 3 * 2! 
+# 2! = 2 8 1! 
+
 def factorial(num):
    if num < 0:
       print("Kindly Enter Positive Numbers.")
@@ -464,3 +471,18 @@ def factorial(num):
       return num * factorial(num-1)
 result = factorial(5)
 print(result)
+
+
+
+
+# Question - 18 
+# Python Program to display the multiplication table 
+
+# Using For Loop
+num = int(input("Enter a number for which you want to print the table : ") )
+for n in range(1,11):
+   print(f"{num} X {n} = {num*n}")
+   
+
+   
+                
