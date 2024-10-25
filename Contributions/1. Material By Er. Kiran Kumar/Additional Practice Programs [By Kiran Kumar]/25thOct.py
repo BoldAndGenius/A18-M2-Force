@@ -220,3 +220,29 @@ if num % 2 == 0:
    print("Even Number.")
 else:
    print("Odd Number.")
+   
+   
+   
+# Question - 13 
+# Python Program to check leap year 
+
+# noraml year has 365 Days 6 Hours.
+# in leap year , we have 366 Days. ----- ones in 4 years. (in February, we get 29 days instead of 28 days.).
+
+# 1996 - Leap Year.  ----- for non centurian year (case - 1),  year % 4 ==0 and year % 100 != 0
+# 2000 - Leap Year. ----- for centure year (case - 2),  year % 100 == 0 and year % 400 == 0
+# 2004 - Leap Year.
+# 2006 - Not a Leap Year.
+# 2024 - Leap Year.
+
+year = int(input("Enter an Year : "))
+if year%4 == 0:
+   if year%100 == 0:
+      if year % 400 == 0:
+         print("Leap Year.")
+      else:
+         print("Not a Leap Year.")
+   else:
+      print("Leap Year.")
+else:
+   print("Not a Leap Year. ")
