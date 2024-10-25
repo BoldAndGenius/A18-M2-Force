@@ -698,3 +698,12 @@ def add_ten(n):
     return n+10
 result = add_ten(10)
 print(result)
+
+
+# Question - 28
+# Write a function to convert a given length from meters to centimeters. 
+
+def meters_to_centimeters(meters):
+    return meters * 100 
+result = meters_to_centimeters(10)
+print(result)
