@@ -904,3 +904,37 @@ print(ord(char))  # ord function is a build in function, to tell the ascii value
 # A  - 65
 # % (special symbol) - 37 
 # in this way, we have total 128 values. 
+# For any character you want find the ASCII Value.
+
+
+
+
+# Question - 37
+# Python Program to find the HCF or GCD. 
+# Highest Common Factor.
+# Greatest Common Divisor. 
+
+'''
+eg-  6, 12 
+6 - smallest  -- 1,2,3,6
+12 - biggest --- 1,2,3,4,6, 12
+
+Therefore, HCF will be 6  (come from smalles number)
+Since, 6 is the highest number that divides the both number completely. 
+
+'''
+
+# Using Variables, Conditional & For Loop
+
+num1 = int(input("Enter a Number 1 : "))
+num2 = int(input("Enter a Number 2 : "))
+if num1 > num2:
+   smallest = num2 
+else:
+   smallest = num1
+# now iterate till smallest number 
+for num in range(1,smallest+1):
+   if (num1 % num == 0) and (num2 % num == 0):   # num1 & num2 dono divisible ho...then it become the hcf 
+      hcf = num 
+   
+print(f"The HCF of {num1} and {num2} is {hcf}")
