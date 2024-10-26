@@ -707,3 +707,21 @@ def meters_to_centimeters(meters):
     return meters * 100 
 result = meters_to_centimeters(10)
 print(result)
+
+
+# Question - 29
+# Write a function to find the largest of two numbers.
+
+
+def find_largest(num1, num2):
+    if num1 > num2:
+        return num1 
+    elif num2 > num1:
+        return num2 
+    elif num1 == num2:
+        return num1 
+    else:
+        return "Invalid"
+    
+result = find_largest(10,20)
+print(result)
