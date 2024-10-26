@@ -938,3 +938,20 @@ for num in range(1,smallest+1):
       hcf = num 
    
 print(f"The HCF of {num1} and {num2} is {hcf}")
+
+
+
+# Using Functions 
+
+def find_hcf(num1, num2):
+   if num1 > num2:
+      smallest = num2 
+   else:
+      smallest = num1 
+      
+   for num in range(1,smallest+1):
+      if (num1%num == 0) and (num2%num == 0):
+         hcf = num 
+   return hcf 
+result = find_hcf(6,12)
+print(f'The HCF of {num1} and {num2} is {result}')
