@@ -870,3 +870,20 @@ result = list(filter(lambda num : num % 13 == 0, list1))   # num will be takne f
 print(f"The numbers that are divisible by 13 are {result}")
 
 
+
+
+# Question - 35 
+# Python program to convert decimal to binary, octal and hexadeximal 
+
+# decimal - base is 10 - 0 to 9
+# binary - base is 2 -  0 & 1   -- prefix is 0b
+# octal - base is 8   --- prefix is 0o
+# hexadecimal - base is 16   -- prefix is 0x
+
+# Using Build in Function 
+  
+decimal = int(input("Enter a decimal number : "))
+binary = bin(decimal)
+octal = oct(decimal)
+hexadecimal = hex(decimal)
+print(binary, octal, hexadecimal)
