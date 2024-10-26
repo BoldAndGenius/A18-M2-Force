@@ -943,6 +943,9 @@ print(f"The HCF of {num1} and {num2} is {hcf}")
 
 # Using Functions 
 
+num1 = int(input("Enter a Number 1 : "))
+num2 = int(input("Enter a Number 2 : "))
+
 def find_hcf(num1, num2):
    if num1 > num2:
       smallest = num2 
@@ -953,5 +956,30 @@ def find_hcf(num1, num2):
       if (num1%num == 0) and (num2%num == 0):
          hcf = num 
    return hcf 
-result = find_hcf(6,12)
+result = find_hcf(num1, num2)
 print(f'The HCF of {num1} and {num2} is {result}')
+
+
+
+
+# Question - 38 
+
+# Find HCF of 3 Numbers 
+
+# Using Variables, Conditionals & For Loop
+
+num1 = int(input("Enter a Number 1: "))
+num2 = int(input("Enter a Number 2: "))
+num3 = int(input("Enter a Number 3: "))
+
+if (num1<num2) and (num1<num3):
+   smallest = num1 
+elif (num2<num1) and (num2<num3):
+   smallest = num2 
+else:
+   smallest = num3 
+   
+for num in range(1,smallest+1):
+   if (num1 % num == 0) and (num2 % num == 0) and (num3 % num == 0):
+      hcf = num 
+print(f"The HCF of {num1},{num2},{num3} is {hcf}")
