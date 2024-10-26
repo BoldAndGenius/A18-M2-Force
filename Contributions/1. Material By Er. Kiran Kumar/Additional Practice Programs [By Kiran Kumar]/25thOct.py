@@ -848,3 +848,16 @@ result = list(map(lambda num : 2 ** num, range(1, nterm+1)))
 print(result)
 for n in range(1,nterm+1):
    print(f"The value of 2 raised to power {n} is {result[n-1]}")
+   
+   
+   
+
+# Question - 34
+# Python Program to Find Numbers Divisible By Another Number 
+
+# Using For Loop & Conditional Statements 
+
+print("The Numbers divisible by 13 are in the range of 1 to 100 : ")
+for num in range(1,101):
+   if num % 13 == 0:
+      print(num, end=" ", sep =" ")
