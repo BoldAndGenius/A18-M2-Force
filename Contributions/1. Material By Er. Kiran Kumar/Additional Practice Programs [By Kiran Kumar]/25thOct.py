@@ -1072,3 +1072,22 @@ elif choice == 7:
 else:
    print("Invalid Choice")
    
+   
+   
+   
+
+
+
+# Question - 41 
+# Python Program to Suffle Deck of Cards. 
+
+# Using Random Module & Itertools. 
+
+
+import random, itertools 
+deck = list(itertools.product(range(1,14), ['Spade', 'Club',"King", "Queen"]))
+random.shuffle(deck)
+print(deck)
+
+for card in range(1,6):
+   print(deck[card][0], "of", deck[card][1])
