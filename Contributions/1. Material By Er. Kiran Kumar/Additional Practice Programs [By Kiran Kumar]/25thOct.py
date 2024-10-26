@@ -842,3 +842,9 @@ power = lambda pow: 2**pow
 print(power(5))
    
    
+# for all nterms 
+nterm = int(input('Enter the number of terms : '))
+result = list(map(lambda num : 2 ** num, range(1, nterm+1)))
+print(result)
+for n in range(1,nterm+1):
+   print(f"The value of 2 raised to power {n} is {result[n-1]}")
