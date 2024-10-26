@@ -983,3 +983,30 @@ for num in range(1,smallest+1):
    if (num1 % num == 0) and (num2 % num == 0) and (num3 % num == 0):
       hcf = num 
 print(f"The HCF of {num1},{num2},{num3} is {hcf}")
+
+
+
+# Using Functions 
+
+
+def find_hcf_of_3_number(num1,num2,num3):
+   if (num1<num2) and (num1<num3):
+      smallest = num1 
+   elif (num2<num1) and (num2<num3):
+      smallest = num2 
+   else:
+      smallest = num3 
+   
+   for num in range(1,smallest+1):
+      if (num1 % num == 0) and (num2 % num == 0) and (num3 % num == 0):
+         hcf = num 
+         
+   return hcf 
+
+num1 = int(input("Enter a Number 1 : "))
+num2 = int(input("Enter a Number 2 : "))
+num3 = int(input("Enter a Number 3 : "))
+result = find_hcf_of_3_number(num1,num2,num3)
+print(f"The HCF of {num1}, {num2} and {num3} is {hcf}")
+   
+   
