@@ -863,6 +863,10 @@ for num in range(1,101):
       print(num, end=" ", sep =" ")
       
       
+# Using Lambda Function & Filter Function 
 
+list1 = [12,23,43,26, 89, 39, 52, 13]
+result = list(filter(lambda num : num % 13 == 0, list1))   # num will be takne from list, and that will be filter, then store in list 
+print(f"The numbers that are divisible by 13 are {result}")
 
 
