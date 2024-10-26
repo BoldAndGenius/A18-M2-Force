@@ -711,6 +711,7 @@ print(result)
 
 # Question - 29
 # Write a function to find the largest of two numbers.
+# REVISE REVISE REVISE REVISE  REVISE REVISE  
 
 
 def find_largest(num1, num2):
@@ -751,7 +752,7 @@ print(result)
 
 '''
 
-Where is the probelem in this code - 
+Where is the probelem in this below code - 
 
 '''
 
@@ -783,7 +784,9 @@ print(2//10) # 0
 
 
 
-
+"""
+Working Fine 
+"""
 lower = int(input("Enter a Lower Range Value : "))
 higher = int(input("Enter a Higher Range Value : "))
 
@@ -799,3 +802,29 @@ for num in range(lower,higher+1):  # 10,11,12,13.....20
    if temp == armstrong:
       print(temp)
       
+
+
+
+
+
+
+# prime number without modulo operator in python
+# fibonacci series 
+
+# How we will get to know that...I need to declare a variable outside the loop or inside the loop. 
+
+
+
+
+
+
+
+# Question - 32
+
+# Python Program to find the sum of natural numbers 
+
+n = int(input("Enter the number till which you want the sum of natural numbers : "))
+sum = 0
+for num in range(1,n+1):
+   sum = sum + num 
+print(sum)
