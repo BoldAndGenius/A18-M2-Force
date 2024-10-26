@@ -725,3 +725,18 @@ def find_largest(num1, num2):
     
 result = find_largest(10,20)
 print(result)
+
+
+
+
+# Question - 30
+# Write a function to determine if a person can enter a club.
+
+def can_enter_club(age):
+    if age >= 21:
+        return True 
+    else:
+        return False 
+
+result = can_enter_club(34)
+print(result)
