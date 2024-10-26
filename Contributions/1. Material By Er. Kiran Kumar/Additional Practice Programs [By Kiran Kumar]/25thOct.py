@@ -1039,3 +1039,36 @@ def factors_of_a_number(num):
          print(n,end=" ")
 num = int(input("Enter a Number : "))
 factors_of_a_number(num)
+
+
+
+
+# Question - 40 
+# Python Program to make a simple calculator 
+
+
+print("~~~~~~~~~~~~ Mini Calculator ~~~~~~~~~~~~")
+num1 = float(input("Enter a Number 1 : "))
+num2 = float(input("Enter a Number 2 : "))
+
+print("Enter 1 for Addition.\nEnter 2 for Substraction.\nEnter 3 for Multiplication.\nEnter 4 for True Division.\nEnter 5 for Floor Division.\nEnter 6 for Powerof.\nEnter 7 for Remainder.")
+
+choice = int(input("Enter the Choice (From 1 to 7) : "))
+
+if choice == 1:
+   print(f"The Sum of {num1} and {num2} is {num1 + num2}")
+elif choice == 2:
+   print(f"The Substraction of {num1} and {num2} is {num1 - num2}")
+elif choice == 3:
+   print(f"The Multiplication of {num1} and {num2} is {num1 * num2}")
+elif choice == 4:
+   print(f"The True Division of {num1} and {num2} is {num1 / num2}")
+elif choice == 5:
+   print(f"The Floor Division of {num1} and {num2} is {num1 // num2}")
+elif choice == 6:
+   print(f"The Powerof of {num1} and {num2} is {num1 ** num2}")
+elif choice == 7:
+   print(f"The Remainder of {num1} and {num2} is {num1 % num2}")
+else:
+   print("Invalid Choice")
+   
