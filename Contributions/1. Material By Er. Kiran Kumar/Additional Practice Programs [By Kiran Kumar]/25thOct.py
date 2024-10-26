@@ -887,3 +887,20 @@ binary = bin(decimal)
 octal = oct(decimal)
 hexadecimal = hex(decimal)
 print(binary, octal, hexadecimal)
+
+
+
+
+
+# Question - 36
+# Python Program to find the ASCII Value of a Character 
+# American Standard Code for Information Interchange 
+# 128 Characters - Uppercase Letter, Lowercase Letter, Special Symbols, --- given a numerical value for that..........computer me store karke...to manipulate it.
+
+char = input("Enter any character : ")
+print(ord(char))  # ord function is a build in function, to tell the ascii value for any character 
+
+# a  - 97
+# A  - 65
+# % (special symbol) - 37 
+# in this way, we have total 128 values. 
