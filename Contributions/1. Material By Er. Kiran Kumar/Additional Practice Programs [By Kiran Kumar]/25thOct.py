@@ -861,3 +861,8 @@ print("The Numbers divisible by 13 are in the range of 1 to 100 : ")
 for num in range(1,101):
    if num % 13 == 0:
       print(num, end=" ", sep =" ")
+      
+      
+
+
+
