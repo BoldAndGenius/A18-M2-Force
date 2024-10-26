@@ -740,3 +740,62 @@ def can_enter_club(age):
 
 result = can_enter_club(34)
 print(result)
+
+
+
+# Question - 31 
+# Python Program to find Armstrong Number in an Interval 
+
+
+# 10 to 100  -- first get the number ---- and then get all the digits, and based on the length, get the sum of that power of length, and if euqual to original number...then this is an armstrog number..print it
+
+'''
+
+Where is the probelem in this code - 
+
+'''
+
+lower = int(input("Enter a Lower Range Value : "))
+higher = int(input("Enter a Higher Range Value : "))
+
+for num in range(lower,higher+1):  # 10,11,12,13.....20
+   # print(num)
+   temp = num
+   armstrong = 0
+   while num > 0:
+      length = len(str(num))  # 2
+      last = num % 10 
+      armstrong = armstrong + last ** length 
+      num = num // 10
+   if temp == armstrong:
+      print(num)
+      
+
+
+
+
+# Important Concept 
+print(2%10)  # 2     
+print(2/10)  # 0.2
+print(2//10) # 0
+
+
+
+
+
+
+lower = int(input("Enter a Lower Range Value : "))
+higher = int(input("Enter a Higher Range Value : "))
+
+for num in range(lower,higher+1):  # 10,11,12,13.....20
+   # print(num)
+   length = len(str(num))  # 2  [this line I did mistake...find length earlier]
+   temp = num
+   armstrong = 0
+   while num > 0:
+      last = num % 10 
+      armstrong = armstrong + last ** length 
+      num = num // 10
+   if temp == armstrong:
+      print(temp)
+      
