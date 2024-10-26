@@ -1010,3 +1010,20 @@ result = find_hcf_of_3_number(num1,num2,num3)
 print(f"The HCF of {num1}, {num2} and {num3} is {hcf}")
    
    
+   
+   
+   
+   
+   
+
+
+# Question - 39 
+# Python Program to find the factors of a Number 
+
+# Using Variable, Conditional, Loop & Operator 
+
+num = int(input("Enter a Number : "))
+
+for factor in range(1,num+1):
+   if num % factor == 0:
+      print(factor, end=" ")
