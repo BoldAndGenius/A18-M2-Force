@@ -1027,3 +1027,15 @@ num = int(input("Enter a Number : "))
 for factor in range(1,num+1):
    if num % factor == 0:
       print(factor, end=" ")
+      
+      
+      
+   
+# Using Functions 
+
+def factors_of_a_number(num):
+   for n in range(1,num+1):
+      if num % n == 0:
+         print(n,end=" ")
+num = int(input("Enter a Number : "))
+factors_of_a_number(num)
