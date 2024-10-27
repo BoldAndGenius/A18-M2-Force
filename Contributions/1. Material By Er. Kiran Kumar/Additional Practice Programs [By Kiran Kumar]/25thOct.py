@@ -1091,3 +1091,15 @@ print(deck)
 
 for card in range(1,6):
    print(deck[card][0], "of", deck[card][1])
+   
+   
+
+
+
+# Python Program to display calendar 
+import calendar
+year = int(input("Enter Year :   "))
+month = int(input("Enter Month : "))
+
+calendar = calendar.month(year,month)
+print(calendar)
