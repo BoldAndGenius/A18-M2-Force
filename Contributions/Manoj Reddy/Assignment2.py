@@ -122,12 +122,10 @@ print(even_numbers)
 # # Q10. Write a program to check whether a number is prime or not using while loop.
 
 num = int(input("Enter Number: "))
-if num == 1:
-    print("Not Prime")
-elif num == 2:
-    print("Prime")
+prime = True
+if num < 2:
+    prime = False
 else:
-    prime = True
     for factor in range(2,num):
         if num % factor == 0:
             prime = False
