@@ -290,3 +290,42 @@ print(f"Negative Numbers count is {len(negative)}")
 
 num1 = int(input("Enter Number: "))
 num2 = int(input("Enter Number: "))
+
+
+# #Q24. Write a program to check whether a number is palindrome or not.
+
+num = int(input("Enter Number: "))
+temp = num
+rev = 0
+while temp != 0:
+    last = temp%10
+    rev=rev*10+last
+    temp//=10
+if num == rev:
+    print("Palindrome")
+else:
+    print("Not Palindrome")
+
+# Q26. Write a program to accept 10 numbers from the user and display it’s average
+
+start = 0
+sum = 0
+while start<10:
+    num = int(input("Enter Number: "))
+    sum+=num
+    start+=1
+print(sum//10)
+
+#Q27. Write a program to accept 10 numbers from the user and display the largest & smallest number number.
+
+start = 0
+numbers = []
+while start<10:
+    num = int(input("Enter Number: "))
+    numbers+=[num]
+    start+=1
+print(f"Largest Number is {max(numbers)}")
+print(f"Smallest Number is {min(numbers)}")
+
+
+    
