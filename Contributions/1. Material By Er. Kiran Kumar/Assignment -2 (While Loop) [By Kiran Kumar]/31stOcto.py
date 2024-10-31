@@ -150,3 +150,23 @@ while count <= 10:
         print(number)
     number = number - 1
     count = count + 1
+    
+    
+
+
+'''
+Question Number - 6 
+
+Write a program to print sum of first 10 Natural numbers.
+ 
+'''
+
+
+number = 1
+count = 1
+sum = 0
+while count <= 10:
+    sum = sum + number
+    number = number + 1
+    count = count + 1
+print(sum)
