@@ -130,3 +130,23 @@ while number >= 7:
     else:
         print(number)
     number = number - 7
+    
+    
+
+
+'''
+Question Number - 5 
+
+Write a program to print first 10 natural number in reverse order using while loop. 
+
+'''
+
+number = 10 
+count = 1
+while count <= 10:
+    if count < 10:
+        print(number,end=' , ')
+    else:
+        print(number)
+    number = number - 1
+    count = count + 1
