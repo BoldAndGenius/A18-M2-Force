@@ -226,3 +226,27 @@ while lower < higher:
         print(lower)
     lower = lower + 1
 
+
+
+'''
+Question Number - 10
+
+ Write a program to check whether a number is prime or not using while loop.
+ 
+'''
+
+number = int(input("Enter a Number : "))  # 5
+prime = True
+start = 2
+while start < number:
+    if number % start == 0:
+        prime = False 
+        break 
+    start = start + 1 
+if prime == True:
+    print("Prime Number ")
+else:
+    print("Not a Prime Number")
+        
+
+
