@@ -160,6 +160,17 @@ Question Number 98
 '''
 
 
+length1 = float(input("Enter the Length 1 : "))
+length2 = float(input("Enter the Length 2 : "))
+
+if length1 == length2:
+    print("Square.")
+elif ( length1 == 2 * length2 )  or ( length2 == 2 * length1):
+    print("Rectangle.")
+else:
+    print("Not a Square or Rectangle.")
+
+
 
 
 '''
