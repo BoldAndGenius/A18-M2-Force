@@ -111,3 +111,22 @@ while number <= 300:
     else:
         print(number)
     number = number + 10
+    
+    
+    
+
+
+'''
+Question Number - 4
+
+Write a while loop statement to print the following series 105, 98, 91 ………7.
+
+'''
+
+number = 105 
+while number >= 7:
+    if number > 7:
+        print(number,end=",")
+    else:
+        print(number)
+    number = number - 7
