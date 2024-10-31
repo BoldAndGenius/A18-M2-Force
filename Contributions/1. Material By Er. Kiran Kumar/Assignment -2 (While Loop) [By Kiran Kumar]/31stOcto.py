@@ -90,3 +90,24 @@ number = 1
 while number <= 10:
     print(number,"   ", number ** 2)
     number = number + 1
+    
+    
+    
+
+
+'''
+Question Number - 3
+
+ Write while loop statement to print the following series: 10, 20, 30 … … 300
+ 
+ [Revise Revise]
+ 
+ '''
+ 
+number = 10
+while number <= 300:
+    if number < 300:
+        print(number, end=",")
+    else:
+        print(number)
+    number = number + 10
