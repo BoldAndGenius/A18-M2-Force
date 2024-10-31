@@ -271,3 +271,22 @@ while number > 0:
     number = number // 10 
 print(f"The Sum of {temp} is {sum}")
     
+    
+
+
+'''
+
+Question Number - 12
+
+Q12. Write a program to find the product of the digits of a number accepted from the user.
+
+'''
+
+number = int(input("Enter a Number : "))
+temp = number
+product = 1
+while number > 0:
+    last = number %  10
+    product = product * last
+    number = number // 10 
+print(f"The Product of the digits of {temp} is {product}")
