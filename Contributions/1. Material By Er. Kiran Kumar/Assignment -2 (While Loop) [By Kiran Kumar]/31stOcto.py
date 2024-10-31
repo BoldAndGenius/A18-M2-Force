@@ -290,3 +290,23 @@ while number > 0:
     product = product * last
     number = number // 10 
 print(f"The Product of the digits of {temp} is {product}")
+
+
+
+
+
+'''
+Question Number - 13
+
+ Q13. Write a program to reverse the number accepted from user using while loop
+
+'''
+
+number = int(input("Enter a Number : "))
+temp = number 
+reverse = 0
+while number > 0:
+    last = number % 10 
+    reverse = reverse * 10 + last   # Revise this logic 
+    number = number // 10
+print(reverse)
