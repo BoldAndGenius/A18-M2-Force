@@ -68,3 +68,25 @@ number = 0
 while number < 10:
     print(number)
     number = number + 1
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+'''
+Question Number - 2
+
+Q2. Write a program to print first 10 integers and their squares using while loop.
+
+'''
+
+number = 1
+while number <= 10:
+    print(number,"   ", number ** 2)
+    number = number + 1
