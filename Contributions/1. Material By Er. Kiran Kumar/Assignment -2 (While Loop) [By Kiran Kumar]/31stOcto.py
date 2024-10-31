@@ -169,4 +169,27 @@ while count <= 10:
     sum = sum + number
     number = number + 1
     count = count + 1
-print(sum)
+print("Sum of First 10 Natural Numbers : ",sum)
+
+
+
+
+'''
+Question Number - 7
+
+Write a program to print sum of first 10 Even numbers.
+
+'''
+
+
+number = 0
+count = 1
+sum = 0
+while count <= 10:
+    sum = sum + number 
+    count = count + 1
+    number = number + 2
+print("Sum of the first 10 even numbers:", sum)
+
+
+
