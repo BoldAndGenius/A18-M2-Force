@@ -122,12 +122,10 @@ print(even_numbers)
 # # Q10. Write a program to check whether a number is prime or not using while loop.
 
 num = int(input("Enter Number: "))
-if num == 1:
-    print("Not Prime")
-elif num == 2:
-    print("Prime")
+prime = True
+if num < 2:
+    prime = False
 else:
-    prime = True
     for factor in range(2,num):
         if num % factor == 0:
             prime = False
@@ -290,3 +288,212 @@ print(f"Negative Numbers count is {len(negative)}")
 
 num1 = int(input("Enter Number: "))
 num2 = int(input("Enter Number: "))
+
+
+# #Q24. Write a program to check whether a number is palindrome or not.
+
+num = int(input("Enter Number: "))
+temp = num
+rev = 0
+while temp != 0:
+    last = temp%10
+    rev=rev*10+last
+    temp//=10
+if num == rev:
+    print("Palindrome")
+else:
+    print("Not Palindrome")
+
+# Q25. Write a python program to sum the sequence: 1 + 1/1! + 1/2! + 1/3! + ........ + 1/n!
+
+num = int(input("Enter Number: "))
+sum = 1
+factorial = 1
+start = 1
+while start <= num:
+    factorial*=start
+    sum += 1/factorial
+    start += 1
+print(sum)
+
+# Q26. Write a program to accept 10 numbers from the user and display it’s average
+
+start = 0
+sum = 0
+while start<10:
+    num = int(input("Enter Number: "))
+    sum+=num
+    start+=1
+print(sum//10)
+
+#Q27. Write a program to accept 10 numbers from the user and display the largest & smallest number number.
+
+start = 0
+numbers = []
+while start<10:
+    num = int(input("Enter Number: "))
+    numbers+=[num]
+    start+=1
+print(f"Largest Number is {max(numbers)}")
+print(f"Smallest Number is {min(numbers)}")
+
+# Q28. Write a program to display sum of odd numbers and even numbers separately that fall between two numbers accepted from the user.(including both numbers) using while loop.
+
+num1 = int(input("Enter Number: "))
+num2 = int(input("Enter Number: "))
+if num1 == num2:
+    print("Enter Valid Numbers not same")
+else:
+    large = max(num1,num2)
+    small = min(num1,num2)
+    sum_even = 0
+    sum_odd = 0
+    while small<=large:
+        if small % 2 == 0:
+            sum_even += small
+        else:
+            sum_odd += small
+        small+=1
+    print(f"Sum of Even Numbers {sum_even}")
+    print(f"Sum of Odd Numbers {sum_odd}")
+
+# Q29. Write a program to display all the numbers which are divisible by 13 but not by 3 between 100 and 500.(exclusive both numbers)
+
+start = 101
+end = 500
+while start < end:
+    if start % 13 == 0 and  start % 3 :
+        print(start)
+    start+=1
+
+# Q30. Write a program to print the following series till n terms. 2 , 22 , 222 , 2222 _ _ _ _ _ n terms
+
+num = int(input("Enter Number: "))
+start = 1
+list1 = []
+while start <= num:
+    list1 += [int('2'*start)]
+    start += 1
+print(list1)
+
+# Q31. Write a program to print the following series till n terms. 1 4 9 16 25 _ _ _ _ _ n terms.
+
+start = 1
+end = int(input("Enter Number: "))
+square_series = []
+while start <= end:
+    square_series += [start**2]
+    start += 1
+print(square_series)
+
+# Q32. Write a program to find the sum of the following series(accept values of x and n from user) 1 + x/1! + x2/2! + ..........xn/n!
+
+n = int(input("Enter Number: "))
+x = int(input("Enter Number: "))
+start = 1
+factorial = 1
+sum = 1
+while start <= n:
+    factorial*=start
+    sum+=(x*start)/factorial
+    start+=1
+print(sum)
+
+# Q33. Write a program to find the sum of following series : x + x2/2 + ..........xn/n
+
+n = int(input("Enter Number: "))
+x = int(input("Enter Number: "))
+start = 1
+sum = 0
+while start <= n:
+    sum+=(x*start)/start
+    start+=1
+print(sum)
+
+#Q34. Write a program to find the sum of following series 1 + 8 + 27 ............n terms
+
+num = int(input("Enter Number: "))
+start = 1
+sum = 0
+while start <= num:
+    sum+=start**3
+    start+=1
+print(sum)
+
+#Q35. Write a program to find the sum of following series: 1 + 2 + 6 + 24 + 120 . . . . . n terms
+
+num = int(input("Enter Number: "))
+sum = 1
+start = 0
+while start < num:
+    sum+=start*sum
+    start+=1
+print(sum)
+
+# Q36. Write a program to find the sum of following series: S = 1 + 4 – 9 + 16 – 25 + 36 – ... ... n terms
+
+# Q37. Write a Program to print all the characters in the string ‘PYTHON’ using while loop.
+
+string = 'PYTHON'
+index = 0
+while index < len(string):
+    print(string[index])
+    index+=1
+
+# Q38. Write a program to print only odd numbers from the given list using while loop. L = [23, 45,32, 25, 46, 33, 71, 90]
+
+L = [23,45,32,25,26,33,71,90]
+index = 0
+list1 = []
+while index < len(L):
+    if L[index]%2:
+        list1+=[L[index]]
+    index+=1
+print(list1)
+
+# Q41.Write a program to extract all the upper case character from the given string
+
+string = input("Enter string: ")
+index = 0
+upper = ''
+while index < len(string):
+    if 'A'<=string[index]<='Z':
+        upper+=string[index]
+    index+=1
+print(upper)
+        
+# Q42.Write a Program to separate positive and negative number from a list.
+
+list1 = eval(input("Enter Numbers in a list: "))
+pos = []
+neg = []
+index = 0
+while index < len(list1):
+    if list1[index]>0:
+        pos.append(list1[index])
+    else:
+        neg.append(list1[index])
+    index+=1
+print(pos)
+print(neg)
+    
+# Q45.Write a program to extract all the string data items from the given list only if string is palindrome
+
+list1 = eval(input("Enter a list: "))
+index = 0
+new_list = []
+while index < len(list1):
+    char = list1[index]
+    if type(char) == str:
+        if char == char[::-1]:
+            new_list+=[char]
+    index += 1
+print(new_list)
+
+# Q46.Write a program to extract all the special characters from the given string
+
+
+
+        
+        
+    
