@@ -193,3 +193,19 @@ print("Sum of the first 10 even numbers:", sum)
 
 
 
+
+'''
+Question Number - 8
+
+Write a program to print table of a number entered from the user.
+
+'''
+
+number = int(input("Enter a number for which you want to print the table : "))
+start = 1
+while start <= 10:
+    print(f"{number} X {start} = {number*start}")
+    start = start + 1
+
+
+
