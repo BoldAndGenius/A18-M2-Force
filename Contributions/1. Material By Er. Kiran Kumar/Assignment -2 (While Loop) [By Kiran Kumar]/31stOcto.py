@@ -206,6 +206,23 @@ start = 1
 while start <= 10:
     print(f"{number} X {start} = {number*start}")
     start = start + 1
+    
+    
 
 
+'''
+Question Number - 9
+
+Write a program to print all even numbers that falls between two numbers (exclusive both
+ numbers) entered from the user using while loop.
+
+'''
+
+lower = int(input("Enter lower value : "))
+temp = lower
+higher = int(input("Enter higher value : "))
+while lower < higher:
+    if lower % 2 == 0 and lower != temp:
+        print(lower)
+    lower = lower + 1
 
