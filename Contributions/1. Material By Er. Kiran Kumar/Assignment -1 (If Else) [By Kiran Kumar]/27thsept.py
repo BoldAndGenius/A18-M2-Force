@@ -179,13 +179,45 @@ Question Number 101
 101. Wap to take input as only collections.
  i) if the type of input is a list then ask the value from the user and
  insert it in the middle index of that list. and print that list.
+ 
  ii) if type of input is tuple print 'cannot append tuple is immutable'
+ 
  iii)if type is set, take the input from the user. if the value is immutable
  then only add it to the set and print the set otherwise print 'enter only
  immutable collection'
+ 
  iv) if type of input is dictionary take key and value as user input and
  add the key and value pair using syntax to add key value . and print the
  dictionary
  
  
 '''
+
+# REVISION REVISION REVISION REVISION 
+
+
+collections = eval(input("Enter any collection : "))  # [1,2,3]
+# print(len(collections))
+
+if type(collections) == list:
+    # print("It's a list")
+    user_input = eval(input("Enter any value : "))
+    collections.insert((len(collections)//2), user_input)
+    print(collections)
+    
+elif type(collections) == tuple:
+    print("Cannot Append Tuple is Immutable")
+    
+elif type(collections) == set:
+    user_input = input("Enter any Value : ")
+    if type(user_input) not in [list,set,dict]:
+        collections.add(user_input)
+        print(collections)
+    else:
+        print("Enter Only Immutable Collection")
+        
+elif type(collections) == dict:
+    key = eval(input("Enter the Key : "))
+    value = eval(input("Enter the Corresponding Value : "))
+    collections[key] = value 
+    print(collections)
