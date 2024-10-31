@@ -250,3 +250,24 @@ else:
         
 
 
+
+
+
+'''
+
+Question Number - 11
+
+Q11. Write a program to find the sum of the digits of a number accepted from the user.
+
+'''
+
+number = int(input("Enter a Number : "))  # 123
+temp = number
+sum = 0
+
+while number > 0:
+    last = number % 10
+    sum = sum + last
+    number = number // 10 
+print(f"The Sum of {temp} is {sum}")
+    
