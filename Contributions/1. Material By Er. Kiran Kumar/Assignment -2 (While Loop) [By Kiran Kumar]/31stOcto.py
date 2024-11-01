@@ -466,3 +466,17 @@ list = [1,2,0, 0.0, True, 89, False, "",[1,2], [], set(), {"name":"kiran"}, {}, 
 for element in list:
     if element not in [0,0.0, False, 0j, "",[],(),set(),{}]:
         print(element,end=" , ")
+        
+        
+        
+'''
+Question Number 95 
+
+Write a program to extract all integer data items from tuple
+
+'''
+
+tuple = (1,2,3,4,5, True, 3.4, [1,2,3], 3+8j, {12,3}, (12,3), {"name":"kiran"})
+for element in tuple:
+    if type(element) == int:
+        print(element)
