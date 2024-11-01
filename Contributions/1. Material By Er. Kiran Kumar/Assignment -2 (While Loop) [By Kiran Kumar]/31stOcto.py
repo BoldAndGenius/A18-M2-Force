@@ -503,3 +503,21 @@ while True:
         print("Enter Again.")
 
 
+
+
+
+'''
+
+Question Number 93 
+
+ Q93:Write a program to find length of collection without using len function
+ 
+ '''
+ 
+ 
+collection = [1,2,3,4,5]
+count = 0
+for item in collection:
+    count = count + 1
+print(f"The Length of {collection} is {count}")
+    
