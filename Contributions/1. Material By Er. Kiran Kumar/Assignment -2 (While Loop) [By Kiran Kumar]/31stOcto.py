@@ -521,3 +521,21 @@ for item in collection:
     count = count + 1
 print(f"The Length of {collection} is {count}")
     
+
+
+
+
+'''
+Question Number 92 
+
+Write a program to return the positions of vowels present in the given string
+
+'''
+
+
+string = "aikiran"
+index = 0
+for char in string:
+    if char in "aeiouAEIOU":
+        print(index)
+    index =index + 1
