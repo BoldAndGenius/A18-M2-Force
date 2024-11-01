@@ -397,3 +397,32 @@ else:
         fact = fact * start
         start = start + 1 
     print(fact)
+    
+    
+    
+
+
+
+
+
+'''
+Question Number - 17
+
+Write a program to check whether a number is Armstrong or not. (Armstrong number is a
+ number that is equal to the sum of cubes of its digits for example : 153 = 1^3 + 5^3 + 3^3.)
+'''
+
+number = int(input("Enter a Number : "))
+temp = number
+length = len(str(number))
+arm = 0
+
+while number > 0:
+    last = number % 10 
+    arm = arm + last ** length 
+    number = number // 10 
+
+if temp == arm:
+    print("Armstrong Number.")
+else:
+    print("Not an Armstrong Number.")
