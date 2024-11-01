@@ -446,3 +446,23 @@ if type(collection[0]) == float and type(collection[-1]) == float:
     print(collection)
 else:
     print("Please Enter First & Last Value to be Float Data Type.")
+
+
+
+
+
+
+'''
+Question Number 96 
+
+Q96.Write a program to extract all the non default values from the list
+
+'''
+# default value  - 0, 0.0, False, 0j, "", [],(),set(),{}
+
+
+list = [1,2,0, 0.0, True, 89, False, "",[1,2], [], set(), {"name":"kiran"}, {}, 567]
+
+for element in list:
+    if element not in [0,0.0, False, 0j, "",[],(),set(),{}]:
+        print(element,end=" , ")
