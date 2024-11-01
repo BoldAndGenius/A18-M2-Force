@@ -310,3 +310,90 @@ while number > 0:
     reverse = reverse * 10 + last   # Revise this logic 
     number = number // 10
 print(reverse)
+
+
+
+
+'''
+Question Number - 14
+
+ Q14. Write a program to display the number names of the digits of a number entered by user,
+ for example if the number is 231 then output should be Two Three One.
+ 
+ Lovely Question -- REVISE IT 
+ 
+'''
+
+number = int(input("Enter a Number : "))  # 123
+temp = number   
+reverse = 0
+
+while number > 0:
+    last = number % 10   # 3
+    reverse = reverse * 10 + last
+    number = number // 10
+    
+print(reverse)
+
+'''
+231 goes to 132 
+290 goes to 92    (why not zero)
+
+'''
+
+ans = ''
+while reverse > 0:
+    last = reverse % 10  
+    if last == 1:
+        # print("One", end=" ")
+        ans = ans + 'One '
+    elif last == 2:
+        ans = ans + 'Two '
+    elif last == 3:
+        ans = ans + 'Three '
+    elif last == 4:
+        ans = ans + 'Four '
+    elif last == 5:
+        ans = ans + 'Five '
+    elif last == 6:
+        ans = ans + 'Six '
+    elif last == 7:
+        ans = ans + 'Seven '
+    elif last == 8:
+        ans = ans + 'Eight '
+    elif last == 9:
+        ans = ans + 'Nine '
+    elif last == 0:
+        ans = ans + 'Zero '
+    reverse = reverse // 10
+print(ans)
+    
+    
+    
+
+
+'''
+Question Number - 16 
+
+Write a program to print the factorial of a number accepted from user.
+
+'''
+
+# 0! = 1
+# 1! = 1
+# 2! = 1*2 
+# 3! = 3*2*1 
+
+
+number = int(input("Enter a Number : "))
+if number == 0:
+    print(1)
+elif number == 1:
+    print(1)
+else:
+    fact = 1
+    start = 1
+    while start <= number:
+        fact = fact * start
+        start = start + 1 
+    print(fact)
