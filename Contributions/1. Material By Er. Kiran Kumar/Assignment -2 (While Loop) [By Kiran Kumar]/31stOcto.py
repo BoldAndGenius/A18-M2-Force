@@ -577,3 +577,49 @@ if given_tuple == reverse:
     print("Palindrome")
 else:
     print("Not a Palindrome")
+    
+    
+
+
+
+
+'''
+Question Number 89
+
+ Q89.Write a program to check the type of data entered by the users
+'''
+
+
+data = eval(input("Enter any value : "))
+if type(data) == int:
+    print("Integer Data Type.")
+elif type(data) == float:
+    print("Float Data Type.")
+elif type(data) == complex:
+    print("Complex Data Type.")
+elif type(data) == bool:
+    print("Boolean Data Type.")
+elif type(data) == list:
+    print("List Data Type.")
+elif type(data) == tuple:
+    print("Tuple Data Type.")
+elif type(data) == set:
+    print("Set Data Type.")
+elif type(data) == dict:
+    print("Dictionary Data Type.")
+elif type(data) == str:
+    print("String Data Type.")
+else:
+    print("Invalid")
+    
+    
+
+
+
+'''
+
+Question Number 88 
+
+Q88.Write a program to count number of consonants in the given string
+
+'''
