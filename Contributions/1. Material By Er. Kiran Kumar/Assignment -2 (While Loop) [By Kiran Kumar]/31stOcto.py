@@ -426,3 +426,23 @@ if temp == arm:
     print("Armstrong Number.")
 else:
     print("Not an Armstrong Number.")
+    
+    
+
+
+
+'''
+
+Question Number 97 
+
+ Q97.Write a program to check weather the first and last value in the collection is float if yes add those 2 values
+ 
+ '''
+ 
+collection = [1.2, 23, True, 3.5]
+if type(collection[0]) == float and type(collection[-1]) == float:
+    sum = collection[0] + collection[-1]
+    collection.append(sum)
+    print(collection)
+else:
+    print("Please Enter First & Last Value to be Float Data Type.")
