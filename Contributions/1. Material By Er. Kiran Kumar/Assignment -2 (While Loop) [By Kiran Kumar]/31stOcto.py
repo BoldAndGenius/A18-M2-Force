@@ -539,3 +539,22 @@ for char in string:
     if char in "aeiouAEIOU":
         print(index)
     index =index + 1
+    
+    
+    
+    
+
+
+
+'''
+Question Number 91
+
+Write a program to check weather the given collection is having nested collection or not
+
+'''
+
+collection = [1,2, [1,2], (1,2), True, 'kiran',{123,1}]
+
+for item in collection:
+    if type(item) in [ dict, set, list, tuple]:   # may get error, because earlier you used list & tuple as a variable ....so above don't use data type as a variable name, get conflicts. 
+        print("Nested Collection")
