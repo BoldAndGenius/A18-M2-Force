@@ -480,3 +480,26 @@ tuple = (1,2,3,4,5, True, 3.4, [1,2,3], 3+8j, {12,3}, (12,3), {"name":"kiran"})
 for element in tuple:
     if type(element) == int:
         print(element)
+        
+        
+    
+    
+
+
+'''
+Question Number 94 
+
+Q94.Write a program to whether the entered username and password is correct or not if not correct print enter again.
+
+'''
+
+while True: 
+    username = input("Enter your Username : ")
+    password = int(input("Enter Your Password : "))
+    if username == 'kiran' and password == 1234:
+        print("Welcome")
+        break
+    else:
+        print("Enter Again.")
+
+
