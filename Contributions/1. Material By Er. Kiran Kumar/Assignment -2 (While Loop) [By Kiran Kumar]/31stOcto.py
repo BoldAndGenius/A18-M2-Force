@@ -558,3 +558,22 @@ collection = [1,2, [1,2], (1,2), True, 'kiran',{123,1}]
 for item in collection:
     if type(item) in [ dict, set, list, tuple]:   # may get error, because earlier you used list & tuple as a variable ....so above don't use data type as a variable name, get conflicts. 
         print("Nested Collection")
+        
+        
+        
+        
+        
+        
+'''
+Question Number 90 
+
+Write a program to check weather the given tuple is palindrome or not
+
+'''
+
+given_tuple = (1,2,1)
+reverse = given_tuple[::-1]
+if given_tuple == reverse:
+    print("Palindrome")
+else:
+    print("Not a Palindrome")
