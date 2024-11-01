@@ -623,3 +623,9 @@ Question Number 88
 Q88.Write a program to count number of consonants in the given string
 
 '''
+count = 0
+given_string = "kiran"
+for char in given_string:
+    if char not in 'aeiouAEIOU':
+        count = count + 1
+print(count)
