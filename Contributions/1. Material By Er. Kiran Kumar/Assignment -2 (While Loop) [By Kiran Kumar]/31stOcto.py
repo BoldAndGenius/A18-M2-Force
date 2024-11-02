@@ -682,3 +682,19 @@ for char in string:
         number = number + 1 
         
 print(f"The Number of Vowels in {string} is {number}")
+
+
+
+
+'''
+Question Number 39
+
+Write a program to print all the factors of a number using while loop.
+
+'''
+number = int(input("Enter a Number : "))
+start = 1
+while start <= number:
+    if number % start == 0:
+        print(start)
+    start = start + 1
