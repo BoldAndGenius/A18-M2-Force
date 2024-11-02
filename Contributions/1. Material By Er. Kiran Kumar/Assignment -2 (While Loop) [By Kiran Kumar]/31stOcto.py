@@ -629,3 +629,37 @@ for char in given_string:
     if char not in 'aeiouAEIOU':
         count = count + 1
 print(count)
+
+
+
+
+
+
+
+
+'''
+
+Question Number 87 
+
+.Write a program to find the length of the longest word
+
+'''
+
+
+
+
+
+
+'''
+Question Number 86
+
+Q86.Write a program to count number of words in the given string
+
+'''
+
+word = "kiran kumar"
+number = 0 
+for char in word:
+    number = number + 1
+print(f"The Number of Words in {word} is {number}")
+
