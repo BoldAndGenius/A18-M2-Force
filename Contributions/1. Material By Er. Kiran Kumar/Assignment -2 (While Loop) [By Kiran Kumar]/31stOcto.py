@@ -663,3 +663,22 @@ for char in word:
     number = number + 1
 print(f"The Number of Words in {word} is {number}")
 
+
+
+
+
+
+'''
+Question Number 56 
+
+Q56.write a program to count the number of vowels present in a given string
+
+'''
+
+string = "kiran"
+number = 0
+for char in string:
+    if char in "aeiouAEIOU":
+        number = number + 1 
+        
+print(f"The Number of Vowels in {string} is {number}")
