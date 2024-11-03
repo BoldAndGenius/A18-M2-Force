@@ -782,3 +782,33 @@ given_string = 'kiran is a good boy.@'
 for char in given_string:
     if not (char.isalnum()):
         print(char)
+        
+        
+    
+
+'''
+
+Question Number 47 
+
+ Q47.Write a program to extract all the uppercase character,lower case character,numbers and
+ special characters into four different output variables from the given string
+ 
+ '''
+given_string = "iIkIR#$123"
+upper = ""
+lower = ""
+numbers = ""
+special = ""
+for char in given_string:
+    if char.isupper():
+        upper = upper + char 
+    elif char.islower():
+        lower = lower + char 
+    elif char.isnumeric():
+        numbers = numbers + char 
+    elif not char.isalnum():
+        special = special + char 
+print(upper)
+print(lower)
+print(numbers)
+print(special)
