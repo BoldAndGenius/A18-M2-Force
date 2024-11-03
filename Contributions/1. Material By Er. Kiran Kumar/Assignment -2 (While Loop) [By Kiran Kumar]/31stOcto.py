@@ -698,3 +698,15 @@ while start <= number:
     if number % start == 0:
         print(start)
     start = start + 1
+    
+    
+    
+
+'''
+Question Number 41
+
+.Write a program to extract all the uppercase character from the given string
+
+'''
+
+            
