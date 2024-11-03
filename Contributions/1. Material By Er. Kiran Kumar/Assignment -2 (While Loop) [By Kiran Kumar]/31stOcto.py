@@ -846,3 +846,31 @@ length = 0
 for item in collection:
     length = length + 1
 print(f"The Length of {collection} is {length}")
+
+
+
+
+'''
+Question Number 72
+
+Write a program to remove duplicate value from collection without converting to set
+
+'''
+
+# Using Set 
+
+collection = [1,1,1,1]
+unique = set(collection)
+listt = list(unique)
+print(listt)
+
+
+# Using Loops 
+# Revise it..............! 
+
+collection = [1,1,1,2]
+unique_collection = []
+for item in collection:
+    if item not in unique_collection:
+        unique_collection.append(item)
+print(unique_collection)
