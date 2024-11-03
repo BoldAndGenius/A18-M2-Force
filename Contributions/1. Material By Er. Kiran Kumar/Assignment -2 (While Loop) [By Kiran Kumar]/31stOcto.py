@@ -891,3 +891,28 @@ Q55.Write a program to get the following output
 input= 'hai hello'
 output = input[::-1]
 print(output)
+
+
+
+
+'''
+Q58.Write a program to get the following output
+ input=[‘jiocinema.com’ , ’file.py’ , ‘web.html’]
+ output=[‘com’ , ’py’ , ‘html’]
+'''
+
+
+input=['jiocinema.com' , 'file.py' , 'web.html']
+output = []
+for item in input: 
+    final = item.split('.')[-1]
+    output.append(final)
+print(output)
+
+
+
+
+input = ['kiran kumar', 'pawandeep kaur']
+for item in input:
+    final = item.split()[-1]
+    print(final)
