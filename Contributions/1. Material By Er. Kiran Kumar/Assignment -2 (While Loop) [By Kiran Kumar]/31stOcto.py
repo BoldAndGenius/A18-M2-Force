@@ -916,3 +916,18 @@ input = ['kiran kumar', 'pawandeep kaur']
 for item in input:
     final = item.split()[-1]
     print(final)
+    
+    
+    
+    
+
+'''
+Question Number 37 
+
+Q37.Write a Program to print all the characters in the string ‘PYTHON’ using while loop.
+
+'''
+
+string = 'PYTHON'
+for char in string:
+    print(char)
