@@ -735,3 +735,18 @@ for item in given_list:
         print("Invalid")
 print(positive_number)
 print(negative_number)
+
+
+
+'''
+Question Number 44 
+
+Q44.Write a program to fetch only even values from a dictionary.
+
+'''
+
+dictionary = {'age1':21, "age2": 23, "rollno1":12, 'rollno2':28}
+
+for keys in dictionary:
+    if dictionary[keys] % 2 == 0:
+        print(dictionary[keys])
