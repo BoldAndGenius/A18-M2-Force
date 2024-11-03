@@ -826,3 +826,23 @@ Question Number 49
 given_string = "Kiran"
 lower_to_upper = given_string.upper()
 print(lower_to_upper)
+
+
+
+
+
+
+'''
+
+Question Number 73
+
+
+ Q73.Write a program to find the length of collection without using len function
+ 
+'''
+
+collection = [1,2,3]
+length = 0
+for item in collection:
+    length = length + 1
+print(f"The Length of {collection} is {length}")
