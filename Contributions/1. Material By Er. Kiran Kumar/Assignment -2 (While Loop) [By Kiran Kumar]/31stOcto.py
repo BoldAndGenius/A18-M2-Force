@@ -708,5 +708,30 @@ Question Number 41
 .Write a program to extract all the uppercase character from the given string
 
 '''
+given_string = "IAmAnAlphaMale"
+for char in given_string:
+    if char.isupper():
+            print(char, end="  ")
 
-            
+
+
+
+'''
+
+Question Number 42
+
+ Q42.Write a Program to separate positive and negative number from a list.
+'''
+
+given_list = [1, 3.0, -1.2, True]
+positive_number = []
+negative_number = []
+for item in given_list:
+    if item > 0:
+        positive_number.append(item)
+    elif item < 0:
+        negative_number.append(item)
+    else:
+        print("Invalid")
+print(positive_number)
+print(negative_number)
