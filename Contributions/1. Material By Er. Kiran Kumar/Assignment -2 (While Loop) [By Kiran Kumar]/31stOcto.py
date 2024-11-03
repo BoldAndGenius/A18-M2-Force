@@ -769,3 +769,16 @@ for item in list:
     if type(item) == str  and item == item[ : : -1]:  # beautiful line
         print(item)
  
+ 
+ 
+
+'''
+Question Number 46
+
+Write a program to extract all the special characters from the given string
+'''
+
+given_string = 'kiran is a good boy.@'
+for char in given_string:
+    if not (char.isalnum()):
+        print(char)
