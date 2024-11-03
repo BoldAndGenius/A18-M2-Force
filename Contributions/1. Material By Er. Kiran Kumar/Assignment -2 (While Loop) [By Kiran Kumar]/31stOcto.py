@@ -812,3 +812,17 @@ print(upper)
 print(lower)
 print(numbers)
 print(special)
+
+
+
+'''
+Question Number 49 
+
+.Write a program to convert all the lower case charater to uppercase characters present in
+ a given string
+ 
+'''
+
+given_string = "Kiran"
+lower_to_upper = given_string.upper()
+print(lower_to_upper)
