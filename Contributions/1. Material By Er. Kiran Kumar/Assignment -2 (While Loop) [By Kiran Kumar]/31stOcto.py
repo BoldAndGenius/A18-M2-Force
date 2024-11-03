@@ -750,3 +750,22 @@ dictionary = {'age1':21, "age2": 23, "rollno1":12, 'rollno2':28}
 for keys in dictionary:
     if dictionary[keys] % 2 == 0:
         print(dictionary[keys])
+        
+        
+        
+        
+
+
+'''
+Question Number 45 
+
+Write a program to extract all the string data items from the given list only if string is
+ palindrome
+ 
+ '''
+ 
+list = ["kiran", "kumar", "maa", 'maam', 'dad', '1232', '12321']
+for item in list:
+    if type(item) == str  and item == item[ : : -1]:  # beautiful line
+        print(item)
+ 
