@@ -874,3 +874,20 @@ for item in collection:
     if item not in unique_collection:
         unique_collection.append(item)
 print(unique_collection)
+
+
+
+
+
+'''
+
+Question Number 55 
+
+Q55.Write a program to get the following output
+ input=‘hai hello’
+ output=’olleh iah’
+ 
+'''
+input= 'hai hello'
+output = input[::-1]
+print(output)
