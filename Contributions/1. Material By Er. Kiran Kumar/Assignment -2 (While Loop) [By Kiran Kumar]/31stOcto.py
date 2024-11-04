@@ -1036,3 +1036,25 @@ decimal_value = int(binary_value,2)
 print(decimal_value)
 
 # int(binary_str, 2) to convert the binary string to a decimal integer.
+
+
+
+
+'''
+Question Number 24
+
+Write a program to check whether a number is palindrome or not.
+
+'''
+
+number = int(input("Enter Any Number : "))
+temp = number
+reverse = 0
+while number > 0:
+    last = number % 10 
+    reverse = reverse * 10 + last
+    number = number // 10 
+if temp == reverse:
+    print("Palindrome")
+else:
+    print("Not a Palindrome")
