@@ -1018,3 +1018,21 @@ Question Number 22
 decimal_value = int(input("Enter any decimal value : "))
 binary_value = bin(decimal_value)
 print(binary_value)
+
+
+
+
+
+
+'''
+Question Number 23
+
+ 23. Write a program to convert Binary to Decimal.
+ 
+'''
+
+binary_value = input("Enter any Value: ") 
+decimal_value = int(binary_value,2)
+print(decimal_value)
+
+# int(binary_str, 2) to convert the binary string to a decimal integer.
