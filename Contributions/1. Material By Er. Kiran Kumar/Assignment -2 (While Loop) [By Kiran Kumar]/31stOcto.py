@@ -324,7 +324,80 @@ Question Number - 14
  
 '''
 
-number = int(input("Enter a Number : "))  # 123
+
+number = input("Enter a Number : ")
+ans = ""
+for num in number:
+    if num == "1":
+        # print("One", end=" ")
+        ans = ans + 'One '
+    elif num == "2":
+        ans = ans + 'Two '
+    elif num == "3":
+        ans = ans + 'Three '
+    elif num == "4":
+        ans = ans + 'Four '
+    elif num == "5":
+        ans = ans + 'Five '
+    elif num == "6":
+        ans = ans + 'Six '
+    elif num == "7":
+        ans = ans + 'Seven '
+    elif num == "8":
+        ans = ans + 'Eight '
+    elif num == "9":
+        ans = ans + 'Nine '
+    elif num== "0":
+        ans = ans + 'Zero '
+print(ans)
+
+
+
+
+
+
+
+
+
+
+
+# not working --- 0 is missed
+given_number = int(input("Enter Any Number : "))
+reverse = str(given_number)[::-1]
+final = int(reverse)
+ans = ''
+while final > 0:
+    last = final % 10  
+    if last == 1:
+        # print("One", end=" ")
+        ans = ans + 'One '
+    elif last == 2:
+        ans = ans + 'Two '
+    elif last == 3:
+        ans = ans + 'Three '
+    elif last == 4:
+        ans = ans + 'Four '
+    elif last == 5:
+        ans = ans + 'Five '
+    elif last == 6:
+        ans = ans + 'Six '
+    elif last == 7:
+        ans = ans + 'Seven '
+    elif last == 8:
+        ans = ans + 'Eight '
+    elif last == 9:
+        ans = ans + 'Nine '
+    elif last == 0:
+        ans = ans + 'Zero '
+    final = final // 10
+print(ans)
+
+
+
+
+# This below logic will not give the desired ouput...it will hide the 0 --- so use the above logic of string slicing
+
+number = input("Enter a Number : ")  # 123
 temp = number   
 reverse = 0
 
