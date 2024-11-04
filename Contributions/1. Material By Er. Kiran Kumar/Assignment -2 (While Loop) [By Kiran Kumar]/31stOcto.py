@@ -1004,3 +1004,17 @@ Q37.Write a Program to print all the characters in the string ‘PYTHON’ using
 string = 'PYTHON'
 for char in string:
     print(char)
+    
+    
+    
+    
+'''
+Question Number 22
+
+ Q22. Write a program to convert Decimal to Binary.
+ 
+'''
+
+decimal_value = int(input("Enter any decimal value : "))
+binary_value = bin(decimal_value)
+print(binary_value)
