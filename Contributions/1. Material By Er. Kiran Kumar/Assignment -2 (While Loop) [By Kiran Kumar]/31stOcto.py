@@ -1083,3 +1083,43 @@ print(average)
  
  
  
+ 
+ 
+ 
+'''
+Question Number 27
+
+ Q27. Write a program to accept 10 numbers from the user and display the largest & smallest
+ number number.
+
+'''
+ 
+ 
+ 
+count = 1
+largest = 0 # give the smallest value
+smallest = 100000 # give the largest value
+while count <= 5:
+    number = int(input("Enter Numbers : "))
+    if number > largest:
+        largest = number
+    if number < smallest:
+        smallest = number
+    # average = sum / 10 
+    count = count + 1
+print(largest)
+print(smallest)
+
+
+
+# Logic 2 
+
+list_number = []
+
+# print("Enter 10 Numbers.")
+for num in range(1,11):
+    numbers = int(input("Enter a number: "))
+    list_number.append(numbers)
+
+print(max(list_number))
+print(min(list_number))
