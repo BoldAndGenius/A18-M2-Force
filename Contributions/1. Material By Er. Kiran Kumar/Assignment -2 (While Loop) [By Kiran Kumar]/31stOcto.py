@@ -1130,6 +1130,25 @@ print(min(list_number))
 
 
 
+'''
+
+Question Number 19 
+
+ Q19. Write a program to enter the numbers till the user wants and at the end it should display
+ the sum of all the numbers entered.
+ 
+ '''
+ 
+ 
+sum = 0
+while True:
+    number = input("Enter a Number  (or type done to finish): ")
+    
+    if number.lower() == "done":
+        break 
+    
+    sum = sum + int(number)
+print(sum)
 
 
 
