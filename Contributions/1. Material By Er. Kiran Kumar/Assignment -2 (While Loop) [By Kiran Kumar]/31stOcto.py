@@ -1058,3 +1058,28 @@ if temp == reverse:
     print("Palindrome")
 else:
     print("Not a Palindrome")
+    
+    
+    
+    
+    
+'''
+
+Question Number 26
+
+ Q26. Write a program to accept 10 numbers from the user and display it’s average
+ 
+ '''
+
+
+count = 1
+sum = 0
+while count <= 10:
+    number = int(input("Enter Numbers : "))
+    sum = sum + number
+    average = sum / 10 
+    count = count + 1
+print(average)
+ 
+ 
+ 
