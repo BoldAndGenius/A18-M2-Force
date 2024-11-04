@@ -1152,3 +1152,25 @@ print(sum)
 
 
 
+
+
+
+
+'''
+Question Number 20 
+
+ Q20. Write a program to enter the numbers till the user enter ZERO and at the end it should
+ display the count of positive and negative numbers entered.
+'''
+
+count_positive = 0
+count_negative = 0
+while True:
+    number = int(input("Enter numbers or (enter zero)"))
+    if number>0:
+        count_positive = count_positive + 1
+    elif number < 0:
+        count_negative = count_negative + 1
+    if number == 0:
+        break
+print(f"Positive Numbers Count : {count_positive} and Negative Numbers Count : {count_negative}")
