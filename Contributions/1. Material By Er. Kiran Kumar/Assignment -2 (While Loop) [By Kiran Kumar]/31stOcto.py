@@ -1123,3 +1123,13 @@ for num in range(1,11):
 
 print(max(list_number))
 print(min(list_number))
+
+
+
+
+
+
+
+
+
+
