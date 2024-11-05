@@ -51,17 +51,20 @@ ClassDict = {
 
 '''
     
-sannidhi = Human("Sannidhi Shetty",23)  
-#explicity calling the __init__ method
+# pass the argument in class call (like a function)
+sannidhi = Human("Sannidhi Shetty",23)    # automatically call the __init__ method, and store the argument value into it.
+
+#explicity calling the __init__ method using the object.
 sannidhi.__init__("Sannidhi Shetty", 23)  # Human.__init__(sannidhi, "Sannidhi Shetty", 23)
 
 divya = Human("Divya Anaparthi",22)
 
 
-# __dict__   act like a variable
-print(Human.__dict__)  # Output - Class Dictionary.
+# __dict__   act like a variable.
+# __dict__ is used to see the dictionary.
+print(Human.__dict__)  # Output - Class Dictionary.(since Human class is used)
 print()
-print(sannidhi.__dict__)  # Output - Object Dictionary.
+print(sannidhi.__dict__)  # Output - Object Dictionary (since sannidhi object is used)
 print(divya.__dict__)   # Output - Object Dictionary.
 
 
