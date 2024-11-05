@@ -1282,3 +1282,78 @@ for num in range(1,n+1):
         print(num*num, end=" , ")
     else:
         print(num*num)
+
+
+
+
+
+
+
+
+'''
+Question Number 34
+ Q34. Write a program to find the sum of following series
+ 1 + 8 + 27 …………nterms
+ 
+'''
+
+
+num = 10
+sum = 0
+for n in range(1,num+1):
+    if n < num:
+        print(n**3, end=" , ")
+    else:
+        print(n**3)
+    sum = sum + n**3 
+print(f"The Sum of Series is {sum}")
+
+
+
+
+
+
+'''
+Question Number 35 
+
+ Q35.Write a program to find the sum of following series:
+ 1 + 2 + 6 + 24 + 120. . . . .nterms
+ 
+'''
+# first understand the pattern
+# 1st term = 1 ----- 1st iteration * 0th term = 
+# 2nd term = 2  ------ 2nd iteration * 1st term = 2*1 = 2
+# 3rd term = 3rd iteration * 2nd term = 3*2 = 6
+# 4th term = 4th iteration * 3rd term = 4 * 6 = 24 
+# 5th term = 5th iteration * 4th term = 5 * 24 = 120
+
+
+
+
+
+
+
+
+
+# using recursion only that gonna be solved
+
+num = 10
+
+sum = 0
+
+number = 1
+print(number, end=" + ")
+
+for number in range(2,num+1):
+    # print(number)
+    if number < num:
+        print(number*(number-1), end=" + ")
+    else:
+        print(number*(number-1))
+        
+    sum = sum + number*(number-1)
+
+
+
+# how to solve using recursion 
+
