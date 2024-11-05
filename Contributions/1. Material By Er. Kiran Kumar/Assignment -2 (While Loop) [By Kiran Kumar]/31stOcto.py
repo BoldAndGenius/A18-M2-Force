@@ -1263,3 +1263,22 @@ for i in range(1,num+1):
 
 
     
+
+
+
+
+
+
+'''
+Question Number 31
+
+Q31.Write a program to print the following series till nterms.
+ 1 4 9 16 25_____nterms.
+'''
+
+n = 10
+for num in range(1,n+1):
+    if num < n:
+        print(num*num, end=" , ")
+    else:
+        print(num*num)
