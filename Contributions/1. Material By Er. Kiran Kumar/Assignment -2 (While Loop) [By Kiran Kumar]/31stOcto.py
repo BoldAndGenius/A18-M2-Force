@@ -1174,3 +1174,92 @@ while True:
     if number == 0:
         break
 print(f"Positive Numbers Count : {count_positive} and Negative Numbers Count : {count_negative}")
+
+
+
+
+
+'''
+Question Number 21
+Q21. Write a program to find the HCF of two numbers entered from the user.
+'''
+
+num1 = int(input("Enter the Number 1 : "))
+num2 = int(input("Enter the Number 2 : "))
+if num1 < num2:
+    for n in range(1,num1+1):
+        if (num1 % n == 0) and (num2 % n == 0):
+            hcf = num1 
+else:
+    for n in range(1,num2+1) :
+        if (num2 % n == 0) and (num1 % n == 0):
+            hcf = num2 
+print(hcf)
+            
+# 8 12 -- 4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+'''
+
+Question Number 30 
+
+Q30.Write a program to print the following series till nterms.
+ 2,22,222,2222_____nterms
+ 
+ [Revise Revise Revise Revise ]
+
+'''
+
+
+# first step is understand the pattern and the based on that, create logic 
+
+
+
+
+
+first = "2"
+for i in range(1,num+1):
+    if i < num:
+        print(first, end=" , ")
+    else:
+        print(first)
+
+    first = first + "2"
+
+
+
+
+
+
+# Failed
+
+# num = 10
+
+
+# n = "2" 
+# print(int(n)) # 2
+# for _ in range(1,num+1):
+   
+#     length = len(n) # 1
+#     final = length + 1 # 2
+#     n =  n * final # "2"*2 = '22'
+#     print(n)
+
+
+    
