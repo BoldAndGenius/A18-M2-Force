@@ -1537,3 +1537,67 @@ else:
     print("Not a Neon Number.")
     
 
+
+
+
+
+'''
+
+Question Number 85
+
+Q85.Write a program to check weather the given number is automorphic or not
+ I.e.5 is number 5**2=25 last digit of 25 is the number itself
+ 
+ 
+An automorphic number is an integer whose square ends with the same digits as the original number: 
+Explanation
+For example, 5 is an automorphic number because 5^2 = 25, and the result ends with the original number (5). 
+Other examples
+76 is also an automorphic number because 76^2 = 5,776, and the result ends with the original number (76). 
+Infinite number
+There are an infinite number of automorphic numbers, including 0, 1, 5, 6, 25, 76, and 376. 
+Other name
+Automorphic numbers are also known as circular numbers. 
+The word "automorphic" means "patterned after self".
+ 
+'''
+
+
+number = int(input("Enter a Number : ")) # 5, 76
+square = number ** 2 # 25
+
+if str(square).endswith(str(number)) == True:
+    print("Automorphic Number")
+else:
+    print("Not an Automorphic Number.")
+
+
+
+
+
+
+
+
+
+# no use of this code 
+# this code is not perfect for 2 digit number or greater than 2 digit number.
+# 5, 76 -- automorphic number
+
+number = int(input("Enter a Number : "))
+square = number ** 2 
+if int(str(square)[-1]) == number:
+    print("Automorphic Number.")
+else:
+    print("Not an Automorphic Number.")
+
+
+
+
+
+
+
+
+
+
+
+
