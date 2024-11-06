@@ -1328,30 +1328,41 @@ Question Number 35
 # 5th term = 5th iteration * 4th term = 5 * 24 = 120
 
 
+n = int(input("Enter the series n term: "))
+number = 1
+sum = 0
+for num in range(2, n):
+    sum = sum + number
+    print(number, end = ' + ')
+    number = number * num
+    
+    
+else:
+    print(number)
+    sum = sum + number 
+print(sum)
 
 
-
-
+    
 
 
 
 # using recursion only that gonna be solved
 
 num = 10
-
 sum = 0
-
 number = 1
-print(number, end=" + ")
-
-for number in range(2,num+1):
+print(number, end=" + ")   
+mylist = []
+for number in range(2, num+1):
+    mylist.append(number-1)
     # print(number)
     if number < num:
-        print(number*(number-1), end=" + ")
+        print(number* mylist[-1], end=" + ")
     else:
-        print(number*(number-1))
+        print(number* mylist[-1])
         
-    sum = sum + number*(number-1)
+    # sum = sum + number*(number-1)
 
 
 
