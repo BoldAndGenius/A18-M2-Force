@@ -1597,6 +1597,31 @@ else:
 
 
 
+'''
+
+Question Number 87
+
+Q87.Write a program to find the length of the longest word.
+
+'''
+
+sentence = "India is the best Country. I love my Countryyy"
+final = sentence.split( )
+# print(final)
+# ['India', 'is', 'the', 'best', 'Country.', 'I', 'love', 'my', 'Countryyy']
+len_long_word = 0
+for word in final:
+    # print(len(word))?
+    if len(word) > len_long_word:
+        len_long_word = len(word)
+print(f"Length of the Longest Word : {len_long_word}")
+    
+    
+
+
+
+
+
 
 
 
