@@ -1319,6 +1319,8 @@ Question Number 35
  Q35.Write a program to find the sum of following series:
  1 + 2 + 6 + 24 + 120. . . . .nterms
  
+ [Revise Revise Revise Revise]
+ 
 '''
 # first understand the pattern
 # 1st term = 1 ----- 1st iteration * 0th term = 
@@ -1367,6 +1369,11 @@ for number in range(2, num+1):
 
 
 # how to solve using recursion 
+
+
+
+
+
 
 
 
@@ -1441,3 +1448,31 @@ for item in input:
     if type(item) == str:
         output[item] = item[0] + item[-1]
 print(output)
+
+
+
+
+
+
+'''
+
+ Q60.Write a program to get the following output(count no of vowels)
+ input='hai hello'
+ output={'hai':2 , 'hello':2}
+ 
+'''
+
+input = 'hai hello'
+output = {}
+list_of_word = input.split()
+# print(list_of_word)  --  ['hai', 'hello']
+for word in list_of_word: 
+    count = 0
+    for char in word: 
+        if char in "aeiouAEIOU":
+            count = count + 1
+        output[word] = count 
+            
+print(output)
+            
+
