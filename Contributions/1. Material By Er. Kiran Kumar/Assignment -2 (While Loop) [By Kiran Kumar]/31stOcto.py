@@ -1398,3 +1398,25 @@ for num in range(num1,num2+1):
     num2 = num2 - 1
     num1 = num1 + 1
     
+    
+    
+
+
+'''
+Question Number 53
+
+Q53.Write a program to get the following output
+input= 'hello'
+ output={0:'h' , 1:'e' , 2:'l' , 3:'l' , 4:'o'}
+ 
+'''
+
+
+input = 'hello'
+output = {}
+index = 0
+for char in input:
+    output[index] = char 
+    index = index + 1
+print(output)
+
