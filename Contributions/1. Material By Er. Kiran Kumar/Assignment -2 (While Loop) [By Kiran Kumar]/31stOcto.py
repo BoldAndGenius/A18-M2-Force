@@ -1368,3 +1368,33 @@ for number in range(2, num+1):
 
 # how to solve using recursion 
 
+
+
+
+
+
+
+
+
+'''
+Question Number 40
+
+Q40.Write a python program to get the following output
+ 1—–49
+ 2—–48
+ 3—–47
+ …
+ …
+ 48—–2
+ 49—–1
+'''
+
+
+num1 = 1
+num2 = 49 
+
+for num in range(num1,num2+1):
+    print(num1,num2, sep="--")
+    num2 = num2 - 1
+    num1 = num1 + 1
+    
