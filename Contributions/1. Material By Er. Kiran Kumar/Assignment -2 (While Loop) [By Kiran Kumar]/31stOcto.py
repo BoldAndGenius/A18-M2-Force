@@ -1508,3 +1508,32 @@ else:
 # print(int(number[-1]))
 
 # print(int(number[0]) + math.factorial(int(number[-1])))
+
+
+
+
+
+
+
+
+'''
+
+Question Number 81 
+
+Q81.Write a program to check weather the given number is neon number or not
+ i.e. 9 is number, 9**2=81→8+1=9
+
+'''
+
+
+number = int(input("Enter a Number : "))  # 9
+square = number ** 2   # 9 ** 2   # 81 
+total_sum = 0
+for num in str(square):
+    total_sum = total_sum + int(num)
+if total_sum == number :
+    print("Neon Number.")
+else:
+    print("Not a Neon Number.")
+    
+
