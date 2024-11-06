@@ -1420,3 +1420,24 @@ for char in input:
     index = index + 1
 print(output)
 
+
+
+
+
+
+'''
+Question Number 54
+ 
+Q54.Write a program to get the following output
+ input=['hai' , 89 ,3.4 , 'hello' , 90 , 'py']
+ output={'hai':'hi' , 'hello':'ho' , 'py':'py'}
+ 
+'''
+
+input = ['hai' , 89 ,3.4 , 'hello' , 90 , 'py']
+output = {}
+
+for item in input:
+    if type(item) == str:
+        output[item] = item[0] + item[-1]
+print(output)
