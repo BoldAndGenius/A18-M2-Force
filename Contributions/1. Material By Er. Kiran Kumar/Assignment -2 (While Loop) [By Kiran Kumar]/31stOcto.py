@@ -1474,5 +1474,37 @@ for word in list_of_word:
         output[word] = count 
             
 print(output)
-            
 
+
+
+
+'''
+Question Number 80
+
+Q80.Write a program to check weather the given number is phloem number or not
+ I.e, 12345 → 1+5!=2+3+4
+
+
+'''
+            
+                
+# num = input("Enter a Number : ")
+
+ 
+number = '42345'
+sum = 0
+for num in number[1:len(number)-1]:
+    # print(sum)
+    sum = sum + int(num)
+if sum == int(number[0]) + int(number[-1]):
+    print("Phloem Number")
+else:
+    print("Not a Phloem Number")
+    
+    
+    
+# print(sum)
+# print(int(number[0]))
+# print(int(number[-1]))
+
+# print(int(number[0]) + math.factorial(int(number[-1])))
