@@ -1656,6 +1656,26 @@ else:
 
 
 
+# Improved Version of my code -
+
+number = '1234'
+len_number = len(number)
+
+if len_number < 4:
+    print("Not a Xylem Number.")
+else:
+    inner_sum = sum(int(digit) for digit in number[1:-1])
+    outer_sum = int(number[0]) + int(number[-1])
+
+    if inner_sum == outer_sum:
+        print("Xylem Number.")
+    else:
+        print("Not a Xylem Number.")
+
+
+
+
+
 
 
 
