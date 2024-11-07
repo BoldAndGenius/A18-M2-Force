@@ -1617,8 +1617,71 @@ for word in final:
 print(f"Length of the Longest Word : {len_long_word}")
     
     
+    
+    
+    
+    
+    
+    
+    
 
 
+
+'''
+Question Number 79
+
+Q79.Write a program to check weather the given number is Xylem number or not i.e, 1234 → 1+4=2+3
+
+A Xylem number is a number where the sum of the extreme (first and last) digits is equal to the sum of the mean (middle) digits.
+
+# If the number has less than 3 digits, it can't be a Xylem number
+
+'''
+    
+number = '1234'
+len_number = len(number)
+
+if len_number < 3:
+    print("NOt a Xylem Number.")
+elif len_number > 3:
+    sum = 0
+    for num in number[1:len(number)-1]:
+        sum = sum + int(num) 
+
+if sum == int(number[0]) + int(number[-1]):
+    print("Xylem Number.")
+else:
+    print("Not a Xylem Number.")
+
+
+
+
+
+
+
+
+# Failure 
+
+number = '1234' 
+
+if len(number) < 3:
+    print("Not a Xylem Number")
+elif len(number) > 3:
+    sum = 0
+    for num in number[1:len(number)-1]:
+        print(num)
+        sum = sum + int(num)
+        print(sum)
+print(sum)
+print(number[0] + number[-1])
+
+
+
+if str(sum) == number[0] + number[-1]:
+    print("Xylem Number.")
+else:
+    print("Not an Xylem Number.")
+    
 
 
 
