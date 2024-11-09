@@ -27,3 +27,21 @@ print("Before Swapping",num1, num2)
 num1,num2 = num2,num1 
 
 print("After Swapping",num1, num2)
+
+
+
+
+
+'''
+Check Number is Prime or Not 
+'''
+
+number = int(input("Enter a Number : "))
+prime = True 
+for num in range(2,number):
+    if number%num == 0:
+        prime = False 
+if prime == True:
+    print("Prime Number")
+else:
+    print("Not a Prime Number")
