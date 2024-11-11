@@ -605,3 +605,32 @@ for row in range(n):
     for col in range(row,n):
         print("*",end=" ")
     print()
+    
+    
+    
+  
+  
+  
+  
+  
+  
+  
+'''
+  
+  Star Pattern - Basic Case Solved With Two Logics
+
+'''
+  
+  # Logic  - 1
+  
+n = 5
+for row in range(1,n+1):
+  print(row*"*",end=" ")
+  print()
+  
+  # Logic - 2
+n = 5
+for row in range(n):
+  for col in range(row+1):
+    print("*",end=" ")
+  print()

@@ -133,6 +133,7 @@ for row in range(n):
         print("*",end = " ")
     print()
     '''
+<<<<<<< HEAD
 """for row in range(5):
     char = "A"
     for col in range(5):
@@ -224,3 +225,81 @@ for row in range(n):
 list1=["hello",1,{2,3},1+2j]
 item=list1[ -1: 0:-2]
 print(item)
+=======
+"""
+    * * * * * * * * * 
+      * * * * * * *   
+        * * * * *     
+          * * *       
+            *
+          * * *       
+        * * * * *     
+      * * * * * * *   
+    * * * * * * * * *
+"""
+n=int(input("enter a number:"))
+for row in range(n):
+    for col in range(n):
+        if (row<=col and row+col<=n-1) or (row>=col and row+col>=n-1) :
+            print("*", end=" ")
+        else:
+            print(" ", end=" ")
+    print()
+"""
+* * * * * * *
+* * * * * * *
+* * * * * * *
+* * * * * * *
+* * * * * * *
+* * * * * * *
+* * * * * * *
+"""
+n=int(input("enter a number:"))
+for row in range(n):
+    for col in range(n):
+        
+            print("*", end=" ")
+            
+    print()
+
+"""
+      *
+      * *
+      * * *
+      * * * *
+      * * * * *
+      * * * *
+      * * *
+      * *
+      *
+"""
+n=int(input("enter number:"))
+for row in range (n):
+    for col in range (n):
+        if  col==0 or (row==n//2 and col==n//2) or (row>=col and row<=n//2) or (row+col<=n-1 and row>=n//2) :
+            print("*",end=" ")
+        else:
+            print(" ",end=" ")
+    print()
+
+"""
+                * 
+              * * 
+            * * * 
+          * * * * 
+        * * * * * 
+          * * * * 
+            * * * 
+              * * 
+                *  
+"""
+
+n=int(input("enter a number:"))
+for row in range(n):
+    for col in range(n):
+        if col==n-1 or (row==col and col>=n//2) or (row+col==n-1 and col>=n//2) or (col>row and row+col>=n-1) :
+            print("*", end=" ")
+        else:
+            print(" ", end=" ")
+    print()
+>>>>>>> 28213bcf21953d42699c0fb14dd1b7369b65dc56
