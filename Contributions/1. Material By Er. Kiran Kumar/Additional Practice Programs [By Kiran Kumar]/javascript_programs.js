@@ -83,3 +83,33 @@ function print_menu(dish){
         }
 }
 print_menu(2)
+
+
+
+
+
+
+
+
+
+
+
+// Writ a program to find the average of even numbers from 1 to 100 
+
+
+function average_even(start,end){
+    // var end = 100 
+    var sum = 0
+    var total = 0
+    for (var i= start; i<=end; i++ ){
+        if (i % 2 == 0)
+        {
+            // console.log(start);
+            sum = sum + i
+            total = total + 1
+        }
+}
+console.log("The Average is : ", sum/total );
+}
+
+average_even(1,100)
