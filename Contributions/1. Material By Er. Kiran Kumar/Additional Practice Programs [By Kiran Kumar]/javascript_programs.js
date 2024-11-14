@@ -19,3 +19,23 @@ function factorial(num){
     console.log(fact);
 }
 factorial(10)
+
+
+
+
+
+// Write a Javascript Program to validate username & password and print login successful, if the condition is true, or else login failed.
+
+function credential_validation(username1,password1){
+    // var username = "Kiran"
+    // var password = 1234 
+    if (username1 == 'Kiran' && password1 == 1234)
+    {
+        console.log("Login Succesfful");
+    } 
+    else 
+    {
+        console.log("Login Failed"); 
+    }
+}
+credential_validation("Kiran",12345)
