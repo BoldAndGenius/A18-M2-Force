@@ -128,3 +128,20 @@ for (var i = start; i<=end; i++){
     }
 }
 console.log(smallest); 
+
+
+
+// Using Function 
+
+function smallest(start, end){
+    // var start = 100
+    // var end = 500 
+    var smallest = 100000
+    for (var i = start; i<=end; i++){
+        if (i < smallest){
+            smallest = i
+        }
+    }
+    console.log(smallest); 
+}
+smallest(100,500)
