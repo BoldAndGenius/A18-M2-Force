@@ -54,3 +54,32 @@ else{
     console.log("Not Eligible to Vote");
     
 }
+
+
+
+
+
+// Print a Menu Card using Switch Case Statement to select any one dish out of 4 items 
+
+function print_menu(dish){
+    console.log("Menu Card");
+    console.log("Select One Dish Out of 4 Items - 1 - paneer, 2 - dal, 3 - juice, 4 - sweet ");
+    // var dish = 'paneer'
+    switch (dish){
+        case 1:
+            console.log("Eat Dal");
+            break;
+        case 2:
+            console.log("Eat Paneer Masala");
+            break;
+        case 3:
+            console.log("Drink Juice");
+            break;
+        case 4:
+            console.log("Eat Sweet");
+            break;
+        default:
+            console.log("Water");
+        }
+}
+print_menu(2)
