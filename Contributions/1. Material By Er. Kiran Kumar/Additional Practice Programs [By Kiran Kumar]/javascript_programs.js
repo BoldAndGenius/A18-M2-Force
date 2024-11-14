@@ -145,3 +145,17 @@ function smallest(start, end){
     console.log(smallest); 
 }
 smallest(100,500)
+
+
+
+
+// Find the smallest number from -4 to 3
+var start = -4
+var end = 3
+var smallest = 100000
+for (var i = start; i<=end; i++){
+    if (i < smallest){
+        smallest = i
+    }
+}
+console.log(smallest); 
