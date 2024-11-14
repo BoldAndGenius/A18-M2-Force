@@ -39,3 +39,18 @@ function credential_validation(username1,password1){
     }
 }
 credential_validation("Kiran",12345)
+
+
+
+
+
+// Voting Program Using JavaScript
+
+var age = 18
+if (age>18){
+    console.log("Ready to Vote");
+}
+else{
+    console.log("Not Eligible to Vote");
+    
+}
