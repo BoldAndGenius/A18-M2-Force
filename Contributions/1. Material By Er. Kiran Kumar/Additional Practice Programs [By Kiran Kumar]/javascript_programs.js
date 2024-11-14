@@ -159,3 +159,23 @@ for (var i = start; i<=end; i++){
     }
 }
 console.log(smallest); 
+
+
+
+
+
+// Using Functions 
+function smallest_in(start,end)
+{
+// var start = -4
+// var end = 3
+var smallest = 100000
+for (var i = start; i<=end; i++){
+    if (i < smallest){
+        smallest = i
+    }
+}
+console.log(smallest); 
+
+}
+smallest_in(-4,3)
