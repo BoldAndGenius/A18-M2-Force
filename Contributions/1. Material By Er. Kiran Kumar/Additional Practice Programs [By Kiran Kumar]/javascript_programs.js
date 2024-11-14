@@ -113,3 +113,18 @@ console.log("The Average is : ", sum/total );
 }
 
 average_even(1,100)
+
+
+
+
+
+// Find the smallest number from 100 to 500 
+var start = 100
+var end = 500 
+var smallest = 100000
+for (var i = start; i<=end; i++){
+    if (i < smallest){
+        smallest = i
+    }
+}
+console.log(smallest); 
