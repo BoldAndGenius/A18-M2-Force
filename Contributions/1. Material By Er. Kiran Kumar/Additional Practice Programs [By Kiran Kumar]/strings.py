@@ -51,3 +51,11 @@ length = 0
 for char in string:
     length = length + 1 
 print(length)
+
+
+# 5.  Write a program to check if a substring exists within a given string. 
+string = 'kiran kumar'
+substring = 'ir'
+if substring in string:
+    print("Exist")
+    
