@@ -88,3 +88,11 @@ print(string.upper())
 # 9.  Write a program to replace all spaces in a string with underscores.
 string = "kiran is a"
 print(string.replace(" ","_"))
+
+
+# 10.  Write a program to extract digits from a string.
+
+string = "kiran 232 dfai424"
+for char in string:
+    if char in "0123456789":
+        print(char, end="")
