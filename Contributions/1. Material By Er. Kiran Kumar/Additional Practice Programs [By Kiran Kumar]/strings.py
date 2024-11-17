@@ -31,3 +31,14 @@ string = "maam"
 reverse = string[::-1]
 if string == reverse:
     print("Palindrome")
+    
+    
+    
+# 3.  Write a program to count the number of vowels in a string.
+
+string = "kiran"
+count = 0
+for char in string:
+    if char in 'aeiouAEIOU':
+        count = count + 1
+print(count)
