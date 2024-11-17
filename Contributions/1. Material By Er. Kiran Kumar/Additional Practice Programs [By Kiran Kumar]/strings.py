@@ -59,3 +59,12 @@ substring = 'ir'
 if substring in string:
     print("Exist")
     
+    
+# 6.  Write a program to concatenate two strings without using the `+` operator.
+
+string1 = "kiran"
+string2 = "kumar"
+# use join method 
+
+result = " ".join([string1,string2])
+print(result)
