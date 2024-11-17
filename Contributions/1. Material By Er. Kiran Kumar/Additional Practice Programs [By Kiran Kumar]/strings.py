@@ -82,3 +82,9 @@ print(string.count(" ")  + 1)
 
 string = "kiran IsA"
 print(string.upper())
+
+
+
+# 9.  Write a program to replace all spaces in a string with underscores.
+string = "kiran is a"
+print(string.replace(" ","_"))
