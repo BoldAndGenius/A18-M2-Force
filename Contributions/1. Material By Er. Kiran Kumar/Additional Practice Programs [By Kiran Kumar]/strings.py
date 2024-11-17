@@ -24,3 +24,10 @@ Here are 10 basic Python string program prompts:
 string = "kiran"
 reverse = string[::-1]
 print(reverse)
+
+# 2.  Write a program to check if a string is a palindrome.
+
+string = "maam"
+reverse = string[::-1]
+if string == reverse:
+    print("Palindrome")
