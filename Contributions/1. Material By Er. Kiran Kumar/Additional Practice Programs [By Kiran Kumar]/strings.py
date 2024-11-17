@@ -42,3 +42,12 @@ for char in string:
     if char in 'aeiouAEIOU':
         count = count + 1
 print(count)
+
+
+#  4. Write a program to find the length of a string without using the `len()` function.
+
+string = "kiran kumar"
+length = 0
+for char in string:
+    length = length + 1 
+print(length)
