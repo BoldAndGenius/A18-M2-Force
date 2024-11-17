@@ -75,3 +75,10 @@ print(result)
 # 7.  Write a program to count the number of words in a string.
 string = "kiran is a good boy"
 print(string.count(" ")  + 1)
+
+
+
+# 8.  Write a program to convert all characters in a string to uppercase.
+
+string = "kiran IsA"
+print(string.upper())
