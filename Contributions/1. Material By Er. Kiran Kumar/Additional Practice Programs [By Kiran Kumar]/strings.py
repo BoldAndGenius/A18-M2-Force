@@ -68,3 +68,10 @@ string2 = "kumar"
 
 result = " ".join([string1,string2])
 print(result)
+
+
+
+
+# 7.  Write a program to count the number of words in a string.
+string = "kiran is a good boy"
+print(string.count(" ")  + 1)
