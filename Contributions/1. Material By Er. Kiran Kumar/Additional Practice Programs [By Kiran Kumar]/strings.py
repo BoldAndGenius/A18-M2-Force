@@ -134,3 +134,7 @@ for char in string:
     if string.count(char) == 1:
         print(f"First Non-Repeating Character is {char}")
         break
+    
+    
+# 12.  Write a program to check if two strings are anagrams of each other.
+
