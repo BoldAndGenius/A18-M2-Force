@@ -107,3 +107,117 @@ if given_string.isupper():
     middle = len(given_string) // 2
     # print(middle)  - for validation
     print(given_string[middle])
+
+
+
+
+# Questions Left --- 97, 98, 101
+
+
+'''
+
+Question Number 97 
+
+ Restaurant Discount: Write a program that calculates a restaurant bill
+ with a discount based on the day of the week and party size:
+ Weekdays (Mon-Fri), party < 4: No discount.
+ Weekdays (Mon-Fri), party >= 4: 10% discount.
+ Weekends (Sat-Sun), any party size: 15% discount.
+ 
+ 
+'''
+
+
+
+
+
+day = input("Day of the Week - Mon,Tue,Wed,Thur,Fri,Sat,Sun  : ").lower()
+party_size = int(input("Enter the party size : "))
+bill_before_discount = 100
+
+if day in ['mon','tue','wed','thur','fri'] and party_size < 4:
+    print("You will get No Discount")
+    print("Your Bill Amount is ",bill_before_discount, "Rs.")
+elif day in ['mon','tue','wed','thur','fri'] and party_size >= 4:
+    print("You will get 10% Discount")
+    print("Your Bill Amount is ",( bill_before_discount - (bill_before_discount*10)/100)  )
+elif day in ['sat','sun'] and party_size > 0:
+    print("You will get 15% Discount")
+    print("Your Bill Amount is ",( bill_before_discount - (bill_before_discount*15)/100)  )
+
+
+
+
+'''
+Question Number 98
+
+ 98. ShapeIdentifier: Design a program that takes two inputs (length1,
+ length2) and identifies the geometric shape based on the values:
+ If lengths are equal: Square
+ If one length is twice the other: Rectangle
+ Otherwise: Not a square or rectangle
+
+'''
+
+
+length1 = float(input("Enter the Length 1 : "))
+length2 = float(input("Enter the Length 2 : "))
+
+if length1 == length2:
+    print("Square.")
+elif ( length1 == 2 * length2 )  or ( length2 == 2 * length1):
+    print("Rectangle.")
+else:
+    print("Not a Square or Rectangle.")
+
+
+
+
+'''
+Question Number 101 
+
+101. Wap to take input as only collections.
+ i) if the type of input is a list then ask the value from the user and
+ insert it in the middle index of that list. and print that list.
+ 
+ ii) if type of input is tuple print 'cannot append tuple is immutable'
+ 
+ iii)if type is set, take the input from the user. if the value is immutable
+ then only add it to the set and print the set otherwise print 'enter only
+ immutable collection'
+ 
+ iv) if type of input is dictionary take key and value as user input and
+ add the key and value pair using syntax to add key value . and print the
+ dictionary
+ 
+ 
+'''
+
+# REVISION REVISION REVISION REVISION 
+
+
+collections = eval(input("Enter any collection : "))  # [1,2,3]
+# print(len(collections))
+
+if type(collections) == list:
+    # print("It's a list")
+    user_input = eval(input("Enter any value : "))
+    collections.insert((len(collections)//2), user_input)
+    print(collections)
+    
+elif type(collections) == tuple:
+    print("Cannot Append Tuple is Immutable")
+    
+elif type(collections) == set:
+    user_input = input("Enter any Value : ")
+    if type(user_input) not in [list,set,dict]:
+        collections.add(user_input)
+        print(collections)
+    else:
+        print("Enter Only Immutable Collection")
+        
+elif type(collections) == dict:
+    key = eval(input("Enter the Key : "))
+    value = eval(input("Enter the Corresponding Value : "))
+    collections[key] = value 
+    print(collections)

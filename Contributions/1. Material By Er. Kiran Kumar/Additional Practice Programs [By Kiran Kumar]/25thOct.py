@@ -1096,6 +1096,7 @@ for card in range(1,6):
 
 
 
+# Question - 42
 # Python Program to display calendar 
 import calendar
 year = int(input("Enter Year :   "))
@@ -1103,3 +1104,15 @@ month = int(input("Enter Month : "))
 
 calendar = calendar.month(year,month)
 print(calendar)
+
+
+
+
+
+
+# Question - 43
+# Python Program to display Fibonacci Sequence using Recursion 
+
+def fibonacci_sequence()
+
+
