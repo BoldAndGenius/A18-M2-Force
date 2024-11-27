@@ -27,3 +27,16 @@ sum(10,20,30,40)  # this will give value...because after overridden, the current
 
 
 # So, in Python...Method Overloading not possible, instead it do Overridding! Values get updated! 
+
+
+
+
+
+# Example of Operator Overloading 
+
+print(2+2) # 4     # Here plus operator is working as a summation on integer data type.
+print('2'+'2') # '22'    # Here plus is working as a concatenation on string data type.
+
+
+
+
