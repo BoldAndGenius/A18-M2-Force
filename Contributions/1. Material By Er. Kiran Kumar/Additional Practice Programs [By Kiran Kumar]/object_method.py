@@ -19,6 +19,7 @@ class Human:
 # Using Object I am calling the Object Method.   
 Kiran = Human('Kiran')
 Kiran.processing() # Kiran is processing
+#Python converts to like this --  Human.processing(Kiran)
 
 
 # Using Class I am trying to call the Object Method.
