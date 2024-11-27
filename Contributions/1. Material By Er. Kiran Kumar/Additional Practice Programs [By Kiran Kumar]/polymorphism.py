@@ -40,3 +40,34 @@ print('2'+'2') # '22'    # Here plus is working as a concatenation on string dat
 
 
 
+
+
+
+# Example of Method Overriding 
+
+class Cat:
+    def __init__(self,name):
+        self.name = name 
+    def sound(self):
+        print(f"{self.name} is meow....")
+    def walk(self):
+        print(f"{self.name} is walking...")
+
+class Dog(Cat):
+    def __init__(self,name):
+        super().__init__(name)
+    def sound(self):
+        print(f"{self.name} is barking...")
+    def running(self):
+        print(f"{self.name} is runnig...")
+
+cat1 = Cat("mycat")
+cat1.sound()
+cat1.walk()
+        
+dog1 = Dog('mydog')
+dog1.sound()  # Dog Class is already inheriting the sound() function from the Cat class, but that function got overidde to it's own function sound.   --- This is called Method Overriding.
+
+dog1.running()
+
+
