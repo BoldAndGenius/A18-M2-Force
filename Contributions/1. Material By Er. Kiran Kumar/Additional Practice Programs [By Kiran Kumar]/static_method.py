@@ -22,6 +22,7 @@ class Human:
 Kiran = Human()
 Kiran.processing()  # It is a Static Method.
 # Python converts into -  Human.processing() -- it should not take any argument, since it is a staticmethod
+                    #  Where Kiran gets stored ?? when Python convert it into...(******)   Human.processing(Kiran)  -- Is is like this???
 
 
 # Using Classname, I am calling the Static Method.
