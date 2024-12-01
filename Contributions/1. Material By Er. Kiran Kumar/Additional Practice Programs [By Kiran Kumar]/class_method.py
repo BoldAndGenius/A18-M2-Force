@@ -14,7 +14,8 @@ class Human:
     
 # Using Class, I am accessing.
 Human.processing()  # <class 'Human'> is processing...
-# What about the 'cls' argument...we are not passing here, it stills work ??? (****)
+# What about the 'cls' argument...we are not passing anything, it stills work ??? (****)
+# at the time of execution, cls is automatically pass....
     
     
 
