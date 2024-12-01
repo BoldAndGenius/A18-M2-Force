@@ -284,7 +284,7 @@ It's like a receptionist which checks and add/gives all informtion required.
 
 # Self - 
 - self is the reference to the object, created for our class.
-- It is passed whenever we are calling any function.
+- It is passed whenever we are calling any method.
 - Only an object can access or helpful in connecting attributes and methods inside our class. 
 
 '''
@@ -378,3 +378,46 @@ print(stu2.name,stu2.rollnum, stu2.marks)
 
 
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+# Creating Methods 
+
+class Student:
+    def __init__(self,name, rollnum, marks):
+        self.name = name 
+        self.rollnum = rollnum 
+        self.marks = marks 
+        
+    def study(self):
+        # self is a link between variable & method, If I want to tell that Kiran is playing...so first I need to go to Kiran...and then tell he is playing...same way....first self.name will give Kiran....(that object)
+        print(f"{self.name} is Playing.")
+        # we can not directly access the object Kiran
+        
+    def play(self): 
+        print(f'{self.name} is Playing.')    
+        
+
+stu1 = Student("Kiran", 1, 90)
+stu1.study()
+# Kiran is Playing.
+
+stu2.play()
+#Kajal is Playing.
+
+
+
+stu2 = Student("Kajal",2 , 98)
+stu2.study()
+# Kajal is Playing.
+
+stu2.play()
+# Kajal is Playing.
+
+
+# self is the bridge, because of which everything gets initialized and get used. 
+
+
+
+
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
