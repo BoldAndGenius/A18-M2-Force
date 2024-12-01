@@ -491,9 +491,39 @@ print(type(int))  # <class 'type'>
 
 
 
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+'''
+Magic Methods - 
+
+They are the special methods in Python which are defined inside the class.
+They begin and end with double underscore (__)
+They have a special where in they get called themselves.
+creation - __init__
+print -   __str__
++  -  __add__
+-  - __sub__
+*  - __mul__
+/  - __trudiv__
+// - __floordiv__
+
+'''
 
 
 
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++=
+
+s1 = Student("Kiran", 23)
+s2 = Student("Kajal", 21)
+
+s1.name 
+s2.name 
+
+# s1 & s2 above are instance variable which have different values of attribute  
+# s1 & s2 are different instance of a particular class. --- they have different values. 
+
+
+# object is...calling a class, how many times you call a class, that much time the object get created.
 
 
 
