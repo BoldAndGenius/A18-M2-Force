@@ -323,3 +323,58 @@ print(obj.func(20,30))
 
 
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# Creating our first class 
+
+class Student:
+    def __init__(self):
+        name = "Kiran" # it is having a local scope, we can print in this __init__ function, but we can't access outside the function.
+        # dekho agr hame batana hai yeh student ka roll number yeh hai...to ham pehle ek student ko pakrenge and then we will say.......tera roll number yeh hai..and name yeh hai...........so same way, to do this....we will use 'self' .  aapka name Kiran hai....self.name = "Kiran"...and aapka roll number 10 hai.....  self.rollnumber = 10 
+        
+        # now this "name" & "roll number" is not made in this function...
+        # it is made in the student instance.....on that address
+        # now we can use 'name' and 'roll number' outside of the class using the 'object reference'. 
+        
+        
+    
+    
+
+class Student:
+    def __init__(self):
+        self.name = "Kiran"
+        self.rollnum = 1 
+        self.add = "Bangalore"
+stu1 = Student()
+print(stu1.name, stu1.rollnum, stu1.add)
+# Kiran 1 Bangalore
+
+stu2 = Student()
+print(stu2.name, stu2.rollnum, stu2.add)
+# Kiran 1 Bangalore
+
+# Now for the both object (stu1 & stu2), we are getting the same Name, rollnumber & address....so it is not right. 
+#As this doesn't make sense...
+
+
+
+
+# Agr school me new student aaiga...to vo apne name batega...so let's create this thing that....every student will have their name and all.
+# it should be define by the user. 
+
+
+
+class Student:
+    def __init__(self, name, rollnum, marks):
+        self.name = name 
+        self.rollnum = rollnum 
+        self.marks = marks 
+        
+stu1 = Student("Kiran", 1, 90)
+print(stu1.name,stu1.rollnum, stu1.marks)
+
+stu2 = Student("Kajal",2 , 98)
+print(stu2.name,stu2.rollnum, stu2.marks)
+
+
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
