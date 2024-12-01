@@ -292,3 +292,34 @@ It's like a receptionist which checks and add/gives all informtion required.
 
 
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+import keyword 
+print(keyword.kwlist)
+
+
+
+
+
+# Difference between Function & Method.
+
+# Function -- It is define outside of the class.
+        #  -- It is call directly.
+        
+# Method   -- It is defint inside the class.
+#          -- It is call using an object.
+
+def func(num1,num2):
+    return num1 + num2 
+print(func(10,20))  # 30  # directly calling it
+
+class Sum:
+    def func(self,num1, num2):
+        return num1 + num2
+obj = Sum()  # 
+print(obj.func(20,30))
+# Sum.func(obj,20,30)  -- it gets converted to like this. 
+
+
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
