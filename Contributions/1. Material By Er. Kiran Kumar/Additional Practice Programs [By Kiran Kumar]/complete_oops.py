@@ -220,4 +220,75 @@ print(type(num))  # <class 'int'>
 
 
 
-# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++=
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+
+
+# Creating Our First Class 
+
+
+# id()  - returns the identity of an object. 
+
+
+
+class Student:
+    def __init__():
+        pass 
+
+s1 = Student()
+# s1 goes to constructor thta is.. __init__(s1) and get initiliazed.
+# you can verify it 
+
+
+
+
+def myfunc(arg):
+    print(id(arg))
+
+s1 = 2 
+myfunc(s1)
+print(id(s1))
+# the id of "s1" and "arg" is same, that is what means is....s1 goes to arg place. Since id is same. 
+#140715068295640
+# 140715068295640
+
+
+
+class Student:
+    def __init__(arg):
+        print(id(arg))
+    
+s1 = Student()
+print(id(s1))
+# id of both s1 & arg is same......hence it means, s1 goes to constructor to get initialized ....and it is logical as well, since after constructing all these.. we need an object...at the end we are doing these things for the object only....right. 
+# 2760106701840
+# 2760106701840
+# and for this reason only, we can give any name to it.......but majority everywhere we use "self" ....because 's1'object is itself going and getting initialized....itself...so they used self! 
+
+# Everytime you create an object, the constructor call once. 
+
+# when you open an application, at the starting only...it checks do it have an internet or not...if no, it gives error. 
+
+# Koi bhi cheez jab aapko create karne se pehle hi check karni hai...then go for Constructor. 
+
+'''
+Advantage/Application of Constructor - 
+1. Background check in Companies -- before joining, they did it.
+2. Internet check for apps --- uber app, without intenet it gives error.
+3. Configuration related checks before sharing. 
+
+It's like a receptionist which checks and add/gives all informtion required. 
+
+
+# Self - 
+- self is the reference to the object, created for our class.
+- It is passed whenever we are calling any function.
+- Only an object can access or helpful in connecting attributes and methods inside our class. 
+
+'''
+
+
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
