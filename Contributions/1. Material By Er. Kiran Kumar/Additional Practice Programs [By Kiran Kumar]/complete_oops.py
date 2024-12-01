@@ -421,3 +421,114 @@ stu2.play()
 
 
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+# Complex Number Class 
+
+
+
+# Question 1: Class for Complex Numbers
+
+"""
+Create a Python class named `ComplexNumber` to represent complex numbers.
+
+Theory:
+A complex number is a number that comprises a real part and an imaginary part.
+It is typically written in the form a + bi, where 'a' is the real part,
+and 'b' is the imaginary part, and 'i' is the imaginary unit (√-1).
+
+Operations:
+1. Addition (+)
+2. Subtraction (-)
+3. Multiplication (*)
+4. Division (/)
+5. Comparison (==, !=)
+
+
+
+Test Cases:
+Test Case 1:
+complex1 = ComplexNumber(3, 4)
+complex2 = ComplexNumber(1, -2)
+assert str(complex1) == "3+4i"
+assert str(complex2) == "1-2i"
+assert str(complex1 + complex2) == "4+2i"
+assert str(complex1 - complex2) == "2+6i"
+assert str(complex1 * complex2) == "11-2i"
+assert str(complex1 / complex2) == "-1.0+2.5i"
+assert complex1 != complex2
+
+Test Case 2:
+complex3 = ComplexNumber(-2, 5)
+complex4 = ComplexNumber(2, 3)
+assert str(complex3) == "-2+5i"
+assert str(complex4) == "2+3i"
+assert str(complex3 + complex4) == "0+8i"
+assert str(complex3 - complex4) == "-4+2i"
+assert str(complex3 * complex4) == "-16-1i"
+assert str(complex3 / complex4) == "1.0+i"
+assert complex3 != complex4
+
+
+
+"""
+
+
+
+
+
+
+
+
+a = 5 
+print(type(a))  # <class 'int'> 
+print(type(int))  # <class 'type'>  
+
+# 5 is an object of int class, and int is an object of type class. Because int is a type. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+'''
+
+Hey there, Python enthusiasts! Are you ready to take your coding skills to the next level? In this comprehensive video, we're diving headfirst into the world of Object-Oriented Programming (OOP) - a fundamental paradigm that will revolutionize the way you write and structure your Python programs. 
+
+Get ready to unlock a whole new dimension of Python mastery!
+
+What's in store for you in this OOP extravaganza?
+✅ Understand the core concepts of OOP, including classes, objects, attributes, and methods
+✅ Explore the principles of encapsulation, inheritance, polymorphism, and abstraction
+✅ Learn how to create your own custom classes and objects from scratch
+✅ Discover the power of inheritance and how it can help you write DRY (Don't Repeat Yourself) code
+✅ Dive into the world of method overriding, method overloading, and operator overloading
+✅ Gain insights into access modifiers, static methods, and class methods
+✅ See OOP in action through real-world examples and practical applications
+
+💡 Key Takeaways:
+Organize your code into logical, reusable components using classes
+Leverage inheritance to build upon existing functionality and create hierarchies
+Implement polymorphism to write flexible, adaptable, and maintainable code
+Understand the importance of abstraction and encapsulation for data protection
+Apply OOP principles to tackle complex programming challenges with ease
+
+'''
