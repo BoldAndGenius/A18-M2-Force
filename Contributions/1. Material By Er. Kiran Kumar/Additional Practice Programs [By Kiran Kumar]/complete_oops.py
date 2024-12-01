@@ -40,6 +40,8 @@ OOPs is thus a programming paradigm, which help us to write better code.
 # OOPS Topics 
 '''
 
+Total we have 6 Topics only.....
+
 1. Class.
 2. Object.
 3. Encapsulation.
@@ -48,3 +50,84 @@ OOPs is thus a programming paradigm, which help us to write better code.
 6. Abstraction.
 
 '''
+
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# Class 
+
+'''
+1. Blueprint.
+2. Self-defined Data Type. 
+
+Let us see some example of known  data type.
+
+
+Class is a blue print of an object. 
+It's a template to create an object. 
+
+'''
+
+a = 4 
+print(type(a))
+# <class 'int'>
+
+b = 3.4 
+print(type(b))
+# <class 'float'>
+
+c = 'kiran'
+print(type(c))
+# <class 'str'>
+c.upper()  # upper() is a method in the str class. 
+
+
+# All data types are built-in Classes in Python. 
+# Already the developer of Python, write the class for int, float, complex, bool, str, list, tuple, set, dict
+
+
+# Inside class,we has two things --- 1. Data/Attributes/Property. 
+                              # ---  2.Behaviour/Method.
+                              
+
+# for example - Car 
+# 1. Data/Attributes/Property  --- color, brand, name, top speed. 
+# 2. Behaviour/Method ------------accelerate(), brake(), start(), 
+                    
+                
+                
+mylist = [1,2,3,4,5] # these are property
+mylist.append(6)  # .append() is a method of mylist class 
+print(mylist)
+
+
+
+
+c = 5 + 8j
+# below two are not the methods 
+print(c.real)  # real part  # 5.0
+print(c.imag)  # imaginary part  # 8.0
+
+
+
+
+
+
+# Syntax to create a Class 
+
+'''
+
+class <ClassName>:
+    ...
+    
+'''
+
+# Creating our own Class - 
+class Car:
+    pass 
+
+print(Car) # <class 'Car'>    -- now this become one data type 
+
+
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
