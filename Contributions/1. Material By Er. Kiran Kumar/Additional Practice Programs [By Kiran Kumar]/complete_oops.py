@@ -131,3 +131,93 @@ print(Car) # <class 'Car'>    -- now this become one data type
 
 
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+
+# What is an Object  
+
+'''
+
+Object is an instance of our Class.
+Everything in Python is an Object. 
+
+a = 5 
+5 is an instance of int class. 
+
+
+var = 3+7j 
+print(type(var))  # 3+7j is an object of complex class. 
+#Hence in Python, everything is an object of some class. 
+
+'''
+
+
+def func(num1,num2):
+    return num1 + num2 
+
+print(type(func))    # <class 'function'>   
+# func() is ab object of class function. 
+
+
+# Everything in Python is an Object.
+# Everything in Python is an Object.
+# Everything in Python is an Object.
+# Everything in Python is an Object.
+# Everything in Pytho is an Object.
+# Everything in Python is an Object.
+# Everything in Python is an Object.
+# Everything in Python is an Object.
+# Everything in Python is an Object. 
+
+
+
+# How to create an Object of our Class - 
+# To create an object, We have to call the Class. 
+
+
+class Car:
+    pass 
+
+swift = Car()
+print(type(swift))   # <class 'Car'>
+# swift is an object of Car class. 
+
+# we never write like this  swift = Car()
+# we directly writ,   a = 10    -- it automatically creates the object of int class.
+# print(type(a))  # <class 'int'>   -- it is an object of class int
+# to create list, we directly write  list = [], for tuple we write  tuple = ()
+# the reason for this...why we not call the class and do it. 
+# Python tells.........I have created all these classes inside me.....I know, how it works...I know everything about these classes...me aapko enko seedha banane dunga using object literal. 
+# object literal means....you can direclty use these shortcuts...  a = 10 ....but at the same time, eska matlab yeh nahi ki purane vala method false hai. 
+
+
+a1 = int()
+print(a1) # 0 
+print(type(a1))  # <class 'int'>
+# the above method is right....but to make it easy...it creates an object literal.
+# when you use [], I will get to know that it's an object of list class.
+# whey you put decimal value, it's an object of float class.
+# when you put in quotes, it's an object of str class.
+# () - tuple, {} - set,  {key:value} - dict 
+# I know about these classes, so don't worry...you don't need to call it.
+
+
+
+# woh ! (****)
+num = int(5)
+print(type(num)) # <class 'int'>
+print(num)  # 5 
+
+# the above is same as 
+num = 5 
+print(num)  # 5
+print(type(num))  # <class 'int'>
+
+
+
+# Python gives us "Object Literal" for Built in types.  
+
+
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++=
