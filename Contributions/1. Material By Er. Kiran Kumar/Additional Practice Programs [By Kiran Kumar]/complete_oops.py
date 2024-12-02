@@ -562,3 +562,8 @@ Understand the importance of abstraction and encapsulation for data protection
 Apply OOP principles to tackle complex programming challenges with ease
 
 '''
+
+# class Sample:
+#     __pin = 20     
+# obj = Sample()
+# print(obj._Sample__pin)

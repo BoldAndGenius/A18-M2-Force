@@ -32,6 +32,7 @@ Display the remaining books in the library.
 
 from time import sleep
 class Library:
+    # books={'chankya':10,'python':50}
     def __init__(self,books):
         self.books = books 
         self.return_book_list = []
