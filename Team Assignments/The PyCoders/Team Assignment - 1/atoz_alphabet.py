@@ -54,6 +54,7 @@ A Alphabet
 n = int(input())  # 10
 for row in range(n):
     for col in range(n):
+        # remove the two coordinates - (0,0) and (0,n-1)  -- put space, automatically it becomes a diagonally. 
         if (row==0 and col==0) or (row==0 and col==n-1):
             print(" ",end=" ")
         elif row==0 or col==0 or col==n-1 or row==n//2:
@@ -62,10 +63,16 @@ for row in range(n):
             print(" ",end=" ")
     print()
     
+# Practice Match  
     
-    
-    
-    
+# n = 5 
+# for row in range(n):
+#     for col in range(n):
+#         if row == 0 or row==n-1 or col==0 or col==n-1 or row==n//2 or row==col or row+col==n-1:
+#             print("*",end=" ")
+#         else:
+#             print(" ",end=" ")
+#     print()
     
     
     
