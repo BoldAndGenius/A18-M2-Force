@@ -49,3 +49,27 @@ class BankAccount:
 Kiran = BankAccount()
 Kiran.getter()
 Kiran.setter(987654321, 20000)
+
+
+
+
+
+# Question - 3 
+# Write a Python Program to create a class called Rectange with private instance variables length and width . Provide public getter and setter methods to access and modify these variables. 
+
+
+class Rectangle:
+    __length = 20 
+    __width = 30 
+    
+    def getter(self):
+        print(self.__length)
+        print(self.__width)
+    def setter(self, new_length, new_width):
+        self.__length  = new_length
+        self.__width = new_width
+        print(self.__length)
+        print(self.__width)
+myobj = Rectangle()
+myobj.getter()
+myobj.setter(100,200)
