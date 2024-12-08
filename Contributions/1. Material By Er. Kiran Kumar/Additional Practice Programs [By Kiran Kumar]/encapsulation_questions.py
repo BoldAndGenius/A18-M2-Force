@@ -73,3 +73,32 @@ class Rectangle:
 myobj = Rectangle()
 myobj.getter()
 myobj.setter(100,200)
+
+
+
+
+# Questin - 4 
+# Write a Python Program to create a class called Employee with private instance variables employee_id, employee_name and employee_salary. Provide public getter and setter methods to access the id and name variables, but provide a getter method for the salary variable that returns a formatted string. 
+
+
+class Employee:
+    __employee_id = 123 
+    __employee_name = "Kiran"
+    __employee_salary = 500000 
+    
+    def getter(self):
+        print(self.__employee_id)
+        print(self.__employee_name)
+        print("Hi")
+        
+    def setter(self, new_employee_id, new_employee_name, new_employee_salary):
+        self.__employee_id = new_employee_id
+        self.__employee_name = new_employee_name
+        self.__employee_salary = new_employee_salary
+        print(self.__employee_id)
+        print(self.__employee_name)
+        print(self.__employee_salary)
+    
+obj = Employee()
+obj.getter()
+obj.setter(89787, "Kunal", 1200000)
