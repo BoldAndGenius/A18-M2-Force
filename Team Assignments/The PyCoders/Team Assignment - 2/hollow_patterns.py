@@ -268,6 +268,7 @@ Hollow Right Triangle
 *                 *   
 * * * * * * * * * * * 
 
+this diagonal is row = col
 '''
 
 n = int(input())  # 11
@@ -300,6 +301,7 @@ Hollow Inverted Right Triangle
 * *                   
 *                     
 
+this diagonal is row+col = n-1
 '''
 
 n = int(input()) # 11

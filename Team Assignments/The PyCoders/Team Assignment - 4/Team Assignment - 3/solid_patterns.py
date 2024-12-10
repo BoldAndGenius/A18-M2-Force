@@ -52,9 +52,9 @@ Decreasing Triangle Pattern
 
 '''
 
-n = int(input())
-for row in range(n):
-    for col in range(row,n):
+n = int(input())  # 5
+for row in range(n):  # row = 0 to 4  # row = 0
+    for col in range(row,n):  #  0 to 4 (5 times)
         print("*",end=" ")
     print()
     
