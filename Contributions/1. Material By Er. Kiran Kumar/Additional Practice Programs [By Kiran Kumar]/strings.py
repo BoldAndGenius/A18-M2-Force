@@ -138,3 +138,6 @@ for char in string:
     
 # 12.  Write a program to check if two strings are anagrams of each other.
 
+
+
+# Create Pyramid using center method (string method)
