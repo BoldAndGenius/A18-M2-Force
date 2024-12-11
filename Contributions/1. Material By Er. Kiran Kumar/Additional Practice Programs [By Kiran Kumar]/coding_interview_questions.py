@@ -105,3 +105,28 @@ for index in range(0, len(list1)):
 print(my_dictionary)
 
 
+
+# Logic - 2
+
+# Using Zip function 
+# zip function is used to map elements 
+
+list1 = ["Naina", "Kimi", "Sheena"]
+list2 = [852345, 763567, 691276] 
+mapped_value = zip(list1, list2)
+print(list(mapped_value)) # [('Naina', 852345), ('Kimi', 763567), ('Sheena', 691276)]
+
+# now to get the dictionary, tyepcase it 
+
+mapped_value = dict(zip(list1, list2))
+print(mapped_value)
+# {'Naina': 852345, 'Kimi': 763567, 'Sheena': 691276} 
+
+
+
+# Dictionary to converted into tuple pairs 
+
+my_dict = {'Naina': 852345, 'Kimi': 763567, 'Sheena': 691276} 
+# print(my_dict.items())  # dict_items([('Naina', 852345), ('Kimi', 763567), ('Sheena', 691276)])
+for item in my_dict.items():
+  print(item)
