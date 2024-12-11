@@ -60,3 +60,22 @@ print(set1 & set2)  # & is for intersection
 
 
  
+ 
+ 
+ 
+ 
+# Coding Interview Question - 3 
+# Write a Python Program to count the frequency of words appearing in a string.
+
+# Sheena loves eating apple and mango. Her sister also loves eating apple and mango. 
+
+string = "Sheena loves eating apple and mango. Her sister also loves eating apple and mango"
+list = string.split()
+# print(list) # ['Sheena', 'loves', 'eating', 'apple', 'and', 'mango.', 'Her', 'sister', 'also', 'loves', 'eating', 'apple', 'and', 'mango']
+
+new_list = []
+for item in list:
+  if item not in new_list: 
+    new_list.append(item)
+    print(item , " : ", list.count(item))
+  # print(item)
