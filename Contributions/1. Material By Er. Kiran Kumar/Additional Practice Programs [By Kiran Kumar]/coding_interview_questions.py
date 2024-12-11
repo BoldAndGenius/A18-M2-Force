@@ -79,3 +79,29 @@ for item in list:
     new_list.append(item)
     print(item , " : ", list.count(item))
   # print(item)
+  
+  
+
+
+
+# Coding Interview Question - 4 (Logic -1)
+# Write a Python Program to convert two lists inta a dictionary 
+
+'''
+eg -
+list1 = ["Naina", "Kimi", "Sheena"]
+list2 = [852345, 763567, 691276]
+
+'''
+
+list1 = ["Naina", "Kimi", "Sheena"]
+list2 = [852345, 763567, 691276]
+
+my_dictionary = {}
+
+for index in range(0, len(list1)):
+  my_dictionary[list1[index]] = list2[index]
+  
+print(my_dictionary)
+
+
