@@ -222,3 +222,10 @@ print(list2)
 list1 = [1,2,3,4,5,6,7,8,9]
 list2 = list(reversed(list1))
 print(list2)
+
+# Logic - 4: Using Loop 
+list1 = [1,2,3,4,5,6,7,8,9]
+list2 = []
+for index in range(len(list1)-1, -1, -1):
+  list2.append(list1[index])
+print(list2)
