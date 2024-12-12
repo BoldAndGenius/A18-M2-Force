@@ -209,3 +209,9 @@ print(set1.symmetric_difference(set2)) # A ∆ B = (A ∪ B) – (A ∩ B) # onl
 list1 = [1,2,3,4,5,6,7,8,9]
 list1.reverse()  # it changes the original list 
 print(list1)
+
+
+# Logic - 2 : Using Slicing 
+list1 = [1,2,3,4,5,6,7,8,9]
+list2 = list1[::-1] # it stores in new list, not affect the original list 
+print(list2)
