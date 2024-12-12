@@ -249,3 +249,26 @@ sentence = "I"
 list_of_sentece = sentence.split(" ")
 print(list_of_sentece)
 print(len(list_of_sentece[-1]))
+
+
+
+
+
+
+# # Coding Interview Question - 10 
+# Python Program to remove duplicate character from the given string 
+
+given_string = "Kirraan"
+new = set(given_string)
+print(str(new))
+# not appropriate
+
+
+
+
+given_string = "Kirraan"
+newchr = ""
+for chr in given_string:
+  if chr not in newchr:
+    newchr = newchr + chr 
+print(newchr)
