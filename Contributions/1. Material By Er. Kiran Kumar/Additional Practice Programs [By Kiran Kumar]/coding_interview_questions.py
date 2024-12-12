@@ -198,3 +198,14 @@ set2 = {2,4,5,8}
 print(set1.symmetric_difference(set2)) # A ∆ B = (A ∪ B) – (A ∩ B) # only in A or only in B 
 
   
+  
+  
+  
+# Coding Interview Question - 8 
+# Reverse a list 
+
+# Logic - 1 : Using reverse function 
+
+list1 = [1,2,3,4,5,6,7,8,9]
+list1.reverse()  # it changes the original list 
+print(list1)
