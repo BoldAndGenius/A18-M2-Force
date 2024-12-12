@@ -229,3 +229,23 @@ list2 = []
 for index in range(len(list1)-1, -1, -1):
   list2.append(list1[index])
 print(list2)
+
+
+
+
+
+
+
+
+
+
+# Amazon asked this question 
+# Coding Interview Question - 9
+# Length of Last Word 
+
+sentence = "I"
+# last word is - 'boy' , it's length is 3. 
+
+list_of_sentece = sentence.split(" ")
+print(list_of_sentece)
+print(len(list_of_sentece[-1]))
