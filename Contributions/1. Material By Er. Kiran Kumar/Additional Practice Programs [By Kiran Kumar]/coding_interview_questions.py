@@ -167,3 +167,23 @@ print(new_list)
 # Logic - 3: Using Lambda Function 
 remove_duplicate = lambda arr: list(set(arr))
 print(remove_duplicate(arr))
+
+
+
+
+
+
+
+
+# Coding Interview Question - 6
+# Remove duplicates values from the dictionary.
+
+my_dictionary = {'name': ['kiran', 'kunal', 'kiran'],
+                 'age': [23, 25, 23]} 
+# remove the duplicate values 
+
+new_dict = {}
+for keys, values  in my_dictionary.items():
+  new_dict[keys] = list(set(values))
+print(new_dict)
+  
