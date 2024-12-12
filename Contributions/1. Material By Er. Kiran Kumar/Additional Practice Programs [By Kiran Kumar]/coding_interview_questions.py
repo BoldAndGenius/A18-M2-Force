@@ -128,5 +128,31 @@ print(mapped_value)
 
 my_dict = {'Naina': 852345, 'Kimi': 763567, 'Sheena': 691276} 
 # print(my_dict.items())  # dict_items([('Naina', 852345), ('Kimi', 763567), ('Sheena', 691276)])
+# my_dict.items()  -- dictionary to list of pairs of tuple, in which key value will be there. 
 for item in my_dict.items():
   print(item)
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+# Coding Interview Question - 5 
+# Remove the duplicates 
+
+
+# Logic - 1 : Using Typecasting 
+arr = [1,3,2,1,2,2,5,6,3,2,4,5]
+print(list(set(arr)))
