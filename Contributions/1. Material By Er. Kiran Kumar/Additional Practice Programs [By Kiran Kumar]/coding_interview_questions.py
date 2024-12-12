@@ -156,3 +156,11 @@ for item in my_dict.items():
 # Logic - 1 : Using Typecasting 
 arr = [1,3,2,1,2,2,5,6,3,2,4,5]
 print(list(set(arr)))
+
+# Logic - 2: Using For Loop
+new_list = []
+for num in arr:
+  if num not in new_list:
+    new_list.append(num)
+print(new_list)
+    
