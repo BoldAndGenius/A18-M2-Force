@@ -164,3 +164,6 @@ for num in arr:
     new_list.append(num)
 print(new_list)
     
+# Logic - 3: Using Lambda Function 
+remove_duplicate = lambda arr: list(set(arr))
+print(remove_duplicate(arr))
