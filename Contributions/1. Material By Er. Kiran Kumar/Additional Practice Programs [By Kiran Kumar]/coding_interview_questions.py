@@ -185,5 +185,16 @@ my_dictionary = {'name': ['kiran', 'kunal', 'kiran'],
 new_dict = {}
 for keys, values  in my_dictionary.items():
   new_dict[keys] = list(set(values))
-print(new_dict)
+print(new_dict)  # {'name': ['kiran', 'kunal'], 'age': [25, 23]}
+
+
+
+
+# Coding Interview Question - 7 
+# Remove duplicate elements from the set 
+
+set1 = {1,2,4,5}
+set2 = {2,4,5,8}
+print(set1.symmetric_difference(set2)) # A ∆ B = (A ∪ B) – (A ∩ B) # only in A or only in B 
+
   
