@@ -101,4 +101,18 @@ print(reverse)
 
 
 
-# Question - 6 : Palindrome 
+# Question - 6 : Given Number is Palindrome or Not 
+
+given_number = int(input("Enter a Number : "))   # 1234 
+temp = given_number 
+reverse = 0 
+
+while given_number > 0:
+  last = given_number % 10 
+  reverse = reverse * 10 + last 
+  given_number = given_number // 10 
+  
+if temp == reverse:
+  print("Palindrome")
+else:
+  print("Not a Palindrome")
