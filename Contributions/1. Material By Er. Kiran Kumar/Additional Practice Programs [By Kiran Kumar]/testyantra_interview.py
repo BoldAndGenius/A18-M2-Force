@@ -252,3 +252,27 @@ else:
 
 # Question - 12 : Armstrong Number. 
 # Sum of Power to the length of each digit. 
+
+# number = 1236 
+# length = 4
+# 1**4 + 2**4 + 3**4 + 6**4  == 1236  (This is what we need to check )
+# the sum of power of length to each digit should be equal to that number, then only it is armstrong number.
+
+
+
+
+given_number = int(input("Enter a Number : "))
+temp = given_number 
+length = len(str(given_number))
+armstrong = 0
+
+while given_number > 0:
+  last = given_number % 10 
+  armstrong = armstrong + last**length
+  given_number = given_number // 10 
+  
+if temp == armstrong:
+  print("Armstrong Number.")
+else:
+  print("Not an Armstrong Number.")
+  
