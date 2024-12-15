@@ -178,6 +178,21 @@ if flag == True:
 else:
   print("Not a Prime Number")
   
+# Improvised Logic -- check only half of it, since half ke baad koi factors aaega hi nahi. ..use flag, instead of count, use boolean values ....(more optimized)....you can further optimized it....put loop from 2 to half of it, and use this loop only when number is > 1.
+
+given_number = int(input("Enter a Number : "))  # 5 
+flag = True  #  I am assuming that, the given number is Prime
+if given_number > 1:
+  for num in range(2,given_number//2+1):
+    if given_number%num == 0:
+      flag = False
+      break
+  if flag == True:
+    print("Prime Number")
+  else:
+    print("Not a Prime Number")
+else:
+  print("Kindly enter number greater that 1")
   
 
 
