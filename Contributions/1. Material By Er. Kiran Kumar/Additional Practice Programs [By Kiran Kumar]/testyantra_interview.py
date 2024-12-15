@@ -156,3 +156,27 @@ while starting_range <= ending_range:
   print(fact)
   
   starting_range = starting_range + 1
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+# Question - 9 : Given Number is Prime or Not.
+given_number = int(input("Enter a Number : "))  # 5 
+flag = True  #  I am assuming that, the given number is Prime
+for num in range(2,given_number):
+  if given_number%num == 0:
+    flag = False
+    break
+if flag == True:
+  print("Prime Number")
+else:
+  print("Not a Prime Number")
+  
+  
+
