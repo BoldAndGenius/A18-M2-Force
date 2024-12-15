@@ -272,3 +272,7 @@ for chr in given_string:
   if chr not in newchr:
     newchr = newchr + chr 
 print(newchr)
+
+
+x=set(input("enter a string:"))
+print(x)
