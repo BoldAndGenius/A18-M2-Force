@@ -207,3 +207,48 @@ num = 5
 for fact in range(2,num):
   if num % fact == 0:
     print(num)
+    
+    
+    
+    
+  
+
+
+# Question - 11 : Strong Number. 
+# Sum of factorial of each digit is equal to given number. 
+# Example - 145  
+# 1! = 1, 4! = 24 , 5! = 120  
+# 1+24+120 =  145
+# 145 == 145 --- Hence, it is a strong number.
+
+given_number = int(input("Enter a Number : ")) # 143 
+temp = given_number # 143 
+sum = 0 
+
+while given_number > 0:  #143>0   # 14>0
+  last = given_number % 10   # 3  # 4
+  fact = 1
+  while last > 0:  # 3>0   # 2>0  # 1>0
+    fact = fact * last # fact = 1*3 = 3  # fact=3*2 = 6  # 6*1 = 6
+    last = last - 1 # 3-> 2 # 2-> 1  # 1-> 0
+  sum = sum + fact  # 0 + 6 = 6
+  given_number = given_number // 10 
+  
+# print(temp)  
+# print(sum)
+  
+if temp == sum:
+  print("Strong Number.")
+else:
+  print("Not a Strong Number.")
+    
+
+
+
+
+
+
+
+
+# Question - 12 : Armstrong Number. 
+# Sum of Power to the length of each digit. 
