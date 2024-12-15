@@ -77,3 +77,28 @@ while index <= nth_fib_num:
   first = second 
   second = third 
   index = index + 1
+  
+  
+  
+
+# Question - 5 : Reverse of a Number
+
+
+user_number = int(input("Enter a Number : "))
+reverse = 0 
+
+while user_number > 0:
+  last = user_number % 10 
+  reverse = reverse * 10 + last 
+  user_number = user_number // 10 
+  
+print(reverse)
+
+
+
+
+
+
+
+
+# Question - 6 : Palindrome 
