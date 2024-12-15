@@ -130,3 +130,29 @@ while number > 0:
   
 print(fact)
 
+
+
+
+
+# Question - 8 : Factorial range between 11 to 20.
+# It means, for 11 to 20, for each number tell the factorials.... 11!, 12!, 13!, 14!....20! 
+
+# (Revise *********************) -- good question.
+
+
+
+starting_range = 11 
+ending_range = 20 
+
+while starting_range <= ending_range:
+  fact = 1
+  temp = starting_range
+  
+  
+
+  while temp > 0:
+    fact = fact * temp 
+    temp = temp - 1
+  print(fact)
+  
+  starting_range = starting_range + 1
