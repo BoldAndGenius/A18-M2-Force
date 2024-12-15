@@ -1,3 +1,7 @@
+
+# Pattern Programming - 1 
+# Given an integer n, Draw a square. 
+
 n = int(input("Enter a Number : "))
 
 for row in range(n):
