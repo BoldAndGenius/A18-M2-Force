@@ -52,3 +52,28 @@ while index <= given_number:
   
 
 
+
+
+
+
+# Question - 4 : Print nth fibonacci series.
+# Series - 0,1,1,2,3,5,8,13
+# index -  1,2,3,4,5,6,7,8    (very important..use for traversing)
+
+# nth fibonacci means.....suppose he wants what is the 3rd fibonacci series --- it means what is the third term ..or the third index. 
+
+
+
+nth_fib_num = int(input("Enter the number for which you want to find the fibonacci series : "))
+first = 0
+second = 1 
+third = 0 
+
+index = 1
+while index <= nth_fib_num:
+  if index == nth_fib_num:
+    print(first)
+  third = first + second 
+  first = second 
+  second = third 
+  index = index + 1
