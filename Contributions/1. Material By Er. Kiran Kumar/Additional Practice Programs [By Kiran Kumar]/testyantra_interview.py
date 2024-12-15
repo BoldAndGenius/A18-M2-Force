@@ -116,3 +116,17 @@ if temp == reverse:
   print("Palindrome")
 else:
   print("Not a Palindrome")
+  
+  
+  
+  
+# Question - 7: Factorial of a Number 
+
+number = int(input("Enter a Number : "))  # 3 
+fact = 1
+while number > 0:
+  fact = fact * number
+  number = number - 1
+  
+print(fact)
+
