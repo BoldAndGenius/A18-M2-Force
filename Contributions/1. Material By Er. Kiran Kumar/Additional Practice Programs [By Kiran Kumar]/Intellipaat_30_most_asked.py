@@ -56,3 +56,26 @@ we can take an analogy, while cooking a food...we take one step at a time, not w
 
 
 
+
+
+
+# Question  3
+# Give three difference between Lists & Tuples  
+
+
+
+'''
+
+Lists Vs Tuples - 
+
+1.Square Brackets are used in Lists, and Tuples uses Parenthesis.
+2.Lists are Mutable, whereas Tuples are Immutable.
+3.Lists occupies more memory as compared to a Tuple. 
+4.List has slower iteration compared to Tuples, But it is better for insertion & deletion operations due to it's mutability.
+(Reason - Lists are dynamic in nature, Tuple is static in nature...Tuple has a fixed memory...so very fast to iterate over the tuple...but for lists, it is dynamic in nature...so extra memory blocks will be there for isertion and deletion, because of dynamic behaviour.... to iterate over lists, it takes more time as compared to tuple.)
+
+
+Use tuples when you don’t need to modify the data (immutability).
+Use lists when you need flexibility in adding/removing elements.
+
+'''
