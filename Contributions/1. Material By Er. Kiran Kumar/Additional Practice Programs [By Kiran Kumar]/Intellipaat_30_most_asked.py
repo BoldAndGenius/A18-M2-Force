@@ -119,3 +119,50 @@ print(tuple)
 
 Immutable data types are useful, where we don't want any frequent changes. 
 '''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Question  5 
+# What is the difference between Slicing and Indexing 
+
+'''
+Slicing & Indexing are both ways of accessing elements from a collection.
+
+Indexing is a process, when you refer to a specific item in a sequence, by it's position or index. 
+for ex - We have a list that contains elements 10,20 & 30. To get the first element, I will use list[0].
+List = [10,20,30]
+print(List[0])  # 10 
+
+It's just way to grab the single element from the collection.
+
+
+
+Slicing is process of accessing a range of elements. 
+for ex - there is a list of 10,20,30 elements, suppose I want 10 & 20. So here will will use slicing.
+list = [10,20,30]
+print(list[0:2:1])  #start: stop: step_value   # by default the start is the first element, stop is end value, and step value is 1
+
+Slicing can be really flexible, you can specify start, stop & step value. 
+
+
+In short - 
+
+Indexing is used to access a single element.
+Slicing is used to access a range of element or a subset of elements.
+
+
+
+'''
