@@ -37,3 +37,22 @@ Provides tools that let you focus on solving problems, instead of dealing with h
 
 
 
+
+
+
+
+# Question - 2 
+# What do you mean by Python being an Interpreted Language. 
+
+'''
+An interpreter allows the code to run line by line rather than being compiled into machine code first. 
+This is why, Python is easy to debug. 
+
+we can take an analogy, while cooking a food...we take one step at a time, not worrying to cook the food in a one go. 
+
+'''
+
+
+
+
+
