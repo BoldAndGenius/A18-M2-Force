@@ -79,3 +79,43 @@ Use tuples when you don’t need to modify the data (immutability).
 Use lists when you need flexibility in adding/removing elements.
 
 '''
+
+
+
+
+
+
+
+
+
+# Question  4
+# Differentiate between Mutable and Immutable Data Types or What is Mutability? 
+
+'''
+
+Mutable Data types - These are the data types, that can be modify after the creation.
+For eg - List, Set & Dictionary. 
+
+list = [1,2,3]
+we can change the value 2 to 5 
+list[1] = 5   # at 1st index, add an element 5
+print(list) # [1,5,3]
+
+We can use append(4) , pop(element)
+
+Mutable data types are required where we need frequent update. 
+
+
+
+
+Immutable Data Types - For these data types, once it is created there won't be any modificitions into it.
+
+eg - string, tuple, single value data type 
+
+tuple = (1,2,3)
+tuple[0] = 5   # Error 
+print(tuple) 
+
+
+Immutable data types are useful, where we don't want any frequent changes. 
+'''
