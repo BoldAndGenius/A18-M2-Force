@@ -72,3 +72,23 @@ def swap_numbers(num1,num2):
     num1, num2 = num2,num1 
     return (num1,num2)
 print(swap_numbers(1,2))
+
+
+
+
+
+
+
+
+
+# Write a function to find the longest sequence of consecutive zeroes in a binary string. 
+
+
+
+def longest_zero_sequence(binary_string):
+    for item in binary_string: 
+        zeroes_sequence = binary_string.split('1')
+        my_seq = []
+        for seq in zeroes_sequence:   # zeroes_sequence = ['', '0', '00','000','000']
+            my_seq.append(len(seq))
+        return max(my_seq)
