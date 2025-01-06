@@ -1,4 +1,6 @@
 import time
+
+###  Encapsulation
 class MBI:
     name = "Manoj Bank Of India"
     location = "Pamidi"
