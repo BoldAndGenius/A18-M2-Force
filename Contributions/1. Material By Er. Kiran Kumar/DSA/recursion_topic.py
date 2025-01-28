@@ -21,3 +21,40 @@ def Print1ToN(N):
   Print1ToN(N-1)
   print(N)
 Print1ToN(N)
+
+
+
+
+
+# Sum of N Natural Numbers Using Recursion
+
+
+
+N = 5 
+def SumOfN(N):
+  if N <= 0:
+    return 0
+  return N + SumOfN(N-1)
+
+print(SumOfN(N))
+
+
+
+
+
+
+
+ 
+
+# N = 5 
+# sum = 0 
+# def SumOfN(N):
+#   global sum
+#   if N <= 0:
+#     return sum
+#   sum = sum + N 
+#   SumOfN(N-1)
+  
+# print(SumOfN(N))
+
+
