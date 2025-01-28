@@ -44,6 +44,8 @@ print(SumOfN(N))
 
 
 
+
+
  
 
 # N = 5 
@@ -58,3 +60,24 @@ print(SumOfN(N))
 # print(SumOfN(N))
 
 
+# Pattern 
+
+"""
+Pattern for 'N' = 4
+
+1111
+000
+11
+0
+
+"""
+
+
+n = 4 
+for row in range(1,n+1):
+  for col in range(row,n+1): 
+    if row % 2 != 0:
+      print("1",end="")
+    else: 
+      print("0",end="")
+  print()
